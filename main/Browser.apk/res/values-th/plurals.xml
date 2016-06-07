@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="last_num_days">
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">พบ %1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="v5_edit_mode_title">
+        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+    </plurals>
+    <plurals name="video_download_clear_prompt">
+        <item quantity="other">ล้าง %1$d วิดีโอ?</item>
+    </plurals>
+    <plurals name="video_download_clear_info">
+        <item quantity="other">ลบ %1$d วิดีโอเรียบร้อยแล้ว</item>
+    </plurals>
+    <plurals name="video_history_clear_prompt">
+        <item quantity="other">ลบ %1$d รายการออกจากประวัติ?</item>
+    </plurals>
+    <plurals name="video_history_clear_info">
+        <item quantity="other">%1$d รายการถูกลบออกจากประวัติ</item>
+    </plurals>
+    <plurals name="find_on_page_matches">
+        <item quantity="other">พบ %d รายการ</item>
+    </plurals>
+    <plurals name="adblock_rules_number_text">
+        <item quantity="other">บล็อกไว้ %d รายการ</item>
+    </plurals>
+</resources>

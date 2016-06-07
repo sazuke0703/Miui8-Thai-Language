@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_theme_setting">
+        <item>สีขาว</item>
+        <item>สีเหลือง</item>
+        <item>สีเทา</item>
+        <item>สีน้ำตาล</item>
+        <item>สีเขียว</item>
+        <item>สีน้ำเงิน</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>แอนดรอยด์</item>
+        <item>เดสท็อป</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>หน้าเริ่มต้น</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>เล็กมาก</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>โทรศัพท์</item>
+        <item>แป้น</item>
+    </string-array>
+</resources>

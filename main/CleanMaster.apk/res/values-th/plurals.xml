@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
+    </plurals>
+    <plurals name="million">
+        <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">ยอดชม %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">%d กลุ่ม</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">คุณสามารถล้างข้อมูลที่ไม่สำคัญใน %d แอปนี้</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">มี %d แอปที่ติดตั้งอยู่ คุณสามารถลบแอปที่ไม่ค่อยได้ใช้ออกได้</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">พบ %d ไฟล์ขนาดใหญ่ คุณสามารถลบไฟล์ที่ไม่สำคัญออกได้</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">พบ %d รูปภาพ คุณสามารถลบรูปภาพที่ซ้ำหรือคล้ายกันออกได้</item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">พบ %d APK คุณสามารถลบอันที่ไม่จำเป็นออกได้</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">พบ %d วิดีโอ คุณสามารถลบอันที่ไม่สำคัญออกได้</item>
+    </plurals>
+</resources>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_methods_labels">
+        <item>แจ้งเตือน</item>
+        <item>อีเมล</item>
+        <item>SMS</item>
+        <item>เตือน</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 นาที</item>
+        <item>1 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+        <item>45 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>2 ชั่วโมง</item>
+        <item>3 ชั่วโมง</item>
+        <item>12 ชั่วโมง</item>
+        <item>24 ชั่วโมง</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ไม่มี</item>
+        <item>0 นาที</item>
+        <item>1 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+        <item>45 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>2 ชั่วโมง</item>
+        <item>3 ชั่วโมง</item>
+        <item>12 ชั่วโมง</item>
+        <item>24 ชั่วโมง</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>ตามท้องถิ่น</item>
+        <item>วันเสาร์</item>
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>หมู่เกาะมาร์แชลล์</item>
+        <item>เกาะมิดเวย์</item>
+        <item>ฮาวาย</item>
+        <item>อะแลสกา</item>
+        <item>เวลาแปซิฟิก</item>
+        <item>ตีฮัวนา</item>
+        <item>แอริโซนา</item>
+        <item>ชีวาวา</item>
+        <item>เวลาแถบภูเขา</item>
+        <item>อเมริกากลาง</item>
+        <item>เวลากลาง</item>
+        <item>เม็กซิโกซิตี</item>
+        <item>ซัสแคตเชวัน</item>
+        <item>โบโกตา</item>
+        <item>เวลาตะวันออก</item>
+        <item>เวเนซุเอลา</item>
+        <item>แอตแลนติก (บาร์เบโดส)</item>
+        <item>แอตแลนติก (แคนาดา)</item>
+        <item>มาเนาส์</item>
+        <item>ซานติเอโก</item>
+        <item>นิวฟันด์แลนด์</item>
+        <item>บราซีเลีย</item>
+        <item>บัวโนสไอเรส</item>
+        <item>กรีนแลนด์</item>
+        <item>มอนเตวิเดโอ</item>
+        <item>แอตแลนติกตอนกลาง</item>
+        <item>อะโซเรส</item>
+        <item>หมู่เกาะเคปเวิร์ด</item>
+        <item>คาซาบลังกา</item>
+        <item>ลอนดอน, ดับลิน</item>
+        <item>อัมสเตอร์ดัม, เบอร์ลิน</item>
+        <item>เบลเกรด</item>
+        <item>บรัสเซลส์</item>
+        <item>ซาราเยโว</item>
+        <item>วินด์ฮุก</item>
+        <item>เวลาแอฟริกาตะวันตก</item>
+        <item>อัมมาน, จอร์แดน</item>
+        <item>เอเธนส์, อิสตันบูล</item>
+        <item>เบรุต, เลบานอน</item>
+        <item>ไคโร</item>
+        <item>เฮลซิงกิ</item>
+        <item>เยรูซาเลม</item>
+        <item>มินสก์</item>
+        <item>ฮาราเร</item>
+        <item>แบกแดด</item>
+        <item>มอสโก</item>
+        <item>คูเวต</item>
+        <item>ไนโรบี</item>
+        <item>เตหะราน</item>
+        <item>บากู</item>
+        <item>ทบิลิซิ</item>
+        <item>เยเรวาน</item>
+        <item>ดูไบ</item>
+        <item>คาบูล</item>
+        <item>อิสลามาบัด, การาจี</item>
+        <item>อูราล</item>
+        <item>เยคาเตรินบุร์ก</item>
+        <item>กัลกัตตา</item>
+        <item>ศรีลังกา</item>
+        <item>กาฐมาณฑุ</item>
+        <item>อัสตานา</item>
+        <item>ย่างกุ้ง</item>
+        <item>ครัสโนยาสค์</item>
+        <item>กรุงเทพมหานคร</item>
+        <item>ปักกิ่ง</item>
+        <item>ฮ่องกง</item>
+        <item>อีร์คุตสค์</item>
+        <item>กัวลาลัมเปอร์</item>
+        <item>เพิร์ท</item>
+        <item>ไทเป</item>
+        <item>โซล</item>
+        <item>โตเกียว, โอซะกะ</item>
+        <item>ยาคุตสค์</item>
+        <item>แอดิเลด</item>
+        <item>ดาร์วิน</item>
+        <item>บริสเบน</item>
+        <item>โฮบาร์ต</item>
+        <item>ซิดนีย์, แคนเบอร์รา</item>
+        <item>วลาดีวอสตอค</item>
+        <item>กวม</item>
+        <item>มากาดาน</item>
+        <item>โอกแลนด์</item>
+        <item>ฟิจิ</item>
+        <item>ตองกา</item>
+    </string-array>
+    <string-array name="availability">
+        <item>ไม่ว่าง</item>
+        <item>ใช้ได้</item>
+        <item>ยังไม่แน่นอน</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>เริ่มต้น</item>
+        <item>ส่วนบุคคล</item>
+        <item>สาธารณะ</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>แรก</item>
+        <item>วินาที</item>
+        <item>ที่สาม</item>
+        <item>ที่สี่</item>
+        <item>สุดท้าย</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>ไม่มีการตอบกลับ</item>
+        <item>ใช่</item>
+        <item>ไม่แน่</item>
+        <item>ไม่</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>เฉพาะกิจกรรมนี้</item>
+        <item>กิจกรรมนี้และในอนาคต</item>
+        <item>กิจกรรมทั้งหมด</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>กิจกรรมนี้และในอนาคต</item>
+        <item>กิจกรรมทั้งหมด</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>เฉพาะกิจกรรมนี้</item>
+        <item>กิจกรรมทั้งหมดในชุด</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>กำหนดการ</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>ไปช้าสักสองสามนาที</item>
+        <item>ไปถึงในอีกประมาณ 10 นาที</item>
+        <item>เริ่มไปเลย ไม่ต้องรอ</item>
+        <item>ขอโทษ ฉันไปไม่ได้ เราต้องกำหนดเวลากันใหม่</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>ทุกครั้ง</item>
+        <item>เฉพาะเมื่อปิดเสียง</item>
+        <item>ไม่ใช้</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>โปร่งแสง</item>
+        <item>พื้นหลังสีขาว</item>
+    </string-array>
+    <string-array name="miui_reminder_minutes_labels">
+        <item>ไม่ต้องแจ้งเตือน</item>
+        <item>0 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="miui_preferences_default_reminder_labels">
+        <item>ไม่ต้องแจ้งเตือน</item>
+        <item>0 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 ชั่วโมง</item>
+        <item>4 ชั่วโมง</item>
+        <item>5 ชั่วโมง</item>
+        <item>6 ชั่วโมง</item>
+        <item>1 วัน</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>ปี</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner_plural">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>ปี</item>
+    </string-array>
+    <string-array name="repeat_choose_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="repeat_choose_weekday">
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัส</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+        <item>อาทิตย์</item>
+    </string-array>
+    <string-array name="repeat_choose_month">
+        <item>มกรา</item>
+        <item>กุมภา</item>
+        <item>มีนา</item>
+        <item>เมษา</item>
+        <item>พฤษภา</item>
+        <item>มิถุนา</item>
+        <item>กรกฎา</item>
+        <item>สิงหา</item>
+        <item>กันยา</item>
+        <item>ตุลา</item>
+        <item>พฤศจิกา</item>
+        <item>ธันวา</item>
+    </string-array>
+    <string-array name="repeat_choose_week_left">
+        <item>แรก</item>
+        <item>สอง</item>
+        <item>ที่สาม</item>
+        <item>ที่สี่</item>
+        <item>สุดท้าย</item>
+    </string-array>
+    <string-array name="repeat_choose_week_right">
+        <item>จันทร์ - ศุกร์</item>
+        <item>วันหยุดสุดสัปดาห์</item>
+        <item>ตลอดทั้งสัปดาห์</item>
+    </string-array>
+    <string-array name="repeat_choose_end">
+        <item>ครั้งเดียว</item>
+        <item>ตามระยะเวลา</item>
+        <item>ตามจำนวนครั้ง</item>
+    </string-array>
+</resources>
