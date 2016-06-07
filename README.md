@@ -1,2 +1,0 @@
-# Thailand
-Translate Miui Project
