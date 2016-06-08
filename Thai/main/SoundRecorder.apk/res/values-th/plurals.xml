@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="record_downloading_complete_count">
+        <item quantity="other">ดาวน์โหลดไฟล์เสียง %d ไฟล์แล้ว</item>
+    </plurals>
+    <plurals name="local_records_count">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="unsynced_records_count">
+        <item quantity="other">%d ยังไม่ได้ซิงค์</item>
+    </plurals>
+</resources>
