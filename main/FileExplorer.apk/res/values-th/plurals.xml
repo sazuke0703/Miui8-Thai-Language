@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">ลบ %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" และอีก %1$d โฟลเดอร์?"</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="ui_bar_txt_download_progress">
+        <item quantity="other">ไฟล์จำนวน %1$d ไฟล์รอการดาวน์โหลด</item>
+    </plurals>
+    <plurals name="ui_bar_txt_upload_progress">
+        <item quantity="other">ยังคงเหลือไฟล์ที่รออัพโหลดอีก %1$d ไฟล์</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+    </plurals>
+    <plurals name="items_file">
+        <item quantity="other"> (%1$d รายการ)</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other"> (%1$d รายการ)</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$d รายการ</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">ไฟล์ของแอป \"%1$s\" (%2$d รายการ)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">ไฟล์ของ \"%1$s\" (%2$d รายการ)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">ติดแท็กไฟล์ของ %1$s (%2$d รายการ)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">พบ %1$d ไฟล์ใหม่</item>
+    </plurals>
+    <plurals name="file_notify_title">
+        <item quantity="other">รับแล้ว %1$d ไฟล์จากแอป %2$s</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video">
+        <item quantity="other">ได้รับ %1$d ไฟล์จาก WeChat</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video_expire">
+        <item quantity="other">%1$d วิดีโอใน WeChat กำลังจะหมดอายุลง</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d วิดีโอที่อยู่ในการสนทนาใน WeChat กำลังจะหมดอายุลง ต้องการสำรองข้อมูลดังกล่าวไว้ภายในเครื่องนี้หรือไม่?</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_sticker">
+        <item quantity="other">วันนี้มี %1$d สติ๊กเกอร์ WeChat มาใหม่</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video_auto_backup">
+        <item quantity="other">สำรองข้อมูล %1$d วิดีโอบน WeChat แล้ว</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">พบ %1$s วิดีโอใหม่</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other">ดาวน์โหลด</item>
+    </plurals>
+</resources>

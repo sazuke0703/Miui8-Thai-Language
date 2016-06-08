@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="listTotalPhoneContacts">
+        <item quantity="other">%d รายชื่อที่มีหมายเลขโทรศัพท์</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%d รายชื่อ</item>
+    </plurals>
+    <plurals name="listFoundAllContacts">
+        <item quantity="other">พบ %d</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">พบ %d</item>
+    </plurals>
+    <plurals name="merge_info">
+        <item quantity="other">รวมจาก %0$d แหล่ง</item>
+    </plurals>
+    <plurals name="num_groups_in_account">
+        <item quantity="other">%0$d กลุ่ม</item>
+    </plurals>
+    <plurals name="num_contacts_in_group">
+        <item quantity="other">%1$d คนจาก %2$s</item>
+    </plurals>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d คน</item>
+    </plurals>
+    <plurals name="group_list_num_numbers_in_group">
+        <item quantity="other">%1$d เลขหมาย</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">ข้อความเสียง %1$d</item>
+    </plurals>
+    <plurals name="export_sim_contacts_dialog_message">
+        <item quantity="other">ซิมการ์ดสามารถจัดเก็บผู้ติดต่อได้ %d รายการ</item>
+    </plurals>
+    <plurals name="confirm_delete_sim_entry_miui">
+        <item quantity="other">ลบผู้ติดต่อ %d รายชื่อบนซิมการ์ด?</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">เลือก %1$d รายการ</item>
+    </plurals>
+    <plurals name="number_of_items_available">
+        <item quantity="other">คงเหลือ %1$d</item>
+    </plurals>
+    <plurals name="pick_favorites_list_title">
+        <item quantity="other">%1$d รายการชื่นชอบ</item>
+    </plurals>
+    <plurals name="pick_recent_list_title">
+        <item quantity="other">%1$d รายชื่อล่าสุด</item>
+    </plurals>
+    <plurals name="hint_search_contacts">
+        <item quantity="other">%1$d รายชื่อ</item>
+    </plurals>
+    <plurals name="hint_search_phone_numbers">
+        <item quantity="other">%1$d เลขหมาย</item>
+    </plurals>
+    <plurals name="hint_search_emails">
+        <item quantity="other">%1$d อีเมลรายชื่อ</item>
+    </plurals>
+    <plurals name="pick_favorites_contacts_list_title">
+        <item quantity="other">%1$d รายการชื่นชอบ</item>
+    </plurals>
+    <plurals name="pick_recent_contacts_list_title">
+        <item quantity="other">%1$d รายชื่อล่าสุด</item>
+    </plurals>
+    <plurals name="group_add_success_toast">
+        <item quantity="other">"เพิ่มรายชื่อ %1$d  ราย"</item>
+    </plurals>
+    <plurals name="btn_delete_multi_contacts">
+        <item quantity="other">ลบ %d ผู้ติดต่อ</item>
+    </plurals>
+    <plurals name="smart_group_member_count">
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="device_import_done_toast">
+        <item quantity="other">นำเข้ารายชื่อ %1$d รายการ</item>
+    </plurals>
+    <plurals name="batch_delete_msg">
+        <item quantity="other">ลบ %d ผู้ติดต่อ?</item>
+    </plurals>
+    <plurals name="numSelectedSimContacts">
+        <item quantity="other">" %1$d ถูกเลือก"</item>
+    </plurals>
+    <plurals name="dlg_add_blacklist">
+        <item quantity="other">บล็อก %1$d เลขหมายนี้?</item>
+    </plurals>
+    <plurals name="dlg_remove_blacklist">
+        <item quantity="other">ยกเลิกบล็อก %1$d เลขหมายนี้?</item>
+    </plurals>
+    <plurals name="voip_contacts_count">
+        <item quantity="other">%1$d คน</item>
+    </plurals>
+    <plurals name="callNoAnswerTimeFormat">
+        <item quantity="other">เสียงเรียกเข้าดัง %d ครั้ง</item>
+    </plurals>
+    <plurals name="contacts_count">
+        <item quantity="other">%1$d รายชื่อ</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">%d รายชื่อหรือภาพถ่ายยังไม่ได้รับการซิงค์</item>
+    </plurals>
+</resources>

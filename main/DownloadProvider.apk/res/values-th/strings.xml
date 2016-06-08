@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_insufficient_space_on_external">พื้นที่จัดเก็บแบบภายนอกไม่เพียงพอ</string>
+    <string name="dialog_insufficient_space_on_cache">พื้นที่จัดเก็บภายในโทรศัพท์ไม่เพียงพอ</string>
+    <string name="auto_restart_under_wifi">ระบบจะดาวน์โหลดไฟล์นี้ผ่าน Wi-Fi โดยอัตโนมัติ</string>
+    <string name="task_already_exist">ไฟล์นี้อยู่ในรายการดาวน์โหลดอยู่ก่อนแล้ว</string>
+    <string name="privacy_tip_title">ใช้งานตัวเร่งดาวน์โหลด Xunlei ?</string>
+    <string name="privacy_tip_content">คุณต้องการใช้งานตัวเร่งการดาวน์โหลด Xunlei หรือไม่? ที่อยู่ของลิงก์ที่ดาวน์โหลดจะถูกส่งไปยังเซิร์ฟเวอร์ของ Xunlei และรายละเอียดบัญชี Mi ของคุณจะถูกใช้เพื่อตรวจว่าคุณได้สมัครใช้บริการนี้หรือไม่</string>
+    <string name="privacy_tip_cancel">ยกเลิก</string>
+    <string name="privacy_tip_ok">ตกลง</string>
+    <string name="privacy_notif_title">ตัวเร่งการดาวน์โหลด Xunlei เปิดใช้งานอยู่</string>
+    <string name="privacy_notif_content">แตะเพื่อดูรายละเอียด</string>
+    <string name="notif_text_engine_on">กำลังเร่งดาวน์โหลด…</string>
+    <string name="notif_text_engine_off">ตัวเร่งดาวน์โหลด Xunlei ปิดใช้งานอยู่</string>
+    <string name="notif_title_single_downloading">กำลังดาวน์โหลด %1$s</string>
+    <string name="notif_title_multiple_downloading">กำลังดาวน์โหลด %1$d ไฟล์</string>
+    <string name="notif_title_file_size">ทั้งหมด %1$d</string>
+    <string name="paused_waiting_for_network">กำลังรอการเชื่อมต่อเครือข่าย</string>
+    <string name="warning_tip_title">คำเตือนการใช้งานข้อมูล</string>
+    <string name="warning_tip_content">คุณไม่ได้เชื่อมต่อเครือข่าย Wi-Fi อยู่ในขณะนี้ การดาวน์โหลดผ่านเครือข่ายข้อมูลมือถือทำให้ต้องใช้ปริมาณข้อมูลในการเชื่อมต่อสูง ซึ่งหากเกินกว่าแพ็คเกจที่ผู้ให้บริการกำหนดแล้ว คุณอาจต้องเสียค่าบริการเพิ่มเติมให้แก่ผู้ให้บริการเครือข่าย</string>
+    <string name="warning_tip_cancel">ดาวน์โหลด</string>
+    <string name="warning_tip_ok">พักชั่วคราว</string>
+    <string name="dialog_not_show_again">ไม่ต้องแสดงอีก</string>
+    <string name="notification_download_complete">การดาวน์โหลดเสร็จสิ้น</string>
+    <string name="notification_download_failed">การดาวน์โหลดล้มเหลว</string>
+    <string name="notification_download_success_more">ดาวน์โหลดแล้ว %1$d ไฟล์</string>
+    <string name="notification_download_failed_more">ดาวน์โหลดไม่ได้ %1$d ไฟล์</string>
+    <string name="mobile_recommended_title">การใช้เครือข่ายข้อมูลมือถือ</string>
+    <string name="recommended_file_size_download_in_mobile">ใช้เครือข้อมูลมือถือ %s สำหรับการดาวน์โหลดไฟล์นี้?</string>
+    <string name="recommended_no_file_size_download_in_mobile">ใช้การเชื่อมต่อเครือข้อมูลมือถือสำหรับการดาวน์โหลดไฟล์นี้?</string>
+    <string name="button_wait_for_wifi">รอ</string>
+    <string name="button_download_now">ดาวน์โหลดเดี๋ยวนี้</string>
+    <string name="insufficient_space">พื้นที่จัดเก็บบนเครื่องของคุณไม่เพียงพอ</string>
+    <string name="enter_garbage_clean">ทำความสะอาดพื้นที่จัดเก็บ</string>
+    <string name="download_apk_desktop_pending">รอดำเนินการ</string>
+    <string name="download_apk_desktop_pause">หยุดพัก</string>
+    <string name="download_apk_desktop_running">กำลังดาวน์โหลด…</string>
+    <string name="download_apk_desktop_installing">กำลังติดตั้ง</string>
+    <string name="xl_speedup_experience_notify_title">สมาชิกภาพ Xunlei</string>
+    <string name="xl_speedup_experience_notify_context">ความเร็วการดาวน์โหลดจะเพิ่มขึ้นเมื่อคุณเป็นสมาชิก Xunlei</string>
+    <string name="xl_speedup_notify_button_experience">ลองใช้ฟรี</string>
+    <string name="xl_speedup_notify_button_member">ขอเป็นสมาชิก</string>
+    <string name="app_label">ตัวจัดการการดาวน์โหลด</string>
+    <string name="permlab_downloadManager">การเข้าถึงโปรแกรมการดาวน์โหลด</string>
+    <string name="permdesc_downloadManager">อนุญาตให้แอปพลิเคชันเข้าถึงตัวจัดการการดาวน์โหลดและใช้ตัวจัดการนี้ในการดาวน์โหลดไฟล์ แอปพลิเคชันที่เป็นอันตรายสามารถใช้การทำงานนี้เพื่อขัดขวางการดาวน์โหลดและการเข้าถึงข้อมูลส่วนตัว</string>
+    <string name="permlab_downloadManagerAdvanced">ฟังก์ชันโปรแกรมจัดการการดาวน์โหลดขั้นสูง</string>
+    <string name="permdesc_downloadManagerAdvanced">อนุญาตให้แอปพลิเคชันเข้าถึงฟังก์ชันขั้นสูงของตัวจัดการการดาวน์โหลด แอปพลิเคชันที่เป็นอันตรายสามารถใช้การทำงานนี้เพื่อขัดขวางการดาวน์โหลดและการเข้าถึงข้อมูลส่วนตัว</string>
+    <string name="permlab_downloadCompletedIntent">ส่งการแจ้งเตือนการดาวน์โหลด</string>
+    <string name="permdesc_downloadCompletedIntent">อนุญาตให้แอปพลิเคชันส่งการแจ้งเตือนเกี่ยวกับการดาวน์โหลดที่เสร็จสิ้น แอปพลิเคชันที่เป็นอันตรายสามารถใช้การทำงานนี้สร้างความสับสนแก่แอปพลิเคชันอื่นๆ ที่ดาวน์โหลดไฟล์ได้</string>
+    <string name="permlab_seeAllExternal">ดูดาวน์โหลดทั้งหมดในที่เก็บข้อมูล USB</string>
+    <string name="permdesc_seeAllExternal">อนุญาตให้แอปพลิเคชันนี้เห็นรายการดาวน์โหลดทั้งหมดในการ์ด SD ไม่ว่าจะเป็นรายการที่ดาวน์โหลดจากแอปพลิเคชันใดก็ตาม</string>
+    <string name="permlab_downloadCacheNonPurgeable">สำรองพื้นที่ในแคชดาวน์โหลด</string>
+    <string name="permdesc_downloadCacheNonPurgeable">อนุญาตให้แอปพลิเคชันดาวน์โหลดไฟล์ไปยังแคชดาวน์โหลด ซึ่งไม่สามารถถูกลบโดยอัตโนมัติได้เมื่อตัวจัดการการดาวน์โหลดต้องใช้เนื้อที่เพิ่มเติม</string>
+    <string name="permlab_downloadWithoutNotification">ดาวน์โหลดไฟล์โดยไม่มีการแจ้งเตือน</string>
+    <string name="permdesc_downloadWithoutNotification">อนุญาตให้แอปพลิเคชันดาวน์โหลดไฟล์ผ่านตัวจัดการการดาวน์โหลดโดยไม่แสดงการแจ้งเตือนแก่ผู้ใช้</string>
+    <string name="permlab_accessAllDownloads">เข้าถึงดาวน์โหลดทั้งหมดของระบบ</string>
+    <string name="permdesc_accessAllDownloads">อนุญาตให้แอปพลิเคชันนี้ดูและแก้ไขรายการดาวน์โหลดทั้งหมดของทุกแอปพลิเคชันในระบบ</string>
+    <string name="download_unknown_title">&lt;ไม่มีชื่อ></string>
+    <string name="notification_need_wifi_for_size">ต้องใช้ WiFi ดาวน์โหลด</string>
+    <string name="notification_paused_in_background">หยุดชั่วคราวในเบื้องหลัง</string>
+    <string name="wifi_required_title">ดาวน์โหลดมีขนาดใหญ่เกินไปสำหรับเครือข่ายผู้ให้บริการ</string>
+    <string name="wifi_required_body" formatted="false">"คุณต้องใช้ WiFi เพื่อดาวน์โหลดไฟล์ขนาด %s  นี้ให้เสร็จสิ้น
+
+แตะ %s  เพื่อเริ่มการดาวน์โหลดนี้ในครั้งต่อไปที่คุณเชื่อมต่อเครือข่าย WiFi"</string>
+    <string name="wifi_recommended_title">ต่อคิวเพื่อดาวน์โหลดในภายหลังหรือไม่</string>
+    <string name="wifi_recommended_body" formatted="false">"การเริ่มดาวน์โหลดรายการขนาด %s  ตอนนี้อาจลดเวลาใช้งานแบตเตอรี่และ/หรือทำให้ใช้งานข้อมูลผ่านมือถือมากไป ซึ่งผู้ให้บริการจะเก็บค่าใช้จ่ายตามแผนการใช้งานข้อมูลของคุณ
+
+แตะ %s เพื่อเริ่มการดาวน์โหลดนี้ในครั้งต่อไปที่เชื่อมต่อเครือข่าย WiFi"</string>
+    <string name="button_queue_for_wifi">คิว</string>
+    <string name="button_cancel_download">ยกเลิก</string>
+    <string name="button_start_now">เริ่มต้นเดี๋ยวนี้</string>
+    <string name="download_percent">%d%%</string>
+    <string name="download_remaining">เหลืออีก %s</string>
+    <string name="download_no_application_title">ไม่สามารถเปิดไฟล์ได้</string>
+    <string name="root_downloads">ดาวน์โหลด</string>
+    <string name="download_queued">อยู่ในคิว</string>
+    <string name="download_running">กำลังดำเนินการ</string>
+    <string name="download_error">ไม่สำเร็จ</string>
+    <string name="download_running_percent">กำลังดำเนินการ %d%%</string>
+</resources>

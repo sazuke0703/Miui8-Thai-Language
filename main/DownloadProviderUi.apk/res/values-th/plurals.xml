@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfItemsAvailable">
+        <item quantity="other">ลบ %d รายการ?</item>
+    </plurals>
+</resources>

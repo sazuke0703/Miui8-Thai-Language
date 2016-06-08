@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="ignore_faces_alert_msg">
+        <item quantity="other">ไม่แสดงบุคคลเหล่านี้?</item>
+    </plurals>
+    <plurals name="more_face">
+        <item quantity="other">%1$s รูปจาก %2$s >></item>
+    </plurals>
+    <plurals name="age_year">
+        <item quantity="other">%d ปี</item>
+    </plurals>
+    <plurals name="age_month">
+        <item quantity="other">%d เดือน</item>
+    </plurals>
+    <plurals name="age_day">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_old_pictures">
+        <item quantity="other">รูปภาพ %1$d รูปของ%2$s ได้ทำการเพิ่มแล้ว</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_new_pictures">
+        <item quantity="other">รูปภาพ %1$d รูปของ%2$s ได้ทำการเพิ่มแล้ว</item>
+    </plurals>
+    <plurals name="album_already_share_user_count">
+        <item quantity="other">แชร์ไปแล้ว %d คน</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">ลบ %1$d รูปภาพ %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">ลบ %1$d วิดีโอ %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">ลบ %1$d รายการ %2$s?</item>
+    </plurals>
+    <plurals name="album_item_msg_format">
+        <item quantity="other">(ทั้งหมด %d รายการ)</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="other">%d รูปภาพ</item>
+    </plurals>
+    <plurals name="album_count_and_size">
+        <item quantity="other">%1$d รายการ| %2$s</item>
+    </plurals>
+    <plurals name="number_of_images_to_upload">
+        <item quantity="other">%1$d รูปภาพกำลังรอสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="number_of_videos_to_upload">
+        <item quantity="other">%1$d วิดีโอกำลังรอสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="number_of_images_and_videos_to_upload">
+        <item quantity="other">%1$d รายการกำลังรอสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="number_of_uploading_images">
+        <item quantity="other">กำลังสำรองข้อมูล %1$d รูปภาพ…</item>
+    </plurals>
+    <plurals name="number_of_uploading_videos">
+        <item quantity="other">กำลังสำรองข้อมูล %1$d วิดีโอ…</item>
+    </plurals>
+    <plurals name="number_of_uploading_images_and_videos">
+        <item quantity="other">กำลังสำรองข้อมูล %1$d รายการ…</item>
+    </plurals>
+</resources>

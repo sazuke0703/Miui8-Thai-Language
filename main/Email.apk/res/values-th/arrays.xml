@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calendar_remind_string_array">
+        <item>คืนนี้</item>
+        <item>พรุ่งนี้</item>
+        <item>วันหยุดสุดสัปดาห์</item>
+        <item>อาทิตย์หน้า</item>
+        <item>เดือนหน้า</item>
+        <item>เลือกวัน</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>ตอบกลับ</item>
+        <item>ตอบกลับทั้งหมด</item>
+        <item>ส่งต่อ</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>เล็กมาก</item>
+        <item>เล็ก</item>
+        <item>ปกติ</item>
+        <item>ใหญ่</item>
+        <item>ใหญ่มาก</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>ที่อ่านล่าสุด</item>
+        <item>รูปแบบ</item>
+        <item>ชื่อ</item>
+        <item>ผู้ส่ง</item>
+        <item>วันเวลาที่ได้รับ</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>ระบบ</item>
+        <item>ที่ใช้บ่อย</item>
+        <item>ทุกโฟลเดอร์</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>อีเมลที่ใหม่กว่า</item>
+        <item>อีเมลที่เก่ากว่า</item>
+        <item>กล่องขาเข้า</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>ที่อยู่:</item>
+        <item>โทร:</item>
+        <item>ชื่อ:</item>
+        <item>อีเมล:</item>
+        <item>มือถือ:</item>
+        <item>WeChat:</item>
+        <item>โทรสาร:</item>
+        <item>รหัสไปรษณีย์:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>ขอบคุณ</item>
+        <item>ขอแสดงความนับถือ</item>
+        <item>ส่งมาจาก</item>
+        <item>อีเมลต้นฉบับ</item>
+        <item>ส่งจาก</item>
+        <item>ส่งจาก</item>
+        <item>จาก</item>
+        <item>อีเมลฉบับนี้</item>
+        <item>ข้อสงวนสิทธิ์</item>
+        <item>ข้อสงวนสิทธิ์ในอีเมล</item>
+    </string-array>
+</resources>

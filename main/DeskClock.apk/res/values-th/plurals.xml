@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="timer_message_hour">
+        <item quantity="other">"%1$d ชั่วโมง "</item>
+    </plurals>
+    <plurals name="timer_message_minute">
+        <item quantity="other">"%1$d นาที "</item>
+    </plurals>
+    <plurals name="timer_message_second">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d วินาที</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d นาที</item>
+    </plurals>
+    <plurals name="snooze_message">
+        <item quantity="other">เลื่อนปลุกในอีก %d นาที</item>
+    </plurals>
+    <plurals name="alarm_alert_snooze_set">
+        <item quantity="other">กำลังเลื่อนปลุกในอีก %d นาที</item>
+    </plurals>
+    <plurals name="auto_silence_summary">
+        <item quantity="other">เสียงปลุกจะเงียบภายใน %d นาที</item>
+    </plurals>
+    <plurals name="delete_alarm_confirm">
+        <item quantity="other">ลบการปลุกที่เลือกไว้?</item>
+    </plurals>
+    <plurals name="delete_timezone_confirm">
+        <item quantity="other">ลบเขตเวลาที่เลือกไว้?</item>
+    </plurals>
+</resources>
