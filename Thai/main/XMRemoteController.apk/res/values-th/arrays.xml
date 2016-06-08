@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ac_mode_array">
+        <item>ทำความเย็น</item>
+        <item>ให้ความร้อน</item>
+        <item>ลดความชื้น</item>
+        <item>พัดลม</item>
+    </string-array>
+    <string-array name="answer">
+        <item>อุปกรณ์ของคุณสามารถจับคู่ได้เฉพาะทีวี Mi, Mi Box และอุปกรณ์แอนดรอยด์อื่นๆที่ใช้ Wi-Fi</item>
+        <item>ตรวจสอบให้แน่ใจว่า คุณได้เลือกรุ่นเครื่องปรับอากาศที่ต้องการจับคู่ถูกต้อง ทำตามคำแนะนำบนอุปกรณ์ของคุณจนกว่าจะจับคู่เสร็จสิ้น</item>
+        <item>คุณสามารถใช้ Mi4, Mi 4c และ Redmi Note 2 เป็นรีโมทอินฟาเรดในขณะนี้</item>
+    </string-array>
+    <string-array name="epg_week_tab">
+        <item>อาทิตย์</item>
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัส</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+    </string-array>
+    <string-array name="question">
+        <item>ทำไมโทรศัพท์ของฉันกำลังค้นหาอุปกรณ์ไร้สายอยู่?</item>
+        <item>ทำไมมีแค่ฉันเท่านั้นที่สามารถเปิดเครื่องปรับอากาศและไม่สามารถปิดได้?</item>
+        <item>ฉันสามารถใช้ Mi 3, Mi 2 และ Redmi เป็นรีโมท อินฟาเรด ได้หรือไม่?</item>
+    </string-array>
+</resources>

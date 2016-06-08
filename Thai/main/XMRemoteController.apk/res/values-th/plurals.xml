@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_install_count">
+        <item quantity="other">%1$s ดาวน์โหลด</item>
+    </plurals>
+    <plurals name="app_user_used">
+        <item quantity="other">ผู้ใช้งาน %1$s คน</item>
+    </plurals>
+    <plurals name="match_brand_selection_des">
+        <item quantity="other">พบจำนวน %d ยี่ห้อ</item>
+    </plurals>
+</resources>
