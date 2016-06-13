@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ntracks_search_result">
+        <item quantity="other">ค้นพบ %d เพลง</item>
+    </plurals>
+    <plurals name="Nalert_msg_vip_songs_for_download_upgrade">
+        <item quantity="other">\"คุณสามารถดาวน์โหลดเพลงระดับพรีเมี่ยมได้ %d เพลงในเดือนนี้ อัพเกรดแพ็คเพลงพรีเมี่ยมของคุณเพื่อดาวน์โหลดเพิ่มเติม\"</item>
+    </plurals>
+    <plurals name="Nalert_msg_vip_songs_for_download_limited">
+        <item quantity="other">\"คุณสามารถดาวน์โหลดเพลงระดับพรีเมี่ยมได้ %d เพลงในเดือนนี้ คุณต้องการดาวน์โหลดเพลงนี้หรือไม่?</item>
+    </plurals>
+    <plurals name="Nexpired_remind">
+        <item quantity="other">เหลืออีก %d วัน</item>
+    </plurals>
+    <plurals name="NTrackstoDownload">
+        <item quantity="other">กำลังดาวน์โหลด %d เพลง</item>
+    </plurals>
+    <plurals name="NPlaylist_delete_confirm">
+        <item quantity="other">ลบ%d รายการเพลง?</item>
+    </plurals>
+    <plurals name="Nnew_tracks_count">
+        <item quantity="other">เพลงใหม่ %d เพลง</item>
+    </plurals>
+    <plurals name="Ntracks_count">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="Ntracks_similar_count">
+        <item quantity="other">มีเพลงที่คล้ายกันอีก %d เพลง</item>
+    </plurals>
+    <plurals name="Nartists_count">
+        <item quantity="other">%d ศิลปิน</item>
+    </plurals>
+    <plurals name="Ngroups_count">
+        <item quantity="other">%d วง</item>
+    </plurals>
+    <plurals name="dialog_delete_descript">
+        <item quantity="other">ลบ %d เพลง?</item>
+    </plurals>
+    <plurals name="dialog_remove_descript">
+        <item quantity="other">ลบ %d เพลง?</item>
+    </plurals>
+    <plurals name="Ntracks_add_to_playlist">
+        <item quantity="other">เพิ่ม %d เพลงไปยังรายการเพลงแล้ว</item>
+    </plurals>
+    <plurals name="Ntracks_remove_from_playlist">
+        <item quantity="other">นำเพลง %d เพลงออกจากรายการเพลงแล้ว\"</item>
+    </plurals>
+    <plurals name="artist_list_fragment_item_count_format">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="Nquit_warning">
+        <item quantity="other">ปิดเครื่องเล่นในอีก %d นาที</item>
+    </plurals>
+    <plurals name="send_songs_toast">
+        <item quantity="other">กำลังเตรียมส่งเพลง %d เพลง</item>
+    </plurals>
+    <plurals name="folder_songs_count">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="Nnew_local_audios">
+        <item quantity="other">เพิ่ม %d เพลงแล้ว</item>
+    </plurals>
+    <plurals name="multichoice_title">
+        <item quantity="other">เลือกไว้ %d รายการ</item>
+    </plurals>
+    <plurals name="song_already_favorite">
+        <item quantity="other">ใส่เพลงนี้เป็นเพลงโปรดแล้ว</item>
+    </plurals>
+</resources>
