@@ -76,7 +76,7 @@
     <string name="music_headset_calibrate_apply">ใช้</string>
     <string name="music_headset_calibrate_volume_up">เพิ่มเสียง</string>
     <string name="music_headset_calibrate_volume_down">ลดเสียง</string>
-    <string name="music_headset_calibrate_prev_track">เพลงที่แล้ว</string>
+    <string name="music_headset_calibrate_prev_track">เพลงก่อนหน้า</string>
     <string name="music_headset_calibrate_next_track">เพลงถัดไป</string>
     <string name="music_headset_calibrate_confirm">ให้การตั้งค่ามีผลใช้งานทันที?</string>
     <string name="music_headset_no_contected">ไม่พบหูฟัง</string>
@@ -106,7 +106,7 @@
     <string name="music_audio_effect_settings">การตั้งค่าเอฟเฟ็กซ์เสียง</string>
     <string name="music_equalizer">ตัวปรับแต่งเสียง</string>
     <string name="music_equalizer_summary">ปรับเปลี่ยนระดับเสียงสำหรับประเภทเพลงที่แตกต่างกัน</string>
-    <string name="music_title_dolby_control">ดิจิตอลพลัส Dolby</string>
+    <string name="music_title_dolby_control">Dolby Digital Plus</string>
     <string name="music_dolby_mode_off">ปิด</string>
     <string name="music_dolby_mode_music">เพลง</string>
     <string name="music_dolby_mode_movie">วิดีโอ</string>
@@ -135,7 +135,7 @@
     <string name="status_bar_settings_status_bar">แถบสถานะ</string>
     <string name="status_bar_settings_show_notification_icon">แสดงการแจ้งเตือนบนแถบสถานะ</string>
     <string name="status_bar_settings_show_network_speed">แสดงความเร็วในการเชื่อมต่อ</string>
-    <string name="status_bar_settings_expandable_under_keyguard">แสดงแถบสถานะได้ในหน้าล็อกจอ</string>
+    <string name="status_bar_settings_expandable_under_keyguard">แสดงแถบสถานะบนหน้าจอล็อก</string>
     <string name="status_bar_settings_basic_settings">การตั้งค่าพื้นฐาน</string>
     <string name="status_bar_settings_advanced">การตั้งค่าเพิ่มเติม</string>
     <string name="status_bar_settings_show_flow_info">แสดงรายละเอียดขั้นตอน</string>
@@ -151,7 +151,7 @@
     <string name="status_bar_settings_show_carrier_summary">เมื่อปิดใช้คุณลักษณะนี้ ชื่อเครือข่ายจะยังคงแสดงอยู่บนหน้าจอล็อกและแถบแจ้งเตือน</string>
     <string name="status_bar_settings_show_wifi_name">แสดง Wi-Fi</string>
     <string name="status_bar_settings_custom_wifi_name">แก้ไขชื่อ Wi-Fi</string>
-    <string name="status_bar_settings_toggle_position">สลับตำแหน่งปุ่มเปิด-ปิด</string>
+    <string name="status_bar_settings_toggle_position">ตำแหน่งปุ่มเปิด-ปิด</string>
     <string name="status_bar_settings_long_click_sort">แตะค้างไว้ที่ปุ่มใดปุ่มหนึ่งเพื่อย้าย</string>
     <string name="status_bar_screen_button_key">ปุ่มหน้าจอ</string>
     <string name="status_bar_key_position_custom">กำหนดตำแหน่งปุ่มเอง</string>
@@ -658,7 +658,8 @@
     <string name="android_beam_off_summary">ปิดใช้การแชร์เนื้อหาผ่าน NFC แล้ว</string>
     <string name="android_beam_disabled_summary">เปิด NFC เพื่อใช้คุณลักษณะนี้</string>
     <string name="android_beam_label">Android Beam</string>
-    <string name="android_beam_explained">คุณสามารถบีมเนื้อหาเว็บเพจ, วิดีโอ หรืออื่นๆจากหน้าจอไปยัง/nอุปกรณ์อื่นโดยแนบอุปกรณ์ทั้งสองเข้าด้วยกัน (หลังชนหลัง)</string>
+    <string name="android_beam_explained">"คุณสามารถบีมเนื้อหาเว็บเพจ, วิดีโอ หรืออื่นๆจากหน้าจอไปยัง
+อุปกรณ์อื่นโดยแนบอุปกรณ์ทั้งสองเข้าด้วยกัน (หลังชนหลัง)"</string>
     <string name="nsd_quick_toggle_title">การค้นหาบริการเครือข่าย</string>
     <string name="nsd_quick_toggle_summary">อนุญาตให้แอปพลิเคชันบนอุปกรณ์อื่นๆ สามารถค้นหาแอปพลิเคชันบนอุปกรณ์นี้ได้</string>
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
@@ -761,7 +762,7 @@
     <string name="wifi_hotspot_title">ลงชื่อเข้าใช้เพื่อเชื่อมต่อใช่ไหม</string>
     <string name="wifi_hotspot_message">%1$s ต้องการให้คุณลงชื่อออนไลน์ก่อนเชื่อมต่อเครือข่าย</string>
     <string name="wifi_hotspot_connect">เชื่อมต่อ</string>
-    <string name="no_internet_access_text">เครือข่ายนี้ไม่มีการเข้าถึงอินเทอร์เน็ต ต้องการเชื่อมต่ออยู่ไหม</string>
+    <string name="no_internet_access_text">เครือข่าย Wi-Fi %1$s ไม่สามารถเข้าถึงอินเตอร์เน็ตได้ ยังต้องการเชื่อมต่อหรือไม่?</string>
     <string name="no_internet_access_remember">ไม่ต้องถามอีกสำหรับเครือข่ายนี้</string>
     <string name="wifi_connect">เชื่อมต่อ</string>
     <string name="wifi_failed_connect_message">ไม่สามารถเชื่อมต่อกับเครือข่าย</string>
@@ -855,7 +856,7 @@
     <string name="lock_sounds_enable_title">เสียงล็อกหน้าจอ</string>
     <string name="haptic_feedback_enable_title">สั่นเมื่อแตะ</string>
     <string name="audio_record_proc_title">การลดเสียงรบกวน</string>
-    <string name="volume_media_description">เพลง วิดีโอ เกม และสื่ออื่นๆ</string>
+    <string name="volume_media_description">เพลง, วิดีโอ, เกมส์ และสื่อมีเดียอื่นๆ</string>
     <string name="volume_ring_description">เสียงเรียกเข้าและการแจ้ง</string>
     <string name="volume_notification_description">การแจ้งเตือน</string>
     <string name="volume_alarm_description">การปลุก</string>
@@ -961,7 +962,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="kernel_version">เวอร์ชั่นเคอร์เนล</string>
     <string name="build_number">หมายเลขบิลด์</string>
     <string name="selinux_status">สถานะ SELinux</string>
-    <string name="device_info_not_available">ใช้งานไม่ได้</string>
+    <string name="device_info_not_available">ไม่พร้อมใช้งาน</string>
     <string name="device_status_activity_title">สถานะ</string>
     <string name="device_status">สถานะ</string>
     <string name="device_status_summary">หมายเลขโทรศัพท์ สัญญาณ ฯลฯ</string>
@@ -1548,7 +1549,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="hardkeyboard_category">การตั้งค่าแป้นพิมพ์บนเครื่อง</string>
     <string name="auto_punctuate_summary">กดปุ่ม Space สองครั้งเพื่อแทรก \".\"</string>
     <string name="show_password">กำหนดให้เห็นรหัสผ่านได้</string>
-    <string name="ime_security_warning">%1$s โปรดตระหนักว่าแอปแป้นพิมพ์อาจเข้าถึงสิ่งที่คุณพิมพ์รวมถึงรหัสผ่านต่างๆ, หมายเลขบัตรเครดิตหรือข้อมูลส่วนบุคคล.</string>
+    <string name="ime_security_warning">%1$s อาจบันทึกสิ่งที่คุณพิมพ์, รวมถึงรหัสผ่าน, หมายเลขบัตรเครดิตหรือข้อมูลส่วนบุคคล</string>
     <string name="spellchecker_security_warning">เครื่องตวรจตัวสะกดซึ่งมาจากแอปพลิเคชัน %1$s นี้อาจเก็บข้อความทั้งหมดที่คุณพิมพ์ รวมถึงข้อมูลส่วนบุคคล เช่น รหัสผ่านและหมายเลขบัตรเครดิต ต้องการใช้เครื่องตวรจตัวสะกดนี้หรือไม่</string>
     <string name="spellchecker_quick_settings">การตั้งค่า</string>
     <string name="spellchecker_language">ภาษา</string>
@@ -2118,10 +2119,11 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_setup_status_connecting">กำลังเชื่อมต่อ…</string>
     <string name="wifi_setup_status_proceed_to_next">ไปที่ขั้นตอนถัดไป</string>
     <string name="wifi_setup_status_eap_not_supported">ไม่สนับสนุน EAP</string>
-    <string name="wifi_setup_eap_not_supported">คุณไม่สามารถกำหนดค่าการเชื่อมต่อ EAP Wi-Fi ระหว่างการติดตั้ง หลังติดตั้งเสร็จแล้ว คุณสามารถไปที่การตั้งค่า > ระบบไร้สายและเครือข่าย</string>
+    <string name="wifi_setup_eap_not_supported">คุณไม่สามารถกำหนดค่าการเชื่อมต่อ EAP Wi-Fi ระหว่างการติดตั้ง หลังติดตั้งเสร็จแล้ว คุณสามารถไปที่การตั้งค่า > Wi-Fi</string>
     <string name="wifi_setup_description_connecting">การเชื่อมต่ออาจใช้เวลาสักครู่...</string>
     <string name="wifi_setup_description_connected">แตะ <b>ถัดไป</b>" เพื่อดำเนินการติดตั้งต่อ
-ตะ "<b>ย้อนกลับ</b> เพื่อเชื่อมต่อไปยังเครือข่าย Wi-Fi อื่นๆ</string>
+
+แตะ "<b>ย้อนกลับ</b> เพื่อเชื่อมต่อไปยังเครือข่าย Wi-Fi อื่นๆ</string>
     <string name="accessibility_sync_enabled">เปิดใช้งานการซิงค์แล้ว</string>
     <string name="accessibility_sync_disabled">ปิดใช้งานการซิงค์แล้ว</string>
     <string name="accessibility_sync_in_progress">กำลังซิงค์อยู่ในขณะนี้</string>
@@ -2807,7 +2809,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="encrypt_talkback_dialog_message_pattern">เมื่อคุณป้อนรูปแบบเพื่อเริ่มใช้งานอุปกรณ์นี้ บริการความสามารถในการเข้าถึงอย่างเช่น %1$s จะยังไม่พร้อมใช้งาน</string>
     <string name="encrypt_talkback_dialog_message_password">เมื่อคุณป้อนรหัสผ่านเพื่อเริ่มใช้งานอุปกรณ์นี้ บริการความสามารถในการเข้าถึงอย่างเช่น %1$s จะยังไม่พร้อมใช้งาน</string>
     <string name="imei_information_summary">ข้อมูลที่เกี่ยวข้องกับ IMEI</string>
-    <string name="slot_number">(ช่อง%1$d)</string>
+    <string name="slot_number">(ช่อง %1$d)</string>
     <string name="launch_by_default">เปิดโดยค่าเริ่มต้น</string>
     <string name="storage_summary_format">ใช้ไป %1$s ใน %2$s</string>
     <string name="app_launch_domain_links_title">ลิงก์ของแอป</string>
@@ -2975,7 +2977,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="dndm_open">ห้ามรบกวน</string>
     <string name="dndm_summary">การแจ้งเตือนและสายเรียกเข้าจะเงียบในขณะที่เปิดห้ามรบกวนอยู่</string>
     <string name="dndm_auto_setting_group">กำหนดเวลา</string>
-    <string name="dndm_auto_button_title">ตั้งเวลาโหมดห้ามรบกวน</string>
+    <string name="dndm_auto_button_title">ใช้โหมดห้ามรบกวนเวลานี้ตลอด</string>
     <string name="dndm_auto_time_setting">ตั้งเวลา</string>
     <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">จาก</string>
@@ -3043,6 +3045,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="search_ring_volume">ระดับเสียงเรียกเข้า</string>
     <string name="search_ringtone">เสียงเรียกเข้า</string>
     <string name="search_sms_received">ข้อความเข้า</string>
+    <string name="search_alarm_sound_title">เสียงปลุก</string>
+    <string name="search_calendar_sound_title">เสียงปฏิทิน</string>	
     <string name="search_silent">ปิดเสียง</string>
     <string name="search_unlock_set">ตั้งล็อกหน้าจอ</string>
     <string name="search_access_control">ควบคุมการเข้าถึง</string>
@@ -3072,6 +3076,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="max_cpu6_info">Hexa-core Max</string>
     <string name="device_cpu8_info">Octa-core</string>
     <string name="max_cpu8_info">"Octa-core Max "</string>
+    <string name="device_cpu10_info">Deca-core</string>
+    <string name="max_cpu10_info">"Deca-core Max "</string>
     <string name="available_size">ใช้งานได้ %s</string>
     <string name="total_size">ทั้งหมด %s</string>
     <string name="memory_title">ใช้งานได้: %1$s\u0009\u0009ทั้งหมด: %2$s</string>
@@ -3090,7 +3096,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="privacy_mode_enable_title">โหมดเยี่ยมชม</string>
     <string name="privacy_mode_enable_sum">ซ่อนข้อความ, บันทึก, รูปภาพ, การตั้งค่าและสายเรียกเข้า</string>
     <string name="ac_enable_title">เพิ่มล็อก</string>
-    <string name="ac_enable_summary">จำเป็นต้องใช้รหัสผ่านเพื่อเปิดแอป</string>
+    <string name="ac_enable_summary">ตั้งรหัสผ่านใหม่สำหรับแอปส่วนบุคคล</string>
     <string name="ac_set_apps_title">เลือกแอปที่ต้องการล็อก</string>
     <string name="ac_privacy_mode_title">รหัสผ่าน</string>
     <string name="ac_privacy_mode_sum">การปิดโหมดเยี่ยมชมต้องใช้รหัสผ่าน</string>
@@ -3138,6 +3144,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="handy_mode_enter_ask">ถามก่อนเข้าสู่โหมดถนัดมือ</string>
     <string name="handy_mode_tips">ใช้นิ้วปัดจากปุ่มโฮมไปทางซ้ายหรือขวาเพื่อย่อขนาดหน้าจอลงไปชิดด้านนั้นๆ</string>
     <string name="handy_mode_size">ขนาดของจอที่จะย่อลง</string>
+    <string name="touch_assistant">เมนูปุ่มลัด</string>
     <string name="key_settings_title">ปุ่ม</string>
     <string name="key_settings">ปุ่ม</string>
     <string name="key_position_cat">ตำแหน่งปุ่ม</string>
@@ -3155,16 +3162,16 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="enable_snapshot_screenlock">กดค้างไว้เพื่อกลับไปถ่ายรูป</string>
     <string name="disable_power_key_long_press_under_keyguard">ไม่ใช้เมนูก่อนปิดเครื่อง</string>
     <string name="trackball_wake_title">เปิดหน้าจอด้วยแทร็คบอล</string>
-    <string name="pref_volume_wake_title">เปิดหน้าจอด้วยปุ่มระดับเสียง</string>
+    <string name="pref_volume_wake_title">ปลุกหน้าจอด้วยปุ่มระดับเสียง</string>
     <string name="pref_volume_wake_summary">กดปุ่มระดับเสียงเพื่อเปิดหน้าจอ</string>
-    <string name="media_button">ปุ่มสื่อ</string>
+    <string name="media_button">ปุ่มสื่อมีเดีย</string>
     <string name="preferred_media_app_summary">เลือกเครื่องเล่นเพลง</string>
     <string name="no_media_button_receiver">ไม่</string>
     <string name="camera_key_action_title">ปุ่ม Mi</string>
     <string name="camera_key_action_setting_title">ปุ่ม Mi</string>
     <string name="camera_key_action_category_title">ไม่สามารถใช้งานกล้องได้</string>
     <string name="camera_key_action_none_title">ไม่มีการกระทำ</string>
-    <string name="camera_key_action_shortcut_title">ทางลัด</string>
+    <string name="camera_key_action_shortcut_title">ปุ่มลัด</string>
     <string name="camera_key_action_toggle_title">เปิดใช้ปุ่มเปิด-ปิด</string>
     <string name="camera_key_action_app_title">เปิดแอป</string>
     <string name="camera_key_action_shortcut_home">หน้าจอหลัก</string>
@@ -3186,7 +3193,10 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="battery_indicator_style">สถานะแบตเตอรี่</string>
     <string name="power_usage_history">การใช้งานแบตเตอรี่</string>
     <string name="default_usb_mode">การเชื่อมต่อ USB</string>
+    <string name="wifi_tether_settings_title">ฮอตสปอตส่วนบุคคล</string>	
     <string name="lock_settings">หน้าจอล็อกและรหัสผ่าน</string>
+    <string name="second_space">หน้าที่สอง</string>
+    <string name="xspace">โคลนแอป</string>	
     <string name="unlock_set_unlock_summary">ตั้งการล็อกหน้าจอ</string>
     <string name="lock_settings_picker_settings">ตั้งการล็อกหน้าจอ</string>
     <string name="lock_screen_unlock_show">ข้ามหน้าจอแรกที่ต้องใช้นิ้วปัด</string>
@@ -3222,7 +3232,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="pref_button_light">แสงไฟปุ่ม</string>
     <string name="pref_button_light_summary">เปิดไฟปุ่มเมนู ปุ่มโฮมและปุ่มย้อนกลับ</string>
     <string name="button_light_timeout">เปิดไฟปุ่มไว้ตลอด</string>
-    <string name="battery_light_title">เปิดไฟแจ้งเตือนขณะชาร์จ</string>
+    <string name="battery_light_title">เปิดไฟสถานะขณะชาร์จ</string>
     <string name="battery_light_summary">ไฟ LED จะติดขณะชาร์จ</string>
     <string name="sim_change_failed_enable_sim_lock">เปิดการล็อกซิมตอนนี้</string>
     <string name="sim_lock_change_not_supported">ไม่สามารถเปลี่ยนการล็อกซิมการ์ดได้</string>
@@ -3271,6 +3281,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_context_menu_change_wapi_certificate">เปลี่ยนใบรับรอง WAPI</string>
     <string name="wifi_scan_always_available">การสแกนเปิดใช้งานอยู่ตลอด</string>
     <string name="wifi_scan_always_available_summary">อนุญาตให้บริการระบุตำแหน่งพิกัดของ Google และแอปอื่นๆสแกนหาเครือข่ายแม้ในขณะที่ Wi-Fi ปิดอยู่</string>
+    <string name="attempt_other_network">เปลี่ยนเครือข่าย</string>
+    <string name="use_this_wlan">เชื่อมต่ออยู่</string>
     <string name="search_label">การตั้งค่า</string>
     <string name="search_hint">ตั้งค่าการค้นหา</string>
     <string name="search_description">ตั้งค่าการค้นหา</string>
@@ -3284,15 +3296,17 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="failed_to_check_find_device_status_title">ไม่สามารถตรวจสอบสถานะได้</string>
     <string name="failed_to_check_find_device_status_content">ไม่สามารถตรวจสอบสถานะการค้นหาอุปกรณ์ รอ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
     <string name="failed_to_shut_down_find_device_title">ไม่สามารถปิดใช้งานได้</string>
-    <string name="failed_to_shut_down_find_device_content">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้ รอ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
+    <string name="failed_to_shut_down_find_device_content">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้ รอ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
     <string name="shut_down_find_device_network_failure_title">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="shut_down_find_device_network_failure_content">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ ตรวจดูให้แน่ใจว่าอุปกรณ์ของคุณมีการเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="shut_down_find_device_network_failure_content">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ ตรวจดูให้แน่ใจว่าอุปกรณ์ของคุณมีการเชื่อมต่ออินเทอร์เน็ต</string>
     <string name="check_find_device_status_failure_confirm">ตกลง</string>
     <string name="shut_down_find_device_failure_confirm">ตกลง</string>
     <string name="factory_reset_summary">ลบข้อมูลทั้งหมดจากที่เก็บข้อมูลในเครื่องโทรศัพท์ของคุณ</string>
     <string name="erase_sure">ข้อมูลส่วนตัว</string>
     <string name="erase_personal_data">ข้อมูลส่วนตัว</string>
-    <string name="erase_personal_data_description">ลบข้อมูลบัญชี Mi ข้อมูลแอป และการตั้งค่าระบบ</string>
+    <string name="erase_personal_data_description">ลบข้อมูลบัญชี Mi, ข้อมูลแอป และการตั้งค่าระบบ</string>
+    <string name="erase_sd_data">ฟอร์แมต SD การ์ด</string>
+    <string name="erase_sd_data_description">การฟอร์แมตจะทำการล้างข้อมูลและไฟล์ทั้งหมดบน SD การ์ด</string>
     <string name="erase_optional">เนื้อหา</string>
     <string name="erase_application">ลบแอป</string>
     <string name="erase_application_description">ลบแอปที่ดาวน์โหลด</string>
@@ -3321,8 +3335,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="volume_voice_description">เสียงขณะโทร</string>
     <string name="volume_system_description">กล้อง, ล็อกหน้าจอและการแจ้งเตือนของระบบอื่นๆ</string>
     <string name="volume_bluetooth_description">บลูทูธ</string>
-    <string name="volume_restore">รีเซ็ตระดับ</string>
-    <string name="volume_restore_alert">รีเซ็ตระดับเสียงทั้งหมดไปเป็นค่าเริ่มต้น?</string>
+    <string name="volume_restore">รีเซ็ต</string>
+    <string name="volume_restore_alert">รีเซ็ตระดับเสียงทั้งหมดให้เป็นค่าเริ่มต้น?</string>
     <string name="font_size_preview">MIUI</string>
     <string name="font_size_summary">"แก้ไขขนาดอักษรบนหน้าจอหลัก, แถบการแจ้งเตือน, แป้นโทรศัพท์และเมนูของระบบ
 
@@ -3382,6 +3396,9 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wfd_disconnect_multiple_diag_message">ตัดการเชื่อมต่อจาก %1$s? และ%2$s อุปกรณ์อื่นๆ?</string>
     <string name="wfd_wps_keypad">ใช้แป้นกด</string>
     <string name="wfd_wps_pbc">ป้อนรหัส PIN</string>
+    <string name="virtual_sim_global_category_title">ซิม Mi</string>
+    <string name="virtual_sim_global_title">บริการข้อมูลมือถือ</string>
+    <string name="virtual_sim_global_description">ไม่ต้องใช้ซิมการ์ดในการเชื่อมต่อกับเครือข่ายข้อมูลมือถือ</string>
     <string name="virtual_sim_category_title">ซิมเสมือน</string>
     <string name="virtual_sim_title">บริการเครือข่ายข้อมูลมือถือแบบโรมมิ่ง</string>
     <string name="virtual_sim_description">บริการโรมมิ่งระหว่างประเทศที่คุณวางใจได้</string>
@@ -3551,10 +3568,10 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_signal_found_msg">เชื่อมต่อไปยัง Wi-Fi AP?</string>
     <string name="miui_data_usage_menu_metered">ฮอตสปอตเคลื่อนที่</string>
     <string name="wifi_click_share_wlan">แตะเพื่อแชร์รหัสผ่าน</string>
-    <string name="wifi_enable_data_and_wifi_roam">เปิดใช้ข้อมูลและ Wi-Fi โรมมิ่ง</string>
-    <string name="wifi_enable_data_and_wifi_roam_summary">สลับไปใช้ข้อมูลมือถือเมื่อทั้ง Wi-Fi และข้อมูลมือถือกำลังเชื่อมต่อ แต่ Wi-Fi ไม่สามารถเข้าถึงอินเทอร์เน็ตได้</string>
+    <string name="wifi_enable_data_and_wifi_roam">สลับระหว่างข้อมูลมือถือกับ Wi-Fi</string>
+    <string name="wifi_enable_data_and_wifi_roam_summary">เปิดข้อมูลมือถือกับ Wi-Fi เอาไว้เพื่อสลับเป็นข้อมูลมือถือเมื่อการเชื่อมต่อ Wi-Fi แย่</string>
     <string name="nfc_category_title">NFC</string>
-    <string name="android_beam_tips">ตรวจสอบว่าอุปกรณ์ทั้งสองแตะกันแล้ว จากนั้นแตะที่บริเวณเนื้อหาที่ต้องการบีม</string>
+    <string name="android_beam_tips">ตรวจสอบว่าอุปกรณ์ทั้งสองแตะกันแล้ว จากนั้นแตะบริเวณเนื้อหาที่ต้องการบีม</string>
     <string name="bt_trace_log">จัดเก็บบันทึกเส้นทางบลูทูธ</string>
     <string name="bt_trace_log_summary">จัดเก็บบันทึกเส้นทางบลูทูธ</string>
     <string name="bluetooth_ask_enablement_detected">" ต้องการเปิดใช้บลูทูธ"</string>
@@ -3602,12 +3619,12 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="hdmi_3dplay_control_text">แสดงผลภายนอกแบบสามมิติ</string>
     <string name="hdmi_3dplay_control_enable_subtext">เปิดใช้การแสดงผลภายนอกแบบสเตริโอสามมิติแล้ว</string>
     <string name="hdmi_3dplay_control_disable_subtext">ปิดใช้การแสดงผลภายนอกแบบสเตริโอสามมิติแล้ว</string>
-    <string name="adjust_3d_depth_title">ปรับความลึกภาพสามมิติของเกม</string>
+    <string name="adjust_3d_depth_title">ปรับความลึกภาพสามมิติของเกมส์</string>
     <string name="hdmi_3d_stereo_separation_label">สามมิติ</string>
     <string name="hdmi_3d_help_title">เกี่ยวกับการรองรับจอภาพสเตริโอสามมิติแบบ HDMI</string>
     <string name="power_mode_balanced_title">โหมดสมดุล</string>
     <string name="usb_host_mode_text">โหมดใช้งานเป็น USB</string>
-    <string name="usb_host_mode_subtext">การใช้ตัวบังคับเกมและอุปกรณ์ต่อพ่วงอื่นบนช่อง USB อาจทำให้กินพลังงานมากขึ้น</string>
+    <string name="usb_host_mode_subtext">การใช้ตัวบังคับเกมส์และอุปกรณ์ต่อพ่วงอื่นบนช่อง USB อาจทำให้กินพลังงานมากขึ้น</string>
     <string name="power_settings_title">ประสิทธิภาพระบบ</string>
     <string name="title_color_calibration">การแก้ไขสีที่ตั้งไว้</string>
     <string name="dialog_title_color_calibration">การแก้ไขสีที่ตั้งไว้</string>
@@ -3618,7 +3635,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="hdmi_color_calibration_srgb">sRGB</string>
     <string name="hdmi_color_calibration_none">สีธรรมชาติ</string>
     <string name="hdmi_3d_display_enable_title">แสดงภาพสามมิติ</string>
-    <string name="hdmi_3d_display_enable_summary">รองรับเกมระบบสามมิติ</string>
+    <string name="hdmi_3d_display_enable_summary">รองรับเกมส์ระบบสามมิติ</string>
     <string name="noise_suppression">ลดเสียงรบกวนรอบข้าง</string>
     <string name="phone_call_noise_suppression">ลดเสียงรบกวนระหว่างคุยสาย</string>
     <string name="lock_settings_common_title">การตั้งค่าการล็อก</string>
@@ -3756,7 +3773,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="cleaner">ทำความสะอาด</string>
     <string name="power_mgr">แบตเตอรี่</string>
     <string name="symbols_not_allowed_for_password">รหัสผ่านต้องไม่ประกอบด้วยสัญลักษณ์</string>
-    <string name="reset_legacy_password_settings_preface_text">คุณต้องรีเซ็ตรหัสผ่านล็อกหน้าจอ</string>
+    <string name="reset_legacy_password_settings_preface_text">คุณต้องรีเซ็ตรหัสผ่านหน้าจอล็อก</string>
     <string name="priority_storage_title">ตั้งค่าการจัดเก็บ</string>
     <string name="priority_storage_summary">เลือกตำแหน่งที่ต้องการจัดเก็บข้อมูล</string>
     <string name="priority_storage_settings_summary">หากระบบไม่พบ SD การ์ด ข้อมูลของคุณจะถูกบันทึกไปยังที่เก็บข้อมูลในเครื่องอุปกรณ์ของคุณโดยอัตโนมัติ</string>
@@ -3827,7 +3844,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="page_layout_4">เพลง</string>
     <string name="page_layout_5">วิดีโอ</string>
     <string name="page_layout_6">แอป</string>
-    <string name="page_layout_7">เกม</string>
+    <string name="page_layout_7">เกมส์</string>
     <string name="page_layout_8">Mi Life</string>
     <string name="page_layout_9">ธีม</string>
     <string name="page_layout_10">การตั้งค่า</string>
@@ -3949,11 +3966,12 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="password_entrance_title">การล็อกหน้าจอ</string>
     <string name="turn_off_common_password_confirm_msg">การล็อกหน้าจอจะถูกปิดไปด้วย</string>
     <string name="crypt_keeper_content_title">เข้ารหัสอุปกรณ์</string>
-    <string name="crypt_keeper_content">คุณสามารถเข้ารหัสบัญชี, การตั้งค่า, แอปที่ดาวน์โหลดไว้และข้อมูล, มีเดียและไฟล์อื่นๆในนั้น</string>
+    <string name="crypt_keeper_content">คุณสามารถเข้ารหัสบัญชี, การตั้งค่า, แอปที่ดาวน์โหลดไว้และข้อมูล, สื่อมีเดียและไฟล์อื่นๆในนั้น</string>
     <string name="crypt_keeper_decrypt_methods_title">กำลังเข้ารหัสอุปกรณ์</string>
     <string name="crypt_keeper_decrypt_methods">หลังจากที่คุณเข้ารหัสโทรศัพท์ของคุณ หากคุณมีการตั้งล็อกหน้าจอ (ด้วยรูปแบบหรือรหัส PIN หรือรหัสผ่าน) คุณจะต้องปลดล็อกหน้าจอเพื่อถอดรหัสโทรศัพท์ทุกครั้งที่คุณเปิดใช้ โดยการถอดรหัสวิธีอื่นนอกจากนี้ทำได้โดยเรียกคืนค่าโรงงาน แต่ข้อมูลทั้งหมดของคุณจะถูกลบออก</string>
     <string name="crypt_keeper_conditions_title">เกี่ยวกับการเข้ารหัสอุปกรณ์</string>
     <string name="crypt_keeper_conditions">การเข้ารหัสจะใช้เวลาประมาณหนึ่งชั่วโมงหรือมากกว่า ก่อนการเริ่มต้น คุณจะต้องชาร์จแบตเตอรี่ให้เต็มและให้โทรศัพท์ของคุณเสียบปลั๊กไฟไว้ตลอดกระบวนการ หากถูกตัดการเชื่อมต่อระหว่างดำเนินการ ข้อมูลบางส่วนหรือทั้งหมดของคุณอาจสูญหายได้</string>
+    <string name="application_lock_name">ล็อคแอป</string>	
     <string name="apply_fingerprint_to_category_title">ใช้ลายนิ้วมือกับ…</string>
     <string name="fingerprint_list_title">ลายนิ้วมือ</string>
     <string name="add_fingerprint_text">เพิ่มลายนิ้วมือ</string>
@@ -4040,7 +4058,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="bootloader_apply_step_3">ข้อมูล (เช่น รหัสผ่าน, ข้อความ) บนอุปกรณ์อาจถูกเข้าถึงได้โดยไม่ต้องได้รับอนุญาตจากคุณ</string>
     <string name="bootloader_apply_step_4">โดยอาจนำไปสู่การเปิดเผยหรือสูญเสียข้อมูล หรือแม้กระทั่งความเสียหายของฮาร์ดแวร์ที่ไม่สามารถซ่อมแซมได้</string>
     <string name="bootloader_apply_step_5">ต้องมั่นใจว่าคุณรู้วิธีใช้โหมด Fastboot ก่อนที่คุณจะเปิดใช้</string>
-    <string name="add_fingerprint_similar_fingerprint_input_error_msg">เลื่อนนิ้วของคุณเล็กน้อยและวางไว้บนเซ็นเซอร์อีกครั้งเพื่อเพิ่มทุกส่วนที่แตกต่างกันของลายนิ้วมือของคุณ</string>
+    <string name="add_fingerprint_similar_fingerprint_input_error_msg">ขยับนิ้วของคุณเล็กน้อยและวางไว้บนเซ็นเซอร์อีกครั้งเพื่อเพิ่มทุกส่วนที่แตกต่างกันของลายนิ้วมือของคุณ</string>
     <string name="miui_experience_optimization">เปิดใช้การเพิ่มประสิทธิภาพ MIUI</string>
     <string name="open_miui_optimization_title">เปิดใช้การเพิ่มประสิทธิภาพ MIUI</string>
     <string name="close_miui_optimization_title">ปิดใช้การเพิ่มประสิทธิภาพ MIUI</string>
@@ -4049,6 +4067,41 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="optimization_close">ปิดใช้งานและรีบูต</string>
     <string name="optimization_open">เปิดใช้งาน</string>
     <string name="optimization_cancel">ยกเลิก</string>
+    <string name="security_encryption_title">เข้ารหัสอุปกรณ์โดยใช้รหัสผ่านหน้าจอล็อก</string>
+    <string name="security_encryption_is_used">เปิด</string>
+    <string name="security_encryption_attention_title">ข้อสำคัญ</string>
+    <string name="security_encryption_attention_info">คุณสามารถเข้ารหัสบัญชี, การตั้งค่า, แอปที่ดาวน์โหลดไว้และข้อมูล, สื่อมีเดียและไฟล์อื่นๆในนั้น</string>
+    <string name="security_encryption_alert_dialog_title_first">ตั้งการล็อกหน้าจอก่อน</string>
+    <string name="security_encryption_alert_dialog_info_first">ตั้งรหัสผ่านหน้าจอล็อกเพื่อเปิดคุณลักษณะนี้ คุณจะต้องใส่รหัสผ่านหน้าจอล็อกทุกครั้งหลังจากรีบูตเพื่อปลดล็อกและใช้อุปกรณ์ได้ตามปกติ</string>
+    <string name="security_encryption_attention_symbol">•</string>
+    <string name="security_encryption_attention_1">คุณจะไม่สามารถใช้การปลุกขณะที่อุปกรณ์ปิดอยู่ได้</string>
+    <string name="security_encryption_attention_2">คุณจะต้องใส่รหัสผ่านหน้าจอล็อกทุกครั้งหลังจากรีบูตเพื่อปลดล็อกอุปกรณ์ โดยการรีบูตจะใช้เวลานานกว่าปกติ</string>
+    <string name="security_encryption_attention_3">คุณต้องตั้งรหัสผ่านหน้าจอล็อกใหม่</string>
+    <string name="security_encryption_attention_4">ให้แน่ใจว่าคุณจำรหัสผ่านหน้าจอล็อกของคุณได้ มิฉะนั้นคุณจะต้องรีเซ็ตและล้างข้อมูลทั้งหมดบนอุปกรณ์โดยสมบูรณ์</string>
+    <string name="security_encryption_close_dialog_title">คืนค่าการป้องกันรหัสผ่านเริ่มต้น</string>
+    <string name="security_encryption_close_dialog_info">การเลือกที่จะไม่เข้ารหัสอุปกรณ์โดยใช้รหัสผ่านหน้าจอล็อกอาจทำบริการบางอย่างของ Google ไม่สามารถใช้งานได้</string>
+    <string name="security_encryption_diaglog_continue">ถัดไป</string>
+    <string name="lock_secure_after_timeout_click_me_to_change_text">แตะเพื่อแก้ไข</string>
+    <string name="provision_back">กลับ</string>
+    <string name="provision_skip">ข้าม</string>
+    <string name="uninstall_xspace_app_dlg_title">ถอนการติดตั้งแอปโคลน?</string>
+    <string name="uninstall_xspace_app_dlg_msg">ถอนการติดตั้งแอปโคลนจะลบข้อมูลทั้งหมดของแอป.</string>
+    <string name="uninstall_dlg_title">ถอนการติดตั้งตอนนี้?</string>
+    <string name="uninstall_dlg_msg">ถอนการติดตั้งจะลบข้อมูลทั้งหมดของแอป.</string>
+    <string name="uninstall_with_xspace_app_dlg_msg">แอปที่เกี่ยวข้องโคลนจะถูกลบออกร่วมกับข้อมูลแอป.</string>
+    <string name="keyguard_shortcut_title">ทางลัดหน้าจอล็อค</string>
+    <string name="keyguard_shortcut_summary">ตั้งทางลัดสำหรับ2แอปบนหน้าจอล็อค</string>
+    <string name="keyguard_left_function_title">ซ้าย</string>
+    <string name="keyguard_right_function_title">ขวา</string>
+    <string name="keyguard_left_function_chooser_title">แอป</string>
+    <string name="keyguard_right_function_chooser_title">แอป</string>
+    <string name="keyguard_left_function_chooser_hint_text">ทางลัดซ้ายเปลี่ยน %s</string>
+    <string name="keyguard_right_function_chooser_hint_text">ทางลัดขวาเปลี่ยน %s</string>
+    <string name="search_empty">ไม่มีผลการค้นหา</string>
+    <string name="receiver_clean">พื้นที่ว่าง</string>
+    <string name="power_optimize">ประหยัดแบตเตอรี่</string>
+    <string name="power_checker">ตรวจสอบพลังงาน</string>
+    <string name="app_invisible">แอปที่มองไม่เห็น</string>
     <string name="add_fingerprint_failed_retry_text">ไม่สามารถเพิ่มลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
     <string name="fingerprint_for_keyguard_disabled">ลายนิ้วมือถูกปิดใช้งานเนื่องจากการตั้งค่าความปลอดภัย</string>
     <string name="fingerprint_removal_failed">ไม่สามารถลบลายนิ้วมือออกได้ ลองใหม่อีกครั้ง</string>
