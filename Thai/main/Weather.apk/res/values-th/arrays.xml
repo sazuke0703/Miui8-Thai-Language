@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hot_city">
+        <item>ปักกิ่ง</item>
+        <item>เซี่ยงไฮ้</item>
+        <item>ฮ่องกง</item>
+        <item>เมืองไทเป</item>
+        <item>จาการ์ตา</item>
+        <item>นิวเดลี</item>
+        <item>มุมไบ</item>
+        <item>มอสโก</item>
+        <item>ไฮเดอราบาด</item>
+        <item>เจนไน</item>
+        <item>อิสตันบูล</item>
+        <item>รีโอเดจาเนโร</item>
+        <item>สิงค์โปร์</item>
+        <item>เบอร์ลิน</item>
+        <item>โรม</item>
+        <item>นิวยอร์ก</item>
+        <item>ลอสแอนเจลิส</item>
+        <item>ชิคาโก</item>
+        <item>โตเกียว</item>
+        <item>ปารีส</item>
+        <item>กรุงเทพมหานคร</item>
+        <item>โซล</item>
+        <item>กัวลาลัมเปอร์</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="weather_type">
+        <item>อากาศแจ่มใส</item>
+        <item>มีเมฆ</item>
+        <item>มืดครึ้ม</item>
+        <item>มีหมอกลง</item>
+        <item>พายุฝนรุนแรง</item>
+        <item>ฝนตกหนัก</item>
+        <item>พายุฝน</item>
+        <item>ฝนฟ้าคะนอง</item>
+        <item>ฝนซู่</item>
+        <item>ฝนตกหนัก</item>
+        <item>ฝนปานกลาง</item>
+        <item>ฝนเล็กน้อย</item>
+        <item>ฝนและหิมะตก</item>
+        <item>พายุหิมะ</item>
+        <item>หิมะตก</item>
+        <item>หิมะตกหนัก</item>
+        <item>หิมะปานกลาง</item>
+        <item>หิมะตกเล็กน้อย</item>
+        <item>พายุทรายรุนแรง</item>
+        <item>พายุทราย</item>
+        <item>พายุทราย</item>
+        <item>ลมแรง</item>
+        <item>ลูกเห็บตก</item>
+        <item>ฝุ่นละออง</item>
+        <item>มีเมฆหมอก</item>
+        <item>ฝนเยือกแข็ง</item>
+        <item></item>
+    </string-array>
+    <string-array name="indices_uv_level">
+        <item>อ่อน</item>
+        <item>ปานกลาง</item>
+        <item>แรง</item>
+    </string-array>
+    <string-array name="indices_sport">
+        <item>เหมาะสม</item>
+        <item>ไม่เหมาะสม</item>
+    </string-array>
+    <string-array name="indices_car_wash">
+        <item>เหมาะสม</item>
+        <item>ไม่เหมาะสม</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>เหนือ</item>
+        <item>ตะวันออกเฉียงเหนือ</item>
+        <item>ตะวันออก</item>
+        <item>ตะวันออกเฉียงใต้</item>
+        <item>ใต้</item>
+        <item>ตะวันตกเฉียงใต้</item>
+        <item>ตะวันตก</item>
+        <item>ตะวันตกเฉียงเหนือ</item>
+    </string-array>
+    <string-array name="wind_power">
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+        <item>%s</item>
+    </string-array>
+</resources>
