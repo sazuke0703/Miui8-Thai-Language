@@ -6,7 +6,7 @@
     <string name="gps_hint">ตำแหน่งพิกัดปัจจุบัน</string>
     <string name="add_city">เพิ่ม</string>
     <string name="edit_city">แก้ไข</string>
-    <string name="network_unavailable">"ไม่สามารถเชื่อมต่อเครือข่ายได้"</string>
+    <string name="network_unavailable">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
     <string name="act_find_city_hot_title">เพิ่ม</string>
     <string name="act_find_city_hint">ป้อนตำแหน่งพิกัด</string>
     <string name="act_set_city_find_side">กำลังค้นหาตำแหน่งพิกัด…</string>
@@ -35,8 +35,10 @@
     <string name="activity_find_city_dialog_set">การตั้งค่า</string>
     <string name="activity_find_city_dialog_title">การเข้าถึงตำแหน่งพิกัด</string>
     <string name="activity_find_city_dialog_message">อนุญาตให้แอปสภาพอากาศเข้าถึงพิกัดตำแหน่งของคุณ</string>
+    <string name="data_source_time_fromat">"yyyy-MM-dd'T'HH:mm:ssz"</string>
+    <string name="data_source_timezone">GMT%1$s</string>
     <string name="activity_main_time_format">EEEE</string>
-    <string name="hour_minute_time_format">ชม.:น.</string>
+    <string name="hour_minute_time_format">HH:mm</string>
     <string name="first_start_network_msg">แอปนี้จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตและเข้าถึงตำแหน่งพิกัดผู้ใช้เพื่อการใช้งานที่ปกติ</string>
     <string name="first_start_network_title">การเชื่อมต่ออินเตอร์เน็ตและการเข้าถึงตำแหน่ง</string>
     <string name="international_detail_menu_title">รายละเอียด</string>
@@ -82,7 +84,7 @@
     <string name="daily_forcast_whirl_wind">ลมกรด</string>
     <string name="daily_forcast_no_stable_direction">ลมกรด</string>
     <string name="title_share_link">แชร์ลิงก์ URL</string>
-    <string name="network_not_available">"ไม่สามารถเชื่อมต่อกับเครือข่ายได้"</string>
+    <string name="network_not_available">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="no_network_btn">ลองอีกครั้ง</string>
     <string name="share">แชร์</string>
     <string name="open_browser">เปิดในเบราว์เซอร์</string>
@@ -134,7 +136,7 @@
     <string name="menu_add_city">แก้ไขตำแหน่งพิกัด</string>
     <string name="button_add_city">เพิ่มตำแหน่งพิกัด</string>
     <string name="locate_fail_detail_err">"ไม่สามารถหาตำแหน่งอุปกรณ์
-แตะหน้าจอเพื่อเพิ่มด้วยตนเองหรือเปลี่ยนตำแหน่งของเมือง"</string>		
+แตะหน้าจอเพื่อเพิ่มด้วยตนเองหรือเปลี่ยนตำแหน่งของเมือง"</string>
     <string name="video_dialog_title" />
     <string name="video_dialog_subtitle" />
     <string name="video_dialog_no_play" />
