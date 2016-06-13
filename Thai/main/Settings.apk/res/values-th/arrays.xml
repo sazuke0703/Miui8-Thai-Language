@@ -27,7 +27,15 @@
         <item>ไม่สำเร็จ</item>
         <item>ถูกบล็อก</item>
         <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
+    </string-array>		
+    <string-array name="status_bar_style_entries">
+        <item>รวม</item>
+        <item>แยก</item>
     </string-array>
+    <string-array name="status_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>		
     <string-array name="timezone_filters">
         <item>อเมริกา</item>
         <item>ยุโรป</item>
@@ -542,11 +550,6 @@
         <item>2</item>
         <item>1</item>
     </string-array>
-    <string-array name="haptic_feedback_level_entries">
-        <item>ดัง</item>
-        <item>ปานกลาง</item>
-        <item>เบา</item>
-    </string-array>
     <string-array name="media_feedback_level_entries">
         <item>ดัง</item>
         <item>ปานกลาง</item>
@@ -740,11 +743,11 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>ที่เก็บข้อมูลภายนอก</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
+        <item>ช้ามาก</item>
+        <item>ช้า</item>
+        <item>ปกติ</item>
+        <item>เร็ว</item>
+        <item>เร็วมาก</item>
     </string-array>
     <string-array name="whetstone_level_entries">
         <item>ปิด</item>
@@ -800,10 +803,11 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>ทันที</item>
-        <item>30 วินาที</item>
         <item>1 นาที</item>
         <item>2 นาที</item>
         <item>5 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
     </string-array>
     <string-array name="fluency_mode_entries">
         <item>ไม่ใช้ภาพเคลื่อนไหวระบบ</item>
@@ -892,6 +896,11 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>ทุกวัน</item>
         <item>วันธรรมดา</item>
         <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_entries">
+        <item>ดัง</item>
+        <item>ปานกลาง</item>
+        <item>เบา</item>
     </string-array>
     <string-array name="miracast_policies">
         <item>เร็ว(ไม่หน่วง)</item>

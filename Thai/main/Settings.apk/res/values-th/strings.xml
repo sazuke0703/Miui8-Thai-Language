@@ -159,6 +159,11 @@
     <string name="status_bar_screen_key_home">ปุ่มโฮม</string>
     <string name="status_bar_screen_key_recent_apps">ปุ่มแสดงแอปที่ใช้ล่าสุด</string>
     <string name="status_bar_screen_key_back">ปุ่มย้อนกลับ</string>
+    <string name="settings_toggle_position_divider_page">%1$d ปุ่มสลับอยู่เหนือแถบกำลังใช้งาน</string>
+    <string name="settings_toggle_position_divider_list">ปุ่มสลับอยู่เหนือแถบกำลังใช้งาน</string>
+    <string name="status_bar_style_list">รวม</string>
+    <string name="status_bar_style_page">แยก</string>		
+    <string name="status_bar_settings_style">การแจ้งเตือน &amp; รูปแบบปุ่มสลับ</string>	
     <string name="yes">ใช่</string>
     <string name="no">ไม่</string>
     <string name="create">สร้าง</string>
@@ -3089,6 +3094,10 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="sms_delivered_sound_title">เสียงเตือนเมื่อส่งข้อความ</string>
     <string name="sms_received_sound_dialog_title">เลือกเสียงเตือนข้อความเข้า</string>
     <string name="sms_delivered_sound_dialog_title">เลือกเสียงเตือนเมื่อส่งข้อความ</string>
+    <string name="alarm_sound_title">เสียงเตือนปลุก</string>
+    <string name="alarm_sound_dialog_title">เลือกเสียงเตือนปลุก</string>
+    <string name="calendar_sound_title">เสียงเตือนปฏิทิน</string>
+    <string name="calendar_sound_dialog_title">เลือกเสียงเตือนปฏิทิน</string>	
     <string name="ringtone_uniform_setting_title">การตั้งค่าสองซิม</string>
     <string name="ringtone_slot_setting_title">การตั้งค่าซิมเดี่ยว</string>
     <string name="haptic_feedback_level">ระบบสั่น</string>
@@ -3796,9 +3805,9 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="whetstone_level_title">ปรับประสิทธิภาพหน่วยความจำ</string>
     <string name="whetstone_level_reboot">การตั้งค่านี้จะมีผลภายหลังเมื่อคุณรีบูตเครื่องแล้ว</string>
     <string name="whetstone_level_reboot_OK">รีบูต</string>
+    <string name="lab_functions_title">คุณลักษณะเบต้า</string>	
     <string name="alpha_build">" | อัลฟ่า"</string>
-    <string name="developer_build">" |
-รุ่นทดสอบ"</string>
+    <string name="developer_build">" | เบต้า"</string>
     <string name="stable_build">" | เสถียร"</string>
     <string name="smartcover_sensitive_title">โหมดเปิด-ปิดจอด้วยฝาพับ</string>
     <string name="location_agps_params_settings_title">การตั้งค่า A-GPS</string>
