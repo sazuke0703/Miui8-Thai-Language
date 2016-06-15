@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="power_config_ultimate_on_count">
+        <item quantity="other">ดำเนินการอีก %1$d ขั้นตอนเพื่อเข้าสู่โหมดประหยัดสูงสุด</item>
+    </plurals>
+    <plurals name="power_config_ultimate_off_count">
+        <item quantity="other">ดำเนินการอีก %1$d ขั้นตอนเพื่อปิดโหมดประหยัดสูงสุด</item>
+    </plurals>
+    <plurals name="power_config_ultimate_unlock_count">
+        <item quantity="other">ดำเนินการอีก %1$d ขั้นตอนเพื่อปลดล็อกรายการทั้งหมด</item>
+    </plurals>
+</resources>

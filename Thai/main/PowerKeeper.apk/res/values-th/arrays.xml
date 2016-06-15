@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="group_name_translate">
+        <item>ค่าเริ่มต้น</item>
+        <item>โหมดซ่อนตัว</item>
+        <item>โหมดอ่าน</item>
+        <item>โหมดดูหนังฟังเพลง</item>
+    </string-array>
+    <string-array name="event_name_translate">
+        <item>แอปที่ใช้งานเบื้องหน้า</item>
+        <item>เปิดใช้หน้าจอ</item>
+        <item>ปิดใช้หน้าจอ</item>
+        <item>ปิดหน้าจอเกิน 10 นาที</item>
+        <item>เต็มหน้าจอ</item>
+        <item>ออกจากภาพเต็มจอ</item>
+        <item>แอปที่ทำงานบนพื้นหลัง</item>
+        <item>ชาร์จโทรศัพท์</item>
+        <item>ไม่ได้ชาร์จโทรศัพท์</item>
+        <item>รอรับสาย</item>
+    </string-array>
+    <string-array name="action_name_translate">
+        <item>ระดับความสว่างสูงสุด</item>
+        <item>CPU ทำงานสูงสุด</item>
+        <item>โหมดหน้าจอ</item>
+        <item>การใช้งาน CPU</item>
+        <item>การเชื่อมต่อข้อมูล</item>
+        <item>ตำแหน่งพิกัด</item>
+        <item>การแจ้งเตือนครั้งแรก</item>
+        <item>การแจ้งเตือนในหน้าจอล็อก</item>
+        <item>จำกัดการเชื่อมต่อข้อมูลบนพื้นหลัง</item>
+    </string-array>
+    <string-array name="action_param_translate">
+        <item>ไม่กำหนด</item>
+        <item>ค่าเริ่มต้น</item>
+        <item>รูปภาพ</item>
+        <item>ภาพยนตร์</item>
+        <item>ประหยัดแบตเตอรี่</item>
+        <item>โหมดสมดุลย์</item>
+        <item>ประสิทธิภาพสูง</item>
+        <item>เปิด</item>
+        <item>ปิด</item>
+        <item>ทันที</item>
+        <item>เมื่อครบ 10 นาที</item>
+        <item>เมื่อครบ 30 นาที</item>
+        <item>เมื่อดับหน้าจอ</item>
+    </string-array>
+    <string-array name="app_groups">
+        <item>ในโหมดนี้</item>
+        <item>ไม่ได้เลือกไว้</item>
+        <item>ในโหมดอื่นที่เลือกไว้</item>
+    </string-array>
+    <string-array name="hmode_app_groups">
+        <item>กำหนดเอง</item>
+        <item>ตัวประหยัดแบตเตอรี่</item>
+    </string-array>
+    <string-array name="power_checker_group_prefix">
+        <item>ขณะนี้</item>
+        <item>พื้นหลัง</item>
+        <item>เมื่อเร็วๆนี้</item>
+    </string-array>
+    <string-array name="power_checker_running_group_titles">
+        <item>การบล็อกโหมดพักจอเชิงลึก</item>
+        <item>การบล็อกโหมดพักจอ</item>
+        <item>กำลังค้นหา Wi-Fi</item>
+        <item>การใช้ GPS</item>
+        <item>การใช้ CPU</item>
+        <item>อุปกรณ์มีการใช้งานบ่อย</item>
+    </string-array>
+    <string-array name="power_checker_recent_group_titles">
+        <item>Kernel WakeLock</item>
+        <item>WakeLock</item>
+        <item>สแกน Wi-Fi</item>
+        <item>GPS</item>
+        <item>CPU</item>
+        <item>Wake Up</item>
+    </string-array>
+</resources>
