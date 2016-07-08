@@ -276,7 +276,7 @@
     <string name="pref_capture_settings">กล้อง</string>
     <string name="pref_camcorder_settings">วิดีโอ</string>
     <string name="pref_advance_settings">การตั้งค่าเพิ่มเติม</string>
-    <string name="pref_camera_auto_chroma_flash_title">โหมดภาพผสมแฟลช</string>
+    <string name="pref_camera_auto_chroma_flash_title">โหมดโครมาแฟลช</string>
     <string name="pref_camera_ubifocus_title">ปรับจุดโฟกัส</string>
     <string name="simple_mode_button_text_ubifocus">ปิดโหมดปรับจุดโฟกัส</string>
     <string name="cannot_move_warning_message">กำลังบันทึกภาพ ให้แน่ใจว่าอุปกรณ์อยู่นิ่ง</string>
