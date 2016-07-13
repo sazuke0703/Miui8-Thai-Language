@@ -392,7 +392,6 @@
     <string name="gmail_web_login_go">ตกลง</string>
     <string name="gmail_web_login_required_message">ลงชื่อเข้าใช้งาน Gmail</string>
     <string name="header_category_account">บัญชี</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ข้อเสนอแนะ</string>
     <string name="header_label_general_preferences">ทั่วไป</string>
     <string name="help_and_info">วิธีใช้</string>
@@ -419,7 +418,6 @@
     <string name="invalid_recipient_title">ชื่อผู้รับไม่ถูกต้อง</string>
     <string name="kilobytes">%s KB</string>
     <string name="label_notification_ticker" formatted="false">%s: %s</string>
-    <string name="load_attachment">@string/load_more</string>
     <string name="load_from_remote">ค้นหาในกล่องข้อความบนเซิร์ฟเวอร์</string>
     <string name="load_more">โหลดเพิ่มเติม</string>
     <string name="loading_conversation">กำลังโหลด…</string>
