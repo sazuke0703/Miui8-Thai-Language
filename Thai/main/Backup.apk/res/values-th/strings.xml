@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="xiaomi_update_dialog_title">พบอัพเดทใหม่</string>
+    <string name="xiaomi_update_dialog_message">"เวอร์ชั่นแนะนำ %1$s
+ขนาด %2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"เวอร์ชั่นแนะนำ %1$s
+ขนาด %2$s"</string>
+    <string name="xiaomi_external_storage_unavailable">ที่จัดเก็บข้อมูลไม่พร้อมใช้งาน ตรวจสอบ SD การ์ดของคุณ</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMB</string>
+    <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเชื่อมต่อกับตัวจัดการดาวน์โหลดได้ ตรวจสอบสถานะตัวจัดการดาวน์โหลดในแอปตัวจัดการ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
     <string name="local_home_title">สำรองข้อมูลไว้ในเครื่องนี้</string>
@@ -178,6 +188,7 @@
     <string name="guarded_mode_dialog_transfer_message">ไม่สามารถใช้ Mi Mover ได้ในโหมดเยี่ยมชม</string>
     <string name="multi_user_mode_dialog_title">คุณอยู่ในโหมดผู้ใช้หลายคน</string>
     <string name="multi_user_mode_dialog_message">ไม่สามารถใช้งาน Mi Mover ในโหมดผู้ใช้หลายคนได้ กรุณาปิดโหมดผู้ใช้งานหลายคนเพื่อดำเนินการต่อ</string>
+    <string name="multi_user_mode_backup_message">ไม่สามารถใช้การสำรองข้อมูลในโหมดผู้ใช้หลายคนได้ ปิดใช้งานโหมดผู้ใช้หลายคนเพื่อดำเนินการต่อ</string>
     <string name="multi_select_title">เลือกไว้ %1$s รายการ</string>
     <string name="enable_encrypt_title">เข้ารหัสข้อมูลสำรอง</string>
     <string name="disable_encrypt_title">ปิดใช้การเข้ารหัสข้อมูล</string>
@@ -222,7 +233,7 @@
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
     <string name="feature_title_call_log">ประวัติการโทร</string>
     <string name="feature_title_mms">MMS</string>
-    <string name="feature_title_account">บัญชี</string>
+    <string name="feature_title_account">บัญชี Mi</string>
     <string name="summary_err_backup_encrypting">ลงชื่อเข้าใช้งานบัญชี Mi</string>
     <string name="summary_err_restore_encrypting">ไม่สามารถกู้คืนได้ โปรดให้แน่ใจก่อนว่าได้ทำการสำรองข้อมูลผ่านบัญชี Mi</string>
     <string name="summary_err_backup_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
@@ -231,7 +242,7 @@
     <string name="err_low_storage">พื้นที่ไม่เพียงพอ</string>
     <string name="err_unknown">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="err_version_too_old">ไฟล์ข้อมูลสำรองเก่าเกินไป</string>
-    <string name="err_version_unsupported">เวอร์ชั่นของการสำรองไม่สนับสนุน</string>
+    <string name="err_version_unsupported">เวอร์ชั่นของการสำรองไม่รองรับ</string>
     <string name="err_bakfile_broken">ไม่สามารถสำรองข้อมูลนี้ได้</string>
     <string name="err_filesystem_mount">ไม่สามารถเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์</string>
     <string name="err_router_disconnected">ตรวจสอบการเชื่อมต่อเราเตอร์ของคุณแล้วลองอีกครั้ง</string>
