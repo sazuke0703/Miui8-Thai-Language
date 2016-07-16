@@ -208,7 +208,7 @@
     <string name="Dashboard_Perm_AutoStart_Desc">แอปเริ่มทำงานเมื่อเปิดอุปกรณ์ของคุณ</string>
     <string name="Dashboard_HIPS_Disable_Title">สิทธิ์การใช้งาน</string>
     <string name="Dashboard_HIPS_Disable_Content">MIUI จะไม่ตรวจสอบคำขออนุญาตของแอปพลิเคชัน</string>
-    <string name="Dashboard_Log_Clear_Title">ล้างข้อมูลบันทึกการใช้งาน</string>
+    <string name="Dashboard_Log_Clear_Title">ล้างข้อมูลบันทึกการใช้</string>
     <string name="Dashboard_Log_Clear_Content">บันทึกทั้งหมดจะถูกลบ</string>
     <string name="Privacy_Perm_Count">%1$d อนุญาต %2$d ปฏิเสธ</string>
     <string name="Privacy_AppPerm_Count">%1$d สิทธิ์</string>
@@ -230,8 +230,8 @@
     <string name="SysOpt_Boost_AutoStart">การอนุญาตให้เริ่มทำงานอัตโนมัติ</string>
     <string name="Su_Enable_Dialog">%1$s ร้องขอการเข้าถึงรูท</string>
     <string name="Su_Unavailable">ระบบไม่รองรับการรูทสำหรับรอม MIUI เวอร์ชั่นนี้ กรุณาเลือกใช้รอม MIUI เวอร์ชั่นนักพัฒนาซึ่งคุณสามารถรูทเครื่องได้เอง</string>
-    <string name="Su_Package_Forbidden">%1$s ไม่ได้รับอนุญาตรูท</string>
-    <string name="permisson_reject_notice_toast_text">\"%1$s\" ไม่ได้รับสิทธิ์ %2$s คุณสามารถเปลี่ยนแปลงการตั้งค่าการอนุญาตของแอปได้จากเมนูความปลอดภัย > การอนุญาต</string>
+    <string name="Su_Package_Forbidden2">ไม่ได้รับอนุญาตให้ใช้งานรูท</string>
+    <string name="permisson_reject_notice_toast_text2">ไม่ได้รับอนุญาตให้ใช้งาน %1$s</string>
     <string name="HIPS_Action_Reject_Once">ปฏิเสธครั้งนี้</string>
     <string name="HIPS_Action_Accept_Once">อนุญาตครั้งนี้</string>
     <string name="HIPS_SecurityPrompt_Accept_Once">อนุญาตครั้งเดียว (%d)</string>
@@ -252,7 +252,7 @@
     <string name="HIPS_Perm_Xiaomi_Account_Desc">เข้าถึงบัญชี Mi ของคุณ</string>
     <string name="HIPS_Perm_Xiaomi_Account_Hint">%1$s แอปสามารถเข้าถึงบัญชี Mi ของคุณ</string>
     <string name="HIPS_Perm_External_Storage">การเข้าถึงและเปลี่ยนแปลงไฟล์บนพื้นที่เก็บข้อมูลภายใน</string>
-    <string name="HIPS_Perm_External_Storage_Desc">การเข้าถึงและลบไฟล์บนพื้นที่เก็บข้อมูลภายใน</string>
+    <string name="HIPS_Perm_External_Storage_Desc">เพิ่มและลบไฟล์บนพื้นที่จัดเก็บข้อมูลภายในของอุปกรณ์</string>
     <string name="HIPS_Perm_Body_Sensors">เซ็นเซอร์ร่างกาย</string>
     <string name="HIPS_Perm_Body_Sensors_Desc">เซ็นเซอร์ร่างกาย (เช่น เซ็นเซอร์อัตราการเต้นหัวใจ)</string>
     <string name="HIPS_Perm_get_accounts">เข้าถึงบัญชีผ่านอุปกรณ์</string>
@@ -265,8 +265,12 @@
     <string name="HIPS_Perm_process_outgoing_calls_Desc">ตรวจสอบและวางสาย</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">เข้าถึงฮาร์ดแวร์สื่อสารไร้สายระยะสั้น (NFC)</string>
-    <string name="HIPS_Perm_install_shortcut">ทางลัดบนหน้าจอหลัก</string>
-    <string name="HIPS_Perm_install_shortcut_Desc">เพิ่มทางลัดบนหน้าจอหลัก</string>
+    <string name="HIPS_Perm_install_shortcut">ปุ่มลัดบนหน้าจอหลัก</string>
+    <string name="HIPS_Perm_install_shortcut_Desc">เพิ่มปุ่มลัดบนหน้าจอหลัก</string>
+    <string name="HIPS_Perm_read_notification_sms">ข้อความ SMS บริการ</string>
+    <string name="HIPS_Perm_read_notification_sms_Desc">อ่านข้อความ SMS บริการ</string>
+    <string name="HIPS_Perm_get_tasks">Get tasks</string>
+    <string name="HIPS_Perm_get_tasks_Desc">Get tasks</string>
     <string name="permission_group_title_charges_related">คิดค่าบริการ</string>
     <string name="permission_group_title_privacy_related">ความเป็นส่วนตัว</string>
     <string name="permission_group_title_media_related">มัลติมีเดีย</string>
