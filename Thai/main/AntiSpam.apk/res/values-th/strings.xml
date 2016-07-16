@@ -181,6 +181,7 @@
     <string name="Call_DEFAULT">รายการบล็อกแบบชาญฉลาด</string>
     <string name="PAST_BLOCK">การบล็อกที่ผ่านมา</string>
     <string name="STRANGER_BLOCK">รายการบล็อกสายเรียกเข้าที่ไม่รู้จัก</string>
+    <string name="MALICIOUS_URL">ลิงก์ URL น่าสงสัย</string>
     <string name="AD_AntiSpam">ตัวบล็อกโฆษณา</string>
     <string name="AD_SCANNING">กำลังสแกน…</string>
     <string name="AD_BLOCK_ALL">บล็อกทั้งหมด</string>
@@ -342,4 +343,5 @@
     <string name="website">เว็บไซต์</string>
     <string name="address">ที่อยู่</string>
     <string name="note">บันทึก</string>
+    <string name="antispam_xpace_text">สลับไปยังส่วนที่ 1 เพื่อตั้งรายการบล็อก</string>
 </resources>
