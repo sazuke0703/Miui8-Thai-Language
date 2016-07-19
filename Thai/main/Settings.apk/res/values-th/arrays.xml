@@ -886,6 +886,7 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>โหมดสำหรับเด็ก</item>
         <item>ตัวจัดการไฟล์</item>
         <item>การล็อกแอป</item>
+        <item>Second space</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>ทุกวัน</item>
