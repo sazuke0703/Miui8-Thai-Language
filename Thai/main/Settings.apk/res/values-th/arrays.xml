@@ -600,14 +600,6 @@
         <item>แสดงรายการแอปล่าสุด</item>
         <item>แสดงเมนู</item>
     </string-array>
-    <string-array name="screen_key_long_press_action">
-        <item>ไม่มี</item>
-        <item>แสดงรายการแอปล่าสุด</item>
-        <item>เปิดใช้งานผู้ช่วย</item>
-        <item>เปิดใช้งาน Google ทันที</item>
-        <item>ปิดแอปปัจจุบัน</item>
-        <item>แสดงเมนู</item>
-    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 วินาที</item>
         <item>1 วินาที</item>
