@@ -43,8 +43,6 @@
     <string name="eDesc">จำนวนออยเลอร์</string>
     <string name="piDesc">พาย</string>
     <string name="equalDesc">เท่ากับ</string>
-<<<<<<< HEAD
-=======
     <string name="item_title_calculator">เครื่องคิดเลข</string>
     <string name="item_title_scientific_calculator">วิทยาศาสตร์</string>
     <string name="item_title_currency">สกุลเงิน</string>
@@ -285,5 +283,4 @@
     <string name="commercial_loan">สินเชื่อเงินกู้เพื่อการพาณิชย์</string>
     <string name="day">วัน</string>
     <string name="dateformat">dd/MM/yyyy</string>
->>>>>>> origin/master
 </resources>
