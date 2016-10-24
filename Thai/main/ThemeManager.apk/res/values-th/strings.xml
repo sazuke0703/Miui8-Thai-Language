@@ -148,8 +148,8 @@
     <string name="resource_exchange_share_code_content">คุณได้รับรหัสของขวัญ (%2$s) สำหรับใช้ธีม \"%1$s\"จากร้านค้าธีม แตะที่ %3$s เพื่อใช้งาน</string>
     <string name="resource_exchange_purchase_unkown_error">ขออภัย! มีข้อผิดพลาดเกิดขึ้น กรุณาเข้าระบบที่ http://market.xiaomi.com เพื่อดูสถานะการชำระเงินของคุณ</string>
     <string name="resource_comment_all_comments">ทั้งหมด</string>
-    <string name="resource_comment_good_comments">แง่บวก</string>
-    <string name="resource_comment_bad_comments">แง่บวก</string>
+    <string name="resource_comment_good_comments">ด้านบวก</string>
+    <string name="resource_comment_bad_comments">ด้านลบ</string>
     <string name="resource_comment_average_score">การจัดอันดับ</string>
     <string name="resource_comment_score_count">%1$s ผู้ใช้</string>
     <string name="resource_comment_no_average_score">ไม่ทราบ</string>
