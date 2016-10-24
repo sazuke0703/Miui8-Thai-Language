@@ -11,7 +11,23 @@
     <string-array name="interview_record_scenes_entries">
         <item>ดนตรี</item>
         <item>เสียงพูด</item>
+<<<<<<< HEAD
         <item>บทสัมภาษณ์</item>
+=======
+        <item>สัมภาษณ์</item>
+    </string-array>
+    <string-array name="hd_record_scenes_entries">
+        <item>เพลง</item>
+        <item>เสียงพูด</item>
+        <item>สัมภาษณ์</item>
+        <item>HD</item>
+    </string-array>
+    <string-array name="record_scenes_summaries">
+        <item>บันทึกผ่าน 2 ช่องเสียง รับฟังเสียงสเตอริโอผ่านหูฟัง</item>
+        <item>วางไมค์ให้อยู่ตำแหน่งใกล้กันกับแหล่งที่มาของเสียงเพื่อคุณภาพเสียงที่ดีขึ้น</item>
+        <item>วางโทรศัพท์ไว้ระหว่างผู้อัดทั้งสองเพื่อให้บันทึกเสียงได้อย่างชัดเจนยิ่งขึ้น</item>
+        <item>ระยะทางที่มีประสิทธิภาพสูงสุดของไมค์คือ 10 เมตร</item>
+>>>>>>> origin/master
     </string-array>
     <string-array name="record_quality_entries">
         <item>สูง</item>

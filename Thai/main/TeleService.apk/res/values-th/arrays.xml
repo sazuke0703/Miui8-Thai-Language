@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>ทั่วโลก</item>
+        <item>LTE/CDMA</item>
+        <item>LTE/GSM/UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA, LTE, CDMA, EvDo GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM/WCDMA, CDMA and EvDo</item>
+        <item>TD-SCDMA, GSM/WCDMA and LTE</item>
+        <item>TD-SCDMA, WCDMA and LTE</item>
+        <item>TD-SCDMA, GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM and LTE</item>
+        <item>TD-SCDMA และ GSM</item>
+        <item>TD-SCDMA และ LTE</item>
+        <item>TD-SCDMA และ WCDMA</item>
+        <item>TD-SCDMA only</item>
+        <item>LTE/WCDMA</item>
+        <item>LTE เท่านั้น</item>
+        <item>LTE/GSM/CDMA อัตโนมัติ (PRL)</item>
+        <item>LTE/GSM อัตโนมัติ (PRL)</item>
+        <item>LTE/CDMA อัตโนมัติ (PRL)</item>
+        <item>GSM/CDMA อัตโนมัติ (PRL)</item>
+        <item>EvDo เท่านั้น</item>
+        <item>CDMA เท่านั้น</item>
+        <item>CDMA อัตโนมัติ (PRL)</item>
+        <item>GSM อัตโนมัติ (PRL)</item>
+        <item>WCDMA เท่านั้น</item>
+        <item>GSM เท่านั้น</item>
+        <item>เลือกใช้ WCDMA ก่อน</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>อังกฤษ</item>
+        <item>ฝรั่งเศส</item>
+        <item>สเปน</item>
+        <item>ญี่ปุ่น</item>
+        <item>เกาหลี</item>
+        <item>จีน</item>
+        <item>ฮีบรู</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>โทรกลับบ้านเท่านั้น</item>
+        <item>อัตโนมัติ</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>โหมดพิมพ์สนทนา TTY ปิดใช้งาน</item>
+        <item>โหมดพิมพ์สนทนาเต็มรูปแบบ (TTY Full)</item>
+        <item>โหมดพิมพ์สนทนา-ผู้พิการทางการพูด (TTY HCO)</item>
+        <item>โหมดพิมพ์สนทนา-ผู้พิการทางการได้ยิน (TTY VCO)</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>ปกติ</item>
+        <item>ยาว</item>
+    </string-array>
+</resources>
