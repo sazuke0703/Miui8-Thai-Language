@@ -6,8 +6,6 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">ไม่สามารถแชร์ได้ เนื่องจากมีไฟล์นี้อยู่แล้ว…</string>
-<<<<<<< HEAD
-=======
     <string name="search_keyword_notes">บันทึกย่อ;ความจำ</string>
     <string name="search_path_notes">แอประบบ/บันทึกย่อ</string>
     <string name="dlg_move_message">กำลังย้าย…</string>
@@ -66,7 +64,6 @@
     <string name="hint_cannot_view_hidden_note_content">ไม่สามารถเรียกดูเนื้อหาจากบันทึกย่อที่ซ่อนไว้</string>
     <string name="alert_title_restore">กู้คืนบันทึกย่อ</string>
     <string name="alert_message_restore">ไม่สามารถเปิดบันทึกย่อนี้ได้ กู้คืนเพื่อทำการแก้ไขเนื้อหา</string>
->>>>>>> origin/master
     <string name="app_name">บันทึก</string>
     <string name="app_widget">บันทึกย่อ</string>
     <string name="widget_havenot_content">แตะเพื่อสร้างบันทึก กดที่วิดเจ็ตค้างไว้เพื่อปรับขนาด</string>
