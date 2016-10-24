@@ -40,6 +40,7 @@
     <string name="dlg_clear_current_ok">ล้าง</string>
     <string name="dlg_no_block">ยกเลิกการบล็อกเลขหมายนี้และแสดงรายการโทรเข้าจากเลขหมายนี้ในประวัติการโทร?</string>
     <string name="dlg_no_block_ok">ยกเลิกบล็อก</string>
+    <string name="dlg_add_blacklist_title">เพิ่มไปยังรายการบล็อก</string>
     <string name="dlg_add_blacklist">บล็อกเลขหมายนี้?</string>
     <string name="dlg_add_blacklist_warn_conflict_title">รายการยกเว้นที่ไม่ถูกต้อง</string>
     <string name="dlg_add_blacklist_warn_conflict_content">พบ %1$s และ %2$s รายชื่อในรายการยกเว้นอยู่แล้ว</string>
@@ -159,7 +160,7 @@
     <string name="sim_not_ready_toast">ซิมการ์ดยังไม่พร้อมใช้</string>
     <string name="st_antispam_bw_man_add">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="st_antispam_bw_head_add">เพื่มเลขนำหน้า</string>
-    <string name="st_antispam_bw_pick_add">เพิ่มผู้ติดต่อ</string>
+    <string name="st_antispam_bw_pick_add">เพิ่มรายชื่อ</string>
     <string name="st_antispam_bw_adress_add">เพิ่มตำแหน่งพิกัด</string>
     <string name="st_antispam_black_adress_add">เพิ่มตำแหน่งพิกัด</string>
     <string name="st_antispam_bw_choose_modes">เพิ่มในรายการ</string>
@@ -252,6 +253,12 @@
     <string name="st_antispam_title_anoy_incoming">สายเรียกเข้าจากเลขหมายที่ไม่รู้จัก</string>
     <string name="st_antispam_title_null_incoming">เลขหมายส่วนตัว</string>
     <string name="st_antispam_title_service_sms">แจ้งเตือนบริการ</string>
+    <string name="st_summary_keywords_blacklist">เพิ่มคีย์เวิร์ดเพื่อบล็อกข้อความ</string>
+    <string name="st_summary_blacklist_numbers">บล็อกการโทรและข้อความตามหมายเลขและรหัสพื้นที่</string>
+    <string name="st_summary_whitelist_numbers">อนุญาตการโทรและข้อความตามหมายเลขและพื้นที่ที่กำหนด</string>
+    <string name="st_summary_blacklist_numbers_international">Block calls and massages using numbers</string>
+    <string name="st_summary_whitelist_numbers_international">Allow calls and messages from specific numbers</string>
+    <string name="st_summary_special_numbers">บล็อกหมายเลขโทรศัพท์ตามประเภท</string>
     <string name="st_antispam_mode_smart_sum">บล็อกทั้งเลขหมายที่คุณกำหนดไว้ในรายการบล็อกและเลขหมายที่รายงานโดยผู้ใช้ท่านอื่น</string>
     <string name="st_antispam_mode_blacklist_sum">บล็อกข้อความและสายเรียกเข้าจากเลขหมายที่คุณระบุไว้ในรายการบล็อก</string>
     <string name="st_antispam_mode_only_contacts_sum">อนุญาตให้รับสายและข้อความจากเลขหมายในรายชื่อผู้ติดต่อเท่านั้น</string>
@@ -286,17 +293,20 @@
     <string name="mark_agent">บล็อกเลขหมายที่ถูกรายงานเป็นตัวแทน</string>
     <string name="mark_sell">บล็อกเลขหมายที่ถูกรายงานว่าขายของทางโทรศัพท์</string>
     <string name="mark_harass">บล็อกเลขหมายที่ถูกรายงานว่าก่อกวน</string>
+    <string name="mark_courier">การจัดส่งพัสดุ</string>
     <string name="mark_fraud_block">ถูกรายงานว่าเป็นมิจฉาชีพ</string>
     <string name="mark_agent_block">ถูกรายงานว่าเป็นตัวแทน</string>
     <string name="mark_sell_block">ถูกรายงานว่าโทรขายของ</string>
     <string name="mark_harass_block">ถูกรายงานว่าก่อกวน</string>
+    <string name="mark_courier_block">ถูกรายงานว่าเป็นการแจ้งจัดส่งพัสดุ</string>
     <string name="mark_fraud_block_large">มิจฉาชีพ</string>
     <string name="mark_agent_block_large">ตัวแทน</string>
     <string name="mark_sell_block_large">ขายของทางโทรศัพท์</string>
     <string name="mark_harass_block_large">ก่อกวน</string>
+    <string name="mark_courier_block_large">ระงับการจัดส่ง</string>
     <string name="mark_number_info">โปรดทราบ: ในบางกรณี เลขหมายเหล่านี้อาจมีประโยชน์อยู่บ้าง (เช่น กรณีที่คุณกำลังมองหาสถานที่พัก) กรุณาเลือกใช้การบล็อกเฉพาะเลขหมายที่คุณไม่ต้องการรับสายเท่านั้น</string>
     <string name="dlg_title_not_open_stranger_identify">ระบุตัวตนสายแปลกหน้า</string>
-    <string name="dlg_message_not_open_stranger_identify">เปิดใช้งานคุณลักษณะนี้ได้จากเมนูการตั้งค่า > โทรศัพท์</string>
+    <string name="dlg_message_not_open_stranger_identify">เปิดใช้งานคุณลักษณะนี้ได้จากเมนู การตั้งค่า > โทรศัพท์</string>
     <string name="button_to_setting">การตั้งค่า</string>
     <string name="button_text_delete">ลบ</string>
     <string name="special_number_group">บล็อกเลขหมายที่ถูกรายงาน</string>
@@ -309,8 +319,9 @@
     <string name="repeated_marked_number_summary">ไม่ต้องบล็อกสายเรียกซ้ำจากเลขหมายเดียวกันใน 3 นาที</string>
     <string name="mark_fraud_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าเป็นมิจฉาชีพซึ่งโทรเข้าเกินจำนวนครั้งที่กำหนด</string>
     <string name="mark_agent_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าเป็นตัวแทนขายเกินจำนวนครั้งที่กำหนด</string>
-    <string name="mark_sell_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าเป็นการขายของทางโทรศัพท์ซึ่งโทรเข้าเกินจำนวนครั้งที่กำหนด</string>
+    <string name="mark_sell_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าเป็นการขายทางโทรศัพท์ซึ่งโทรเข้าเกินจำนวนครั้งที่กำหนด</string>
     <string name="mark_harass_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าก่อกวนเกินจำนวนครั้งที่กำหนด</string>
+    <string name="mark_courier_time_setting">บล็อกเลขหมายที่ถูกรายงานว่าเป็นการแจ้งส่งพัสดุซึ่งเกินจำนวนครั้งที่กำหนด</string>
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">รายงานเลขหมาย</string>
     <string name="sms_smart_engine_update">อัพเดทตัวกรองข้อความโดยอัตโนมัติ</string>
@@ -323,6 +334,7 @@
     <string name="mark_number_agent">ขายสินค้า</string>
     <string name="mark_number_sell">ขายของทางโทรศัพท์</string>
     <string name="mark_number_harass">คุกคาม</string>
+    <string name="mark_number_courier">พัสดุ</string>
     <string name="antispam_notification_setting_title">การแจ้งเตือน</string>
     <string name="antispam_notificaiton_type_show_all">เลขหมายทั้งหมด</string>
     <string name="antispam_notificaiton_type_show_except_blacklist">เลขหมายที่ไม่ได้อยู่ในรายการบล็อก</string>
@@ -338,10 +350,10 @@
     <string name="email">อีเมล</string>
     <string name="organization">องค์กร</string>
     <string name="im">IM</string>
-    <string name="sip_phone">โทรศัพท์ SIP</string>
+    <string name="sip_phone">โทรศัพท์โทรผ่านเน็ต (SIP)</string>
     <string name="birthday">วันเกิด</string>
     <string name="website">เว็บไซต์</string>
     <string name="address">ที่อยู่</string>
     <string name="note">บันทึก</string>
-    <string name="antispam_xpace_text">สลับไปยังส่วนที่ 1 เพื่อตั้งรายการบล็อก</string>
+    <string name="antispam_xpace_text">สลับไปยังพื้นที่ปกติ เพื่อตั้งรายการบล็อก</string>
 </resources>
