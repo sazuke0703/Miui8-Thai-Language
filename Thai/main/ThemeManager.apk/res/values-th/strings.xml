@@ -373,7 +373,6 @@
     <string name="theme_applying">กำลังเรียกใช้งาน…</string>
     <string name="theme_provision_loading_tips">รอสักครู่…</string>
     <string name="theme_provision_title">เลือกธีม</string>
-    <string name="theme_provision_default_theme_title">ค่าเริ่มต้น</string>
     <string name="theme_provision_oper_button_next">ถัดไป</string>
     <string name="theme_precast_create_notification_title">รองรับ MIUI 7 แล้ว</string>
     <string name="theme_precast_create_notification_content">แตะเพื่อดูธีมใหม่ๆ</string>

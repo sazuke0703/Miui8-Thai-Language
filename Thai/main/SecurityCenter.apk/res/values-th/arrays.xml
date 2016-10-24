@@ -91,11 +91,6 @@
         <item>ล็อกหลังจากออกจากแอป</item>
         <item>ล็อกใน 1 นาทีหลังจากออกจากแอป</item>
     </string-array>
-    <string-array name="lock_mode_value">
-        <item>1</item>
-        <item>0</item>
-        <item>2</item>
-    </string-array>
     <string-array name="power_dialog_auto_clean_memory_items">
         <item>หลังจาก 1 นาที</item>
         <item>หลังจาก 5 นาที</item>
@@ -124,11 +119,6 @@
         <item>ไม่สั่น</item>
         <item>สั่นเมื่อปิดเสียง</item>
         <item>สั่นเสมอ</item>
-    </string-array>
-    <string-array name="power_dialog_vibration_items_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>ครั้งเดียว</item>

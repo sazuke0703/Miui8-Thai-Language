@@ -13,20 +13,10 @@
         <item>เสียงพูด</item>
         <item>บทสัมภาษณ์</item>
     </string-array>
-    <string-array name="record_scenes_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="record_quality_entries">
         <item>สูง</item>
         <item>มาตรฐาน</item>
         <item>ต่ำ</item>
-    </string-array>
-    <string-array name="record_quality_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
     </string-array>
     <string-array name="record_quality_summaries">
         <item>MP3 ~192Kb/วิ ~90MB/ชม.</item>

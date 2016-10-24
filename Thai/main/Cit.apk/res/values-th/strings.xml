@@ -150,10 +150,6 @@
     <string name="cit_audio_cali_playing">แตะที่ปุ่มเพื่อเริ่มปรับเทียบ</string>
     <string name="cit_audio_cali_file_existed">ไม่พบไฟล์เพลง ไม่สามารถปรับเทียบค่าได้!</string>
     <string name="cit_audio_cali_done">เสร็จสิ้นการปรับเทียบ</string>
-    <string name="cit_audio_cali_valueR">Ref_diff:</string>
-    <string name="cit_audio_cali_valueT">Temp_acc:</string>
-    <string name="cit_audio_cali_valueF0">F0:</string>
-    <string name="cit_audio_cali_valueC">นับจำนวน:</string>
     <string name="cit_audio_cali_failed">การปรับเทียบล้มเหลว กรุณาลองใหม่!</string>
     <string name="cit_aud_spkcal">ปรับเทียบ</string>
     <string name="cit_audio_calibrating">ดำเนินการปรับเทียบอยู่...</string>

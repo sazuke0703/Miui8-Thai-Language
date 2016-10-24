@@ -1323,8 +1323,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="terms_title">ข้อกำหนดในการให้บริการ</string>
     <string name="webview_license_title">ใบอนุญาต WebView ของระบบ</string>
     <string name="wallpaper_attributions">ภาพพื้นหลัง</string>
-    <string name="wallpaper_attributions_values">"ผู้ให้บริการภาพถ่ายดาวเทียม:
-©2014 CNES/Astrium, DigitalGlobe, Bluesky"</string>
     <string name="settings_license_activity_title">สัญญาอนุญาตสำหรับโอเพนซอร์ส</string>
     <string name="settings_license_activity_unavailable">พบปัญหาในการโหลดสัญญาอนุญาต</string>
     <string name="settings_license_activity_loading">กำลังโหลด…</string>

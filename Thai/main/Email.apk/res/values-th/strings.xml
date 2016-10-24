@@ -284,9 +284,6 @@
     <string name="date_message_received">%1$s %2$s</string>
     <string name="date_message_received_today">วันนี้ %1$s</string>
     <string name="default_">ค่าเริ่มต้น</string>
-    <string name="default_exchange">EXCHANGE</string>
-    <string name="default_imap">IMAP</string>
-    <string name="default_pop3">POP3</string>
     <string name="default_setup">การตั้งค่าเริ่มต้น</string>
     <string name="default_signature">ส่งจากมือถือ Mi</string>
     <string name="del_account_questionnair_hint">คุณสามารถบอกเราได้ไหมว่าทำไมคุณถึงลบบัญชีนี้?</string>

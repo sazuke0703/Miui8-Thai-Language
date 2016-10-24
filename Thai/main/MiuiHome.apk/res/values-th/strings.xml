@@ -100,8 +100,6 @@
     <string name="default_folder_title_recommend">แอปเพิ่มเติม</string>
     <string name="default_folder_title_game">เกม</string>
     <string name="default_folder_title_security">ระบบ</string>
-    <string name="default_folder_title_telcel">Telcel</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="wallpaper_settings">ภาพพื้นหลัง</string>
     <string name="choose_wallpaper">เลือกภาพพื้นหลัง</string>
     <string name="current_preview">ภาพตัวอย่าง</string>
@@ -115,7 +113,6 @@
     <string name="apply_both">ทั้งสองหน้าจอ</string>
     <string name="enable_wallpaper_scroll">ให้ภาพพื้นหลังเลื่อนตามได้</string>
     <string name="disable_wallpaper_scroll">ภาพพื้นหลังเลื่อนตามไม่ได้</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="online_wallpaper">ออนไลน์</string>
     <string name="custom_wallpaper_picker">เรียกดู</string>
     <string name="reset_scene_prompt">หน้าจอจะรีเซ็ตการจัดหน้าเป็นค่าเริ่มต้น</string>
