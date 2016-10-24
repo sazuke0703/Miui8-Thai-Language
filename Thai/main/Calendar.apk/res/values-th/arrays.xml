@@ -6,6 +6,43 @@
         <item>SMS</item>
         <item>เตือน</item>
     </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>0 นาที</item>
+        <item>1 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+        <item>45 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>2 ชั่วโมง</item>
+        <item>3 ชั่วโมง</item>
+        <item>12 ชั่วโมง</item>
+        <item>24 ชั่วโมง</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>ไม่มี</item>
+        <item>0 นาที</item>
+        <item>1 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>20 นาที</item>
+        <item>25 นาที</item>
+        <item>30 นาที</item>
+        <item>45 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>2 ชั่วโมง</item>
+        <item>3 ชั่วโมง</item>
+        <item>12 ชั่วโมง</item>
+        <item>24 ชั่วโมง</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
     <string-array name="preferences_week_start_day_labels">
         <item>ตามท้องถิ่น</item>
         <item>วันเสาร์</item>
@@ -126,9 +163,19 @@
         <item>กิจกรรมนี้และในอนาคต</item>
         <item>กิจกรรมทั้งหมด</item>
     </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>กิจกรรมนี้และในอนาคต</item>
+        <item>กิจกรรมทั้งหมด</item>
+    </string-array>
     <string-array name="change_response_labels">
         <item>เฉพาะกิจกรรมนี้</item>
         <item>กิจกรรมทั้งหมดในชุด</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>กำหนดการ</item>
     </string-array>
     <string-array name="quick_response_defaults">
         <item>ไปช้าสักสองสามนาที</item>
@@ -136,40 +183,45 @@
         <item>เริ่มไปเลย ไม่ต้องรอ</item>
         <item>ขอโทษ ฉันไปไม่ได้ เราต้องกำหนดเวลากันใหม่</item>
     </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>ทุกครั้ง</item>
+        <item>เฉพาะเมื่อปิดเสียง</item>
+        <item>ไม่ใช้</item>
+    </string-array>
     <string-array name="widget_style_list">
         <item>โปร่งแสง</item>
         <item>พื้นหลังสีขาว</item>
     </string-array>
     <string-array name="miui_reminder_minutes_labels">
         <item>ไม่ต้องแจ้งเตือน</item>
-        <item>เวลาเหตุการณ์</item>
-        <item>ก่อน 5 นาที</item>
-        <item>ก่อน 10 นาที</item>
-        <item>ก่อน 15 นาที</item>
-        <item>ก่อน 30 นาที</item>
-        <item>1 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
-        <item>2 วันก่อน</item>
-        <item>1 สัปดาห์ก่อน</item>
+        <item>0 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
     </string-array>
     <string-array name="miui_preferences_default_reminder_labels">
         <item>ไม่ต้องแจ้งเตือน</item>
-        <item>เวลาเหตุการณ์</item>
-        <item>ก่อน 5 นาที</item>
-        <item>ก่อน 10 นาที</item>
-        <item>ก่อน 15 นาที</item>
-        <item>ก่อน 30 นาที</item>
-        <item>1 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
-        <item>2 วันก่อน</item>
-        <item>1 สัปดาห์ก่อน</item>
+        <item>0 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
     </string-array>
     <string-array name="travel_reminder_minutes_labels">
-        <item>3 ชั่วโมงก่อน</item>
-        <item>4 ชั่วโมงก่อน</item>
-        <item>5 ชั่วโมงก่อน</item>
-        <item>6 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
+        <item>3 ชั่วโมง</item>
+        <item>4 ชั่วโมง</item>
+        <item>5 ชั่วโมง</item>
+        <item>6 ชั่วโมง</item>
+        <item>1 วัน</item>
     </string-array>
     <string-array name="repeat_frequency_spinner">
         <item>วัน</item>
@@ -255,57 +307,5 @@
         <item>ครั้งเดียว</item>
         <item>ตามระยะเวลา</item>
         <item>ตามจำนวนครั้ง</item>
-    </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>เปิดเสมอ</item>
-        <item>เมื่อปิดเสียงเรียกเข้าเท่านั้น</item>
-        <item>ไม่ต้อง</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 นาที</item>
-        <item>1 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>20 นาที</item>
-        <item>25 นาที</item>
-        <item>30 นาที</item>
-        <item>45 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>2 ชั่วโมง</item>
-        <item>3 ชั่วโมง</item>
-        <item>12 ชั่วโมง</item>
-        <item>24 ชั่วโมง</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>ไม่มี</item>
-        <item>0 นาที</item>
-        <item>1 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>20 นาที</item>
-        <item>25 นาที</item>
-        <item>30 นาที</item>
-        <item>45 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>2 ชั่วโมง</item>
-        <item>3 ชั่วโมง</item>
-        <item>12 ชั่วโมง</item>
-        <item>24 ชั่วโมง</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>กิจกรรมนี้และในอนาคต</item>
-        <item>กิจกรรมทั้งหมด</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>วัน</item>
-        <item>สัปดาห์</item>
-        <item>เดือน</item>
-        <item>กำหนดการ</item>
     </string-array>
 </resources>

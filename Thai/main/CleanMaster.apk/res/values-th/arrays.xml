@@ -62,8 +62,4 @@
         <item>ทุก 15 วัน</item>
         <item>ทุก 30 วัน</item>
     </string-array>
-    <string-array name="scan_engine">
-        <item>Clean Master</item>
-        <item>Tencent</item>
-    </string-array>
 </resources>

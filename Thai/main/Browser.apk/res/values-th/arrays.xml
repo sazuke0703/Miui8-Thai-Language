@@ -29,16 +29,4 @@
         <item>โทรศัพท์</item>
         <item>แป้น</item>
     </string-array>
-    <string-array name="shortcut_dialog_title">
-        <item>ข้อความจากเบราว์เซอร์</item>
-        <item>ติดตามการแข่งขันโอลิมปิกไปกับ Mi</item>
-    </string-array>
-    <string-array name="shortcut_dialog_keep">
-        <item>ตกลง</item>
-        <item>ติดตาม</item>
-    </string-array>
-    <string-array name="shortcut_dialog_delete">
-        <item>ลบ</item>
-        <item>ไม่ ขอบคุณ</item>
-    </string-array>
 </resources>
