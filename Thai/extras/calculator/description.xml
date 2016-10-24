@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="calculator" size="4:4">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Calculator</title>
+	<titles>
+		<title locale="zh_CN">计算器</title>
+		<title locale="zh_TW">計算機</title>
+		<title locale="in_ID">Kalkulator</title>
+		<title locale="ms_MY">Kalkulator</title>
+		<title locale="vi_VN">Máy tính</title>
+		<title locale="ru_RU">Калькулятор</title>
+		<title locale="pt_BR">Calculadora</title>
+		<title locale="th_TH">เครื่องคิดเลข</title>
+		<title locale="tr_TR">Hesap makinesi</title>
+		<title locale="hi_IN">कैल्क्युलेटर</title>
+		<title locale="ta_IN">கணிப்பான்</title>
+		<title locale="te_IN">కాలిక్యులేటర్</title>
+		<title locale="kn_IN">ಕ್ಯಾಲ್ಕ್ಯುಲೇಟರ್</title>
+		<title locale="bn_IN">ক্যালকুলেটর</title>
+		<title locale="ml_IN">കാല്‍ക്കുലേറ്റര്‍</title>
+		<title locale="mr_IN">कॅलक्यूलेटर</title>
+		<title locale="as_IN">কেলকুলেটৰ</title>
+		<title locale="gu_IN">કેલ્ક્યુલેટર</title>
+		<title locale="pa_IN">ਕੈਲਕੁਲੇਟਰ</title>
+		<title locale="fr_FR">Calculatrice</title>
+		<title locale="de_DE">Rechner</title>
+		<title locale="es_US">Calculadora</title>
+		<title locale="es_ES">Calculadora</title>
+		<title locale="it_IT">Calcolatrice</title>
+		<title locale="ko_KR">계산기</title>
+		<title locale="uk_UA">Калькулятор</title>
+		<title locale="ar_EG">آلة حاسبة</title>
+		<title locale="fa_IR">ماشین حساب</title>
+	</titles>
+</MIUI-Theme>

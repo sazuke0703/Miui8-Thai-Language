@@ -1,0 +1,10 @@
+<strings>
+    <string name="จ." value="LUN"/>
+    <string name="อ." value="MAR"/>
+    <string name="พ." value="MIE"/>
+    <string name="พฤ." value="JUE"/>
+    <string name="ศ." value="VIE"/>
+    <string name="ส." value="SAB"/>
+    <string name="อา." value="DOM"/>
+    <string name="language" value="th"/>
+</strings>
