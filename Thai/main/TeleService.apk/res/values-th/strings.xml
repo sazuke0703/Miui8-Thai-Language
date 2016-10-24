@@ -973,7 +973,7 @@
     <string name="antispam_notification_title">เลขหมายที่ไม่รู้จัก</string>
     <string name="enable_antispam_strange_title">ปิดเสียงโทรเข้าครั้งแรก</string>
     <string name="enable_antispam_strange_summary">ปิดเสียงโทรเข้าครั้งแรกจากเลขหมายที่ไม่รู้จัก</string>
-    <string name="reject_via_sms">ข้อความตอบด่วน</string>
+    <string name="reject_via_sms">ข้อความด่วน</string>
     <string name="reject_via_sms_summary">แก้ไขข้อความที่ตั้งไว้ล่วงหน้า</string>
     <string name="reject_via_sms_title">ข้อความตอบด่วน</string>
     <string name="missed_call_notify_times_title">การแจ้งเตือนสายไม่ได้รับ</string>
