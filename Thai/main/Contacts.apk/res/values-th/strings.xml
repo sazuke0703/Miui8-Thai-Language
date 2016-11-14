@@ -713,7 +713,6 @@
     <string name="miprofile_alertdialog_message">แสดงชื่อนี้ในข้อมูลติดต่อเมื่อคุณได้รับคำขอแลกนามบัตร</string>
     <string name="miprofile_alertdialog_edit">ป้อนชื่อ</string>
     <string name="miprofile_switch_off_alertdialog_message">คุณจะไม่สามารถแลกเปลี่ยนบัตรผู้ติดต่อกับผู้ใช้คนอื่นๆได้</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="miprofile_bind_account_alertdialog_message">คุณต้องระบุหมายเลขโทรศัพท์ของมือถือเครื่องนี้ในบัญชี Mi ก่อนจึงจะใช้บริการนี้ได้</string>
     <string name="miprofile_bind_account_alertdialog_positive">เพิ่มเลขหมาย</string>
