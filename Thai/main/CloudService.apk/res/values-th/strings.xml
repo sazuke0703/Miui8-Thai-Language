@@ -10,12 +10,10 @@
     <string name="sync_item_sms_title">ซิงค์ข้อความ</string>
     <string name="sync_item_sms_summary">ซิงค์ข้อความที่รับและส่งจากอุปกรณ์นี้</string>
     <string name="sub_sync_item_sms_title_wifi_only">ซิงค์ข้อความ MMS ผ่าน Wi-Fi เท่านั้น</string>
-    <string name="sub_sync_item_sms_summary">ซิงค์ข้อความที่มีรูปภาพ เสียงหรือสื่ออื่นๆในเครื่อง เฉพาะเมื่อเชื่อมต่อ Wi-Fi แล้วเท่านั้น</string>
+    <string name="sub_sync_item_sms_summary">ซิงค์ข้อความที่มีรูปภาพ เสียงหรือสื่อมีเดียอื่นๆในเครื่อง เฉพาะเมื่อเชื่อมต่อกับ Wi-Fi แล้วเท่านั้น</string>
     <string name="pref_title_sync_contacts_title">ซิงค์รายชื่อ</string>
     <string name="pref_title_sync_display_photo_on_wifi_only">ซิงค์รูปภาพผ่าน Wi-Fi เท่านั้น</string>
     <string name="pref_summary_sync_display_photo_on_wifi_only">ซิงค์รูปภาพของรายชื่อผู้ติดต่อผ่าน Wi-Fi เท่านั้น</string>
-    <string name="pref_title_sync_video_on_wifi_only">ใช้ Wi-Fi เท่านั้นในการซิงค์วิดีโอ</string>
-    <string name="pref_summary_sync_video_on_wifi_only">ซิงค์รูปภาพประจำตัวของผู้ติดต่อผ่าน Wi-Fi เท่านั้น</string>
     <string name="error_title">ซิงค์ผิดพลาด</string>
     <string name="error_unauthorized">ซิงค์ปิดการทำงานเนื่องจากการเข้าระบบผิดพลาดเกินจำนวนที่กำหนด</string>
     <string name="error_forbidden">ซิงค์ปิดทำงานเนื่องจากบัญชี Mi ของคุณมีปัญหา</string>
@@ -30,7 +28,7 @@
     <string name="verify">ตรวจสอบ</string>
     <string name="next">ถัดไป</string>
     <string name="password">ป้อนรหัสผ่านของคุณ</string>
-    <string name="vcode">รหัสตรวจสอบ</string>
+    <string name="vcode">รหัสยืนยัน</string>
     <string name="bad_authentication">ชื่อบัญชีหรือรหัสผ่านไม่ถูกต้อง</string>
     <string name="header_data_and_synchronization">ข้อมูลและการซิงค์</string>
     <string name="header_cloud_backup_settings">การสำรองและคืนค่าข้อมูล</string>
@@ -69,9 +67,8 @@
     <string name="sync_dspt_entrance_provision_confirm_open">ใช้ Mi คลาวด์</string>
     <string name="sync_dspt_entrance_provision_confirm_title">ไม่ต้องการใช้ Mi คลาวด์?</string>
     <string name="sync_dspt_entrance_provision_confirm_content">แอปภายในระบบ MIUI อาศัย Mi คลาวด์ในการสำรองข้อมูลรูปภาพ รายชื่อผู้ติดต่อ บันทึกย่อ และอื่นๆ บริการ Mi คลาวด์นั้นไม่คิดค่าบริการและพร้อมใช้ได้ทันที</string>
-    <string name="sync_dspt_entrance_provision_skip"><u>ข้ามขั้นตอนนี้</u></string>
-    <string name="find_device_dspt_provision">"ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาจากเมนูการตั้งค่า
-"</string>
+    <string name="sync_dspt_entrance_provision_skip">ข้ามขั้นตอนนี้</string>
+    <string name="find_device_dspt_provision">ในกรณีที่เครื่องโทรศัพท์ของคุณหาย คุณสามารถเข้าไปที่ %s เพื่อค้นหาพิกัดเครื่อง ทำการล็อกหรือรีเซ็ต โดยคุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">"คุณสามารถเปิดและปิดการการใช้งานนี้ได้จากเมนูการตั้งค่าได้ตลอดเวลา
@@ -80,10 +77,10 @@
     <string name="find_device_send_sms_alert">"
 
 หากคุณเปลี่ยนซิมการ์ด ระบบจะส่งข้อความอีกครั้งเพื่อเปิดใช้งานบริการดังกล่าวโดยอัตโนมัติ"</string>
-    <string name="mx_dspt_provision">"ข้อความ Mi ช่วยให้คุณส่งข้อความไปยังอุปกรณ์ MIUI อื่นๆโดยไม่ต้องเสียค่าใช้จ่ายใดๆขณะเชื่อมต่ออยู่กับ Wi-Fi
+    <string name="mx_dspt_provision">"ข้อความ Mi ช่วยให้คุณส่งข้อความไปยังอุปกรณ์ MIUI อื่นๆโดยไม่ต้องเสียค่าบริการใดๆขณะเชื่อมต่ออยู่กับ Wi-Fi
 
 คุณสามารถเปิด-ปิดคุณลักษณะนี้ได้ตลอดเวลาในเมนูการตั้งค่า"</string>
-    <string name="mx_dspt_provision_with_voip">โทรหาผู้ใช้ MIUI ด้วยกันฟรีผ่านการเชื่อมต่ออินเตอร์เน็ตของคุณ คุณสามารถเปิด-ปิดใช้งานคุณสมบัตินี้ได้ที่เมนูการตั้งค่า การโทรผ่านเน็ตนี้ได้ให้บริการโดย Weihui กรุณาอ่านนโยบายความเป็นส่วนตัวของ Weihui</string>
+    <string name="mx_dspt_provision_with_voip">โทรหาผู้ใช้ MIUI ด้วยกันฟรีผ่านการเชื่อมกับต่ออินเตอร์เน็ตของคุณ คุณสามารถเปิด-ปิดใช้งานคุณสมบัตินี้ได้ที่เมนูการตั้งค่า การโทรผ่านเน็ตนี้ได้ให้บริการโดย Weihui กรุณาอ่านนโยบายความเป็นส่วนตัวของ Weihui</string>
     <string name="mx_dspt_provision_with_voip2">นโยบายความเป็นส่วนตัว</string>
     <string name="mx_dspt_provision_privacy">"การใช้งานบริการนี้อาจจำเป็นต้องระบุหมายเลขโทรศัพท์ของคุณด้วย ผู้ให้บริการเครือข่ายอาจคิดค่าบริการส่งข้อความ SMS ซึ่งใช้ในการเปิดใช้งานบริการครั้งแรก
 
@@ -113,9 +110,9 @@
     <string name="find_device_reading_status_failure">ไม่สามารถโหลดสถานะได้</string>
     <string name="enable_find_device_success">ค้นหาอุปกรณ์เปิดอยู่</string>
     <string name="disable_find_device_success">ค้นหาอุปกรณ์ปิดอยู่</string>
-    <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้งานการค้นหาอุปกรณ์ \"%1$s</string>
-    <string name="disable_find_device_error">\"ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ \"%1$s</string>
-    <string name="find_device_error_unknown">ข้อผิดพลาดไม่ทราบสาเหตุ</string>
+    <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
+    <string name="disable_find_device_error">\"ไม่สามารถปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
+    <string name="find_device_error_unknown">ข้อขัดข้องไม่ทราบสาเหตุ</string>
     <string name="find_device_error_password_changed">รหัสผ่านบัญชีมีการเปลี่ยนแปลงเมื่อเร็วๆนี้</string>
     <string name="find_device_error_network">ตรวจสอบการเชื่อมต่อข้อมูลและลองอีกครั้ง</string>
     <string name="find_device_error_server">ข้อผิดพลาดจากเซิร์ฟเวอร์</string>
@@ -138,15 +135,16 @@
     <string name="start_micloud">มาเริ่มต้นกันเลย</string>
     <string name="micloud_single_dspt">ใช้ Mi คลาวด์ในการซิงค์ข้อมูล ค้นหาพิกัดของเครื่อง และแชร์สิ่งต่างๆกับเพื่อนของคุณ</string>
     <string name="micloud_proceed">ดำเนินการต่อ</string>
-    <string name="master_alert_notif_title">ซิงค์ล่าสุด %s วันก่อน</string>
-    <string name="sub_alert_notif_title">ยังไม่ซิงค์</string>
-    <string name="alert_notif_title_dspt">ยังไม่ซิงค์</string>
+    <string name="master_alert_notif_title">เปิดใช้การซิงค์กับ Mi คลาวด์</string>
+    <string name="master_alert_notif_content">ไม่สามารถซิงค์ได้</string>
+    <string name="sub_alert_notif_title">ซิงค์ด้วย Mi คลาวด์</string>
+    <string name="sub_alert_notif_content">เปิดใช้งานซิงค์กับ Mi คลาวด์เพื่อสำรองข้อมูลของคุณ</string>
     <string name="noRemind">ไม่ต้องเตือนฉันอีก</string>
     <string name="restoreSync">ซิงค์ตอนนี้</string>
     <string name="enableAll">ซิงค์ทั้งหมด</string>
-    <string name="master_alert_notif_dspt_add">%s รายการรอการซิงค์</string>
+    <string name="master_alert_notif_dspt_add">รายการที่กำลังรอการซิงค์: %s</string>
     <string name="master_alert_notif_dspt_no">ซิงค์แล้ว</string>
-    <string name="sub_alert_notif_dspt_add">%s รายการรอการซิงค์</string>
+    <string name="sub_alert_notif_dspt_add">รายการที่กำลังรอการซิงค์: %s</string>
     <string name="sub_alert_notif_dspt_no">ซิงค์แล้ว</string>
     <string name="cloudservice_new_sync">ซิงค์กับ %s ด้วย Mi คลาวด์</string>
     <string name="click_to_enabled">แตะเพื่อซิงค์</string>
@@ -173,7 +171,7 @@
     <string name="micloud_web_discription">ไปที่ i.mi.com</string>
     <string name="micloud_web_discription_international">ไปที่ www.mi.com/micloud</string>
     <string name="micloud_full_influence_title">เมื่อ Mi คลาวด์ของคุณเต็ม…</string>
-    <string name="micloud_warn_low_title">พื้นที่ใกล้เต็มแล้ว…</string>
+    <string name="micloud_warn_low_title">พื้นที่ใกล้เต็มแล้ว</string>
     <string name="micloud_warn_low_sum">คุณใช้พื้นที่ Mi คลาวด์ไปแล้ว 90%</string>
     <string name="micloud_warn_full_title">เนื้อที่เต็มแล้ว</string>
     <string name="micloud_warn_full_sum">ไฟล์ใหม่จะไม่ได้รับการซิงค์เข้าสู่ Mi คลาวด์</string>
@@ -230,29 +228,35 @@
     <string name="micloud_main_network_error">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="micloud_main_sync_on_wifi">กำลังรอ Wi-Fi</string>
     <string name="micloud_main_sync_setting">ตั้งค่าการซิงค์</string>
-    <string name="micloud_main_suggest_setting">"กำลังรอเชื่อมต่อเครือข่าย Wi-Fi เพื่อซิงค์ข้อมูล
-แตะที่ปุ่มตั้งค่าเพื่อดูตัวเลือกเพิ่มเติม"</string>
-    <string name="micloud_main_sync_pending">กำลังรอซิงค์</string>
     <string name="micloud_main_title_not_synced">ไม่ได้ซิงค์</string>
     <string name="micloud_main_message_not_synced">มี %s ข้อมูลยังไม่ได้ซิงค์</string>
-    <string name="micloud_main_data_unsynced">%d รายการรอการซิงค์</string>
+    <string name="micloud_main_suggest_setting">แก้ไขการตั้งค่าหรือเชื่อมต่อกับ Wi-Fi</string>
+    <string name="micloud_main_sync_pending">กำลังรอซิงค์</string>
+    <string name="micloud_main_data_unsynced">รายการที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_main_detail">ดูรายละเอียด</string>
     <string name="micloud_main_network_abnormal">ไม่สามารถใช้งานเครือข่ายได้</string>
     <string name="micloud_main_sync_init">กำลังรับข้อมูล</string>
     <string name="micloud_main_battery_low">แบตเหลือไม่เพียงพอที่จะซิงค์</string>
-    <string name="micloud_main_battery_message">"เชื่อมต่ออุปกรณ์ของคุณกับแหล่งจ่ายไฟเพื่อทำการซิงค์
-%d รายการ"</string>
+    <string name="micloud_main_battery_message">เสียบปลั๊กอุปกรณ์ของคุณเพื่อทำการซิงค์</string>
     <string name="micloud_main_syncing">กำลังซิงค์…</string>
     <string name="micloud_main_last_sync_time">ซิงค์ล่าสุด %s</string>
     <string name="micloud_main_synced_data_count">ซิงค์แล้ว %d รายการ</string>
-    <string name="micloud_main_wlan_sync_data_count">มี %d รายการรอการซิงค์</string>
+    <string name="micloud_main_wlan_sync_data_count">รายการที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_main_space_full">พื้นที่ในคลาวด์เต็ม</string>
-    <string name="micloud_main_space_low">พื้นที่ใกล้เต็มแล้ว…</string>
+    <string name="micloud_main_space_low">พื้นที่ใกล้เต็มแล้ว</string>
     <string name="micloud_main_update_space">เพิ่มเนื้อที่จัดเก็บบนคลาวด์.</string>
-    <string name="micloud_main_space_full_title">พื้นที่ในคลาวด์เต็ม</string>
-    <string name="micloud_main_memory_low_title">พื้นที่จัดเก็บไม่เพียงพอ</string>
+    <string name="micloud_main_space_full_title">พื้นที่จัดเก็บข้อมูลไม่เพียงพอ การซิงค์ถูกหยุด</string>
+    <string name="micloud_main_memory_low_title">ที่จัดเก็บข้อมูลภายในของโทรศัพท์ใกล้จะเต็มแล้ว</string>
     <string name="micloud_main_memory_low_message">ลบบางรายการที่คุณได้เก็บไว้ในคลาวด์เพื่อทำการซิงค์</string>
     <string name="micloud_main_clear_now">ล้าง</string>
+    <string name="micloud_main_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
+    <string name="micloud_main_query_error_message">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว</string>
+    <string name="micloud_main_not_sync">รายการที่กำลังรอการซิงค์: %d</string>
+    <string name="micloud_main_multi_user_error_title">Mi คลาวด์ขัดข้อง</string>
+    <string name="micloud_main_multi_user_error_message">"คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ เพื่อป้องกันการรั่วไหลของข้อมูล Mi คลาวด์จะถูกระงับใช้ชั่วคราวหากคุณต้องการสำรองข้อมูลไฟล์:
+
+1. ใช้บัญชีอื่น
+2. ย้ายรายการไปยังพื้นที่ปกติ"</string>
     <string name="micloud_detail_syncing">กำลังซิงค์</string>
     <string name="micloud_detail_upload_syncing">กำหลังอัพโหลด %s</string>
     <string name="micloud_detail_download_syncing">กำลังดาวน์โหลด %s</string>
@@ -262,11 +266,22 @@
     <string name="micloud_detail_lastest">ซิงค์แล้ว</string>
     <string name="micloud_detail_lastest_with_off">ซิงค์แล้ว</string>
     <string name="micloud_detail_not_synced">ไม่ได้ซิงค์</string>
-    <string name="micloud_detail_preference_syncing">กำลังซิงค์</string>
-    <string name="micloud_detail_preference_wlan">ซิงค์ผ่าน Wi-Fi</string>
+    <string name="micloud_detail_preference_sync_items">รายการ</string>
     <string name="micloud_detail_wlan">%d รายการรอการซิงค์</string>
-    <string name="micloud_detail_wlan_contact">%d รูปภาพผู้ติดต่อรอการซิงค์</string>
+    <string name="micloud_detail_wlan_contact">รูปภาพรายชื่อที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_detail_wlan_mms">MMS %d ข้อความรอการซิงค์</string>
+    <string name="micloud_detail_query_error">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
+    <string name="micloud_detail_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
+    <string name="micloud_detail_query_error_detail">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว คุณสามารถติดต่อกับทางผู้พัฒนาผ่านแอปข้อเสนอแนะได้</string>
+    <string name="micloud_detail_not_sync">%d กำลังรอซิงค์</string>
+    <string name="micloud_detail_force_sync">ซิงค์ตอนนี้</string>
+    <string name="micloud_detail_ok">ตกลง</string>
+    <string name="micloud_detail_do_not_sync">ไม่ต้องซิงค์</string>
+    <string name="micloud_detail_sync_now">ซิงค์ตอนนี้</string>
+    <string name="micloud_detail_battery_low_title">แบตเตอรี่ต่ำ</string>
+    <string name="micloud_detail_battery_low_message">แบตเตอรี่ต่ำ กรุณาชาร์จโทรศัพท์ของคุณและทำการซิงค์</string>
+    <string name="micloud_detail_depend_wifi_title">ต้องใช้ Wi-Fi</string>
+    <string name="micloud_detail_depend_wifi_message">กรุณาเชื่อมต่อกับ Wi-Fi หรือตรวจสอบการตั้งค่าการซิงค์</string>
     <string name="micloud_check_sim_title">"ดูเหมือนคุณได้เปลี่ยนซิมการ์ด กรุณาเข้าสู่ระบบ
 บัญชี Mi เพื่อเปิดใช้งาน Mi คลาวด์"</string>
     <string name="micloud_check_sim_notify_title">เปิดใช้งาน Mi คลาวด์</string>
@@ -275,7 +290,7 @@
     <string name="micloud_setting_contact_summary">ข้อมูลผู้ติดต่อและภาพประจำตัว</string>
     <string name="micloud_setting_sms_summary">ข้อความ SMS และ MMS</string>
     <string name="micloud_setting_gallery_summary">รูปภาพและวิดีโอ</string>
-    <string name="micloud_setting_browser_summary">ตัวคั่นหน้าเว็บ, ประวัติการใช้และแท็บต่างๆ</string>
+    <string name="micloud_setting_browser_summary">หน้าที่คั่น, ประวัติการใช้และแท็บต่างๆ</string>
     <string name="micloud_setting_music_summary">รายการเพลงและเพลงโปรด</string>
     <string name="micloud_setting_wifi_summary">การตั้งค่า Wi-Fi</string>
     <string name="micloud_setting_deskclock_summary">การตั้งค่าเขตเวลาและการปลุก</string>
@@ -296,9 +311,9 @@
     <string name="microsoft_cloud_eng">One Drive</string>
     <string name="apple_10gb">20GB</string>
     <string name="google_100gb">100GB</string>
-    <string name="apple_cloud_price">คิดเป็นเงิน RMB 72 ต่อปี</string>
-    <string name="google_cloud_price">คิดเป็นเงิน RMB 143 ต่อปี</string>
-    <string name="microsoft_cloud_price">คิดเป็นเงิน RMB 80 ต่อปี</string>
+    <string name="apple_cloud_price">คิดเป็นเงิน 72 RMB ต่อปี</string>
+    <string name="google_cloud_price">คิดเป็นเงิน 143 RMB ต่อปี</string>
+    <string name="microsoft_cloud_price">คิดเป็นเงิน 80 RMB ต่อปี</string>
     <string name="upgrade_space">เพิ่มพื้นที่</string>
     <string name="upgrade_space_successful">เพิ่มขึ้นอีก %sGB</string>
     <string name="upgrade_space_successful_total">%sGB พร้อมใช้งาน</string>
@@ -341,22 +356,23 @@
     <string name="share_cancel">ยกเลิกการแชร์แล้ว</string>
     <string name="share_failed">ไม่สามารถแชร์ได้</string>
     <string name="cloud_back_up_title">สำรองข้อมูลอุปกรณ์</string>
-    <string name="cloud_restore_title">เรียกคืนค่าจากข้อมูลสำรอง</string>
+    <string name="cloud_restore_title">คืนค่าจากข้อมูลสำรอง</string>
     <string name="header_cloud_restore_summary">ติดตั้งแอปใหม่อีกครั้งและคืนค่าการจัดเรียงบนหน้าจอหลักและการตั้งค่าระบบจากข้อมูลสำรองใน Mi คลาวด์</string>
     <string name="settings_backup_title">สำรองข้อมูลการตั้งค่าระบบ</string>
-    <string name="cloud_back_up_open_info_no_backuptime">สำรองข้อมูลเมื่อเชื่อมต่อ Wi-Fi ทันทีในทุกๆ %1$s</string>
-    <string name="cloud_back_up_open_info">"สำรองข้อมูลเมื่อเชื่อมต่อ Wi-Fi ทันทีในทุกๆ %1$s
+    <string name="cloud_back_up_open_info_no_backuptime">สำรองข้อมูลเมื่อเชื่อมต่อกับ Wi-Fi ทันทีในทุกๆ %1$s</string>
+    <string name="cloud_back_up_open_info">"สำรองข้อมูลเมื่อเชื่อมต่อกับ Wi-Fi ทันทีในทุกๆ %1$s
 สำรองข้อมูลครั้งล่าสุดเมื่อ​ %2$s"</string>
     <string name="cloud_back_up_summary">สำรองข้อมูลเมื่อเชื่อมต่อกับ Wi-Fi</string>
     <string name="cloud_back_up_close_info">แตะเพื่อสำรองข้อมูล</string>
     <string name="cloud_backup_dialog_title">สำรองข้อมูลด้วย Mi คลาวด์</string>
     <string name="cloud_back_up_dialog_content">หยุดการสำรองข้อมูลที่กำลังดำเนินอยู่? หากหยุดตอนนี้ คุณจะไม่สามารถใช้ข้อมูลสำรองนี้ในการกู้คืนแอปได้</string>
     <string name="cloud_back_up_button_ok">บังคับหยุด</string>
-    <string name="cloud_back_up_network_unavailable">ไม่สามารถลบออกได้ กรุณาเชื่อมต่อ Wi-Fi แล้วลองใหม่</string>
+    <string name="cloud_back_up_network_unavailable">ไม่สามารถลบออกได้ กรุณาเชื่อมต่อกับ Wi-Fi แล้วลองใหม่</string>
     <string name="cloud_back_up_remove_success">ลบข้อมูลสำรองแล้ว</string>
     <string name="micloud_storage">พื้นที่จัดเก็บข้อมูล</string>
     <string name="micloud_member">สมาชิกภาพ Mi คลาวด์</string>
-    <string name="micloud_buy_member">บัญชี</string>
+    <string name="micloud_buy_member">ซื้อสมาชิก Mi คลาวด์</string>
+    <string name="micloud_website">รายการใน Mi คลาวด์</string>
     <string name="micloud_member_advantage">เพิ่มเนื้อที่จัดเก็บ</string>
     <string name="micloud_main_title_sync_fail">ซิงค์ไม่ได้</string>
     <string name="micloud_main_title_sync_on_wifi">ใช้เครือข่าย Wi-Fi</string>
@@ -370,7 +386,7 @@
     <string name="micloud_confusion_entrance_question">คุณเพิ่งแก้ไขบัญชี Mi ของคุณผ่าน %s?</string>
     <string name="micloud_confusion_entrance_hint">อย่าลงชื่อเข้าใช้บัญชี Mi ของคุณบนอุปกรณ์สาธารณะ</string>
     <string name="micloud_confusion_account_title">บัญชี Mi</string>
-    <string name="micloud_confusion_account_question">เลขบัญชี Mi: %s เป็นของคุณหรือไม่?</string>
+    <string name="micloud_confusion_account_question">หมายเลขบัญชี Mi: %s เป็นของคุณหรือไม่?</string>
     <string name="micloud_confusion_account_hint">การเปลี่ยนแปลงที่คุณทำผ่านอุปกรณ์นี้จะถูกซิงค์กับอุปกรณ์ทั้งหมดของคุณ เพื่อปกป้องบัญชีของคุณ เราขอแนะนำให้คุณปิดการซิงค์สำหรับอุปกรณ์อื่นๆเมื่อคุณไม่ได้ใช้มัน</string>
     <string name="micloud_confusion_setting_title">อุปกรณ์มากเกินไป</string>
     <string name="micloud_confusion_setting_question">ปิดการซิงค์สำหรับอุปกรณ์อื่นๆที่ผูกกับบัญชีของคุณ</string>
@@ -401,8 +417,8 @@
     <string name="micloud_battery_low_notification_title">แบตเตอรี่ต่ำ</string>
     <string name="micloud_battery_low_notification_message">เชื่อมต่อแท่นชาร์จเพื่อซิงค์</string>
     <string name="micloud_upgrade_member">ซื้อพื้นที่จัดเก็บเพิ่ม</string>
-    <string name="micloud_notif_title_depend_wifi">%d กำลังรอซิงค์</string>
-    <string name="micloud_notif_content_depend_wifi">เชื่อมต่อ Wi-Fi เพื่อทำการซิงค์</string>
+    <string name="micloud_notif_title_depend_wifi">รายการที่กำลังรอการซิงค์: %d</string>
+    <string name="micloud_notif_content_depend_wifi">เชื่อมต่อกับ Wi-Fi เพื่อทำการซิงค์</string>
     <string name="micloud_notif_title_master_depend_wifi">ไม่สามารถซิงค์กับ Mi คลาวด์ได้</string>
     <string name="micloud_notif_content_master_depend_wifi">เชื่อมต่อกับ Wi-Fi ก่อน</string>
     <string name="micloud_notif_title_memory_low">ไม่สามารถซิงค์กับ Mi คลาวด์ได้</string>
@@ -411,15 +427,22 @@
     <string name="micloud_notif_content_battery_low">แบตเตอรี่ต่ำเกินไป</string>
     <string name="micloud_notif_title_sync_with_off">ซิงค์ด้วย Mi คลาวด์</string>
     <string name="micloud_notif_content_sync_with_off">แตะเพื่อซิงค์อุปกรณ์ของคุณตอนนี้</string>
+    <string name="micloud_notif_title_sync_progress">กำลังซิงค์</string>
+    <string name="micloud_notif_title_sync_finish">ซิงค์แล้ว</string>
+    <string name="micloud_notif_content_sync_finish">บัญชี</string>
+    <string name="micloud_notif_title_sync_not_finish">ยังมีบางรายการไม่ได้ซิงค์</string>
+    <string name="micloud_notif_content_sync_not_finish">รายละเอียด</string>
     <string name="micloud_notif_title_clipboard_push">คัดลอกรายงานไปยังคลิปบอร์ดแล้ว</string>
     <string name="micloud_notif_content_clipboard_push">คุณสามารถวางไว้ที่ใดก็ได้</string>
+    <string name="micloud_notif_title_multi_user_error">ไม่สามารถซิงค์กับ Mi คลาวด์ได้</string>
+    <string name="micloud_notif_content_multi_user_error">คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ</string>
     <string name="micloud_find_device_guide_title">"ลงชื่อเข้าสู่ระบบ %s เพื่อระบุตำแหน่งและล็อกเครื่อง
 หรือลบอุปกรณ์ของคุณ"</string>
     <string name="micloud_find_device_guide_content">เมื่อคุณสลับซิมการ์ด ข้อความจะถูกส่งโดยอัตโนมัติเพื่อเปิดใช้งานคุณลักษณะใหม่</string>
     <string name="micloud_find_device_guide_button">เปิดใช้การค้นหาอุปกรณ์</string>
     <string name="micloud_find_device_guide_progress">กำลังเปิดการค้นหาอุปกรณ์…</string>
     <string name="micloud_find_device_opened">การค้นหาอุปกรณ์เปิดใช้งาน</string>
-    <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ได้</string>
+    <string name="micloud_find_device_open_fail">ไม่สามารถปิดใช้การค้นหาอุปกรณ์ได้</string>
     <string name="micloud_find_device_opened_content">ค้นหาอุปกรณ์ของคุณใน %s</string>
     <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
@@ -429,16 +452,49 @@
     <string name="micloud_find_device_guide_fail_reopen">เปิดใช้การค้นหาอุปกรณ์ใน Mi คลาวด์</string>
     <string name="micloud_find_device_guide_fail_sub_net">กรุณาตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองใหม่</string>
     <string name="micloud_find_device_guide_fail_sub_timeout">การเชื่อมต่อหมดเวลา ลองใหม่อีกครั้ง</string>
-    <string name="micloud_find_device_guide_noti_title">เปิดใช้การค้นหาอุปกรณ์เพื่อปกป้องข้อมูลของคุณเมื่ออุปกรณ์ของคุณสูญหาย</string>
-    <string name="micloud_find_device_guide_noti_content">เปิดใช้งาน</string>
-    <string name="micloud_find_device_guide_noti_title_by_app_change_wx">เปิดใช้การค้นหาอุปกรณ์ปกป้องข้อมูลใน WeChat ของคุณ</string>
-    <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">เปิดใช้การค้นหาอุปกรณ์ปกป้องข้อมูลใน Alipay ของคุณ</string>
+    <string name="micloud_find_device_guide_noti_title">เปิดใช้การค้นหาอุปกรณ์</string>
+    <string name="micloud_find_device_guide_noti_content">ปกป้องข้อมูลของคุณแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
+    <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
+    <string name="micloud_find_device_guide_noti_content_by_app_change_wx">ข้อมูล WeChat ของคุณจะปลอดภัยแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
+    <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
+    <string name="micloud_find_device_guide_noti_content_by_app_change_zfb">ข้อมูล Alipay ของคุณจะปลอดภัยแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
+    <string name="micloud_find_device_guide_noti_title_by_app_change_qq">QQ แนะนำให้คุณเปิดใช้การค้นหาอุปกรณ์</string>
+    <string name="micloud_find_device_guide_noti_content_by_app_change_qq">ข้อมูล QQ ของคุณจะปลอดภัยแม้ว่าอุปกรณ์ของคุณจะสูญหาย</string>
     <string name="activate_finddevice">กรุณาเชื่อมต่อเครือข่ายเพื่อเปิดใช้งานอุปกรณ์</string>
     <string name="account_related">อุปกรณ์ของคุณผูกอยู่กับบัญชีอื่นอยู่ก่อนแล้ว (%s) เชื่อมต่อเครือข่ายเพื่อยืนยันอุปกรณ์</string>
-    <string name="connect_network">เชื่อมต่อ Wi-Fi หรือใส่ซิมการ์ด</string>
-    <string name="detect_sim_card">ค้นหาซิมการ์ดอีกครั้ง</string>
-    <string name="connect_wlan">เชื่อมต่อ Wi-Fi</string>
+    <string name="connect_network">เชื่อมต่อกับ Wi-Fi หรือใส่ซิมการ์ด</string>
+    <string name="trying_to_connect_to_network">กำลังเชื่อมต่อกับเครือข่าย…</string>
+    <string name="detect_sim_card">ค้นหาซิมการ์ด</string>
+    <string name="connect_wlan">เชื่อมต่อกับ Wi-Fi</string>
     <string name="soundrecorder_sync_records">ซิงค์ด้วย Mi คลาวด์</string>
     <string name="soundrecorder_sync_only_in_wifi">ซิงค์ผ่าน Wi-Fi เท่านั้น</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">ระบบจะไม่ใช้เครือข่ายข้อมูลมือถือในการรับส่งไฟล์บันทึกเสียง</string>
+    <string name="micloud_request_permission_title">Mi คลาวด์จำเป็นต้องขออนุญาต</string>
+    <string name="micloud_request_permission_content">Mi คลาวด์จำเป็นต้องขออนุญาตเพื่อซิงค์ข้อมูล อนุญาต Mi คลาวด์เพื่อเข้าถึงปฏิทิน, รายชื่อ, บัญชี Mi, สถานะซิมการ์ด, ประวัติการโทร และข้อความ</string>
+    <string name="micloud_request_permission_confirm">รับทราบ</string>
+    <string name="short_cut_desc">เพิ่มไอคอน Mi คลาวด์ไปยังหน้าจอหลัก?</string>
+    <string name="add_short_cut">เพิ่ม</string>
+    <string name="added_successfully">เพิ่มเรียบร้อย</string>
+    <string name="find_device_service_title">ค้นหาอุปกรณ์</string>
+    <string name="find_device_service_summary">เยี่ยมชม i.mi.com เพื่อระบุตำแหน่งอุปกรณ์ของคุณและล็อกจากระยะไกล</string>
+    <string name="find_device_service_summary_international">เยี่ยมชม i.mi.com เพื่อระบุตำแหน่งอุปกรณ์ของคุณและล็อกจากระยะไกล</string>
+    <string name="virtual_sim_desc">เปิดใช้งานซิม Mi เพื่อระบุตำแหน่งอุปกรณ์โดยไม่มีซิมการ์ด</string>
+    <string name="add_cloud_storage">เพิ่มที่จัดเก็บข้อมูล</string>
+    <string name="other_sync_item">รายการซิงค์อื่นๆ</string>
+    <string name="network_unconnected">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
+    <string name="cloud_storage_full">ที่จัดเก็บข้อมูลคลาวด์</string>
+    <string name="micloud_sync_off">การซิงค์กับ Mi คลาวด์ปิดใช้อยู่</string>
+    <string name="open_micloud_sync">เปิดใช้การซิงค์กับ Mi คลาวด์</string>
+    <string name="sync_item_title">กำลังซิงค์รายการ</string>
+    <string name="member_due_date">ใช้ได้ถึง %s</string>
+    <string name="due_date_format">dd/MM/yyyy</string>
+    <string name="all_sync_item_open">เปิดอยู่ทั้งหมด</string>
+    <string name="one_sync_item_close">%d ปิดอยู่</string>
+    <string name="some_sync_item_close">%d ปิดอยู่</string>
+    <string name="recommend_open_all_sync">ซิงค์รายการทั้งหมด</string>
+    <string name="passed_synced_time_sec">ซิงค์เมื่อ %d วินาทีที่ผ่านมา</string>
+    <string name="passed_synced_time_min">ซิงค์เมื่อ %d นาทีที่ผ่านมา</string>
+    <string name="passed_synced_time_hour">ซิงค์เมื่อ %1$d ชม. %2$d นาทีที่ผ่านมา</string>
+    <string name="passed_synced_time_day">ซิงค์เมื่อ %d วันที่ผ่านมา</string>
+    <string name="cloud_storage_is_full">เต็ม</string>
 </resources>
