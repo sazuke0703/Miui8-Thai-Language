@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="group_move_success_toast">
+        <item quantity="other">ย้าย %1$d รายชื่อแล้ว</item>
+    </plurals>
+    <plurals name="group_copy_success_toast">
+        <item quantity="other">คัดลอก %1$d รายชื่อแล้ว</item>
+    </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">%d รายชื่อที่มีหมายเลขโทรศัพท์</item>
     </plurals>
@@ -55,7 +61,10 @@
         <item quantity="other">%1$d เลขหมาย</item>
     </plurals>
     <plurals name="hint_search_emails">
-        <item quantity="other">%1$d อีเมลรายชื่อ</item>
+        <item quantity="other">%1$d อีเมล</item>
+    </plurals>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">พบ %1$d รายการ</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">
         <item quantity="other">%1$d รายการชื่นชอบ</item>
@@ -67,10 +76,10 @@
         <item quantity="other">"เพิ่มรายชื่อ %1$d  ราย"</item>
     </plurals>
     <plurals name="btn_delete_multi_contacts">
-        <item quantity="other">ลบ %d ผู้ติดต่อ</item>
+        <item quantity="other">ลบ %d รายชื่อ</item>
     </plurals>
     <plurals name="smart_group_member_count">
-        <item quantity="other">%d คน</item>
+        <item quantity="other">%d บุคคล</item>
     </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">นำเข้ารายชื่อ %1$d รายการ</item>
@@ -82,10 +91,10 @@
         <item quantity="other">" %1$d ถูกเลือก"</item>
     </plurals>
     <plurals name="dlg_add_blacklist">
-        <item quantity="other">บล็อก %1$d เลขหมายนี้?</item>
+        <item quantity="other">บล็อก %1$d หมายเลขโทรศัพท์?</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
-        <item quantity="other">ยกเลิกบล็อก %1$d เลขหมายนี้?</item>
+        <item quantity="other">เลิกบล็อก %1$d หมายเลขโทรศัพท์?</item>
     </plurals>
     <plurals name="voip_contacts_count">
         <item quantity="other">%1$d คน</item>
@@ -97,6 +106,6 @@
         <item quantity="other">%1$d รายชื่อ</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%d รายชื่อหรือภาพถ่ายยังไม่ได้รับการซิงค์</item>
+        <item quantity="other">%d รายชื่อหรือรูปภาพยังไม่ได้ซิงค์</item>
     </plurals>
 </resources>
