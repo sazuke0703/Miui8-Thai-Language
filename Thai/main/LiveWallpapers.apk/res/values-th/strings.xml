@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpapers">วอลเปเปอร์ภาพเคลื่อนไหวของ Android</string>
+    <string name="wallpaper_walkaround">มองทะลุ</string>
+    <string name="wallpaper_walkaround_author">Google</string>
+    <string name="wallpaper_walkaround_desc">มองผ่านโทรศัพท์ของคุณและเดินไปไหนมาไหนโดยไม่ต้องเสี่ยงกับอุบัติเหตุ</string>
+    <string name="wallpaper_clock">นาฬิกาโพลาร์</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">แสดงวันที่และเวลาเป็นแนวโค้งตามเข็มนาฬิกา: ไล่จากเดือน วัน ชั่วโมง นาที และวินาที</string>
+    <string name="clock_settings">การตั้งค่านาฬิกาโพลาร์</string>
+    <string name="show_seconds">แสดงวินาที</string>
+    <string name="variable_line_width">ปรับความกว้างของวงแหวน</string>
+    <string name="palette">ชุดสี</string>
+    <string name="palette_gray">เหล็ก</string>
+    <string name="palette_violet">เที่ยงคืน</string>
+    <string name="palette_matrix">หน้าจอสีเขียว</string>
+    <string name="palette_white_c">หมีขั้วโลก (เคลื่อนไหว)</string>
+    <string name="palette_black_c">หลุมดำ (เคลื่อนไหว)</string>
+    <string name="palette_halloween">พายฟักทอง</string>
+    <string name="palette_zenburn">สลัดผลไม้ต่างดาว</string>
+    <string name="palette_oceanic">แสงเลเซอร์สีน้ำเงิน</string>
+</resources>
