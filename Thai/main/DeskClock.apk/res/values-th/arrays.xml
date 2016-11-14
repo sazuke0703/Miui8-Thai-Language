@@ -1,9 +1,301 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="stat_volume_button_behaviors">
-        <item>ไม่</item>
-        <item>ปิดเสียงเตือนชั่วคราว</item>
-        <item>ปิดเสียง</item>
+    <string-array name="cities_names_miui">
+        <item>อาบีจาน</item>
+        <item>อักกรา</item>
+        <item>แอดดิสอาบาบา</item>
+        <item>แอลเจียร์</item>
+        <item>แบลนไทร์</item>
+        <item>บราซซาวิล</item>
+        <item>ไคโร</item>
+        <item>คาซาบลังกา</item>
+        <item>โกนากรี</item>
+        <item>ดาการ์</item>
+        <item>ดาร์เอสซาลาม</item>
+        <item>จิบูตี</item>
+        <item>ฟรีทาวน์</item>
+        <item>กาโบโรเน</item>
+        <item>ฮาราเร</item>
+        <item>โจฮันเนสเบิร์ก</item>
+        <item>กัมปาลา</item>
+        <item>คาร์ทูม</item>
+        <item>คิกาลี</item>
+        <item>กินชาซา</item>
+        <item>ลากอส</item>
+        <item>มาเซรู</item>
+        <item>โมกาดิชู</item>
+        <item>ไนโรบี</item>
+        <item>เซาตูเม</item>
+        <item>ทิมบุกตู</item>
+        <item>ตรีโปลี</item>
+        <item>ตูนิส</item>
+        <item>แองคอริจ</item>
+        <item>เมนโดซา</item>
+        <item>อารูบา</item>
+        <item>อาซุนซีออน</item>
+        <item>บาร์เบโดส</item>
+        <item>เบลีซ</item>
+        <item>โบโกตา</item>
+        <item>บัวโนสไอเรส</item>
+        <item>แคนคูน</item>
+        <item>การากัส</item>
+        <item>เคย์แมน</item>
+        <item>ชิคาโก</item>
+        <item>คอสตาริกา</item>
+        <item>คูราเซา</item>
+        <item>ดอว์สันครีก</item>
+        <item>เดนเวอร์</item>
+        <item>ดิทรอยต์</item>
+        <item>โดมินิกา</item>
+        <item>เอดมันตัน</item>
+        <item>เอลซัลวาดอร์</item>
+        <item>โฟร์ตาเลซา</item>
+        <item>แกรนด์เติร์ก</item>
+        <item>เกรเนดา</item>
+        <item>กัวเตมาลา</item>
+        <item>กายอานา</item>
+        <item>แฮลิแฟกซ์</item>
+        <item>ฮาวานา</item>
+        <item>อินเดียแนโพลิส</item>
+        <item>นอกซ์</item>
+        <item>มาเรงโก</item>
+        <item>ปีเตอร์สเบิร์ก</item>
+        <item>เทลล์ซิตี</item>
+        <item>เวอเวย์</item>
+        <item>วินเซนเนส</item>
+        <item>วินาแม็ก</item>
+        <item>คิงสตัน</item>
+        <item>Nuestra Señora de La Paz</item>
+        <item>ลิมา</item>
+        <item>ลอสแอนเจลิส</item>
+        <item>ลุยวิลล์</item>
+        <item>มานากัว</item>
+        <item>มาร์ตินีก</item>
+        <item>เมทลากาตละ</item>
+        <item>เม็กซิโกซิตี</item>
+        <item>มอนเตร์เรย์</item>
+        <item>มอนเตวิเดโอ</item>
+        <item>มอนทรีออล</item>
+        <item>แนสซอ</item>
+        <item>นิวยอร์ก</item>
+        <item>โบลาห์</item>
+        <item>เซ็นเตอร์</item>
+        <item>นิวซาเล็ม</item>
+        <item>ปานามา</item>
+        <item>ฟีนิกซ์</item>
+        <item>พอร์ตออฟสเปน</item>
+        <item>ปอร์โตแปรงซ์</item>
+        <item>เปอร์โตริโก</item>
+        <item>ซานโต โดมิงโก</item>
+        <item>เซาเปาลู</item>
+        <item>เซนต์จอห์นส์</item>
+        <item>เซนต์คิตส์</item>
+        <item>เซนต์ลูเซีย</item>
+        <item>เซนต์โทมัส</item>
+        <item>ตีฮัวนา</item>
+        <item>โตรอนโต</item>
+        <item>แวนคูเวอร์</item>
+        <item>วินนิเพก</item>
+        <item>ขั้วโลกใต้</item>
+        <item>ลองเยียร์เบียน</item>
+        <item>อัลมาตี</item>
+        <item>อัมมาน</item>
+        <item>อะนาดีร์</item>
+        <item>อาคเตา</item>
+        <item>แบกแดด</item>
+        <item>บาห์เรน</item>
+        <item>บากู</item>
+        <item>กรุงเทพ</item>
+        <item>เบรุต</item>
+        <item>กัลกัตตา</item>
+        <item>ดามัสกัส</item>
+        <item>ธากา</item>
+        <item>ดูไบ</item>
+        <item>กาซา</item>
+        <item>ฮีบรอน</item>
+        <item>โฮจิมินห์</item>
+        <item>ฮ่องกง</item>
+        <item>จาการ์ตา</item>
+        <item>เยรูซาเลม</item>
+        <item>คาบูล</item>
+        <item>การาจี</item>
+        <item>กาฐมาณฑุ</item>
+        <item>กัวลาลัมเปอร์</item>
+        <item>คูเวต</item>
+        <item>มาเก๊า</item>
+        <item>มะนิลา</item>
+        <item>มัสกัต</item>
+        <item>พนมเปญ</item>
+        <item>เปียงยาง</item>
+        <item>กาตาร์</item>
+        <item>ย่างกุ้ง</item>
+        <item>ริยาด</item>
+        <item>ไซ่ง่อน</item>
+        <item>โซล</item>
+        <item>เซี่ยงไฮ้</item>
+        <item>สิงคโปร์</item>
+        <item>ไทเป</item>
+        <item>เตหะราน</item>
+        <item>เทลอาวีฟ</item>
+        <item>โตเกียว</item>
+        <item>อูลานบาตอร์</item>
+        <item>เบอร์มิวดา</item>
+        <item>คะแนรี</item>
+        <item>เคปเวิร์ด</item>
+        <item>เรคยาวิก</item>
+        <item>สแตนลีย์</item>
+        <item>แอดิเลด</item>
+        <item>บริสเบน</item>
+        <item>แคนเบอร์รา</item>
+        <item>ดาร์วิน</item>
+        <item>เมลเบิร์น</item>
+        <item>นิวเซาท์เวลส์</item>
+        <item>เพิร์ท</item>
+        <item>ควีนส์แลนด์</item>
+        <item>ซิดนีย์</item>
+        <item>วิกตอเรีย</item>
+        <item>นิวฟันด์แลนด์</item>
+        <item>ซัสแคตเชวัน</item>
+        <item>เกาะอีสเตอร์</item>
+        <item>อัมสเตอร์ดัม</item>
+        <item>อันดอร์รา</item>
+        <item>เอเธนส์</item>
+        <item>เบลฟัสต์</item>
+        <item>เบลเกรด</item>
+        <item>เบอร์ลิน</item>
+        <item>บราติสลาวา</item>
+        <item>บรัสเซลส์</item>
+        <item>บูคาเรสต์</item>
+        <item>บูดาเปสต์</item>
+        <item>คีชีเนา</item>
+        <item>โคเปนเฮเกน</item>
+        <item>ดับลิน</item>
+        <item>ยิบรอลตาร์</item>
+        <item>เฮลซิงกิ</item>
+        <item>เกาะแมน</item>
+        <item>อิสตันบูล</item>
+        <item>ลิสบอน</item>
+        <item>ลอนดอน</item>
+        <item>ลักเซมเบิร์ก</item>
+        <item>มาดริด</item>
+        <item>มอลตา</item>
+        <item>มินสก์</item>
+        <item>โมนาโก</item>
+        <item>มอสโก</item>
+        <item>ออสโล</item>
+        <item>ปารีส</item>
+        <item>ปราก</item>
+        <item>รีกา</item>
+        <item>โรม</item>
+        <item>ซานมารีโน</item>
+        <item>ซาราเยโว</item>
+        <item>ซิมเฟโรโปล</item>
+        <item>สโกเปีย</item>
+        <item>โซเฟีย</item>
+        <item>สตอกโฮล์ม</item>
+        <item>ทาลลินน์</item>
+        <item>วาติกัน</item>
+        <item>เวียนนา</item>
+        <item>วิลนีอัส</item>
+        <item>วอร์ซอ</item>
+        <item>ซาเกร็บ</item>
+        <item>ซูริค</item>
+        <item>อันตานานาริโว</item>
+        <item>มัลดีฟส์</item>
+        <item>มอริเชียส</item>
+        <item>โอกแลนด์</item>
+        <item>ฟิจิ</item>
+        <item>กวม</item>
+        <item>โฮโนลูลู</item>
+        <item>คิริสมาส</item>
+        <item>นูเมอา</item>
+        <item>ซามัว</item>
+        <item>ตาฮิติ</item>
+        <item>แอนติกา</item>
+        <item>ออสติน</item>
+        <item>บอสตัน</item>
+        <item>แคลกะรี</item>
+        <item>โคลัมบัส</item>
+        <item>ดัลลาส</item>
+        <item>นอกซ์วิลล์</item>
+        <item>เมมฟิส</item>
+        <item>ไมอามี</item>
+        <item>มินนีแอโพลิส</item>
+        <item>ออตตาวา</item>
+        <item>ฟิลาเดลเฟีย</item>
+        <item>พอร์ตแลนด์</item>
+        <item>แซนดีเอโก</item>
+        <item>ซานฟรานซิสโก</item>
+        <item>ซอลต์เลกซิตี</item>
+        <item>แซนโฮเซ</item>
+        <item>ซานซัลวาดอร์</item>
+        <item>ซีแอตเทิล</item>
+        <item>เซนต์ลูอิส</item>
+        <item>วอชิงตัน ดี.ซี.</item>
+        <item>ฮิวสตัน</item>
+        <item>แซนแอนโทนีโอ</item>
+        <item>แจ็กสันวิลล์</item>
+        <item>บอลทิมอร์</item>
+        <item>แนชวิลล์</item>
+        <item>มิลวอกี</item>
+        <item>โอคลาโฮมาซิตี</item>
+        <item>ลาสเวกัส</item>
+        <item>แอลบูเคอร์คี</item>
+        <item>ทูซอน</item>
+        <item>แซคราเมนโต</item>
+        <item>แอตแลนตา</item>
+        <item>คลีฟแลนด์</item>
+        <item>นิวออร์ลีนส์</item>
+        <item>แทมปา</item>
+        <item>พิตต์สเบิร์ก</item>
+        <item>ซินซินแนติ</item>
+        <item>เมาน์เทนวิว</item>
+        <item>รีโน</item>
+        <item>แบล็กร็อกซิตี</item>
+        <item>โดฮา</item>
+        <item>เป่ย์จิง</item>
+        <item>มุมไบ</item>
+        <item>เดลี</item>
+        <item>โอซะกะ</item>
+        <item>ละฮอร์</item>
+        <item>ซานา</item>
+        <item>บาร์เซโลนา</item>
+        <item>มิวนิก</item>
+        <item>มิลาน</item>
+        <item>ฟรังค์ฟูร์ท</item>
+        <item>ฮานอย</item>
+        <item>อังการา</item>
+        <item>บังคาลอร์</item>
+        <item>บราซิลเลีย</item>
+        <item>เคปทาวน์</item>
+        <item>อิสลามาบัด</item>
+        <item>รีโอเดจาเนโร</item>
+        <item>แอนอาร์เบอร์</item>
+        <item>โบลเดอร์</item>
+        <item>เคมบริดจ์</item>
+        <item>เคิร์กแลนด์</item>
+        <item>แมดิสัน</item>
+        <item>กว่างโจว</item>
+        <item>ไฮเดอราบาด</item>
+        <item>เรสตัน</item>
+        <item>เบโลโอรีซอนตี</item>
+        <item>ซานติเอโก</item>
+        <item>มันโรเวีย</item>
+        <item>โคลัมโบ</item>
+        <item>ชิวาวา</item>
+        <item>คุร์เคาน์</item>
+        <item>แมนเชสเตอร์</item>
+        <item>เคียฟ</item>
+        <item>เซนต์ปีเตอร์สเบิร์ก</item>
+        <item>คราเคา</item>
+        <item>วรอตซวาฟ</item>
+        <item>ฮัมบูร์ก</item>
+        <item>โอวลุ</item>
+        <item>ไฮฟา</item>
+        <item>ซานฮวน</item>
+        <item>เตกูซิกัลปา</item>
+        <item>ปารามาริโบ</item>
+        <item>กีโต</item>
     </string-array>
     <string-array name="alarm_in_furture">
         <item>ปลุกในอีก 1 นาที</item>
@@ -35,14 +327,14 @@
         <item>ปรับแต่ง</item>
     </string-array>
     <string-array name="alarm_set">
-        <item>ตั้งเวลาปลุกในอีกไม่ถึง 1 นาทีต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %1$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %2$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %1$s และ %2$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %3$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %1$s และ %3$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %2$s และ %3$s ต่อจากนี้</item>
-        <item>ตั้งเวลาปลุกในอีก %1$s %2$s และ %3$s ต่อจากนี้</item>
+        <item>เสียงปลุกจะดังในอีก 1 นาทีหลังจากนี้</item>
+        <item>ปลุกในอีก %1$s หลังจากนี้</item>
+        <item>ปลุกในอีก %2$s หลังจากนี้</item>
+        <item>ปลุกในอีก %1$s %2$s หลังจากนี้</item>
+        <item>ปลุกในอีก %3$s หลังจากนี้</item>
+        <item>ปลุกในอีก %1$s และ %3$s หลังจากนี้</item>
+        <item>ปลุกในอีก %2$s และ %3$s หลังจากนี้</item>
+        <item>ปลุกในอีก %1$s, %2$s และ %3$s หลังจากนี้</item>
     </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 นาที</item>
@@ -53,8 +345,17 @@
         <item>25 นาที</item>
         <item>30 นาที</item>
     </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
     <string-array name="auto_silence_entries">
-        <item>ปิด</item>
+        <item>ไม่ต้อง</item>
         <item>1 นาที</item>
         <item>5 นาที</item>
         <item>10 นาที</item>
@@ -64,8 +365,13 @@
         <item>30 นาที</item>
     </string-array>
     <string-array name="volume_button_setting_entries">
-        <item>ไม่มี</item>
-        <item>ปิดเสียงเตือนชั่วคราว</item>
-        <item>ปิด</item>
+        <item>ไม่ต้องทำอะไร</item>
+        <item>เลื่อนปลุก</item>
+        <item>ยกเลิก</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>
