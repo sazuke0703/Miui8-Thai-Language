@@ -6,6 +6,14 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">ไม่สามารถแชร์ได้ เนื่องจากมีไฟล์นี้อยู่แล้ว…</string>
+    <string name="search_finddevice_pref">ค้นหาอุปกรณ์</string>
+    <string name="search_finddevice_pref_key_words">ค้นหาอุปกรณ์</string>
+    <string name="search_finddevice_pref_desc">เปิด-ปิดใช้งานค้นหาอุปกรณ์</string>
+    <string name="search_finddevice_pref_path">บัญชี Mi/Mi คลาวด์/ค้นหาอุปกรณ์</string>
+    <string name="search_cloudbackup_pref">สำรองข้อมูลคลาวด์</string>
+    <string name="search_cloudbackup_pref_key_words">สำรองข้อมูลคลาวด์</string>
+    <string name="search_cloudbackup_pref_desc">เปิด-ปิดสำรองข้อมูลคลาวด์</string>
+    <string name="search_cloudbackup_pref_path">บัญชี Mi/Mi คลาวด์/อุปกรณ์สำรองข้อมูล</string>
     <string name="app_name">Mi คลาวด์</string>
     <string name="sync_item_sms_title">ซิงค์ข้อความ</string>
     <string name="sync_item_sms_summary">ซิงค์ข้อความที่รับและส่งจากอุปกรณ์นี้</string>
@@ -215,7 +223,10 @@
     <string name="contact">รายชื่อ</string>
     <string name="sms">ข้อความ</string>
     <string name="photo">รูปภาพ</string>
+    <string name="micloud_first_login_title" />
+    <string name="micloud_first_login_summary" />
     <string name="micloud_unlogin_for_time_title">Mi คลาวด์</string>
+    <string name="micloud_unlogin_for_time_summary" />
     <string name="micloud_main_sync_stop">การซิงค์หยุดลง</string>
     <string name="micloud_main_sync_pause">พักการซิงค์ไว้</string>
     <string name="micloud_main_sync_exception">พบข้อผิดพลาดในการซิงค์</string>
@@ -232,7 +243,6 @@
     <string name="micloud_main_message_not_synced">มี %s ข้อมูลยังไม่ได้ซิงค์</string>
     <string name="micloud_main_suggest_setting">แก้ไขการตั้งค่าหรือเชื่อมต่อกับ Wi-Fi</string>
     <string name="micloud_main_sync_pending">กำลังรอซิงค์</string>
-    <string name="micloud_main_data_unsynced">รายการที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_main_detail">ดูรายละเอียด</string>
     <string name="micloud_main_network_abnormal">ไม่สามารถใช้งานเครือข่ายได้</string>
     <string name="micloud_main_sync_init">กำลังรับข้อมูล</string>
@@ -251,7 +261,6 @@
     <string name="micloud_main_clear_now">ล้าง</string>
     <string name="micloud_main_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
     <string name="micloud_main_query_error_message">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว</string>
-    <string name="micloud_main_not_sync">รายการที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_main_multi_user_error_title">Mi คลาวด์ขัดข้อง</string>
     <string name="micloud_main_multi_user_error_message">"คุณลงชื่อเข้าใช้ด้วยบัญชีเดียวกันกับพื้นที่ปกติ เพื่อป้องกันการรั่วไหลของข้อมูล Mi คลาวด์จะถูกระงับใช้ชั่วคราวหากคุณต้องการสำรองข้อมูลไฟล์:
 
@@ -268,8 +277,6 @@
     <string name="micloud_detail_not_synced">ไม่ได้ซิงค์</string>
     <string name="micloud_detail_preference_sync_items">รายการ</string>
     <string name="micloud_detail_wlan">%d รายการรอการซิงค์</string>
-    <string name="micloud_detail_wlan_contact">รูปภาพรายชื่อที่กำลังรอการซิงค์: %d</string>
-    <string name="micloud_detail_wlan_mms">MMS %d ข้อความรอการซิงค์</string>
     <string name="micloud_detail_query_error">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
     <string name="micloud_detail_query_error_title">ไม่สามารถขอรับข้อมูลความคืบหน้าการซิงค์ได้</string>
     <string name="micloud_detail_query_error_detail">ไม่สามารถยืนยันได้ว่าบริการบางอย่างได้ซิงค์เรียบร้อยแล้ว คุณสามารถติดต่อกับทางผู้พัฒนาผ่านแอปข้อเสนอแนะได้</string>
@@ -417,7 +424,6 @@
     <string name="micloud_battery_low_notification_title">แบตเตอรี่ต่ำ</string>
     <string name="micloud_battery_low_notification_message">เชื่อมต่อแท่นชาร์จเพื่อซิงค์</string>
     <string name="micloud_upgrade_member">ซื้อพื้นที่จัดเก็บเพิ่ม</string>
-    <string name="micloud_notif_title_depend_wifi">รายการที่กำลังรอการซิงค์: %d</string>
     <string name="micloud_notif_content_depend_wifi">เชื่อมต่อกับ Wi-Fi เพื่อทำการซิงค์</string>
     <string name="micloud_notif_title_master_depend_wifi">ไม่สามารถซิงค์กับ Mi คลาวด์ได้</string>
     <string name="micloud_notif_content_master_depend_wifi">เชื่อมต่อกับ Wi-Fi ก่อน</string>
@@ -482,19 +488,25 @@
     <string name="add_cloud_storage">เพิ่มที่จัดเก็บข้อมูล</string>
     <string name="other_sync_item">รายการซิงค์อื่นๆ</string>
     <string name="network_unconnected">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
-    <string name="cloud_storage_full">ที่จัดเก็บข้อมูลคลาวด์</string>
+    <string name="cloud_storage_full">พื้นที่ในคลาวด์เต็ม</string>
     <string name="micloud_sync_off">การซิงค์กับ Mi คลาวด์ปิดใช้อยู่</string>
     <string name="open_micloud_sync">เปิดใช้การซิงค์กับ Mi คลาวด์</string>
     <string name="sync_item_title">กำลังซิงค์รายการ</string>
     <string name="member_due_date">ใช้ได้ถึง %s</string>
     <string name="due_date_format">dd/MM/yyyy</string>
     <string name="all_sync_item_open">เปิดอยู่ทั้งหมด</string>
-    <string name="one_sync_item_close">%d ปิดอยู่</string>
-    <string name="some_sync_item_close">%d ปิดอยู่</string>
     <string name="recommend_open_all_sync">ซิงค์รายการทั้งหมด</string>
     <string name="passed_synced_time_sec">ซิงค์เมื่อ %d วินาทีที่ผ่านมา</string>
     <string name="passed_synced_time_min">ซิงค์เมื่อ %d นาทีที่ผ่านมา</string>
     <string name="passed_synced_time_hour">ซิงค์เมื่อ %1$d ชม. %2$d นาทีที่ผ่านมา</string>
     <string name="passed_synced_time_day">ซิงค์เมื่อ %d วันที่ผ่านมา</string>
     <string name="cloud_storage_is_full">เต็ม</string>
+    <string name="micloud_wipe_data_confirm_label">ลบข้อมูลจาก Mi คลาวด์</string>
+    <string name="micloud_wipe_data_confirm_title">ลบรายการซิงค์กับMi คลาวด์จากโทรศัพท์หลังจากคุณลงชื่อออก?</string>
+    <string name="micloud_wipe_data_retain">ออก</string>
+    <string name="micloud_wipe_data_remove">ลบออก</string>
+    <string name="wipe_data_dialog_title">ยังมีบางรายการไม่ได้ซิงค์</string>
+    <string name="wipe_data_dialog_msg">%s ไม่ได้ซิงค์และจะยังอยู่ในโทรศัพท์ของคุณ</string>
+    <string name="wipe_data_dialog_button_check_sync">ตรวจสอบหากซิงค์</string>
+    <string name="wipe_data_dialog_msg_and_on">, และรายการบางอย่าง</string>
 </resources>

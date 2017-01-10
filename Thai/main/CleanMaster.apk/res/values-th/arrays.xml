@@ -24,9 +24,9 @@
         <item>1 GB</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>แสดง</item>
-        <item>ไม่ต้องแสดง</item>
-        <item>แสดงหลังจาก</item>
+        <item>แจ้งให้ทราบเท่านั้น</item>
+        <item>ทำความสะอาดอัตโนมัติ</item>
+        <item>ล้างและแจ้งให้ทราบ</item>
     </string-array>
     <string-array name="cache_clean_menu">
         <item>ล้างไฟล์นี้</item>
@@ -61,5 +61,9 @@
         <item>ทุก 7 วัน</item>
         <item>ทุก 15 วัน</item>
         <item>ทุก 30 วัน</item>
+    </string-array>
+    <string-array name="scan_engine">
+        <item>Clean Master</item>
+        <item>Tencent</item>
     </string-array>
 </resources>

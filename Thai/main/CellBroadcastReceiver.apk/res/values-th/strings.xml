@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label">Cell Broadcasts</string>
+    <string name="app_label">การส่งข้อมูลเตือนภัยทางมือถือ</string>
     <string name="sms_cb_settings">การตั้งค่าการส่งข้อมูลเตือนภัยทางมือถือ</string>
     <string name="cell_broadcast_settings_not_available">การตั้งค่าการส่งข้อมูลเตือนภัยทางมือถือ (CB) ไม่พร้อมใช้งานสำหรับผู้ใช้รายนี้</string>
     <string name="button_dismiss">ตกลง</string>

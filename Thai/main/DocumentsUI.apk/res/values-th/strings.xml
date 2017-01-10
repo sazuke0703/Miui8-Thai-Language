@@ -15,8 +15,8 @@
     <string name="menu_delete">ลบ</string>
     <string name="menu_select_all">เลือกทั้งหมด</string>
     <string name="menu_copy">คัดลอกไปยัง…</string>
-    <string name="menu_advanced_show">แสดงที่จัดเก็บภายใน</string>
-    <string name="menu_advanced_hide">ซ่อนที่จัดเก็บภายใน</string>
+    <string name="menu_advanced_show">แสดงการ์ด SD</string>
+    <string name="menu_advanced_hide">ซ่อนการ์ด SD</string>
     <string name="menu_file_size_show">แสดงขนาดไฟล์</string>
     <string name="menu_file_size_hide">ซ่อนขนาดไฟล์</string>
     <string name="button_select">เลือก</string>

@@ -4,8 +4,8 @@
     <string name="find_device">ค้นหาอุปกรณ์</string>
     <string name="enable_find_device_success">การค้นหาอุปกรณ์เปิดใช้งาน</string>
     <string name="disable_find_device_success">การค้นหาอุปกรณ์ปิดใช้งาน</string>
-    <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้งานการค้นหาอุปกรณ์ \"%1$s</string>
-    <string name="disable_find_device_error">\"ไม่สามารถปิดใช้งานการค้นหาอุปกรณ์ \"%1$s</string>
+    <string name="enable_find_device_error">\"ไม่สามารถเปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
+    <string name="disable_find_device_error">\"ไม่สามารถปิดใช้การค้นหาอุปกรณ์ \"%1$s</string>
     <string name="find_device_error_unknown">ข้อผิดพลาดที่ไม่รู้จัก (%s)</string>
     <string name="find_device_error_password_changed">เพิ่งมีการเปลี่ยนรหัสผ่านบัญชีเร็วๆนี้</string>
     <string name="find_device_error_network">ข้อผิดพลาดเครือข่าย</string>
@@ -14,6 +14,7 @@
     <string name="find_device_error_account_unknown_error">ข้อผิดพลาดบัญชี Mi (%s)</string>
     <string name="find_device_crash">การค้นหาอุปกรณ์ถูกปิดโดยไม่คาดคิด</string>
     <string name="find_device_storage_corrupted">ค้นหาที่จัดเก็บอุปกรณ์เสียหาย อุปกรณ์ของคุณไม่ปลอดภัยในขณะนี้</string>
+    <string name="find_device_telephony_fault">ค้นหาอุปกรณ์: ความผิดพลาดทางโทรศัพท์ (%s).</string>
     <string name="time_correction_success">แก้ไขเวลาแล้ว</string>
     <string name="time_correction_failure">ไม่สามารถแก้ไขเวลาได้ %s</string>
     <string name="find_device_stop_noise">แตะปุ่มตกลงเพื่อปิดเสียง</string>

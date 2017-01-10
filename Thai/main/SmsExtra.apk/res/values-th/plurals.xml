@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">ลบการสนทนานี้？ ลบการสนทนา &lt;g id="number" example="15">%1$s&lt;/g> ที่เลือกไว้?</item>
+    </plurals>
+</resources>

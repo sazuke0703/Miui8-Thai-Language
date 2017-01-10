@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="sync_items_close">
+        <item quantity="other">%d ปิดอยู่</item>
+    </plurals>
+    <plurals name="items_unsynced">
+        <item quantity="other">รายการที่กำลังรอการซิงค์: %d</item>
+    </plurals>
+    <plurals name="items_waiting_to_sync">
+        <item quantity="other">มี %d รายการกำลังรอการซิงค์</item>
+    </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">รายชื่อผู้ติดต่อ %d รายการ</item>
     </plurals>
@@ -11,5 +20,26 @@
     </plurals>
     <plurals name="dirty_image_count">
         <item quantity="other">%d รูปภาพ</item>
+    </plurals>
+    <plurals name="dirty_callog_count">
+        <item quantity="other">%d บันทึกประวัติการเรียกเข้า</item>
+    </plurals>
+    <plurals name="dirty_wlan_count">
+        <item quantity="other">%d เครือข่าย Wi-Fi</item>
+    </plurals>
+    <plurals name="dirty_recorder_count">
+        <item quantity="other">%d การบันทึก</item>
+    </plurals>
+    <plurals name="dirty_music_count">
+        <item quantity="other">%d เพลง</item>
+    </plurals>
+    <plurals name="dirty_browser_count">
+        <item quantity="other">%d รายการเบราว์เซอร์</item>
+    </plurals>
+    <plurals name="dirty_calendar_count">
+        <item quantity="other">%d รายการปฏิทิน</item>
+    </plurals>
+    <plurals name="dirty_blocklist_count">
+        <item quantity="other">%d รายการบล็อก</item>
     </plurals>
 </resources>

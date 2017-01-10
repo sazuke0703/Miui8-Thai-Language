@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="enabled_for_pad_entries">
+        <item>ถูกปิดใช้อยู่</item>
+        <item>เปิดใช้งาน</item>
+        <item>กำลังแสดงโหมดแนวนอนชั่วคราว</item>
+    </string-array>
     <string-array name="motion_behavior_entries">
         <item>ปัด</item>
         <item>แตะ</item>

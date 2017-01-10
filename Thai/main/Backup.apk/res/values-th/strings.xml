@@ -9,7 +9,7 @@
     <string name="xiaomi_bytes_unit">%1$sB</string>
     <string name="xiaomi_kilobytes_unit">%1$sKB</string>
     <string name="xiaomi_megabytes_unit">%1$sMB</string>
-    <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเชื่อมต่อกับตัวจัดการดาวน์โหลดได้ ตรวจสอบสถานะตัวจัดการดาวน์โหลดในแอปตัวจัดการ</string>
+    <string name="xiaomi_connect_download_manager_fail">ไม่สามารถเริ่มการดาวน์โหลดได้ ตรวจสอบให้แน่ใจว่าตัวจัดการการดาวน์โหลดทำงานปกติ</string>
     <string name="app_name">สำรองข้อมูล</string>
     <string name="local_app_name">สำรองข้อมูล</string>
     <string name="local_home_title">สำรองข้อมูลไว้ในเครื่องนี้</string>
@@ -129,10 +129,10 @@
     <string name="button_finish">เสร็จสิ้น</string>
     <string name="progress_backup_hint">กำลังสำรองข้อมูล…</string>
     <string name="cancel_backup">หยุด</string>
+    <string name="cancel_restore">หยุด</string>
     <string name="restore_contact">คืนค่ารายชื่อ</string>
     <string name="restore_contact_content">การคืนค่าอาจทำให้เกิดรายชื่อซ้ำกัน</string>
     <string name="progress_restore_hint">กำลังคืนค่า…</string>
-    <string name="cancel_restore">หยุด</string>
     <string name="restore_failed">การคืนค่าล้มเหลว</string>
     <string name="local_select_sysdata">ระบบ</string>
     <string name="local_select_userapp">แอป</string>
@@ -147,7 +147,7 @@
     <string name="local_no_backup">ไม่มีข้อมูลสำรอง</string>
     <string name="auto_backup_setting">กำหนดเวลาสำรองข้อมูล</string>
     <string name="auto_backup_open">สำรองข้อมูลอัตโนมัติ</string>
-    <string name="auto_backup_only_wifi">เมื่อเชื่อมต่อ Wi-Fi เท่านั้น</string>
+    <string name="auto_backup_only_wifi">เมื่อเชื่อมต่อกับ Wi-Fi เท่านั้น</string>
     <string name="auto_backup_date">วัน</string>
     <string name="auto_backup_time">เวลา</string>
     <string name="auto_backup_choose_title">เลือกข้อมูลที่ต้องการสำรอง</string>
@@ -231,6 +231,7 @@
     <string name="state_waiting">รอสักครู่…</string>
     <string name="state_mounting">กำลังเข้าถึงพื้นที่จัดเก็บข้อมูลเราเตอร์…</string>
     <string name="abort_backup_confirm">ยังสำรองข้อมูลไม่เสร็จ ยกเลิกหรือไม่?</string>
+    <string name="abort_restore_confirm">การเรียกคืนค่ายังไม่เสร็จสิ้น ต้องการที่จะยุติ?</string>
     <string name="feature_title_call_log">ประวัติการโทร</string>
     <string name="feature_title_mms">MMS</string>
     <string name="feature_title_account">บัญชี Mi</string>
@@ -257,6 +258,8 @@
     <string name="notif_restore_complete_title">การกู้คืนเสร็จสิ้นแล้ว</string>
     <string name="notif_trans_sending_completed">ส่งบันทึกการใช้เรียบร้อยแล้ว</string>
     <string name="notif_trans_receiving_completed">รับข้อมูลเรียบร้อยแล้ว</string>
+    <string name="notif_trans_sending_failed">ส่งข้อมูลไม่สำเร็จ</string>
+    <string name="notif_trans_receiving_failed">รับข้อมูลไม่สำเร็จ</string>
     <string name="custom_progress">%d รายการ</string>
     <string name="remote_receive">รับ</string>
     <string name="click_to_view" />
@@ -314,14 +317,14 @@
     <string name="trans_scan_qr_code_tips">สแกนรหัส QR เพื่อใช้บนอุปกรณ์ใหม่</string>
     <string name="trans_show_qr_code_label">เชื่อมต่ออุปกรณ์เก่า</string>
     <string name="trans_show_qr_code_tips">สแกนรหัส QR เพื่อใช้อุปกรณ์เก่า</string>
-    <string name="trans_operate_new_phone_tips">"ไปที่การตั้งค่า > การตั้งค่าเพิ่มเติม > Mi Mover
+    <string name="trans_operate_new_phone_tips">"ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > Mi Mover
  แตะ [เครื่องนี้เป็นผู้รับ] เพื่อสร้างรหัส QR"</string>
     <string name="trans_operate_func_one">วิธีแรก</string>
     <string name="trans_operate_func_two">วิธีสอง</string>
     <string name="trans_operate_old_phone_tips1">"1. ติดตั้งแอป Mi Mover บนอุปกรณ์เก่าของคุณ
 2. เปิดแอปและแตะเริ่มต้น
 3. สแกนรหัส QR ด้วยอุปกรณ์เก่าของคุณ"</string>
-    <string name="trans_operate_old_phone_tips2">ไปที่การตั้งค่า > การตั้งค่าเพิ่มเติม > ถ่ายโอน แตะ [เครื่องนี้เป็นผู้ส่ง]</string>
+    <string name="trans_operate_old_phone_tips2">ไปที่ เมนูการตั้งค่า > การตั้งค่าเพิ่มเติม > ถ่ายโอน แตะ [เครื่องนี้เป็นผู้ส่ง]</string>
     <string name="trans_wait_trans_data">"เชื่อมต่ออุปกรณ์เก่าแล้ว
 กำลังรอการถ่ายโอน…"</string>
     <string name="trans_select_data">เลือกรายการที่จะส่ง</string>
@@ -346,6 +349,6 @@
     <string name="trans_start_failed_message">ไม่สามารถเริ่มการถ่ายโอนได้ ลองใหม่อีกครั้งหรือรีบูตอุปกรณ์</string>
     <string name="trans_connection_failed">ถอดอุปกรณ์ออกแล้ว</string>
     <string name="user_notice_title">โปรดทราบ</string>
-    <string name="user_notice_message">การใช้งานคุณลักษณะนี้จำเป็นต้องเชื่อมต่ออินเตอร์เน็ตเพื่อการทำงานที่ปกติ</string>
+    <string name="user_notice_message">การใช้งานคุณลักษณะนี้จำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อการทำงานที่ปกติ</string>
     <string name="user_notice_declaration_ignore">ไม่ต้องแสดงอีก</string>
 </resources>

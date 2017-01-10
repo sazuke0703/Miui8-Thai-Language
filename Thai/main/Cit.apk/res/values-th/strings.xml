@@ -15,7 +15,7 @@
     <string name="cit_display_check_title">การแสดงผล</string>
     <string name="cit_vibrator_check_title">ระบบสั่น</string>
     <string name="cit_wifi_address_check_title">ที่อยู่ Wi-Fi</string>
-    <string name="cit_wifi_ap_scan_check_title">ค้นหาจุดเชื่อมต่อ Wi-Fi</string>
+    <string name="cit_wifi_ap_scan_check_title">ค้นหาจุดเชื่อมต่อกับ Wi-Fi</string>
     <string name="cit_blue_tooth_address_check_title">รับที่อยู่บลูทูธ</string>
     <string name="cit_blue_tooth_scan_check_title">ค้นหาบลูทูธ</string>
     <string name="cit_accelermeter_sensor_check_title">เซ็นเซอร์วัดอัตราเร่ง</string>
@@ -31,10 +31,8 @@
     <string name="cit_audio_loopback_dualmic_earpiece_title">ทดสอบการตัดเสียงรบกวนรอบข้าง</string>
     <string name="cit_audio_lb_backmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์หลัง</string>
     <string name="cit_audio_lb_mainmic_to_earpiece_title">ทดสอบการทำงานของลำโพงไมค์หลัก</string>
-    <string name="cit_x5_audio_lb_topmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์ตัวบน</string>
     <string name="cit_audio_lb_phonecall_title">ทดสอบการจำลองการโทร</string>
     <string name="cit_audio_lb_topmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์บน</string>
-    <string name="cit_x5_audio_lb_frontmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์ตัวหน้า</string>
     <string name="cit_headset_plug_detect_title">การตรวจพบหูฟัง (มีหูฟังเสียบอยู่)</string>
     <string name="cit_headset_button_check_title">ปุ่มกดของหูฟัง</string>
     <string name="cit_headset_loopback_check_title">ทอสอบการทำงานของไมโครโฟนหูฟัง</string>
@@ -77,7 +75,7 @@
     <string name="cit_leds_check_summary">แสงพื้นหลัง ไฟสถานะ และแสงแฟลช (ด้านหลัง) ต้องตอบสนองเมื่อแตะเลือกปุ่มนั้นๆ</string>
     <string name="cit_vibrator_check_summary">กรุณาสังเกตดูว่าการสั่น(แบบยาวและแบบสั้น)ของเครื่องทำงานได้ตามปกติ</string>
     <string name="cit_wifi_address_check_summary">ข้อมูลต่อไปนี้คือที่อยู่ของเครือข่าย Wi-Fi ที่กำลังเชื่อมต่ออยู่ในขณะนี้ กรุณาตรวจสอบและยืนยันว่าข้อมูลที่เน้นด้วยสีเขียวนั้นถูกต้องหรือไม่</string>
-    <string name="cit_wifi_ap_scan_check_summary">ข้อมูลดังต่อไปนี้เป็นรายละเอียดจุดเชื่อมต่อ Wi-Fi ที่ค้นพบโดยอุปกรณ์ในขณะนี้ กรุณาตรวจสอบและยืนยันว่าข้อมูลที่เน้นด้วยสีเขียวนั้นถูกต้องหรือไม่</string>
+    <string name="cit_wifi_ap_scan_check_summary">ข้อมูลดังต่อไปนี้เป็นรายละเอียดจุดเชื่อมต่อกับ Wi-Fi ที่ค้นพบโดยอุปกรณ์ในขณะนี้ กรุณาตรวจสอบและยืนยันว่าข้อมูลที่เน้นด้วยสีเขียวนั้นถูกต้องหรือไม่</string>
     <string name="cit_blue_tooth_address_check_summary">ที่อยู่บลูทูธประจำเครื่องนี้จะต้องแสดงไว้ด้านล่างนี้</string>
     <string name="cit_blue_tooth_scan_check_summary">ข้อมูลด้านล่างต่อไปนี้เป็นข้อมูลของอุปกรณ์บลูทูธที่ค้นพบในบริเวณใกล้เคียง</string>
     <string name="cit_accelermeter_sensor_check_summary">"ลองจับเครื่องเคลื่อนที่ไปในทิศทางใดทางหนึ่งอย่างรวดเร็ว ค่าพิกัดแกน X，Y，Z จะต้องเปลี่ยนแปลงไปและแสดงไว้ด้านล่าง (เมื่อเครื่องกำลังเคลื่อนไหว: แกน X หมายถึงเคลื่อนที่ซ้าย/ขวา แกน Y หมายถึงเคลื่อนที่หน้า/หลัง ส่วนแกน Z หมายถึงการเคลื่อนที่ขึ้นและลง)
@@ -103,18 +101,12 @@
     <string name="cit_audio_lb_summary_backmic_to_speaker">"การทดสอบการทำงานของไมโครโฟนหลังไปยังลำโพง 
 
 หันโทรศัพท์ด้านหน้าจอออกจากตัวแล้วพูดใส่ไมโครโฟนด้านหลัง คุณจะต้องได้ยินเสียงของคุณเองดังออกจากลำโพงของเครื่อง"</string>
-    <string name="cit_x5_audio_lb_summary_topmic_to_speaker">"การทดสอบการทำงานของไมโครโฟนไปยังลำโพง
-
- หันโทรศัพท์ด้านหน้าจอออกจากตัวแล้วพูดใส่ไมโครโฟนตัวบน คุณจะต้องได้ยินเสียงของตัวเองดังออกจากลำโพงของเครื่อง"</string>
     <string name="cit_audio_lb_summary_phonecall">"การทดสอบการจำลองการโทร
 
 ถือโทรศัพท์เหมือนกับตอนที่คุณกำลังโทรออกแล้วพูดใส่ไมโครโฟนหลัก คุณจะต้องได้ยินเสียงของคุณเองจากหูฟังในตัวเครื่อง กรุณาทำการทดสอบนี้ในสภาพแวดล้อมที่ไม่มีเสียงรบกวน"</string>
     <string name="cit_audio_lb_summary_topmic_to_speaker">"การทดสอบการทำงานของไมโครโฟนไปยังลำโพง
 
  หันโทรศัพท์ด้านหน้าจอออกจากตัวแล้วพูดใส่ไมโครโฟนตัวบน คุณจะต้องได้ยินเสียงของตัวเองดังออกจากลำโพงของเครื่อง"</string>
-    <string name="cit_x5_audio_lb_summary_frontmic_to_speaker">"การทดสอบการทำงานจากไมโครโฟนหน้าไปยังลำโพง
-
-หันโทรศัพท์เข้าหาตัวแล้วพูดใส่บริเวณหูฟังโทรศัพท์ คุณจะต้องได้ยินเสียงของตัวเองผ่านลำโพงภายนอกของเครื่องโทรศัพท์"</string>
     <string name="cit_sd_plugin_check_summary">ข้อความ \"ตรวจพบ SD การ์ด กรุณาถอด SD การ์ดออกทันที\" ควรแสดงด้านล่าง</string>
     <string name="cit_sd_plugout_check_summary">หากระบบทำงานถูกต้อง เมื่อคุณถอด SD การ์ดออก ข้อความ \" SD การ์ดถูกถอดออก กรุณาใส่ SD การ์ดทันที\" จะต้องแสดงไว้ด้านล่างนี้.</string>
     <string name="cit_keyboard_test_summary">เมื่อคุณกดปุ่มใดก็ตาม ข้อความที่กดนั้นจะต้องเปลี่ยนเป็นสีเขียว (หมายเหตุ: ปุ่มโฮมและปุ่มเปิด-ปิดเครื่องไม่รวมอยู่ในการทดสอบ)</string>
@@ -141,7 +133,7 @@
 1.แตะที่ปุ่มปรับเทียบด้านล่างเพื่อเข้าสู่โหมดกล้องถ่ายรูป
 2.กดปุ่มย้อนหลังเพื่อออกจากโหมดกล้องถ่ายรูป
 3.ระบบจะแสดงเครื่องหมายว่าผ่านการปรับเทียบเพื่อแสดงว่ากล้องถ่ายรูปได้รับการปรับเทียบเรียบร้อยแล้ว"</string>
-    <string name="cit_camera_sdcard_error">ไม่สามารถถ่ายรูปได้เนื่องจาก SD การ์ดเต็ม</string>
+    <string name="cit_camera_sdcard_error">ไม่สามารถถ่ายภาพได้เนื่องจาก SD การ์ดเต็ม</string>
     <string name="cit_gps_check_summary">หากระบบทำงานถูกต้อง ข้อมูล GPS ที่สัมพันธ์กันกับตำแหน่งพิกัดของคุณจะต้องแสดงไว้ด้านล่างนี้</string>
     <string name="cit_fm_check_summary">ระบบจะทดสอบการทำงานของวิทยุ FM ในเครื่อง</string>
     <string name="cit_power_check_summary">ระบบจะแสดงระดับการชาร์จไฟของของแบตเตอรี่เป็นเปอร์เซนต์ด้านล่างนี้.</string>
@@ -150,6 +142,9 @@
     <string name="cit_audio_cali_playing">แตะที่ปุ่มเพื่อเริ่มปรับเทียบ</string>
     <string name="cit_audio_cali_file_existed">ไม่พบไฟล์เพลง ไม่สามารถปรับเทียบค่าได้!</string>
     <string name="cit_audio_cali_done">เสร็จสิ้นการปรับเทียบ</string>
+    <string name="cit_audio_cali_valueR">Ref_diff:</string>
+    <string name="cit_audio_cali_valueT">Temp_acc:</string>
+    <string name="cit_audio_cali_valueF0">F0:</string>
     <string name="cit_audio_cali_failed">การปรับเทียบล้มเหลว กรุณาลองใหม่!</string>
     <string name="cit_aud_spkcal">ปรับเทียบ</string>
     <string name="cit_audio_calibrating">ดำเนินการปรับเทียบอยู่...</string>
@@ -174,7 +169,7 @@
     <string name="cit_bluetooth_scanning_opening_bluetooth">กำลังเปิด Bluetooth…</string>
     <string name="cit_bluetooth_scanning_bluetooth_error">เกิดข้อผิดพลาดขณะค้นหาอุปกรณ์บลูทูธ</string>
     <string name="cit_bluetooth_address_open_error">ไม่สามารถรับที่อยู่บลูทูธ เนื่องจากเกิดข้อผิดพลาดขณะเปิดอุปกรณ์บลูทูธ</string>
-    <string name="cit_bluetooth_scanning_bluetooth_done">ค้นหาเสร็จสิ้น ไม่พบอุปกรณ์บลูทูธใดๆ บริเวณใกล้เคียง</string>
+    <string name="cit_bluetooth_scanning_bluetooth_done">ค้นหาเสร็จสิ้น ไม่พบอุปกรณ์บลูทูธใดๆบริเวณใกล้เคียง</string>
     <string name="cit_headset_plug_hint">กรุณาเสียบสายต่อหูฟัง</string>
     <string name="cit_headset_pull_hint">กรุณาถอดสายต่อหูฟัง</string>
     <string name="cit_headset_plug_finish">ตรวจพบหูฟังแล้ว</string>
@@ -278,10 +273,10 @@
     <string name="cit_battery_temp_fail">อุณหภูมิแบตเตอรี่ผิดปกติ (อุณหภูมิ=%d)</string>
     <string name="cit_calibration_pass">การปรับเทียบสำเร็จ</string>
     <string name="cit_calibration_fail">การปรับเทียบล้มเหลว</string>
-    <string name="cit_tool_log">ได้รับบันทึกการใช้งาน</string>
-    <string name="cit_tool_log_logcat">บันทึกการใช้งาน ADB</string>
+    <string name="cit_tool_log">ได้รับบันทึกการใช้</string>
+    <string name="cit_tool_log_logcat">บันทึกการใช้ ADB</string>
     <string name="cit_tool_enable_3A_log">เปิดใช้งาน 3A log Switch</string>
-    <string name="cit_tool_log_ril">บันทึกการใช้งาน RIL</string>
+    <string name="cit_tool_log_ril">บันทึกการใช้ RIL</string>
     <string name="cit_tool_log_dmesg">DMESG</string>
     <string name="cit_tool_log_modem">บันทึกการใช้โมเด็ม</string>
     <string name="cit_tool_log_kmsg">บันทึกการใช้เคอร์เนลล่าสุด</string>
@@ -333,4 +328,13 @@
     <string name="cit_tool_wifi_rxn_test_bw">แบนวิดธ์:</string>
     <string name="cit_tool_wifi_tx_n_bandwidth">แบนวิดธ์:</string>
     <string name="cit_tool_wifi_tx_st_chan">ช่องสัญญาณ:</string>
+    <string name="cit_x5_audio_lb_topmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์ตัวบน</string>
+    <string name="cit_x5_audio_lb_frontmic_to_speaker_title">ทดสอบการทำงานของลำโพงไมค์ตัวหน้า</string>
+    <string name="cit_x5_audio_lb_summary_topmic_to_speaker">"การทดสอบการทำงานของไมโครโฟนไปยังลำโพง
+
+ หันโทรศัพท์ด้านหน้าจอออกจากตัวแล้วพูดใส่ไมโครโฟนตัวบน คุณจะต้องได้ยินเสียงของตัวเองดังออกจากลำโพงของเครื่อง"</string>
+    <string name="cit_x5_audio_lb_summary_frontmic_to_speaker">"การทดสอบการทำงานจากไมโครโฟนหน้าไปยังลำโพง
+
+หันโทรศัพท์เข้าหาตัวแล้วพูดใส่บริเวณหูฟังโทรศัพท์ คุณจะต้องได้ยินเสียงของตัวเองผ่านลำโพงภายนอกของเครื่องโทรศัพท์"</string>
+    <string name="cit_audio_cali_valueC">นับจำนวน:</string>
 </resources>

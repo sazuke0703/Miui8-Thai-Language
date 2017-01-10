@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="install">ติดตั้ง</string>
+    <string name="installing">กำลังติดตั้ง…</string>
+    <string name="launch">เปิด</string>
+    <string name="carddownloading">ยกเลิก</string>
+    <string name="pass">ข้าม</string>
+    <string name="downloading">การดาวน์โหลด</string>
+    <string name="download_retry">ไม่สามารถดาวน์โหลดได้ แตะเพื่อลองอีกครั้ง</string>
+    <string name="install_retry">ไม่สามารถติดตั้งได้ แตะเพื่อลองอีกครั้ง</string>
+    <string name="installed">ติดตั้งเรียบร้อยแล้ว</string>
+    <string name="introduction">เกี่ยวกับการบริการโฆษณา</string>
+    <string name="dismiss">ฉันไม่ต้องการให้เห็นสิงนี้</string>
+    <string name="provider_title">ผู้ให้บริการโฆษณา</string>
+    <string name="dismiss_reason_title">ทำไมคุณไม่ต้องการที่จะเห็นโฆษณานี้?</string>
+    <string name="no_interest">ไม่สนใจ</string>
+    <string name="ad_too_much">ปรากฏบ่อยเกินไป</string>
+    <string name="bad_content">คุณภาพของเนื้อหาไม่ดี</string>
+    <string name="ad_service_introduction">เกี่ยวกับการบริการโฆษณา</string>
+    <string name="loading">รอสักครู่…</string>
+    <string name="feedback_information">ขอบคุณที่ส่งข้อเสนอแนะให้เราทราบ</string>
+    <string name="ERROR_FILE_ERROR">ไฟล์เกิดข้อผิดพลาด</string>
+    <string name="ERROR_UNHANDLED_HTTP_CODE">รหัส HTTP ผิดพลาด</string>
+    <string name="ERROR_HTTP_DATA_ERROR">ข้อมูล HTTP ผิดพลาด</string>
+    <string name="ERROR_TOO_MANY_REDIRECTS">ผู้รับมากเกินไป</string>
+    <string name="ERROR_INSUFFICIENT_SPACE">พื้นที่จัดเก็บไม่เพียงพอ</string>
+    <string name="ERROR_DEVICE_NOT_FOUND">ไม่สามารถค้นหาอุปกรณ์ได้</string>
+    <string name="ERROR_CANNOT_RESUME">ไม่สามารถทำงานต่อได้</string>
+    <string name="ERROR_FILE_ALREADY_EXISTS">ไฟล์นี้มีอยู่แล้ว</string>
+    <string name="PAUSED_WAITING_TO_RETRY">ถูกรบกวน ลองอีกครั้ง</string>
+    <string name="PAUSED_WAITING_FOR_NETWORK">ไม่สามารถเชื่อมต่อเครือข่ายได้</string>
+    <string name="PAUSED_QUEUED_FOR_WIFI">ไม่สามารถเชื่อมต่อ Wi-Fi ได้</string>
+    <string name="PAUSED_UNKNOWN">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+    <string name="skip_ad">ข้าม</string>
+    <string name="ad_flag_text">โฆษณา</string>
+</resources>

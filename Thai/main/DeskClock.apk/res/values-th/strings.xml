@@ -27,6 +27,8 @@
     <string name="alarm_disabled">ปิด</string>
     <string name="alarm_ascending_mode_title">ระดับเสียงเพิ่มขึ้น</string>
     <string name="alarm_ascending_mode_summary">เสียงปลุกดังขึ้นตามลำดับ</string>
+    <string name="setting_alarm_arriving_title">แจ้งเตือนก่อนที่จะมีเสียงกริ่ง</string>
+    <string name="setting_alarm_arriving_summary">ส่งการแจ้งเตือนก่อนที่จะมีเสียงกริ่ง</string>
     <string name="close_alarm">ปิดการปลุก</string>
     <string name="timer_notify_text">เลื่อนปลุกหรือหยุดการจับเวลา</string>
     <string name="upcoming_alarm">ใกล้เวลาปลุกแล้ว</string>
@@ -77,7 +79,7 @@
     <string name="birthday_alarm_summary">ใช้เพลงวันเกิดแทนเสียงการแจ้งเตือนปกติในวันคล้ายวันเกิดของคุณ</string>
     <string name="turn_off_a_repeat_alarm">ปิดการปลุกซ้ำ</string>
     <string name="skip_alarm_once_hint">ปิดครั้งเดียวเวลา %s</string>
-    <string name="skip_alarm_date_format">%1$s(%2$s)</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">ปิดการปลุกซ้ำนี้ตลอดไป</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>

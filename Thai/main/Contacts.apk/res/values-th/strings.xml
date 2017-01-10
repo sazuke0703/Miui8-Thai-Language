@@ -193,8 +193,8 @@
     <string name="clearFrequentsConfirmation_title">ล้างรายชื่อที่โทรบ่อย?</string>
     <string name="clearFrequentsConfirmation">ล้างรายการรายชื่อที่โทรบ่อยในแอปรายชื่อและโทรศัพท์และกำหนดให้แอปเมลเริ่มเรียนรู้การตั้งค่าของคุณใหม่ตั้งแต่ต้น</string>
     <string name="clearFrequentsProgress_title">ล้างรายชื่อที่โทรบ่อย…</string>
-    <string name="imei">"IMEI: "</string>
-    <string name="meid">"MEID: "</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
     <string name="voicemail">ข้อความเสียง</string>
     <string name="unknown">ไม่รู้จัก</string>
     <string name="private_num">เลขหมายส่วนตัว</string>
@@ -301,22 +301,22 @@
     <string name="description_minus_button">ลบ</string>
     <string name="description_plus_button">บวก</string>
     <string name="description_view_contact_detail">ดูรายชื่อ</string>
-    <string name="no_sdcard_message">ไม่พบอุปกรณ์จัดเก็บ</string>
+    <string name="no_sdcard_message">ไม่พบ SD การ์ด</string>
     <string name="import_from_sdcard">นำเข้าจากอุปกรณ์จัดเก็บ</string>
     <string name="export_to_sdcard">ส่งออกไปยังที่จัดเก็บข้อมูล</string>
     <string name="share_visible_contacts">แชร์รายชื่อ</string>
     <string name="import_one_vcard_string">นำเข้า 1 vCard ไฟล์</string>
     <string name="import_multiple_vcard_string">นำเข้า vCard หลายไฟล์</string>
     <string name="import_all_vcard_string">นำเข้าไฟล์ vCard ทั้งหมด</string>
-    <string name="searching_vcard_message">กำลังค้นหาข้อมูล vCard ในอุปกรณ์จัดเก็บ…</string>
-    <string name="scanning_sdcard_failed_title">ไม่สามารถสแกนอุปกรณ์จัดเก็บได้</string>
+    <string name="searching_vcard_message">กำลังค้นหาข้อมูล vCard ใน SD การ์ด…</string>
+    <string name="scanning_sdcard_failed_title">ไม่สามารถสแกน SD การ์ดได้</string>
     <string name="scanning_sdcard_failed_message">เหตุผล: \"%s\"</string>
     <string name="fail_reason_io_error">ข้อผิดพลาด I/O</string>
     <string name="fail_reason_low_memory_during_import">หน่วยความจำไม่พอ ไฟล์อาจจะใหญ่เกินไป</string>
     <string name="fail_reason_vcard_parse_error">ไม่สามารถแยก vCard ด้วยเหตุผลที่ไม่คาดคิด</string>
     <string name="fail_reason_not_supported">ไม่รองรับรูปแบบนี้</string>
     <string name="vcard_import_failed">ไม่สามารถนำเข้า vCard %s</string>
-    <string name="import_failure_no_vcard_file">ไม่พบไฟล์ vCard ในที่เก็บข้อมูล</string>
+    <string name="import_failure_no_vcard_file">ไม่พบไฟล์ vCard บน SD การ์ด</string>
     <string name="fail_reason_failed_to_collect_vcard_meta_info">ไม่สามารถรวบรวมข้อมูลเมต้าของไฟล์ vCard</string>
     <string name="fail_reason_failed_to_read_files">ไม่สามารถนำเข้าหนึ่งไฟล์หรือหลายไฟล์ได้ (%s)</string>
     <string name="fail_reason_unknown">ข้อผิดพลาดไม่รู้จัก</string>
@@ -341,7 +341,7 @@
     <string name="exporting_contact_failed_message">"ข้อมูลรายชื่อไม่ถูกส่งออก
 เหตุผล: \"%s\""</string>
     <string name="fail_reason_no_exportable_contact">ไม่มีรายชื่อที่ส่งออกได้</string>
-    <string name="fail_reason_too_many_vcard">มีไฟล์ vCard ในที่เก็บข้อมูลมากเกินไป</string>
+    <string name="fail_reason_too_many_vcard">มีไฟล์ vCard ใน SD การ์ดมากเกินไป</string>
     <string name="fail_reason_too_long_filename">ชื่อไฟล์ที่ต้องการยาวเกินไป (\"%s\")</string>
     <string name="exporting_vcard_finished_title">การส่งออก %s เสร็จสิ้นแล้ว</string>
     <string name="exporting_vcard_canceled_title">การส่งออก %s ถูกยกเลิกแล้ว</string>
@@ -713,6 +713,7 @@
     <string name="miprofile_alertdialog_message">แสดงชื่อนี้ในข้อมูลติดต่อเมื่อคุณได้รับคำขอแลกนามบัตร</string>
     <string name="miprofile_alertdialog_edit">ป้อนชื่อ</string>
     <string name="miprofile_switch_off_alertdialog_message">คุณจะไม่สามารถแลกเปลี่ยนบัตรผู้ติดต่อกับผู้ใช้คนอื่นๆได้</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">เพิ่มหมายเลขโทรศัพท์</string>
     <string name="miprofile_bind_account_alertdialog_message">คุณต้องระบุหมายเลขโทรศัพท์ของมือถือเครื่องนี้ในบัญชี Mi ก่อนจึงจะใช้บริการนี้ได้</string>
     <string name="miprofile_bind_account_alertdialog_positive">เพิ่มเลขหมาย</string>
@@ -834,7 +835,7 @@
     <string name="multi_number_menu_delete">ลบ</string>
     <string name="video_call">วิดีโอคอล</string>
     <string name="copy_number">คัดลอก</string>
-    <string name="edit_contact_card_title">แก้ไขบัตรรายชื่อ</string>
+    <string name="edit_contact_card_title">เลือกรายการที่จะแชร์</string>
     <string name="preview_contact_card_title">กำลังนำเข้ารายชื่อ…</string>
     <string name="import_contact_card_button">นำเข้ารายชื่อ</string>
     <string name="import_contact_card_aggregate_suggestion_button">ควบรวมรายชื่อ</string>
@@ -848,6 +849,8 @@
     <string name="menuMoreDescription">เพิ่มเติม</string>
     <string name="photo_fragment">รูปภาพ</string>
     <string name="photo_load_failed">โหลดรูปภาพไม่ได้</string>
+    <string name="empty_divider_title" />
+    <string name="noContactHelpTextAccountsInfo" />
     <string name="noContactHelpTextImportXiaomiAccountInfo">กู้คืนข้อมูลรายชื่อผู้ติดต่อโดยใช้บัญชี Mi</string>
     <string name="recent_contacts_label">ล่าสุด</string>
     <string name="noRecentContacts">ไม่มีรายชื่อล่าสุด</string>
@@ -879,8 +882,8 @@
     <string name="label_duplicate_count">(%1$d)</string>
     <string name="preference_import_export">นำเข้า/ส่งออก</string>
     <string name="preference_import_export_title">นำเข้า/ส่งออกรายชื่อ</string>
-    <string name="import_vcard_description">นำเข้ารายชื่อจากที่จัดเก็บในเครื่องโทรศัพท์ของคุณ</string>
-    <string name="export_vcard_description">ส่งออก vCard ไปยังที่จัดเก็บในเครื่องโทรศัพท์</string>
+    <string name="import_vcard_description">นำเข้ารายชื่อจากSD การ์ด ของคุณ</string>
+    <string name="export_vcard_description">ส่งออก vCard ไปยังSD การ์ด</string>
     <string name="import_vcard_dialog_message">นำเข้า vCard?</string>
     <string name="export_to_sim_prepare_title">กำลังเตรียม…</string>
     <string name="export_sim_contact_finish_msg">โอนแล้ว %1$d | มีซ้ำอยู่ %2$d | คงเหลือ %3$d %4$s</string>
@@ -1070,6 +1073,7 @@
     <string name="device_import_progress_end_message">การนำเข้าเสร็จสิ้น</string>
     <string name="device_import_progress_message">กำลังนำเข้า…</string>
     <string name="device_import_failed_message">การนำเข้าล้มเหลว</string>
+    <string name="hint_distance" />
     <string name="hint_more_contact">ควบรวมรายชื่อซ้ำเข้าด้วยกัน</string>
     <string name="device_import_account_dialog_title">เลือกบัญชี</string>
     <string name="device_import_account_dialog_title_suffix">"
@@ -1187,12 +1191,17 @@
     <string name="call_operator_init">เลือกผู้ให้บริการ</string>
     <string name="call_problem_report">รายงานปัญหา</string>
     <string name="call_not_found"> --</string>
-    <string name="data_charge">ซื้อข้อมูลมือถือเพิ่ม</string>
+    <string name="data_charge">ซื้อแพ็กเกจเน็ต</string>
     <string name="data_already_used">ข้อมูลที่ใช้ไป</string>
     <string name="data_left">ข้อมูลคงเหลือ</string>
     <string name="data_unit_mb">MB</string>
     <string name="data_unit_gb">GB</string>
     <string name="set_data_package">ตั้งค่าการใช้ข้อมูลก่อน</string>
+    <string name="livetalk_charge">ชาร์จ</string>
+    <string name="livetalk_switch_on">เปิดเครื่อง</string>
+    <string name="livetalk_left">คงเหลือการสนทนาสด</string>
+    <string name="livetalk_title">สนทนาสด</string>
+    <string name="live_talk_switch_on_toast">สนทนาสดกำลังเปิดอยู่</string>
     <string name="button_join_service_number">เพิ่มเลขหมายบริการ</string>
     <string name="button_my_center">โปรไฟล์</string>
     <string name="gallery">คลังภาพ</string>
@@ -1207,6 +1216,7 @@
     <string name="edit_contact_photo">แก้ไขรูปถ่ายผู้ติดต่อ</string>
     <string name="qrcode_card_title">รหัส QR</string>
     <string name="scan_qrcode_card_hint1">สแกนรหัส QR ด้านบน</string>
+    <string name="scan_qrcode_card_hint2" />
     <string name="create_qrcode_fail_message">สร้างรหัส QR ไม่ได้</string>
     <string name="phone_call_type_voip">ข้อความเสียง Mi</string>
     <string name="phone_call_type_livetalk">แพ็คเกจเติมเงิน</string>
@@ -1250,4 +1260,8 @@
     <string name="fraud_more_indemnity">เพิ่มเติม</string>
     <string name="telecom_fraud_insurance">ประกันภัยการฉ้อฉลทางโทรศัพท์</string>
     <string name="telecom_fraud_insurance_description">ประกันภัย 10,000 CNY |ข้อเสนอพิเศษเฉพาะ Xiaomi | 9.9 CNY ต่อปี</string>
+    <string name="yesterday">เมื่อวานนี้</string>
+    <string name="tomorrow">พรุ่งนี้</string>
+    <string name="low_memory_toast">คุณลักษณะนี้ไม่สามารถใช้งานได้ เนื่องจากหน่วยความจำเหลือน้อย</string>
+    <string name="yellowpage_fc_toast">ไม่สามารถใช้คุณลักษณะนี้ได้ เนื่องจากสมุดหน้าเหลืองเด้ง</string>
 </resources>

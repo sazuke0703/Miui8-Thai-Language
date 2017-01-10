@@ -32,10 +32,8 @@
         <item>AQI %1$s</item>
         <item>AQI %1$s</item>
         <item>AQI %1$s</item>
-        <item>AQI %1$s</item>
     </string-array>
     <string-array name="aqi_title_append">
-        <item>%1$s</item>
         <item>%1$s</item>
         <item>%1$s</item>
         <item>%1$s</item>
@@ -50,10 +48,9 @@
         <item>%1$s</item>
         <item>%1$s</item>
         <item>%1$s</item>
-        <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>อากาศแจ่มใส</item>
+        <item>แจ่มใส</item>
         <item>มีเมฆ</item>
         <item>มืดครึ้ม</item>
         <item>มีหมอกลง</item>
@@ -61,7 +58,7 @@
         <item>ฝนตกหนัก</item>
         <item>พายุฝน</item>
         <item>ฝนฟ้าคะนอง</item>
-        <item>ฝนซู่</item>
+        <item>ฝนตก</item>
         <item>ฝนตกหนัก</item>
         <item>ฝนปานกลาง</item>
         <item>ฝนเล็กน้อย</item>
@@ -96,13 +93,13 @@
     </string-array>
     <string-array name="wind_direction">
         <item>เหนือ</item>
-        <item>ตะวันออกเฉียงเหนือ</item>
+        <item>ออก/เหนือ</item>
         <item>ตะวันออก</item>
-        <item>ตะวันออกเฉียงใต้</item>
+        <item>ออก/ใต้</item>
         <item>ใต้</item>
-        <item>ตะวันตกเฉียงใต้</item>
+        <item>ตก/ใต้</item>
         <item>ตะวันตก</item>
-        <item>ตะวันตกเฉียงเหนือ</item>
+        <item>ตก/เหนือ</item>
     </string-array>
     <string-array name="wind_power">
         <item>%s</item>
@@ -118,5 +115,13 @@
         <item>%s</item>
         <item>%s</item>
         <item>%s</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>ดีมาก</item>
+        <item>ดีพอใช้</item>
+        <item>มลพิษปานกลาง</item>
+        <item>มลพิษหนัก</item>
+        <item>มลพิษหนักมาก</item>
+        <item>มลพิษรุนแรง</item>
     </string-array>
 </resources>

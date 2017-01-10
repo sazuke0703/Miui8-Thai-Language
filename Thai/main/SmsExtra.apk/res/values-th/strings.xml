@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="activity_not_found">ไม่พบแอปที่จัดการการดำเนินการนี้</string>
+    <string name="copy_message_text_success">คัดลอกเรียบร้อยแล้ว</string>
+    <string name="back_to_message_list">กลับไปยังรายการข้อความ</string>
+    <string name="menu_forward">ส่งต่อ</string>
+    <string name="menu_lock">ชอบ</string>
+    <string name="menu_unlock">ไม่ชอบ</string>
+    <string name="copy_message_text">คัดลอก</string>
+    <string name="delete_message">ลบ</string>
+    <string name="view_message_details">ดูรายละเอียด</string>
+    <string name="message_details_title">รายละเอียดข้อความ</string>
+    <string name="message_type_label">"ประเภท: "</string>
+    <string name="text_message">ข้อความ</string>
+    <string name="received_label">"ได้รับ: "</string>
+    <string name="from_label">"จาก: "</string>
+    <string name="sent_label">"ส่ง: "</string>
+    <string name="sms_card_partner_label">"พันธมิตรข้อความ SMS: "</string>
+    <string name="sms_card_teddy_mobile">เท็ดดี้มือถือ</string>
+    <string name="confirm_dialog_title">ลบ?</string>
+    <string name="confirm_dialog_locked_title">ลบข้อความที่ล็อก?</string>
+    <string name="confirm_delete_conversation">ลบข้อความต่อเนื่องทั้งหมด?</string>
+    <string name="confirm_delete_all_conversations">ลบการสนทนาทั้งหมด?</string>
+    <string name="confirm_delete_group_message">ลบข้อความกลุ่ม?</string>
+    <string name="confirm_delete_message">ลบข้อความนี้？</string>
+    <string name="confirm_delete_locked_message">ลบข้อความที่ล็อกนี้？</string>
+    <string name="delete">ลบ</string>
+    <string name="repayment_title">การชำระหนี้</string>
+    <string name="repayment_way">รูปแบบการชำระคืน</string>
+    <string name="repayment_network_error">มีสิ่งที่ผิดพลาดกับเครือข่ายของคุณ</string>
+    <string name="smart_messages_network_allow_title">การเชื่อมต่ออินเตอร์เน็ตเป็นสิ่งจำเป็น</string>
+    <string name="smart_messages_network_allow_message">ข้อความ Mi จำเป็นต้องเชื่อมต่อกับอินเทอร์เน็ตเพื่อให้บริการทำงานได้ตามปกติ อนุญาตตอนนี้?</string>
+</resources>

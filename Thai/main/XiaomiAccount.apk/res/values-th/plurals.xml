@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="dirty_contacts_count">
-        <item quantity="other">รายชื่อ %d รายการ</item>
-    </plurals>
-    <plurals name="dirty_mms_count">
-        <item quantity="other">%d ข้อความ</item>
-    </plurals>
-    <plurals name="dirty_note_count">
-        <item quantity="other">บันทึก %d รายการ</item>
-    </plurals>
     <plurals name="updated_contacts">
         <item quantity="other">อัพเดทแล้ว %s รายชื่อ</item>
+    </plurals>
+    <plurals name="view_all_devices">
+        <item quantity="other">แสดง %d อุปกรณ์ทั้งหมด</item>
+    </plurals>
+    <plurals name="view_all_apps">
+        <item quantity="other">แสดง %d แอปทั้งหมด</item>
+    </plurals>
+    <plurals name="view_all_browsers">
+        <item quantity="other">แสดง %d เบราว์เซอร์ทั้งหมด</item>
     </plurals>
 </resources>
