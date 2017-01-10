@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="status_bar_style_entries">
+        <item>หน้าเดียว</item>
+        <item>แยกหน้า</item>
+    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>กำลังสแกน...</item>
@@ -27,10 +31,6 @@
         <item>ไม่สำเร็จ</item>
         <item>ถูกบล็อก</item>
         <item>หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว</item>
-    </string-array>		
-    <string-array name="status_bar_style_entries">
-        <item>รวม</item>
-        <item>แยก</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>อเมริกา</item>
@@ -88,6 +88,17 @@
         <item>เร็วมาก</item>
         <item>เร็วที่สุด</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="tts_pitch_entries">
         <item>ต่ำมาก</item>
         <item>ต่ำ</item>
@@ -95,12 +106,34 @@
         <item>สูง</item>
         <item>สูงมาก</item>
     </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+        <item>@string/wifi_security_eap</item>
+    </string-array>
+    <string-array name="wifi_security_no_eap">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wep</item>
+        <item>@string/wifi_security_psk_generic</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>@string/wifi_security_none</item>
+        <item>@string/wifi_security_wpa2</item>
+    </string-array>
     <string-array name="wifi_eap_method">
         <item>PEAP</item>
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
-        <item>SIM</item>
+        <item>ซิม</item>
         <item>AKA</item>
         <item>"AKA'"</item>
     </string-array>
@@ -109,6 +142,13 @@
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_full">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_only">
+        <item>@string/wifi_ap_choose_2G</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>ปุ่มกด</item>
@@ -144,6 +184,11 @@
         <item>เมื่อเสียบปลั๊กเท่านั้น</item>
         <item>ไม่เลย</item>
     </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
     <string-array name="data_usage_data_range">
         <item>30 วันที่ผ่านมา</item>
         <item>ตั้งรอบการใช้...</item>
@@ -152,6 +197,11 @@
         <item>อัตโนมัติ</item>
         <item>5 GHz เท่านั้น</item>
         <item>2.4 GHz เท่านั้น</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>เวลาในการใช้งาน</item>
@@ -538,9 +588,27 @@
         <item>ชมพู</item>
         <item>แดง</item>
     </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>@string/usb_use_charging_only</item>
+        <item>MTP (ถ่ายโอนสื่อ)</item>
+        <item>PTP (ภาพถ่ายโอนโพรโทคอล)</item>
+        <item>RNDIS (USB อีเทอร์เน็ต)</item>
+        <item>แหล่งกำเนิดเสียง</item>
+        <item>MIDI</item>
+    </string-array>
     <string-array name="wifi_calling_mode_choices">
         <item>ต้องการใช้ Wi-Fi</item>
         <item>ต้องการใช้เครือข่ายมือถือ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="haptic_feedback_level_texts">
+        <item>ปิด</item>
+        <item>เบา</item>
+        <item>ปานกลาง</item>
+        <item>ดัง</item>
     </string-array>
     <string-array name="media_feedback_level_entries">
         <item>ดัง</item>
@@ -592,11 +660,26 @@
         <item>แสดงรายการแอปล่าสุด</item>
         <item>แสดงเมนู</item>
     </string-array>
+    <string-array name="screen_key_long_press_action">
+        <item>ไม่มี</item>
+        <item>แสดงแอปล่าสุด</item>
+        <item>เปิดใช้งานผู้ช่วย</item>
+        <item>เปิดใช้งาน Google ทันที</item>
+        <item>ปิดแอปปัจจุบัน</item>
+        <item>เปิดใช้การค้นหาด่วน</item>
+        <item>แสดงเมนู</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5 วินาที</item>
         <item>1 วินาที</item>
         <item>1.5 วินาที</item>
         <item>2 วินาที</item>
+    </string-array>
+    <string-array name="long_press_volume_down_action">
+        <item>ไม่ตั้ง</item>
+        <item>โหมดถ่ายเร็วแบบเร่งด่วน (รูปภาพ)</item>
+        <item>โหมดถ่ายเร็วแบบเร่งด่วน (วิดีโอ)</item>
+        <item>ทางลัดการใช้บัตรขนส่งสาธารณะ</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 วินาที</item>
@@ -642,6 +725,14 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>@string/msd_install_retry_connect</item>
         <item>ติดตั้ง MiPhoneManager อีกครั้ง</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_linux">
         <item>ติดตั้งเครื่องมือ: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
         <item>สร้างโฟลเดอร์นี้: mkdir/media/mtp</item>
@@ -657,7 +748,7 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>เย็น</item>
     </string-array>
     <string-array name="screen_saturation_title">
-        <item>สดใส</item>
+        <item>จัดจ้าน</item>
         <item>มาตรฐาน</item>
     </string-array>
     <string-array name="screen_optimize_title">
@@ -707,7 +798,7 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>คลังภาพ</item>
         <item>เพลง</item>
         <item>อีเมล</item>
-        <item>วิดีโอ</item>
+        <item>เล่นวิดีโอ</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>เครือข่ายช้าเนื่องจากมีการใช้งานมากเกินไป</item>
@@ -719,17 +810,27 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>ที่เก็บข้อมูลภายนอก</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
-        <item>ช้ามาก</item>
-        <item>ช้า</item>
-        <item>ปกติ</item>
-        <item>เร็ว</item>
-        <item>เร็วมาก</item>
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
     </string-array>
     <string-array name="whetstone_level_entries">
         <item>ปิด</item>
         <item>ต่ำ</item>
         <item>ปานกลาง</item>
         <item>สูง</item>
+    </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="agps_network_entries">
         <item>เครือข่ายหลัก</item>
@@ -739,9 +840,18 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>MSB</item>
         <item>MSA</item>
     </string-array>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="agps_reset_type_entries">
         <item>ร้อน</item>
@@ -753,13 +863,17 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>4.0 นิ้ว</item>
         <item>3.5 นิ้ว</item>
     </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+    </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>ทันที</item>
+        <item>30 วินาที</item>
         <item>1 นาที</item>
         <item>2 นาที</item>
         <item>5 นาที</item>
-        <item>15 นาที</item>
-        <item>30 นาที</item>
     </string-array>
     <string-array name="fluency_mode_entries">
         <item>ไม่ใช้ภาพเคลื่อนไหวระบบ</item>
@@ -784,6 +898,15 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>XL</item>
         <item>XXL</item>
         <item>XXXL</item>
+    </string-array>
+    <string-array name="max_number_titles">
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>ไม่จำกัด</item>
     </string-array>
     <string-array name="organized_locales">
         <item>dz</item>
@@ -835,10 +958,27 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
     </string-array>
     <string-array name="common_password_business_names">
         <item>หน้าจอล็อก</item>
+        <item>รหัสผ่านความเป็นส่วนตัว</item>
         <item>โหมดสำหรับเด็ก</item>
         <item>ตัวจัดการไฟล์</item>
-        <item>การล็อกแอป</item>
-        <item>Second space</item>
+        <item>ล็อกแอป</item>
+        <item>พื้นที่ทับซ้อน</item>
+    </string-array>
+    <string-array name="anr_record_interval_entries">
+        <item>10 วินาที</item>
+        <item>20 วินาที</item>
+        <item>30 วินาที</item>
+        <item>1 นาที</item>
+    </string-array>
+    <string-array name="anr_record_interval_values">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="screen_button_style">
+        <item>สไตล์มือซ้าย</item>
+        <item>สไตล์มือขวา</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>ทุกวัน</item>
@@ -850,14 +990,11 @@ MI 2 จะปรากฎเป็นที่เก็บข้อมูลอ
         <item>วันธรรมดา</item>
         <item>กำหนดเอง</item>
     </string-array>
-    <string-array name="haptic_feedback_level_entries">
-        <item>ดัง</item>
-        <item>ปานกลาง</item>
-        <item>เบา</item>
-    </string-array>
-    <string-array name="miracast_policies">
-        <item>เร็ว(ไม่หน่วง)</item>
-        <item>มาตรฐาน</item>
-        <item>คุณภาพดี</item>
+    <string-array name="privacy_password_function_specfication_names">
+        <item>ข้อความ</item>
+        <item>รูปภาพ</item>
+        <item>ไฟล์</item>
+        <item>บันทึก</item>
+        <item>โหมดสำหรับเด็ก</item>
     </string-array>
 </resources>
