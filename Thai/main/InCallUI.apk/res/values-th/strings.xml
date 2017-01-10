@@ -35,6 +35,7 @@
     <string name="incall_error_supp_service_conference">ไม่สามารถใช้ประชุมสายได้</string>
     <string name="incall_error_supp_service_reject">ไม่สามารถปฏิเสธสายได้</string>
     <string name="incall_error_supp_service_hangup">ไม่สามารถวางสายได้</string>
+    <string name="incall_error_supp_service_hold">ไม่สามารถพักสายได้</string>
     <string name="onscreen_add_call_text">เพื่มการโทร</string>
     <string name="onscreen_audio_mode_bluetooth">บลูทูธ</string>
     <string name="onscreen_audio_mode_conference">ประชุมสาย</string>
@@ -49,7 +50,6 @@
     <string name="onscreen_mute_text">ปิดไมค์</string>
     <string name="onscreen_swap_calls_text">สลับ</string>
     <string name="onscreen_note_calls_text">บันทึกย่อ</string>
-    <string name="call_record_button_label">กำลังบันทึก %s</string>
     <string name="call_record_wait_label">กำลังรอ</string>
     <string name="contacts_icon_label">รายชื่อ</string>
     <string name="conference_call_number">%s คน</string>
@@ -85,6 +85,8 @@
     <string name="notification_action_answer_voice">เสียงพูด</string>
     <string name="notification_action_dismiss">ไม่รับสาย</string>
     <string name="notification_action_end_call">วางสาย</string>
+    <string name="notification_action_speaker">ลำโพง</string>
+    <string name="notification_action_earpiece">หูฟัง</string>
     <string name="notification_requesting_video_call">ขอเชื่อมต่อสัญญาณภาพ</string>
     <string name="add_vm_number_str">เพิ่มเลขหมาย</string>
     <string name="no_vm_number">ไม่พบเลขหมายบริการฝากข้อความเสียงในระบบ</string>
@@ -140,7 +142,7 @@
     <string name="antispam_local_marked">การปักหมุดในเครื่อง</string>
     <string name="antispam_provider">ระบุโดย %s</string>
     <string name="antispam_notification_title">เลขหมายที่ไม่รู้จัก</string>
-    <string name="suspect_info">Be careful with your personal info.</string>
+    <string name="suspect_info">โปรดระวังข้อมูลส่วนตัวของคุณ</string>
     <string name="fraud_call_answer">รับสาย</string>
     <string name="fraud_call_decline">ตัดสาย</string>
     <string name="fraud_call_waring">ข้อควรระวัง: กรุณาตรวจสอบตัวตนที่มีอยู่จริงของผู้ติดต่อทางโทรศัพท์หรือทางวิดีโอก่อนการตอบหรือให้ข้อมูลส่วนตัวทุกครั้ง</string>
@@ -216,6 +218,7 @@
     <string name="alert_dialog_no">ไม่ใช่</string>
     <string name="alert_dialog_dismiss">ปิด</string>
     <string name="contactPhoto">รูปภาพผู้ติดต่อ</string>
+    <string name="call_record_button_label">กำลังบันทึก %s</string>
     <string name="call_self">โทรหาเลขหมายตนเองไม่ได้</string>
     <string name="dial_with_gsm_phone">โทรตามปกติ</string>
     <string name="purchase_now">ซื้อแพ็คเกจเพิ่ม</string>

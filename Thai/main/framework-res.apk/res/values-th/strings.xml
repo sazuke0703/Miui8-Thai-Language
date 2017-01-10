@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="high_definition_tag">%s</string>
     <string name="cancel">ยกเลิก</string>
     <string name="copy">คัดลอก</string>
     <string name="copyUrl">คัดลอก URL</string>
@@ -187,11 +188,14 @@
     <string name="shutdown_confirm_question">คุณต้องการปิดการทำงานหรือไม่</string>
     <string name="reboot_safemode_title">รีบูตเข้าสู่โหมดปลอดภัย</string>
     <string name="reboot_safemode_confirm">คุณต้องการรีบูตเข้าสู่โหมดปลอดภัยหรือไม่ การดำเนินการนี้จะปิดใช้งานแอปพลิเคชันของบุคคลที่สามทั้งหมดที่คุณได้ติดตั้งไว้ โดยจะคืนค่าเมื่อคุณรีบูตอีกครั้ง</string>
+    <string name="reboot_title">รีบูต</string>
+    <string name="reboot_confirm">โทรศัพท์ของคุณจะรีบูต</string>
     <string name="recent_tasks_title">เมื่อเร็วๆ นี้</string>
     <string name="no_recent_tasks">ไม่มีแอปพลิเคชันล่าสุด</string>
     <string name="global_actions">ตัวเลือกโทรศัพท์</string>
     <string name="global_action_lock">ล็อกหน้าจอ</string>
     <string name="global_action_power_off">ปิดเครื่อง</string>
+    <string name="global_action_reboot">รีบูต</string>
     <string name="global_action_bug_report">รายงานข้อบกพร่อง</string>
     <string name="bugreport_title">ใช้รายงานข้อบกพร่อง</string>
     <string name="bugreport_message">การดำเนินการนี้จะรวบรวมข้อมูลเกี่ยวกับสถานะปัจจุบันของอุปกรณ์ของคุณ โดยจะส่งไปในรูปแบบข้อความอีเมล อาจใช้เวลาสักครู่ตั้งแต่เริ่มการสร้างรายงานข้อบกพร่องจนกระทั่งเสร็จสมบูรณ์ โปรดอดทนรอ</string>
@@ -381,10 +385,10 @@
     <string name="permdesc_writeSyncSettings">อนุญาตให้แอปพลิเคชันเปลี่ยนแปลงการตั้งค่าการซิงค์ของบัญชี ตัวอย่างเช่น สามารถใช้การอนุญาตเปิดใช้งานการซิงค์แอปพลิเคชัน People กับบัญชี</string>
     <string name="permlab_readSyncStats">อ่านสถิติการซิงค์</string>
     <string name="permdesc_readSyncStats">อนุญาตให้แอปพลิเคชันอ่านสถานะการซิงค์ของบัญชี ซึ่งรวมถึงประวัติกิจกรรมการซิงค์และปริมาณข้อมูลที่ซิงค์</string>
-    <string name="permlab_sdcardRead">อ่านเนื้อหาในที่จัดเก็บ USB</string>
-    <string name="permdesc_sdcardRead">อนุญาตให้แอปอ่านเนื้อหาในที่จัดเก็บข้อมูล USB</string>
-    <string name="permlab_sdcardWrite">แก้ไขหรือลบเนื้อหาใน USB</string>
-    <string name="permdesc_sdcardWrite">อนุญาตให้แอปเขียนลงใน USB</string>
+    <string name="permlab_sdcardRead">อ่านเนื้อหาในการ์ด SD ของคุณ</string>
+    <string name="permdesc_sdcardRead">อนุญาตให้แอปอ่านเนื้อหาในการ์ด SD</string>
+    <string name="permlab_sdcardWrite">แก้ไขหรือลบเนื้อหาในการ์ด SD ของคุณ</string>
+    <string name="permdesc_sdcardWrite">อนุญาตให้แอปพลิเคชันเขียนลงบนการ์ด SD</string>
     <string name="permlab_use_sip">โทร/รับสาย SIP</string>
     <string name="permdesc_use_sip">อนุญาตให้แอปโทรและรับสาย SIP</string>
     <string name="permlab_register_sim_subscription">ลงทะเบียนการเชื่อมต่อซิมโทรคมนาคมใหม่</string>
@@ -529,7 +533,7 @@
     <string name="keyguard_password_enter_puk_code">พิมพ์ PUK และรหัส PIN ใหม่</string>
     <string name="keyguard_password_enter_puk_prompt">รหัส PUK</string>
     <string name="keyguard_password_enter_pin_prompt">รหัส PIN ใหม่</string>
-    <string name="keyguard_password_entry_touch_hint"><font size="17">แตะเพื่อพิมพ์รหัสผ่าน</font></string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">\"แตะเพื่อพิมพ์รหัสผ่าน\"</font></string>
     <string name="keyguard_password_enter_password_code">พิมพ์รหัสผ่านเพื่อปลดล็อก</string>
     <string name="keyguard_password_enter_pin_password_code">พิมพ์ PIN เพื่อปลดล็อก</string>
     <string name="keyguard_password_wrong_pin_code">รหัส PIN ไม่ถูกต้อง</string>
@@ -589,8 +593,8 @@
     <string name="lockscreen_glogin_password_hint">รหัสผ่าน</string>
     <string name="lockscreen_glogin_submit_button">ลงชื่อเข้าใช้</string>
     <string name="lockscreen_glogin_invalid_input">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
-    <string name="lockscreen_glogin_account_recovery_hint">"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
-โปรดไปที่ "<b>google.com/accounts/recovery</b></string>
+    <string name="lockscreen_glogin_account_recovery_hint">"\"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
+โปรดไปที่ \""<b>google.com/accounts/recovery</b></string>
     <string name="lockscreen_glogin_checking_password">กำลังตรวจสอบ…</string>
     <string name="lockscreen_unlock_label">ปลดล็อก</string>
     <string name="lockscreen_sound_on_label">เปิดเสียง</string>
@@ -647,10 +651,25 @@
     <string name="double_tap_toast">เคล็ดลับ: แตะสองครั้งเพื่อขยายและย่อ</string>
     <string name="autofill_this_form">ป้อนอัตโนมัติ</string>
     <string name="setup_autofill">ค่าป้อนอัตโนมัติ</string>
-    <string name="autofill_address_name_separator">" "</string>
+    <string name="autofill_address_name_separator" />
     <string name="autofill_address_summary_name_format">$1$2$3</string>
-    <string name="autofill_address_summary_separator">", "</string>
+    <string name="autofill_address_summary_separator">,</string>
     <string name="autofill_address_summary_format">$1$2$3</string>
+    <string name="autofill_attention_ignored_re">ความสนใจ | ติดต่อ</string>
+    <string name="autofill_address_type_same_as_re">เช่นเดียวกับ</string>
+    <string name="autofill_address_type_use_my_re">ใช้ของฉัน</string>
+    <string name="autofill_billing_designator_re">บิล</string>
+    <string name="autofill_shipping_designator_re">ขนส่ง</string>
+    <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
+    <string name="autofill_area_code_re">area.*code|acode|area</string>
+    <string name="autofill_phone_suffix_re">คำเสริมท้าย</string>
+    <string name="autofill_name_on_card_contextual_re">ชื่อ</string>
+    <string name="autofill_card_cvc_re">ตรวจสอบ | บัตรประจำตัว | cvn | รหัสความปลอดภัย | รหัส cvv กรุนด์ฟอส cvc</string>
+    <string name="autofill_card_ignored_re">^ การ์ด</string>
+    <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
+    <string name="autofill_area_code_notext_re">^\\($</string>
+    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
+    <string name="autofill_phone_suffix_separator_re">^-$</string>
     <string name="autofill_province">จังหวัด</string>
     <string name="autofill_postal_code">รหัสไปรษณีย์</string>
     <string name="autofill_state">รัฐ</string>
@@ -710,7 +729,7 @@
     <string name="week">สัปดาห์</string>
     <string name="weeks">สัปดาห์</string>
     <string name="year">ปี</string>
-    <string name="years">" ปี"</string>
+    <string name="years">ปี</string>
     <string name="relative_time">%1$s, %2$s</string>
     <string name="noon">เที่ยง</string>
     <string name="Noon">เที่ยง</string>
@@ -809,7 +828,7 @@
     <string name="volume_icon_description_bluetooth">บลูทูธ</string>
     <string name="volume_icon_description_ringer">เสียงเรียกเข้า</string>
     <string name="volume_icon_description_incall">โทร</string>
-    <string name="volume_icon_description_media">สื่อ</string>
+    <string name="volume_icon_description_media">สื่อมีเดีย</string>
     <string name="volume_icon_description_notification">การแจ้งเตือน</string>
     <string name="ringtone_default">เสียงเรียกเข้าเริ่มต้น</string>
     <string name="ringtone_default_with_actual">เสียงเรียกเข้าเริ่มต้น (%1$s)</string>
@@ -818,10 +837,11 @@
     <string name="ringtone_unknown">ไม่ทราบเสียงเรียกเข้า</string>
     <string name="wifi_available_sign_in">ลงชื่อเข้าใช้เครือข่าย WiFi</string>
     <string name="network_available_sign_in">ลงชื่อเข้าใช้เครือข่าย</string>
+    <string name="network_available_sign_in_detailed">%1$s</string>
     <string name="wifi_no_internet">Wi-Fi ไม่สามารถเข้าถึงอินเทอร์เน็ต</string>
     <string name="wifi_no_internet_detailed">แตะเพื่อดูตัวเลือก</string>
     <string name="wifi_watchdog_network_disabled">ไม่สามารถเชื่อมต่อ WiFi</string>
-    <string name="wifi_watchdog_network_disabled_detailed">" มีสัญญาณอินเทอร์เน็ตไม่ดี"</string>
+    <string name="wifi_watchdog_network_disabled_detailed">มีสัญญาณอินเทอร์เน็ตไม่ดี</string>
     <string name="wifi_connect_alert_title">อนุญาตการเชื่อมต่อใช่ไหม</string>
     <string name="wifi_connect_alert_message">แอปพลิเคชัน %1$s ต้องการเชื่อมต่อเครือข่าย Wi-Fi %2$s</string>
     <string name="wifi_connect_default_application">แอปพลิเคชัน</string>
@@ -845,7 +865,7 @@
     <string name="sms_control_yes">อนุญาต</string>
     <string name="sms_control_no">ปฏิเสธ</string>
     <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b> ต้องการส่งข้อความไปยัง &lt;b>%2$s&lt;/b></string>
-    <string name="sms_short_code_details"><b>อาจมีการเรียกเก็บเงิน</b>จากบัญชีมือถือของคุณ</string>
+    <string name="sms_short_code_details"><b>อาจมีการเรียกเก็บเงิน</b>\"จากบัญชีมือถือของคุณ\"</string>
     <string name="sms_premium_short_code_details"><b>จะมีการเรียกเก็บเงินจากบัญชีมือถือของคุณ</b></string>
     <string name="sms_short_code_confirm_allow">ส่ง</string>
     <string name="sms_short_code_confirm_deny">ยกเลิก</string>
@@ -863,21 +883,21 @@
     <string name="date_picker_dialog_title">ตั้งวันที่</string>
     <string name="date_time_set">ตั้งค่า</string>
     <string name="date_time_done">เสร็จสิ้น</string>
-    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff33b5e5">ใหม่: </font></string>
+    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff33b5e5">\"ใหม่: \"</font></string>
     <string name="perms_description_app">โดย %1$s</string>
     <string name="no_permissions">ไม่ต้องการการอนุญาต</string>
     <string name="perm_costs_money">รายการนี้อาจมีการเรียกเก็บเงิน</string>
     <string name="usb_storage_activity_title">ที่จัดเก็บข้อมูลจำนวนมากแบบ USB</string>
     <string name="usb_storage_title">เชื่อมต่อ USB แล้ว</string>
-    <string name="usb_storage_message">คุณได้เชื่อมต่อกับคอมพิวเตอร์ผ่าน USB แล้ว แตะปุ่มด้านล่างหากคุณต้องการคัดลอกไฟล์ระหว่างคอมพิวเตอร์กับที่จัดเก็บข้อมูล USB ของ Android</string>
+    <string name="usb_storage_message">คุณได้เชื่อมต่อกับคอมพิวเตอร์ผ่าน USB แล้ว แตะปุ่มด้านล่างหากต้องการคัดลอกไฟล์ระหว่างคอมพิวเตอร์กับการ์ด SD ของ Android</string>
     <string name="usb_storage_button_mount">เปิดที่เก็บข้อมูล USB</string>
-    <string name="usb_storage_error_message">เกิดปัญหาในการใช้ที่จัดเก็บข้อมูล USB ของคุณเพื่อเก็บข้อมูลจำนวนมากแบบ USB</string>
+    <string name="usb_storage_error_message">เกิดปัญหาในการใช้การ์ด SD เพื่อเก็บข้อมูลจำนวนมากแบบ USB</string>
     <string name="usb_storage_notification_title">เชื่อมต่อ USB แล้ว</string>
     <string name="usb_storage_notification_message">แตะเพื่อคัดลอกไฟล์ไปยัง/จากคอมพิวเตอร์ของคุณ</string>
     <string name="usb_storage_stop_notification_title">ปิดที่เก็บข้อมูล USB</string>
     <string name="usb_storage_stop_notification_message">แตะเพื่อปิดที่จัดเก็บข้อมูล USB</string>
     <string name="usb_storage_stop_title">ใช้การจัดเก็บใน USB</string>
-    <string name="usb_storage_stop_message">ก่อนปิดที่จัดเก็บข้อมูล USB ให้ยกเลิกการต่อเชื่อม (“ลบ”) ที่จัดเก็บข้อมูล USB ของ Android จากคอมพิวเตอร์แล้ว</string>
+    <string name="usb_storage_stop_message">ก่อนปิดที่จัดเก็บข้อมูล USB ให้ยกเลิกการต่อเชื่อม (\"ลบ\") การ์ด SD ของ Android จากคอมพิวเตอร์</string>
     <string name="usb_storage_stop_button_mount">ปิดที่เก็บข้อมูล USB</string>
     <string name="usb_storage_stop_error_message">เกิดปัญหาในการปิดที่จัดเก็บข้อมูล USB ตรวจสอบให้แน่ใจว่าคุณได้ยกเลิกการต่อเชื่อมโฮสต์ USB แล้ว จากนั้นลองใหม่อีกครั้ง</string>
     <string name="dlg_confirm_kill_storage_users_title">เปิดที่เก็บข้อมูล USB</string>
@@ -892,14 +912,15 @@
     <string name="usb_notification_message">แตะเพื่อดูตัวเลือกเพิ่มเติม</string>
     <string name="adb_active_notification_title">เชื่อมต่อการแก้ไขข้อบกพร่อง USB แล้ว</string>
     <string name="adb_active_notification_message">แตะเพื่อปิดใช้งานการแก้ไขข้อบกพร่อง USB</string>
+    <string name="locale_replacement" />
     <string name="select_input_method">เปลี่ยนแป้นพิมพ์</string>
     <string name="configure_input_methods">เลือกแป้นพิมพ์</string>
     <string name="show_ime">แสดงวิธีการป้อนข้อมูล</string>
     <string name="hardware">ฮาร์ดแวร์</string>
     <string name="select_keyboard_layout_notification_title">เลือกรูปแบบแป้นพิมพ์</string>
     <string name="select_keyboard_layout_notification_message">แตะเพื่อเลือกรูปแบบแป้นพิมพ์</string>
-    <string name="fast_scroll_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
-    <string name="fast_scroll_numeric_alphabet">" กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"</string>
+    <string name="fast_scroll_alphabet">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</string>
+    <string name="fast_scroll_numeric_alphabet">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ</string>
     <string name="candidates_style"><u>ตัวเลือก</u></string>
     <string name="ext_media_checking_notification_title">กำลังเตรียม %s</string>
     <string name="ext_media_checking_notification_message">กำลังตรวจหาข้อผิดพลาด</string>
@@ -974,6 +995,7 @@
     <string name="chooser_wallpaper">เปลี่ยนวอลเปเปอร์</string>
     <string name="notification_listener_binding_label">ตัวฟังการแจ้งเตือน</string>
     <string name="condition_provider_service_binding_label">ผู้เสนอเงื่อนไข</string>
+    <string name="alternate_eri_file">/data/eri.xml</string>
     <string name="vpn_title">VPN เปิดใช้งานแล้ว</string>
     <string name="vpn_title_long">เปิดใช้งาน VPN โดย %s</string>
     <string name="vpn_text">แตะเพื่อจัดการเครือข่าย</string>
@@ -990,13 +1012,16 @@
     <string name="car_mode_disable_notification_message">แตะเพื่อออกจากโหมดรถยนต์</string>
     <string name="tethered_notification_title">การปล่อยสัญญาณหรือฮอตสปอตทำงานอยู่</string>
     <string name="tethered_notification_message">แตะเพื่อตั้งค่า</string>
+    <string name="tethered_notification_no_device_message">ไม่มีอุปกรณ์เชื่อมต่อ</string>
+    <string name="tethered_notification_one_device_message">%1$s เชื่อมต่ออุปกรณ์แล้ว</string>
+    <string name="tethered_notification_multi_device_message">%1$s เชื่อมต่ออุปกรณ์แล้ว</string>
     <string name="back_button_label">กลับ</string>
     <string name="next_button_label">ถัดไป</string>
     <string name="skip_button_label">ข้าม</string>
     <string name="no_matches">ไม่พบรายการที่ตรงกัน</string>
     <string name="find_on_page">ค้นหาบนหน้า</string>
     <string name="action_mode_done">เสร็จสิ้น</string>
-    <string name="progress_erasing">กำลังลบที่จัดเก็บข้อมูล USB...</string>
+    <string name="progress_erasing">กำลังลบการ์ด SD...</string>
     <string name="share">แชร์</string>
     <string name="find">ค้นหา</string>
     <string name="websearch">ค้นเว็บ</string>
@@ -1144,8 +1169,8 @@
     <string name="kg_login_password_hint">รหัสผ่าน</string>
     <string name="kg_login_submit_button">ลงชื่อเข้าใช้</string>
     <string name="kg_login_invalid_input">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
-    <string name="kg_login_account_recovery_hint">"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
-โปรดไปที่ "<b>google.com/accounts/recovery</b></string>
+    <string name="kg_login_account_recovery_hint">"\"หากลืมชื่อผู้ใช้หรือรหัสผ่าน
+โปรดไปที่ \""<b>google.com/accounts/recovery</b></string>
     <string name="kg_login_checking_password">กำลังตรวจสอบบัญชี…</string>
     <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"คุณพิมพ์ PIN ไม่ถูกต้องไป %d ครั้งแล้ว 
 
@@ -1287,6 +1312,12 @@
     <string name="select_year">เลือกปี</string>
     <string name="deleted_key">ลบ %1$s แล้ว</string>
     <string name="managed_profile_label_badge">%1$sที่ทำงาน</string>
+    <string name="time_placeholder">--</string>
+    <string name="radial_numbers_typeface">sans Serif</string>
+    <string name="sans_serif">sans Serif</string>
+    <string name="date_picker_month_typeface">sans serif ขนาดกลาง</string>
+    <string name="date_picker_day_of_week_typeface">sans serif ขนาดกลาง</string>
+    <string name="date_picker_day_typeface">sans serif ขนาดกลาง</string>
     <string name="lock_to_app_toast">กรุณาแตะปุ่มเปิด/ปิดและปุ่มโฮมค้างไว้พร้อมกันเพื่อยกเลิกการตรึงหน้าจอเดี่ยวไว้เต็มจอ</string>
     <string name="lock_to_app_toast_accessible">กรุณาแตะปุ่มเปิด/ปิดและปุ่มโฮมค้างไว้พร้อมกันเพื่อยกเลิกการตรึงหน้าจอเดี่ยวไว้เต็มจอ</string>
     <string name="lock_to_app_toast_locked">มีการตรึงแอป: ไม่อนุญาตให้เลิกตรึงบนอุปกรณ์นี้</string>
@@ -1327,6 +1358,10 @@
     <string name="usb_midi_peripheral_product_name">อุปกรณ์สำหรับต่อพอร์ต USB</string>
     <string name="floating_toolbar_open_overflow_description">ตัวเลือกเพิ่มเติม</string>
     <string name="floating_toolbar_close_overflow_description">ปิดรายการเพิ่มเติม</string>
+    <string name="notification_inbox_ellipsis">…</string>
+    <string name="China_Mobile">China Mobile</string>
+    <string name="China_Unicom">China Unicom</string>
+    <string name="China_Telecom">China Telecom</string>
     <string name="lock_to_app_description">"การใช้งานหน้าจอเดี่ยวจะแสดงผลโดยตรึงหน้าจอนั้นไว้เต็มจอ
 
 กรุณาแตะปุ่มเปิด/ปิดและปุ่มโฮมค้างไว้พร้อมกันเพื่อยกเลิกการตรึงหน้าจอเดี่ยวไว้เต็มจอ"</string>

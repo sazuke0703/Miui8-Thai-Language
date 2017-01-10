@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">โปรแกรมดู HTML</string>
+    <string name="loading">กำลังโหลด…</string>
+    <string name="app_name_which_call">แอปพลิเคชัน:%s</string>
+    <string name="app_version_which_call">แอปพลิเคชัน เวอร์ชั่น:%s</string>
+    <string name="policy_name">นโยบาย:%s</string>
+    <string name="mibi_license">เงื่อนไขการใช้บริการ Mi เครดิต</string>
+    <string name="license_host_unreachable">"ไม่สามารถเชื่อมต่อกับเครือข่าย แสดงข้อมูลนี้ตอนนี้ 
+ ไปยัง %s"</string>
+    <string name="permdesc_accessDrm">อนุญาตให้แอพลิเคชันเพื่อเข้าถึงเนื้อหาที่ถูกป้องกัน DRM</string>
+    <string name="open_wifi_connect_title">เชื่อมต่อกับ %1$s</string>
+    <string name="open_wifi_connect_summary">แตะเพื่อดูรายละเอียด</string>
+    <string name="settings_license_activity_title">สัญญาอนุญาตสำหรับโอเพนซอร์ส</string>
+    <string name="settings_license_activity_loading">กำลังโหลด…</string>
+    <string name="settings_license_activity_unavailable">พบปัญหาในการโหลดสัญญาอนุญาต</string>
+    <string name="settings_safetylegal_title">ข้อมูลความปลอดภัย</string>
+    <string name="settings_safetylegal_activity_title">ข้อมูลความปลอดภัย</string>
+    <string name="settings_safetylegal_activity_unreachable">คุณไม่มีการเชื่อมต่อข้อมูล หากต้องการดูข้อมูลนี้ในขณะนี้ ให้ไปที่ %s จากคอมพิวเตอร์เครื่องใดก็ได้ที่เชื่อมต่อกับอินเทอร์เน็ต</string>
+    <string name="settings_safetylegal_activity_loading">กำลังโหลด…</string>
 </resources>
