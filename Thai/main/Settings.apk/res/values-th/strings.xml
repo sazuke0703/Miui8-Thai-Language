@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="launcher_title">หน้าจอหลัก</string>
+    <string name="defalut_launcher_title">ตัวเรียกใช้ค่าเริ่มต้น</string>
+    <string name="miui_screen_config_title">การตั้งค่าหน้าจอหลัก</string>
+    <string name="launcher_auto_fill_empty_title">เติมเซลล์ที่ว่างเปล่า</string>
+    <string name="lock_screen_cells_title">ล็อคการจัดวางหน้าจอหลัก</string>
+    <string name="screen_cells_config_title">การจัดวางหน้าจอหลัก</string>
+    <string name="open_personal_assistant_title">เปิดผู้ช่วยที่ชาญฉลาด</string>
+    <string name="open_personal_assistant_dialog_title">ปิดผู้ช่วยที่ชาญฉลาด</string>
+    <string name="open_personal_assistant_dialog_desc">"คุณจะไม่สามารถใช้ผู้ช่วยที่ชาญฉลาดและรับการอัพเดตของมัน. ปิดตอนนี้?"</string>
+    <string name="open_personal_assistant_dialog_btn_cancel">ยกเลิก</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">ปิด</string>
     <string name="wifi_fail_to_scan">ไม่สามารถสแกนหาเครือข่าย</string>
     <string name="wifi_security_none">ไม่มี</string>
     <string name="wifi_remembered">บันทึกแล้ว</string>
