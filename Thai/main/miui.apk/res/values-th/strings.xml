@@ -23,6 +23,7 @@
     <string name="action_mode_deselect_all">ไม่เลือก</string>
     <string name="select_all">เลือกทั้งหมด</string>
     <string name="deselect_all">ไม่เลือก</string>
+    <string name="instruction">วิธีใช้</string>
     <string name="abc_action_bar_up_description">ขึ้นบน</string>
     <string name="abc_action_bar_home_description">ไปหน้าหลัก</string>
     <string name="time_picker_label_hour">ชั่วโมง</string>
@@ -30,13 +31,13 @@
     <string name="yesterday">เมื่อวาน</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>
-    <string name="midnight">เที่ยงคืน</string>
-    <string name="early_morning">ตอนเช้า</string>
-    <string name="morning">ก่อนเที่ยง</string>
-    <string name="noon">เที่ยง</string>
-    <string name="afternoon">บ่าย</string>
-    <string name="evening">เย็น</string>
-    <string name="night">กลางคืน</string>
+    <string name="midnight">AM</string>
+    <string name="early_morning">AM</string>
+    <string name="morning">AM</string>
+    <string name="noon">PM</string>
+    <string name="afternoon">PM</string>
+    <string name="evening">PM</string>
+    <string name="night">PM</string>
     <string name="size_byte">B</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
@@ -127,7 +128,7 @@
     <string name="chinese_day_22">22</string>
     <string name="chinese_day_23">23</string>
     <string name="chinese_day_24">24</string>
-    <string name="chinese_day_25">25</string>
+    <string name="chinese_day_25">廿五</string>
     <string name="chinese_day_26">26</string>
     <string name="chinese_day_27">27</string>
     <string name="chinese_day_28">28</string>
@@ -247,7 +248,7 @@
     <string name="email">อีเมล</string>
     <string name="organization">องค์กร</string>
     <string name="im">IM</string>
-    <string name="sip_phone">โทรศัพท์ SIP</string>
+    <string name="sip_phone">โทรศัพท์โทรผ่านเน็ต (SIP)</string>
     <string name="birthday">วันเกิด</string>
     <string name="website">เว็บไซต์</string>
     <string name="address">ที่อยู่</string>
@@ -312,7 +313,7 @@
     <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
     <string name="fmt_date_numeric_day">d</string>
     <string name="fmt_date_numeric_month">M</string>
-    <string name="fmt_date_numeric_month_day">M-d</string>
+    <string name="fmt_date_numeric_month_day">d-M</string>
     <string name="fmt_date_numeric_year">yyyy</string>
     <string name="fmt_date_numeric_year_month">M-yyyy</string>
     <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
@@ -581,4 +582,5 @@
     <string name="no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
     <string name="webview_reload">ลองอีกครั้ง</string>
     <string name="hybrid_provider">ให้บริการโดย %1$s</string>
+    <string name="xiaomi_mobile">มือถือ Mi</string>
 </resources>

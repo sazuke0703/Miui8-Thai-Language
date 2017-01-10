@@ -33,7 +33,6 @@
     <string name="phone_locked_string">โทรศัพท์ถูกล็อก</string>
     <string name="phone_locked_timeout_seconds_string">ลองอีกครั้งใน %s วินาที</string>
     <string name="phone_locked_timeout_minutes_string">ลองอีกครั้งใน %s นาที</string>
-    <string name="input_password_hint_text">ป้อนรหัสผ่าน</string>
     <string name="unlock_sim_string">ปลดล็อกซิมการ์ด</string>
     <string name="lockscreen_glogin_submit_button">เข้าสู่ระบบ</string>
     <string name="lockscreen_access_pattern_start">เริ่มต้นใส่รูปแบบ</string>
@@ -47,20 +46,31 @@
     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">คุณได้ใส่รหัสปลดล็อกผิดพลาดเป็นจำนวน %d ครั้งแล้ว หากคุณป้อนรหัสปลดล็อกผิดอีก %d ครั้ง โทรศัพท์ของคุณจะถูกลบข้อมูลผู้ใช้ทั้งหมดและเรียกคืนค่าโรงงานแทนที่ทั้งหมด</string>
     <string name="lockscreen_failed_attempts_now_wiping">คุณปลดล็อกเครื่องโทรศัพท์ผิดพลาดเป็นจำนวน %d ครั้งแล้ว ระบบจะดำเนินการเรียกคืนค่าโรงงานของโทรศัพท์เครื่องนี้</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">ปลดล็อกโดยใช้อุปกรณ์บลูทูธ</string>
-    <string name="missed_call_text">%d สายที่ไม่ได้รับ</string>
+    <string name="missed_call_text">%d สายไม่ได้รับ</string>
     <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
     <string name="keyguard_torch_cover_text">กดปุ่มเปิด-ปิดเครื่องหากต้องการเปิดไฟฉายค้างไว้</string>
     <string name="confirm_pin_msg">ป้อนรหัสพินอีกครั้ง</string>
     <string name="invalid_confirm_pin_hint">รหัส PIN ที่ป้อนไม่ตรงกัน</string>
     <string name="unlock_string">ปลดล็อก</string>
-    <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิดกล้อง</string>
-    <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิดรีโมท Mi</string>
+    <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิด %s</string>
+    <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิด %s</string>
+    <string name="left_action_default_hint_text">รีโมท Mi</string>
     <string name="click_to_enter_text" />
     <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
     <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>
-    <string name="fingerprint_not_identified_msg">ป้อนรหัสผ่านของคุณเพื่อปลดล็อคอุปกรณ์</string>
+    <string name="fingerprint_not_identified_msg">ป้อนรหัสผ่านของคุณเพื่อปลดล็อกอุปกรณ์</string>
+    <string name="fingerprint_add_title">เพิ่มลายนิ้วมือ</string>
+    <string name="fingerprint_add_text">อัพเดทอินเตอร์เฟซของลายนิ้วมือแล้ว เพิ่มลายนิ้วมือของคุณอีกครั้ง</string>
     <string name="invalid_sim_pin_hint">รหัส PIN ต้องมีความยาวระหว่าง 4 ถึง 8 หลัก</string>
     <string name="invalid_sim_puk_hint">รหัส PUK ต้องประกอบด้วยตัวเลขอย่างน้อย 8 หลัก</string>
+    <string name="input_password_hint_text">ป้อนรหัสผ่าน</string>
+    <string name="input_pattern_hint_text">วาดรูปแบบของคุณเพื่อปลดล็อก:</string>
     <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
     <string name="fingerprint_lockout_msg">รอสักครู่แล้วลองปลดล็อกด้วยลายนิ้วมือของคุณอีกครั้ง</string>
+    <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
+    <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
+    <string name="lock_wallpaper_enter">ป้อน</string>
+    <string name="custom_lock_wallpaper_enter">เข้าไป</string>
+    <string name="fingerprint_enter_second_psw_title">ป้อนรหัสผ่านส่วนที่ 2</string>
+    <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสผ่านส่วนที่ 2 หลังจากรีบูตอุปกรณ์เพื่อใช้การอ่านลายนิ้วมือ</string>
 </resources>

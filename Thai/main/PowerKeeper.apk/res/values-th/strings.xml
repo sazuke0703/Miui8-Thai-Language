@@ -53,14 +53,14 @@
     <string name="power_dialog_new_event_fail">ไม่สามารถเพิ่มเหตุการณ์ใหม่ได้อีก</string>
     <string name="power_optimize_activity_profile_file_error">ข้อผิดพลาดของโหมดประหยัดแบต</string>
     <string name="foreground_change">แอปกำลังทำงานในเบื้องหน้าตามปกติ</string>
-    <string name="screen_on">เปิดใช้หน้าจอ</string>
-    <string name="screen_off">ปิดหน้าจอ</string>
-    <string name="screen_off_10_min">ปิดหน้าจอ 10 นาทีขึ้นไป</string>
+    <string name="screen_on">หน้าจอเปิดใช้อยู่</string>
+    <string name="screen_off">หน้าจอปิดใช้อยู่</string>
+    <string name="screen_off_10_min">หน้าจอปิดใช้นานเกินกว่า 10 นาที</string>
     <string name="full_screen_enter">แสดงเต็มจอ</string>
     <string name="full_screen_exit">ออกจากภาพเต็มจอ</string>
     <string name="background">แอปกำลังใช้งานอยู่บนพื้นหลัง</string>
     <string name="set_brightness">ความสว่างหน้าจอสูงสุด</string>
-    <string name="set_cpufreq_max">ความถี่ของ CPU สูงสุด</string>
+    <string name="set_cpufreq_max">ความถี่สูงสุดของ CPU</string>
     <string name="set_lcd_mode">โหมดใช้หน้าจอ</string>
     <string name="set_cpu_powermode">การใช้งาน CPU</string>
     <string name="none">ไม่มีกระบวนการใด</string>
@@ -77,7 +77,7 @@
     <string name="power_config_app_launch_title">เบื้องหน้า</string>
     <string name="power_config_app_background_title">พื้นหลัง</string>
     <string name="power_config_app_full_screen_title">เต็มหน้าจอ</string>
-    <string name="power_config_phone_charging_title">ชาร์จแบต</string>
+    <string name="power_config_phone_charging_title">กำลังชาร์จ</string>
     <string name="power_config_phone_idle_title">ไม่มีการใช้งาน</string>
     <string name="power_config_cpu_mode_title">โหมด CPU</string>
     <string name="power_config_cpu_freq_title">ความถี่ของ CPU</string>
@@ -106,7 +106,7 @@
     <string name="add_user_define_title">เพิ่มโหมด</string>
     <string name="add_user_define_group_failed">เพิ่มโหมดใหม่ไม่ได้</string>
     <string name="mode_settings">การตั้งค่า</string>
-    <string name="hide_mode_desc">ขณะที่แอปทำงานอยู่บนพื้นหลัง ระบบจะตรวจดูการทำงานของแอปเป็นครั้งคราวเพื่อลดความสิ้นเปลืองแบต การใช้งานคุณสมบัตินี้อาจส่งผลต่อแอปในด้านการเชื่อมต่อ การระบุตำแหน่งพิกัด สัญญาณ การจับเวลา เป็นต้น แม้การตั้งค่านี้อาจใช้งานได้กับแอปเกือบทั้งหมด แต่อาจส่งผลให้บางแอปทำงานผิดพลาดได้ขณะที่อยู่บนพื้นหลัง ซึ่งคุณจะต้องแก้ไขการตั้งค่านี้ให้เหมาะสมกับแอปนั้นๆ</string>
+    <string name="hide_mode_desc">เมื่อแอปทำงานในพื้นหลัง การทำงานจะได้รับการควบคุมเพื่อลดการใช้แบตเตอรี่</string>
     <string name="hide_mode_ultimate_desc">โหมดประหยัดสูงสุดเปิดใช้งาน แอปบนพื้นหลังจะถูกแช่แข็ง ปิดตัวประหยัดแบตเตอรี่เพื่อออกจากโหมดประหยัดสูงสุด</string>
     <string name="power_hide_mode_title">จัดการการใช้แบตเตอรี่ของแอป</string>
     <string name="power_hide_mode_summary">ประหยัดแบตด้วยการจำกัดการทำงานของแต่ละแอป รวมถึงการใช้งาน Wi-Fi เครือข่ายข้อมูลมือถือและจีพีเอส</string>
@@ -117,9 +117,7 @@
     <string name="power_config_mode_title">โหมดประหยัดพลังงาน</string>
     <string name="power_config_disable_title">ปิด</string>
     <string name="power_config_disable_description">MIUI จะไม่จำกัดการทำงานของข้อมูลพื้นหลัง</string>
-    <string name="power_config_normal_title">มาตรฐาน</string>
-    <string name="power_config_normal_description">การเข้าถึงเครือข่ายและการระบุตำแหน่งพิกัดของข้อมูลพื้นหลังจะถูกจำกัดไว้</string>
-    <string name="power_config_enhance_title">ขั้นสูง</string>
+    <string name="power_config_enhance_title">เปิด</string>
     <string name="power_config_enhance_description">MIUI จะจำกัดการทำงานของข้อมูลพื้นหลังทั้งหมดหากเป็นไปได้</string>
     <string name="power_config_ultimate_title">ขั้นสูงสุด</string>
     <string name="power_config_ultimate_description">MIUI จะหยุดการทำงานของแอปที่ทำงานบนพื้นหลัง</string>
@@ -145,7 +143,7 @@
     <string name="config_no_restrict_description">ตัวประหยัดแบตเตอรี่ไม่จำกัดการทำงานของแอป</string>
     <string name="config_restrict_function_description">บางคุณลักษณะ (เช่น การแจ้งเตือนแบบพุช) อาจได้รับผลกระทบ แต่แอปจะไปถูกปิด</string>
     <string name="config_restrict_running_description">แอปจะถูกปิดเพื่อประหยัดหลังงาน</string>
-    <string name="power_checker_title">ตรวจการใช้พลังงาน</string>
+    <string name="power_checker_title">ตรวจสอบการใช้พลังงาน</string>
     <string name="power_checker_running_group_title">กำลังทำงาน</string>
     <string name="power_checker_recent_group_title">เมื่อเร็วๆนี้</string>
     <string name="power_checker_running_btn_title">ปิดโปรแกรม</string>
@@ -154,5 +152,6 @@
     <string name="fragment_tab_title_sys">แอประบบ</string>
     <string name="ragment_sys_listempty">ไม่พบแอประบบ</string>
     <string name="fragment_nonesys_listempty">ไม่พบแอปที่ติดตั้ง</string>
-    <string name="app_invisible_title">ซ่อนแอป</string>
+    <string name="app_invisible_title">แอปซ่อน</string>
+    <string name="google_base_app_install_choice">\"%s\" จำเป็นต้องใช้แอป Google Service Framework เพื่อให้ทำงานได้ตามปกติ ดาวน์โหลดและติดตั้งหรือไม่?</string>
 </resources>

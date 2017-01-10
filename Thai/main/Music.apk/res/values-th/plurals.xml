@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="download_finished">
+        <item quantity="other">ดาวน์โหลดแล้ว &amp;lt;font color=\"red\">%d เพลง&amp;lt;/font></item>
+    </plurals>
+    <plurals name="download_running">
+        <item quantity="other">กำลังดาวน์โหลด &amp;lt;font color=\"red\">%d เพลง&amp;lt;/font></item>
+    </plurals>
     <plurals name="Ntracks_search_result">
         <item quantity="other">ค้นพบ %d เพลง</item>
-    </plurals>
-    <plurals name="Nalert_msg_vip_songs_for_download_upgrade">
-        <item quantity="other">\"คุณสามารถดาวน์โหลดเพลงระดับพรีเมี่ยมได้ %d เพลงในเดือนนี้ อัพเกรดแพ็คเพลงพรีเมี่ยมของคุณเพื่อดาวน์โหลดเพิ่มเติม\"</item>
-    </plurals>
-    <plurals name="Nalert_msg_vip_songs_for_download_limited">
-        <item quantity="other">\"คุณสามารถดาวน์โหลดเพลงระดับพรีเมี่ยมได้ %d เพลงในเดือนนี้ คุณต้องการดาวน์โหลดเพลงนี้หรือไม่?</item>
     </plurals>
     <plurals name="Nexpired_remind">
         <item quantity="other">เหลืออีก %d วัน</item>
@@ -45,9 +45,6 @@
     <plurals name="Ntracks_remove_from_playlist">
         <item quantity="other">นำเพลง %d เพลงออกจากรายการเพลงแล้ว\"</item>
     </plurals>
-    <plurals name="artist_list_fragment_item_count_format">
-        <item quantity="other">%d เพลง</item>
-    </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">ปิดเครื่องเล่นในอีก %d นาที</item>
     </plurals>
@@ -65,5 +62,11 @@
     </plurals>
     <plurals name="song_already_favorite">
         <item quantity="other">ใส่เพลงนี้เป็นเพลงโปรดแล้ว</item>
+    </plurals>
+    <plurals name="comment_count">
+        <item quantity="other">%d ความคิดเห็น</item>
+    </plurals>
+    <plurals name="reader_count">
+        <item quantity="other">%d ผู้ติดตาม</item>
     </plurals>
 </resources>

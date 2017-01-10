@@ -5,5 +5,6 @@
     <string name="svi_enable_title">เปิดใช้งานการแสดงผล SVI</string>
     <string name="svi_enable_summary_on">ปรับปรุงการมองตามสภาพโดยรอบ</string>
     <string name="svi_enable_summary_off">ประสบการณ์การมองจะไม่ได้รับการปรับปรุงตามสภาพโดยรอบ</string>
+    <string name="svi_info_default">ไม่ทราบ</string>
     <string name="svi_version_title">เวอร์ชัน SVI</string>
 </resources>

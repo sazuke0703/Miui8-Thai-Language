@@ -59,8 +59,8 @@
         <item>เมื่อเร็วๆนี้</item>
     </string-array>
     <string-array name="power_checker_running_group_titles">
-        <item>การบล็อกโหมดพักจอเชิงลึก</item>
-        <item>การบล็อกโหมดพักจอ</item>
+        <item>การบล็อกโหมดพักหน้าจอเชิงลึก</item>
+        <item>การบล็อกโหมดพักหน้าจอ</item>
         <item>กำลังค้นหา Wi-Fi</item>
         <item>การใช้ GPS</item>
         <item>การใช้ CPU</item>
@@ -73,5 +73,10 @@
         <item>GPS</item>
         <item>CPU</item>
         <item>Wake Up</item>
+    </string-array>
+    <string-array name="power_checker_group_suffix">
+        <item></item>
+        <item></item>
+        <item></item>
     </string-array>
 </resources>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="ignore_faces_alert_msg">
-        <item quantity="other">ไม่แสดงบุคคลเหล่านี้?</item>
+    <plurals name="face_count">
+        <item quantity="other">รวมทั้งหมด %d รูป</item>
     </plurals>
-    <plurals name="more_face">
-        <item quantity="other">%1$s รูปจาก %2$s >></item>
+    <plurals name="remind_face_recommend_confirm_text">
+        <item quantity="other">รวมทั้งหมด %d รูป</item>
     </plurals>
     <plurals name="age_year">
         <item quantity="other">%d ปี</item>
@@ -22,7 +22,37 @@
         <item quantity="other">รูปภาพ %1$d รูปของ%2$s ได้ทำการเพิ่มแล้ว</item>
     </plurals>
     <plurals name="album_already_share_user_count">
-        <item quantity="other">แชร์ไปแล้ว %d คน</item>
+        <item quantity="other">แชร์ให้ %d คนแล้ว</item>
+    </plurals>
+    <plurals name="picker_all_image_need_download">
+        <item quantity="other">รูปภาพที่เลือกไว้ไม่ได้อยู่บนอุปกรณ์ ดาวน์โหลดผ่านข้อมูลมือถือหรือไม่?</item>
+    </plurals>
+    <plurals name="picker_all_origin_need_download">
+        <item quantity="other">รูปภาพที่เลือกไว้ (%dMB) ไม่ได้อยู่บนอุปกรณ์ ดาวน์โหลดผ่านข้อมูลมือถือหรือไม่?</item>
+    </plurals>
+    <plurals name="picker_all_image_will_download">
+        <item quantity="other">รูปภาพที่เลือกไว้ไม่ได้อยู่บนอุปกรณ์ กำลังจะดาวน์โหลด</item>
+    </plurals>
+    <plurals name="picker_skip_unavailable_images">
+        <item quantity="other">ข้าม %d รูปภาพที่ไม่ได้อยู่บนอุปกรณ์แล้ว</item>
+    </plurals>
+    <plurals name="picker_retry_image_confirm_message">
+        <item quantity="other">ไม่สามารถดาวน์โหลด %1$d รูปภาพได้ ลองอีกครั้ง?</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_image_confirm_message">
+        <item quantity="other">ไม่สามารถดาวน์โหลด %1$d รูปภาพได้ เชื่อมต่อกับเครือข่ายและลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="picker_retry_origin_confirm_message">
+        <item quantity="other">ไม่สามารถดาวน์โหลด %1$d รูปภาพได้ (%2$dMB) ลองอีกครั้ง?</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_origin_confirm_message">
+        <item quantity="other">ไม่สามารถดาวน์โหลด %1$d รูปภาพ (%2$dMB) ได้ เชื่อมต่อกับเครือข่ายและลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="picker_cancel_confirm_message">
+        <item quantity="other">ยกเลิกการดาวน์โหลด %d รูปภาพที่เหลืออยู่?</item>
+    </plurals>
+    <plurals name="add_to_album_cloud_photo_count_tip">
+        <item quantity="other">เพิ่ม %d รูปภาพคลาวด์แล้ว ปิดใช้งาน \"แสดงอัลบั้มในเครื่องเท่านั้น\" เพื่อเรียกดู</item>
     </plurals>
     <plurals name="delete_photo_msg_format">
         <item quantity="other">ลบ %1$d รูปภาพ %2$s?</item>
@@ -34,13 +64,37 @@
         <item quantity="other">ลบ %1$d รายการ %2$s?</item>
     </plurals>
     <plurals name="album_item_msg_format">
-        <item quantity="other">(ทั้งหมด %d รายการ)</item>
+        <item quantity="other">(%d รายการ)</item>
     </plurals>
     <plurals name="album_count">
         <item quantity="other">%d รูปภาพ</item>
     </plurals>
     <plurals name="album_count_and_size">
         <item quantity="other">%1$d รายการ| %2$s</item>
+    </plurals>
+    <plurals name="backuped">
+        <item quantity="other">สำรองข้อมูล %1$d รายการเรียบร้อย</item>
+    </plurals>
+    <plurals name="backup_waiting">
+        <item quantity="other">%1$d รายการกำลังรอการสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="network_unsatisfied">
+        <item quantity="other">เครือข่ายขัดข้อง %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="sync_off">
+        <item quantity="other">ซิงค์ปิดอยู่ %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="cloud_space_full">
+        <item quantity="other">มี %1$d รายการไม่สามารถสำรองข้อมูลได้</item>
+    </plurals>
+    <plurals name="local_space_full">
+        <item quantity="other">ที่จัดเก็บข้อมูลในเครื่องไม่เพียงพอ %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    </plurals>
+    <plurals name="number_of_images_synced">
+        <item quantity="other">%1$d รูป</item>
+    </plurals>
+    <plurals name="number_of_videos_synced">
+        <item quantity="other">%1$d วิดีโอ</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
         <item quantity="other">%1$d รูปภาพกำลังรอสำรองข้อมูล</item>
@@ -49,7 +103,7 @@
         <item quantity="other">%1$d วิดีโอกำลังรอสำรองข้อมูล</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d รายการกำลังรอสำรองข้อมูล</item>
+        <item quantity="other">%1$d รายการกำลังรอการสำรองข้อมูล</item>
     </plurals>
     <plurals name="number_of_uploading_images">
         <item quantity="other">กำลังสำรองข้อมูล %1$d รูปภาพ…</item>
@@ -59,5 +113,14 @@
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
         <item quantity="other">กำลังสำรองข้อมูล %1$d รายการ…</item>
+    </plurals>
+    <plurals name="download_error">
+        <item quantity="other">ไม่สามารถดาวน์โหลด %1$d ไฟล์ได้</item>
+    </plurals>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">เลือกไว้ %d รายการ</item>
+    </plurals>
+    <plurals name="fast_share_auto_render_failed">
+        <item quantity="other">ข้าม %1$d รูปภาพที่ไม่สามารถแสดงผลได้</item>
     </plurals>
 </resources>

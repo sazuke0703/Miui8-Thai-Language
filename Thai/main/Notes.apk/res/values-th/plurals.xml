@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="note_count_in_folder">
-        <item quantity="other">%1$s บันทึกย่อ</item>
-    </plurals>
-    <plurals name="search_results_title">
-        <item quantity="other">พบ %1$s ผลการค้นหาสำหรับ %2$s\"</item>
-    </plurals>
     <plurals name="note_terms">
         <item quantity="other">บันทึก %1$s รายการ</item>
     </plurals>

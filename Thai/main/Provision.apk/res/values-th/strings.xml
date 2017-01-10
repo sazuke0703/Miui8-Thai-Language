@@ -40,7 +40,7 @@
     <string name="terms_of_use">ข้อตกลงและเงื่อนไข</string>
     <string name="terms_of_use_label">"เราเคารพต่อความเป็นส่วนตัวของคุณ กรุณาอ่านข้อตกลง เงื่อนไขการใช้งานและนโยบายความเป็นส่วนตัว เพื่อให้ทราบถึงระบบจัดเก็บข้อมูลและการนำไปใช้ ตลอดจนการตั้งการกำหนดค่า
 
-ในการใช้งาน MIUI คุณต้องตกลงและยอมรับข้อตกลงเงื่อนไขการใช้งานและนโยบายความเป็นส่วนตัวก่อน คุณจำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อเปิดใช้งานบริการ Mi และค้นหาอุปกรณ์ รวมถึง Mi Home"</string>
+ในการใช้งาน MIUI คุณต้องตกลงและยอมรับข้อตกลงเงื่อนไขการใช้งานและนโยบายความเป็นส่วนตัวก่อน คุณจำเป็นต้องเชื่อมกับต่ออินเตอร์เน็ตเพื่อเปิดใช้งานบริการ Mi การเปิดใช้งานซิมการ์ด และค้นหาอุปกรณ์ รวมถึง Mi Home"</string>
     <string name="user_agreement">ข้อตกลงและเงื่อนไขการใช้งาน</string>
     <string name="privacy_policy">นโยบายความเป็นส่วนตัว</string>
     <string name="agree">ตกลง</string>
@@ -53,7 +53,9 @@
     <string name="install_preinstall_app">กำลังโหลดแอปต่างๆ…</string>
     <string name="title_fingerprint">เพิ่มลายนิ้วมือ</string>
     <string name="desc_fingerprint">ใช้ลายนิ้วมือของคุณในการปลดล็อกเครื่อง ชำระเงินผ่าน Mi Pay หรือใช้เพื่อเข้าสู่ระบบของแอปหรือบริการต่างๆ</string>
+    <string name="desc_extra_fingerprint" />
     <string name="next_fingerprint">ถัดไป</string>
+    <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">ใช้ลายนิ้วมือของคุณในการปลดล็อกเครื่อง ลงชื่อเข้าสู่แอปหรือบริการต่างๆ</string>
     <string name="content_description_start">เริ่มต้น</string>
     <string name="content_description_miui_version">MIUI 8</string>

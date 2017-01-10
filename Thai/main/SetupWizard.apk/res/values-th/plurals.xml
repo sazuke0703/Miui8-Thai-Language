@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="shutdown_countdown_text">
+        <item quantity="other">กำลังจะปิดเครื่องใน %d วินาที…</item>
+        <item quantity="one">กำลังจะปิดเครื่องใน 1 วินาที…</item>
+    </plurals>
+    <plurals name="sim_missing_title">
+        <item quantity="other">ใส่ซิมการ์ด</item>
+        <item quantity="one">ใส่ซิมการ์ด</item>
+    </plurals>
+    <plurals name="sim_missing_text_tablet">
+        <item quantity="other">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับแท็บเล็ตของคุณ</item>
+        <item quantity="one">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับแท็บเล็ตของคุณ</item>
+    </plurals>
+    <plurals name="sim_missing_text_device">
+        <item quantity="other">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับอุปกรณ์ของคุณ</item>
+        <item quantity="one">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับอุปกรณ์ของคุณ</item>
+    </plurals>
+    <plurals name="sim_missing_text_default">
+        <item quantity="other">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับโทรศัพท์ของคุณ</item>
+        <item quantity="one">หากไม่แน่ใจว่าจะต้องใส่อย่างไร โปรดอ่านคำแนะนำที่มาพร้อมกับโทรศัพท์ของคุณ</item>
+    </plurals>
+    <plurals name="walled_garden_check_timeout_text">
+        <item quantity="other">การดำเนินการนี้อาจใช้เวลาสูงสุดถึง %d นาที</item>
+        <item quantity="one">การดำเนินการนี้อาจใช้เวลาสูงสุดถึง %d นาที</item>
+    </plurals>
+</resources>

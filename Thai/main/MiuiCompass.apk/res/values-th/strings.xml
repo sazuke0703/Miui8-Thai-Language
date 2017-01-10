@@ -15,7 +15,7 @@
     <string name="pressure">%.1f</string>
     <string name="altitude">%.1f</string>
     <string name="pressure_unit">hPa</string>
-    <string name="altitude_unit">ม.</string>
+    <string name="altitude_unit">m</string>
     <string name="dialog_title_no_network">เปิดใช้เครือข่าย</string>
     <string name="dialog_body_no_network">ไม่สามารถเชื่อมต่อกับเครือข่าย</string>
     <string name="dialog_calibrat_altitude">กำลังปรับเทียบ…</string>
@@ -25,13 +25,13 @@
     <string name="direction_south">ใต้</string>
     <string name="direction_east">ตะวันออก</string>
     <string name="direction_west">ตะวันตก</string>
-    <string name="direction_north_east">ตะวันออกเฉียงเหนือ</string>
-    <string name="direction_north_west">ตะวันตกเฉียงเหนือ</string>
-    <string name="direction_south_east">ตะวันออกเฉียงใต้</string>
-    <string name="direction_south_west">ตะวันตกเฉียงใต้</string>
+    <string name="direction_north_east">ออก/เหนือ</string>
+    <string name="direction_north_west">ตก/เหนือ</string>
+    <string name="direction_south_east">ออก/ใต้</string>
+    <string name="direction_south_west">ตก/ใต้</string>
     <string name="guide_toast">กรุณาควงโทรศัพท์ตามทิศทางในรูปเพื่อปรับเทียบเข็มทิศในระบบให้แม่นยำ</string>
     <string name="mobiledata_alert_dialog_title">คำเตือนการใช้งานข้อมูล</string>
-    <string name="mobiledata_alert_dialog_message">เชื่อมต่ออินเตอร์เน็ตเพื่อปรับตั้งค่าความสูงชัน?</string>
+    <string name="mobiledata_alert_dialog_message">เชื่อมกับต่ออินเตอร์เน็ตเพื่อปรับตั้งค่าความสูงชัน?</string>
     <string name="do_not_show_next_time">ไม่ต้องแสดงอีก</string>
     <string name="location_not_enabled_title">การระบุตำแหน่งพิกัด</string>
     <string name="location_not_enabled_summary">แอปสมุดโทรศัพท์จำเป็นต้องเข้าถึงตำแหน่งพิกัดของคุณเพื่อให้ทำงานได้ปกติ</string>
@@ -52,4 +52,5 @@
     <string name="altitude_uncalibrate_msg">ไม่สามารถตรวจวัดระดับความสูงได้ หากไม่ได้เปิดใช้งาน GPS หรือเครือข่ายข้อมูลมือถือความสูง</string>
     <string name="altitude_uncalibrate_refresh">ลองอีกครั้ง</string>
     <string name="altitude_uncalibrate_cancel">ยกเลิก</string>
+    <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
 </resources>

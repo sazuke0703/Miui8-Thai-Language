@@ -20,6 +20,10 @@
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
     <string-array name="gadget_weather_theme_type_entries">
         <item>ค่าเริ่มต้น</item>
         <item>คลาสสิก</item>
@@ -50,5 +54,15 @@
         <item>ลูกเห็บใหญ่</item>
         <item>มีฝุ่นละออง</item>
         <item>มีเมฆหมอก</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>ธีม</item>
+        <item>วิดเจ็ต</item>
+        <item>ภาพพื้นหลัง</item>
+        <item>เอฟเฟกต์</item>
+        <item>ผัง</item>
+    </string-array>
+    <string-array name="quality_business_devices">
+        <item>ลิเทียม</item>
     </string-array>
 </resources>

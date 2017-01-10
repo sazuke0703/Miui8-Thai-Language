@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="auto_memory_clean">
-        <item>ใน 1 นาที</item>
-        <item>ใน 5 นาที</item>
-        <item>ใน 10 นาที</item>
-        <item>ใน 30 นาที</item>
-        <item>ไม่ต้อง</item>
-    </string-array>
     <string-array name="date_of_traffic_cmcc">
         <item>"สัปดาห์นี้ "</item>
         <item>"วันนี้ "</item>
@@ -28,17 +21,17 @@
         <item>"เดือนนี้: "</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>ข้อมูลมือถือเมื่อวานนี้</item>
-        <item>ข้อมูลมือถือวันนี้</item>
-        <item>ข้อมูลมือถือในเดือนนี้</item>
+        <item>เมื่อวานนี้ (ข้อมูล)</item>
+        <item>วันนี้ (ข้อมูล)</item>
+        <item>เดือนนี้ (ข้อมูล)</item>
         <item>Wi-Fi เมื่อวานนี้</item>
         <item>Wi-Fi วันนี้</item>
         <item>Wi-Fi เดือนนี้</item>
     </string-array>
     <string-array name="date_of_app">
-        <item>ข้อมูลมือถือเมื่อวานนี้</item>
-        <item>ข้อมูลมือถือวันนี้</item>
-        <item>ข้อมูลมือถือเดือนนี้</item>
+        <item>เมื่อวานนี้ (ข้อมูล)</item>
+        <item>วันนี้ (ข้อมูล)</item>
+        <item>เดือนนี้ (ข้อมูล)</item>
     </string-array>
     <string-array name="network_speed_update_internals">
         <item>3 วินาที</item>
@@ -52,7 +45,6 @@
     <string-array name="traffic_type">
         <item>"การใช้ข้อมูลมือถือ "</item>
         <item>"การใช้ข้อมูล Wi-Fi "</item>
-        <item>"การประหยัดใช้ข้อมูล "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
         <item>"การใช้ข้อมูลมือถือ "</item>
@@ -61,7 +53,6 @@
     <string-array name="traffic_sort_type">
         <item>"การใช้ข้อมูลมือถือ "</item>
         <item>"การใช้ข้อมูล Wi-Fi "</item>
-        <item>"ประหยัดการใช้ข้อมูลไป "</item>
     </string-array>
     <string-array name="traffic_setting_sms_template">
         <item>ขอรับโดยอัตโนมัติ</item>
@@ -75,12 +66,6 @@
         <item>ใช้บ่อยสุด</item>
         <item>ชื่อ</item>
     </string-array>
-    <string-array name="traffic_saving_compress_level_string_array">
-        <item>ไม่มี</item>
-        <item>ต่ำ</item>
-        <item>ปานกลาง</item>
-        <item>สูง</item>
-    </string-array>
     <string-array name="roaming_network_type">
         <item>เปิดเสมอ</item>
         <item>รายการยกเว้นเท่านั้น</item>
@@ -88,14 +73,35 @@
     </string-array>
     <string-array name="lock_mode">
         <item>เมื่ออุปกรณ์ถูกล็อก</item>
-        <item>ล็อกหลังจากออกจากแอป</item>
-        <item>ล็อกใน 1 นาทีหลังจากออกจากแอป</item>
+        <item>เมื่ออุปกรณ์ถูกล็อกหรือออกจากแอป</item>
+        <item>เมื่ออุปกรณ์ถูกล็อกหรือหลังออกจากแอป 1 นาที</item>
+    </string-array>
+    <string-array name="lock_mode_value">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="long_add_menu">
+        <item>เพิ่มไปยังรายการยกเว้น</item>
     </string-array>
     <string-array name="power_dialog_auto_clean_memory_items">
         <item>หลังจาก 1 นาที</item>
         <item>หลังจาก 5 นาที</item>
         <item>หลังจาก 10 นาที</item>
         <item>ไม่ดำเนินการ</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>ครั้งเดียว</item>
+        <item>ทุกวัน</item>
+        <item>วันทำงาน</item>
+        <item>ทุกวันธรรมดา</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>ครั้งเดียว</item>
+        <item>ทุกวัน</item>
+        <item>ทุกวันธรรมดา</item>
+        <item>กำหนดเอง</item>
     </string-array>
     <string-array name="power_dialog_sleep_items">
         <item>15 วินาที</item>
@@ -120,17 +126,9 @@
         <item>สั่นเมื่อปิดเสียง</item>
         <item>สั่นเสมอ</item>
     </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>ครั้งเดียว</item>
-        <item>ทุกวัน</item>
-        <item>วันทำงาน</item>
-        <item>ทุกวันธรรมดา</item>
-        <item>กำหนดเอง</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>ครั้งเดียว</item>
-        <item>ทุกวัน</item>
-        <item>ทุกวันธรรมดา</item>
-        <item>กำหนดเอง</item>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

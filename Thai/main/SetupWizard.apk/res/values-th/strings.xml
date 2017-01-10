@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_notification_ticker">ข้อผิดพลาดของบริการ Google Play</string>
+    <string name="common_google_play_services_notification_needs_installation_title">แอปพลิเคชันหนึ่งจำเป็นต้องมีการติดตั้งบริการ Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">แอปพลิเคชันหนึ่งจำเป็นต้องมีการอัปเดตสำหรับบริการ Google Play</string>
+    <string name="common_android_wear_notification_needs_update_text">แอปพลิเคชันรายการหนึ่งต้องการให้อัปเดตแอป Android Wear</string>
+    <string name="common_google_play_services_needs_enabling_title">แอปพลิเคชันหนึ่งจำเป็นต้องมีบริการ Google Play เพื่อเปิดใช้งาน</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">ขอโดย %1$s</string>
+    <string name="common_google_play_services_install_title">รับบริการ Google Play</string>
+    <string name="common_google_play_services_install_text_phone">แอปพลิเคชันนี้จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งไม่มีในโทรศัพท์ของคุณ</string>
+    <string name="common_google_play_services_install_text_tablet">แอปพลิเคชันนี้จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งไม่มีในแท็บเล็ตของคุณ</string>
+    <string name="common_google_play_services_install_button">รับบริการ Google Play</string>
+    <string name="common_google_play_services_enable_title">เปิดใช้งานบริการ Google Play</string>
+    <string name="common_google_play_services_enable_text">แอปพลิเคชันนี้จะไม่ทำงานจนกว่าคุณจะเปิดใช้งานบริการ Google Play</string>
+    <string name="common_google_play_services_enable_button">เปิดใช้งานบริการ Google Play</string>
+    <string name="common_google_play_services_update_title">อัปเดตบริการ Google Play</string>
+    <string name="common_android_wear_update_title">อัปเดต Android Wear</string>
+    <string name="common_google_play_services_update_text">แอปพลิเคชันนี้จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play</string>
+    <string name="common_android_wear_update_text">แอปนี้จะไม่ทำงานจนกว่าคุณจะอัปเดตแอป Android Wear</string>
+    <string name="common_google_play_services_network_error_title">ข้อผิดพลาดของเครือข่าย</string>
+    <string name="common_google_play_services_network_error_text">ต้องมีการเขื่อมต่อข้อมูลเพื่อเชื่อมต่อกับบริการ Google Play</string>
+    <string name="common_google_play_services_invalid_account_title">บัญชีไม่ถูกต้อง</string>
+    <string name="common_google_play_services_invalid_account_text">บัญชีที่ระบุไม่มีอยู่บนอุปกรณ์นี้ โปรดเลือกบัญชีอื่น</string>
+    <string name="common_google_play_services_unknown_issue">ปัญหาที่ไม่รู้จักของบริการ Google Play</string>
+    <string name="common_google_play_services_unsupported_title">บริการ Google Play</string>
+    <string name="common_google_play_services_unsupported_text">บริการ Google Play ซึ่งใช้งานในบางแอปพลิเคชัน ไม่ได้รับการสนับสนุนโดยอุปกรณ์ของคุณ โปรดติดต่อผู้ผลิตเพื่อขอรับความช่วยเหลือ</string>
+    <string name="common_google_play_services_update_button">อัปเดต</string>
+    <string name="common_signin_button_text">ลงชื่อใช้</string>
+    <string name="common_signin_button_text_long">ลงชื่อเข้าใช้ด้วย Google</string>
+    <string name="common_open_on_phone">เปิดบนโทรศัพท์</string>
+    <string name="suw_next_button_label">ถัดไป</string>
+    <string name="suw_back_button_label">กลับ</string>
+    <string name="suw_more_button_label">เพิ่มเติม</string>
+    <string name="setup_wizard_title">ตัวช่วยการตั้งค่า</string>
+    <string name="setup_wizard_next_button_label">ถัดไป</string>
+    <string name="setup_wizard_back_button_label">กลับ</string>
+    <string name="setup_wizard_services_activity_title">บริการของ Google</string>
+    <string name="setup_wizard_services_description">บริการเหล่านี้ให้ Google ทำงานให้คุณ คุณสามารถเปิดหรือปิดได้ตลอดเวลา ระบบจะใช้ข้อมูลโดยสอดคล้องกับ<annotation id="google_privacy">นโยบายส่วนบุคคล</annotation>ของ Google</string>
+    <string name="setup_wizard_services_backup_restore_heading">การสำรองและคืนค่าข้อมูล</string>
+    <string name="setup_wizard_services_location_heading">ตำแหน่ง</string>
+    <string name="setup_wizard_services_communication_heading">การสื่อสาร</string>
+    <string name="setup_wizard_services_backup"><b>สำรองแอปของโทรศัพท์ ข้อมูลแอป การตั้งค่า พจนานุกรมส่วนตัว และรหัสผ่าน Wi‑Fi</b> โดยใช้บัญชี Google เพื่อให้คุณสามารถคืนค่าได้ง่ายๆ ในภายหลัง <annotation id="backup_details">เรียนรู้เพิ่มเติม</annotation></string>
+    <string name="setup_wizard_services_backup_restore"><b>สำรองแอป ข้อมูลแอป การตั้งค่า พจนานุกรมส่วนตัว และรหัสผ่าน Wi‑Fi</b> โดยใช้บัญชี Google เพื่อให้คุณสามารถคืนค่าได้ง่ายๆ ในภายหลัง</string>
+    <string name="setup_wizard_services_backup_restore_footnote">ข้อมูลรวมถึงแอป การตั้งค่าแอป การตั้งค่าระบบ และรหัสผ่าน WiFi</string>
+    <string name="setup_wizard_services_backup_restore_dialog_text">เมื่อคุณเปิดการสำรองข้อมูลอัตโนมัติ ระบบจะบันทึกข้อมูลของอุปกรณ์ในบัญชี Google เป็นระยะๆ การสำรองข้อมูลอาจรวมข้อมูลในโฟลเดอร์ข้อมูลแอป เช่น ค่ากำหนด การตั้งค่า ข้อความ รูปภาพ และไฟล์อื่นๆ</string>
+    <string name="setup_wizard_services_location_sharing"><b>ใช้บริการตำแหน่งของ Google</b> เพื่อช่วยแอประบุตำแหน่ง ซึ่งหมายถึงการส่งข้อมูลตำแหน่งแบบไม่ระบุชื่อให้ Google แม้ไม่มีการใช้งานแอปเลย <annotation id="location_details">เรียนรู้เพิ่มเติม</annotation></string>
+    <string name="setup_wizard_services_location_sharing_dialog_text">บริการตำแหน่งของ Google ใช้แหล่งข้อมูล เช่น Wi‑Fi และเครือข่ายมือถือเพื่อช่วยคาดเดาตำแหน่งของอุปกรณ์ได้เร็วขึ้นและแม่นยำมากขึ้น เมื่อคุณเปิดบริการตำแหน่งของ Google อุปกรณ์ของคุณจะเข้าสู่โหมดที่ใช้ Wi‑Fi และเครือข่ายมือถือเพื่อระบุข้อมูลตำแหน่ง คุณสามารถปิดบริการตำแหน่งในการตั้งค่าตำแหน่งโดยเลือกโหมดที่ใช้ GPS อย่างเดียว ในบางอุปกรณ์เรียกว่าโหมด \"อุปกรณ์เท่านั้น\"</string>
+    <string name="setup_wizard_services_location_wifi_scan"><b>ช่วยปรับปรุงบริการตำแหน่ง</b>โดยให้แอปและบริการสแกนหาเครือข่าย Wi‑Fi แม้ขณะปิด Wi‑Fi อยู่</string>
+    <string name="setup_wizard_services_location_footnote">บริการตำแหน่งของ Google ใช้ WiFi และสัญญาณอื่นๆ เพื่อระบุตำแหน่งได้อย่างแม่นยำและรวดเร็วยิ่งขึ้น โดยมักจะมีการใช้พลังงานน้อยกว่า GPS ข้อมูลบางส่วนอาจถูกจัดเก็บไว้ในอุปกรณ์ และอาจมีการรวมรวบข้อมูลแม้ไม่มีการเรียกใช้งานแอป</string>
+    <string name="setup_wizard_services_play"><b>แจ้งให้ฉันทราบ</b>เกี่ยวกับข่าวและข้อเสนอพิเศษล่าสุดจาก Google Play</string>
+    <string name="setup_wizard_services_usage_reporting"><b>ช่วยปรับปรุงประสบการณ์การใช้ Android</b> โดยส่งข้อมูลการวินิจฉัยและการใช้ไปยัง Google โดยอัตโนมัติ จะไม่มีการใช้ข้อมูลนี้ในการระบุชื่อคุณ แต่ข้อมูลนี้จะช่วยทีมที่ทำงานเกี่ยวกับอายุการใช้งานแบตเตอรี่ ประสิทธิภาพของแอป และคุณลักษณะใหม่ๆ ของ Google <annotation id="usage_reporting_details">เรียนรู้เพิ่มเติม</annotation></string>
+    <string name="setup_wizard_services_usage_reporting_dialog_text">"ข้อมูลนี้คือข้อมูลทั่วไปเกี่ยวกับอุปกรณ์ของคุณและวิธีใช้ เช่น ระดับแบตเตอรี่ ความถี่ในการใช้งานแอป คุณภาพและระยะเวลาของการเชื่อมต่อเครือข่าย (เช่น มือถือ, Wi‑Fi และบลูทูธ) และรายงานข้อขัดข้องเมื่อมีการทำงานที่ผิดปกติ จะมีการใช้ข้อมูลนี้เพื่อปรับปรุงผลิตภัณฑ์และบริการของ Google สำหรับทุกคน และจะไม่เชื่อมโยงกับบัญชี Google ของคุณ ข้อมูลสรุปบางอย่างจะช่วยพาร์ทเนอร์ เช่น นักพัฒนาซอฟต์แวร์ Android ในการปรับปรุงแอปและผลิตภัณฑ์ของตนให้ดีขึ้นด้วย
+
+คุณสามารถเปิดหรือปิดการส่งข้อมูลได้ตลอดเวลาในแอปการตั้งค่า Google ซึ่งจะไม่มีผลต่อความสามารถของอุปกรณ์ในการส่งข้อมูลเพื่อรับบริการที่จำเป็น เช่น การอัปเดตระบบและความปลอดภัย"</string>
+    <string name="setup_wizard_services_agreement">โทรศัพท์เครื่องนี้ยังอาจรับและติดตั้งกา⁠รอัปเดตและแอปจาก Google, ผู้ให้บริการ และผู้ผลิตโทรศัพท์ของคุณ อาจมีการดาวน์โหลดและติดตั้งแอปบางอย่างหากคุณดำเนินการต่อ และคุณสามารถนำแอ⁠ปดังกล่าวออกได้ทุกเมื่อ</string>
+    <string name="default_device_name">" Android"</string>
+    <string name="finish_button_label">เสร็จสิ้น</string>
+    <string name="skip_button_label">ข้าม</string>
+    <string name="skip_anyway_button_label">ข้ามไปเลย</string>
+    <string name="dont_skip_button_label">ไม่ข้าม</string>
+    <string name="down_button_label">เพิ่มเติม</string>
+    <string name="cancel_button_label">ยกเลิก</string>
+    <string name="restart_button_label">รีสตาร์ท</string>
+    <string name="try_again_button_label">ลองใหม่อีกครั้ง</string>
+    <string name="close_button_label">ปิด</string>
+    <string name="got_it_button_label">รับทราบ</string>
+    <string name="ok_button_label">ตกลง</string>
+    <string name="google_legal_title">ข้อความทางกฎหมายของ Google</string>
+    <string name="url_load_unsuccessful_message">โทรศัพท์ของคุณไม่ได้เชื่อมต่อกับบริการข้อมูลโทรศัพท์มือถือ หากต้องการดูข้อมูลนี้ในเวลานี้ โปรดไปที่ %s ในเว็บเบราว์เซอร์</string>
+    <string name="start">เริ่มต้น</string>
+    <string name="wait_msg">รอแป๊บเดียว...</string>
+    <string name="skip_toast">ตัวช่วยการตั้งค่าถูกข้าม</string>
+    <string name="terminate_toast">"ยุติการใช้งานตัวช่วยการตั้งค่าแล้ว
+ไม่มีการจัดเตรียมอุปกรณ์"</string>
+    <string name="activation_title">กำลังเปิดใช้งานบริการข้อมูลมือถือ…</string>
+    <string name="activation_title_searching">กำลังค้นหาบริการ...</string>
+    <string name="activation_title_activating">กำลังเปิดใช้งานบริการข้อมูลมือถือ…</string>
+    <string name="activation_default_network_name">เครือข่ายมือถือ</string>
+    <string name="activation_network_bars_template">ความแรงของสัญญาณ %d ขีด</string>
+    <string name="activation_text">แตะ<b>เปิดใช้งาน</b>"เพื่อเปิดใช้งานบริการของมือถือตอนนี้ (อาจใช้เวลา 2-3 นาที) 
+
+หรือแตะ"<b>ข้าม</b>เพื่อตั้งค่าโทรศัพท์ของคุณโดยใช้การเชื่อมต่อ WiFi แทน</string>
+    <string name="activation_text_standalone">แตะ <b>เปิดใช้งาน</b>เพื่อเปิดใช้งานบริการของมือถือของคุณตอนนี้ (อาจใช้เวลา 2-3 นาที)</string>
+    <string name="activation_skip_confirmation">"คุณลักษณะส่วนใหญ่ในโทรศัพท์ของคุณจะไม่ทำงานจนกว่าคุณจะเปิดใช้งานบริการข้อมูลโทรศัพท์มือถือ
+
+หากคุณต้องการข้ามไปก่อน คุณสามารถเปิดใช้งานในภายหลังได้ในการตั้งค่าระบบ"</string>
+    <string name="activation_continue_skip_label">ดำเนินการต่อ</string>
+    <string name="activation_button_label">เปิดใช้งาน</string>
+    <string name="activation_progress_before_connect">แตะ <b>ข้าม</b> เพื่อสิ้นสุดการตั้งค่าโดยใช้การเชื่อมต่อ WiFi แทน</string>
+    <string name="activation_progress">การเปิดใช้งานอาจใช้เวลาสัก 2- 3 นาที ให้แตะ<b>ข้าม</b>เพื่อสิ้นสุดการตั้งค่าโดยใช้การเชื่อมต่อ WiFi แทน</string>
+    <string name="activation_progress_gen">อาจใช้เวลานานถึง 5 นาที</string>
+    <string name="activation_progress_mobile_data">"โทรศัพท์กำลังเปิดใช้งานบริการข้อมูลโทรศัพท์มือถือ
+
+อาจใช้เวลาถึง 5 นาที"</string>
+    <string name="activation_progress_before_connect_standalone">การเปิดใช้งานจะใช้เวลาสักครู่</string>
+    <string name="activation_progress_standalone">การเปิดใช้งานจะใช้เวลาสักครู่</string>
+    <string name="activation_success_title">การเปิดใช้งานเสร็จสมบูรณ์</string>
+    <string name="activation_success_text">แตะ<b>ถัดไป</b> เพื่อทำการตั้งค่าต่อ</string>
+    <string name="activation_success_text_gen">คุณต้องรีสตาร์ทอุปกรณ์เพื่อให้การเปิดใช้งานเสร็จสมบูรณ์</string>
+    <string name="activation_success_text_standalone">แตะ <b>ถัดไป</b>" เพื่อดำเนินการต่อ
+
+การเปิดใช้งานสำเร็จ แต่อาจใช้เวลาสักครู่จึงจะใช้งานเครือข่ายข้อมูลมือถือได้"</string>
+    <string name="activation_failure_title">ไม่สามารถเปิดใช้งาน</string>
+    <string name="activation_failure_text">"โปรดลองอีกครั้งในอีกสักครู่ หรือรีสตาร์ทโทรศัพท์หากยังคงพบปัญหาอยู่
+
+หากคุณต้องการข้ามขั้นตอนนี้ไปก่อน โปรดอย่าลืมเปิดใช้งานในการตั้งค่าระบบในภายหลัง โทรศัพท์ของคุณจะไม่มีการเชื่อมต่อข้อมูลมือถือจนกว่าคุณจะเปิดใช้งาน"</string>
+    <string name="activation_failure_text_gen">ไม่สามารถเปิดใช้งานบริการข้อมูลโทรศัพท์มือถือของคุณได้ นี่อาจจะเป็นปัญหาชั่วคราวและอาจสามารถแก้ไขได้ด้วยการรีสตาร์ทโทรศัพท์</string>
+    <string name="activation_failure_text_standalone">ไม่สามารถเปิดใช้งานบริการข้อมูลโทรศัพท์มือถือ หากต้องการลองเปิดใช้งานอีกครั้ง ให้แตะ <b>ลองอีกครั้ง</b>"
+
+คุณสามารถเปิดใช้งานบริการข้อมูลโทรศัพท์มือถือได้ภายหลังใน "<b>การตั้งค่าระบบ > ระบบไร้สายและเครือข่าย > เครือข่ายมือถือ</b></string>
+    <string name="activation_cancel_title">ยกเลิกรายการที่ขอ</string>
+    <string name="activation_cancel_text">กำลังยกเลิกการเปิดใช้งาน... ขั้นตอนนี้อาจใช้เวลา 5-10 วินาที</string>
+    <string name="activation_canceled_title">ยกเลิกการเปิดใช้งานแล้ว</string>
+    <string name="activation_canceled_text">"ต้องการยกเลิกการเปิดใช้งานใช่ไหม คุณจะต้องเปิดใช้งานบริการเครือข่ายมือถือก่อนเพื่อที่จะใช้เชื่อมต่ออินเทอร์เน็ต
+
+แตะ "<b>ถัดไป</b>" เพื่อตั้งค่าให้เสร็จสิ้นโดยใช้การเชื่อมต่อ Wi-Fi
+
+คุณสามารถเปิดใช้งานบริการเครือข่ายมือถือได้ภายหลังใน "<b>การตั้งค่าระบบ > ระบบไร้สายและเครือข่าย > เครือข่ายมือถือ</b></string>
+    <string name="activation_canceled_text_standalone">"ยกเลิกการเปิดใช้งานแล้ว
+
+คุณสามารถเปิดใช้บริการข้อมูลมือถือภายหลังได้ใน"<b>การตั้งค่าระบบ > ระบบไร้สายและเครือข่าย > เครือข่ายมือถือ</b></string>
+    <string name="activation_spc_failure_text">เกิดข้อผิดพลาดที่ต้องปิดระบบและรีสตาร์ทโทรศัพท์ของคุณก่อนที่จะลองเปิดใช้งานอีกครั้งได้ โทรศัพท์ของคุณจะปิดโดยอัตโนมัติใน 60 วินาทีหรือคุณสามารถแตะ <b>ปิดเดี๋ยวนี้</b>"
+
+เมื่อโทรศัพท์ของคุณปิดแล้ว ให้กดปุ่มเปิด/ปิดเพื่อรีสตาร์ท การเปิดใช้งานจะเริ่มโดยอัตโนมัติ"</string>
+    <string name="shutdown_button_label">ปิดเดี๋ยวนี้</string>
+    <string name="reboot_button_label">รีสตาร์ท</string>
+    <string name="activation_skip_text">หากคุณข้ามการเปิดใช้งาน คุณต้องเปิดใช้งานภายหลังในการตั้งค่า โทรศัพท์ของคุณจะไม่สามารถเชื่อมต่อข้อมูลมือถือจนกว่าคุณจะเปิดใช้งาน</string>
+    <string name="notification_update_title">ต้องอัปเดตบัญชีของคุณ</string>
+    <string name="notification_update_message">แตะที่นี่เพื่อเรียกใช้ตัวช่วยการตั้งค่าอีกครั้ง</string>
+    <string name="account_exists_title">เพิ่มบัญชีแล้ว</string>
+    <string name="account_exists_text">บัญชีแรกของคุณพร้อมใช้งานแล้ว คุณสามารถเพิ่มและนำบัญชีออกได้ในภายหลังในการตั้งค่า</string>
+    <string name="date_time_setup_title">วันที่และเวลา</string>
+    <string name="date_time_message">ปรับเปลี่ยนหากจำเป็น</string>
+    <string name="date_time_current_date">วันที่</string>
+    <string name="date_time_current_time">เวลา</string>
+    <string name="date_time_time_zone_full" formatted="false">%s (%s)</string>
+    <string name="sim_missing_title">ใส่ซิมการ์ด</string>
+    <string name="sim_setup_title">ตั้งค่าซิมการ์ด</string>
+    <string name="sim_setup_select_data">เลือกซิมสำหรับข้อมูลมือถือ</string>
+    <string name="sim_setup_select_voice">เลือกซิมสำหรับการโทร</string>
+    <string name="sim_setup_select_text">เลือกซิมสำหรับข้อความ</string>
+    <string name="sim_setup_ask_every_time">ถามทุกครั้ง</string>
+    <string name="walled_garden_title">กำลังตรวจสอบการเชื่อมต่อ…</string>
+    <string name="walled_garden_check_indefinite_text">การดำเนินการนี้อาจใช้เวลาสักครู่</string>
+    <string name="walled_garden_skipped_message">"หากคุณข้าม:
+
+โทรศัพท์จะไม่มีการเชื่อมต่ออินเทอร์เน็ต
+
+คุณจะไม่ได้รับการอัปเดตซอฟต์แวร์จนกว่าจะเชื่อมต่ออินเทอร์เน็ต
+
+คุณไม่สามารถเปิดใช้งานคุณลักษณะการปกป้องอุปกรณ์ได้ในขณะนี้"</string>
+    <string name="walled_garden_connection_failed">หากใช้เวลานานเกินไป โปรดลองกลับไปเชื่อมต่อเครือข่ายอื่น</string>
+    <string name="walled_garden_connection_unsuccessful">ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้</string>
+    <string name="ota_update_title">อัปเดตโทรศัพท์</string>
+    <string name="ota_info">โทรศัพท์จำเป็นต้องดาวน์โหลดการอัปเดตและรีสตาร์ท</string>
+    <string name="ota_size">ขนาด: %s</string>
+    <string name="ota_agreement_text">การดำเนินการต่อและการรับการอัปเดตซอฟต์แวร์นี้แสดงว่าคุณยอมรับ<annotation id="tos">ข้อกำหนดในการให้บริการของ Google</annotation> และ <annotation id="google_privacy">นโยบายส่วนบุคคล</annotation></string>
+    <string name="early_update_title">การอัปเดตซอฟต์แวร์</string>
+    <string name="early_update_text">กำลังตรวจสอบการอัปเดต</string>
+    <string name="early_update_downloading_text">กำลังดาวน์โหลด %s</string>
+    <string name="early_update_installing_text">กำลังติดตั้ง %s</string>
+    <string name="warm_sim_check_msg">กำลังรอเครือข่าย…</string>
+    <string name="sign_in_agreement">การลงชื่อเข้าใช้หมายความว่า คุณยอมรับ <annotation id="tos">ข้อกำหนดในการให้บริการ</annotation> <annotation id="google_privacy">นโยบายส่วนบุคคล</annotation> ของ Google และ <annotation id="play_tos">ข้อกำหนดในการให้บริการของ Google Play</annotation></string>
+    <string name="android_privacy_policy_title">นโยบายส่วนบุคคลเพิ่มเติม</string>
+    <string name="google_terms_of_service_title">ข้อกำหนดในการให้บริการของ Google</string>
+    <string name="google_privacy_policy_title">นโยบายส่วนบุคคลของ Google</string>
+    <string name="google_plus_privacy_policy_title">นโยบายส่วนบุคคลของ Google Plus</string>
+    <string name="google_play_tos_title">ข้อกำหนดในการให้บริการของ Google Play</string>
+    <string name="chrome_tos_title">ข้อกำหนดในการให้บริการของ Chrome</string>
+    <string name="chrome_privacy_title">ประกาศเกี่ยวกับนโยบายส่วนบุคคลของ Chrome</string>
+    <string name="url_load_unsuccessful_message_wifi_only">อุปกรณ์ Android ของคุณไม่ได้เชื่อมต่อกับเครือข่าย WiFi หากต้องการดูข้อมูลนี้ในขณะนี้ ให้ไปที่ %s ด้วยเว็บเบราว์เซอร์</string>
+    <string name="continue_for_a11y">แตะต่อไปบนหน้าจอจนกว่าคุณจะได้ยินเสียงบี๊ปเพื่อเปิดใช้งานโหมดการเข้าถึง</string>
+    <string name="canceled_a11y">ยกเลิกโหมดการเข้าถึงแล้ว</string>
+    <string name="enabled_a11y">เปิดใช้งานโหมดการเข้าถึงแล้ว</string>
+    <string name="welcome_message">ยินดีต้อนรับ</string>
+    <string name="emergency_dial">เหตุฉุกเฉิน</string>
+    <string name="welcome_language_picker_dialog_title">เลือกภาษาของคุณ</string>
+    <string name="welcome_language_picker_section_suggested">แนะนำ</string>
+    <string name="welcome_language_picker_section_all">ทุกภาษา</string>
+    <string name="welcome_language_picker_content_description">ภาษา: %s</string>
+    <string name="lock_screen_intro_title">ปกป้องโทรศัพท์ของคุณ</string>
+    <string name="lock_screen_intro_text">ป้องกันไม่ให้ผู้อื่นใช้โทรศัพท์นี้โดยไม่ได้รับอนุญาตจากคุณด้วยการเปิดใช้งานคุณลักษณะการปกป้องอุปกรณ์ <annotation id="learn_more">เรียนรู้เพิ่มเติม</annotation></string>
+    <string name="lock_screen_intro_text_secondary">ระบบจะแนะนำคุณในการตั้งค่าหน้าจอล็อกหากคุณเลือกใช่</string>
+    <string name="lock_screen_intro_check_box"><b>ปกป้องอุปกรณ์นี้</b>และกำหนดให้มีการใช้ PIN, รูปแบบ หรือรหัสผ่านเพื่อปลดล็อกหน้าจอ</string>
+    <string name="lock_screen_intro_radio_fingerprint">ตั้งค่าลายนิ้วมือ</string>
+    <string name="lock_screen_intro_radio_generic">ตั้งค่า PIN, รูปแบบ หรือรหัสผ่าน</string>
+    <string name="lock_screen_intro_radio_no">ไม่เป็นไร</string>
+    <string name="lock_screen_intro_success">"ตั้งค่าหน้าจอล็อกของคุณสำเร็จแล้ว 
+"<annotation id="learn_more">เรียนรู้เพิ่มเติม</annotation></string>
+    <string name="lock_screen_intro_dialog_text_frp">"จะมีการเปิดใช้งานการปกป้องอุปกรณ์โดยอัตโนมัติเมื่อคุณเพิ่มบัญชี Google และตั้งค่าล็อกหน้าจอ เมื่อใช้ร่วมกับโปรแกรมจัดการอุปกรณ์ Android ก็จะช่วยคุณในการค้นหาและลบข้อมูลในโทรศัพท์หากโทรศัพท์สูญหายหรือถูกขโมย
+
+แม้ว่าจะมีการล้างข้อมูลในโทรศัพท์แล้ว ระบบจะยังขอให้ป้อนรหัสผ่านบัญชี Google ก่อนที่จะใช้โทรศัพท์นี้"</string>
+    <string name="lock_screen_intro_dialog_text">จะมีการเปิดใช้งานการปกป้องอุปกรณ์โดยอัตโนมัติเมื่อคุณเพิ่มบัญชี Google และตั้งค่าล็อกหน้าจอ เมื่อใช้ร่วมกับโปรแกรมจัดการอุปกรณ์ Android ก็จะช่วยคุณในการค้นหาและลบข้อมูลในโทรศัพท์หากโทรศัพท์สูญหายหรือถูกขโมย</string>
+    <string name="lock_screen_intro_skip_dialog_text_frp">จะไม่มีการเปิดใช้งานคุณลักษณะการปกป้องอุปกรณ์ คุณจะไม่สามารถป้องกันไม่ให้ผู้อื่นใช้งานโทรศัพท์เครื่องนี้ได้หากโทรศัพท์สูญหาย ถูกขโมย หรือถูกล้างข้อมูล</string>
+    <string name="lock_screen_intro_skip_dialog_text">จะไม่มีการเปิดใช้งานคุณลักษณะการปกป้องอุปกรณ์ คุณจะไม่สามารถป้องกันไม่ให้คนอื่นใช้โทรศัพท์นี้ได้หากโทรศัพท์สูญหายหรือถูกขโมย</string>
+    <string name="services_activity_title">บริการของ Google</string>
+    <string name="services_backup_heading">การสำรองข้อมูล</string>
+    <string name="services_location_heading">ตำแหน่ง</string>
+    <string name="services_security_heading">ความปลอดภัย</string>
+    <string name="services_personalization_heading">การปรับเปลี่ยนในแบบของคุณ</string>
+    <string name="services_communication_heading">การสื่อสาร</string>
+    <string name="security_verify_apps_summary">ให้ Google ตรวจสอบแอปที่ติดตั้งทั้งหมดสำหรับพฤติกรรมที่อาจเป็นอันตราย ซึ่งอาจส่งผลกระทบต่อความปลอดภัยของอุปกรณ์หรือข้อมูลของคุณ</string>
+    <string name="restore_title">กำลังคืนค่า…</string>
+    <string name="restore_wallpaper_title">กำลังคืนค่าวอลเปเปอร์…</string>
+    <string name="restore_device_settings_title">กำลังคืนค่าการตั้งค่าอุปกรณ์…</string>
+    <string name="restore_launcher_title">กำลังคืนค่า Launcher…</string>
+    <string name="restore_failed_message">ไม่สามารถคืนค่าจากข้อมูลสำรองได้</string>
+    <string name="restore_no_backup_message">ไม่มีข้อมูลสำรองที่พร้อมใช้งานสำหรับอุปกรณ์ต้นทาง</string>
+    <string name="restore_stopped_message">ขออภัย อุปกรณ์ได้หยุดการคืนค่าจากข้อมูลสำรองแล้ว</string>
+    <string name="name_title">ชื่อ</string>
+    <string name="name_text">การเพิ่มชื่อของคุณจะทำให้โทรศัพท์สามารถปรับเปลี่ยนบางแอปในแบบของคุณ</string>
+    <string name="first_name">ชื่อ</string>
+    <string name="last_name">นามสกุล</string>
+    <string name="cant_be_blank">ต้องกรอกข้อมูลในช่อง</string>
+    <string name="device_owner_warning_title">ตรวจสอบโทรศัพท์ได้</string>
+    <string name="device_owner_warning">โทรศัพท์เครื่องนี้จัดการโดย “%1$s” ซึ่งหมายความว่าผู้อื่นอาจเห็นข้อมูลบางส่วนของคุณ หากต้องการป้องกันการตรวจสอบ ให้รีเซ็ตโทรศัพท์</string>
+    <string name="device_owner_continue">ต่อไป</string>
+    <string name="device_owner_reset">รีเซ็ตโทรศัพท์</string>
+    <string name="factory_reset_title">รีเซ็ตโทรศัพท์</string>
+    <string name="factory_reset_instructions">คำเตือน: การรีเซ็ตจะลบบัญชีและข้อมูลทั้งหมดในที่จัดเก็บข้อมูลภายในของโทรศัพท์เครื่องนี้</string>
+    <string name="factory_reset_confirmation_title">รีเซ็ตไหม</string>
+    <string name="factory_reset_confirmation">ลบบัญชีและข้อมูลทั้งหมดบนโทรศัพท์เครื่องนี้ไหม คุณจะไม่สามารถเลิกทำการทำงานนี้!</string>
+    <string name="factory_reset_button">ลบและรีเซ็ต</string>
+    <string name="restart_setup_wizard_dialog_title">ไม่ได้ลงชื่อเข้าใช้</string>
+    <string name="restart_setup_wizard_dialog_text">"หากต้องการใช้โทรศัพท์นี้ ก่อนอื่นคุณต้องลงชื่อเข้าใช้บัญชี Google ของเจ้าของที่ใช้บนโทรศัพท์เครื่องนี้เมื่อมีการรีเซ็ตครั้งล่าสุด
+
+คุณยังไม่ได้ดำเนินการดังกล่าว คุณจึงต้องตั้งค่าโทรศัพท์อีกครั้ง"</string>
+    <string name="restart_setup_wizard_button_label">ตั้งค่าโทรศัพท์</string>
+    <string name="sec_user_continue">ต่อไป</string>
+    <string name="sec_user_quit">ออก</string>
+    <string name="user_warning_title">ตั้งค่าผู้ใช้ใหม่</string>
+    <string name="welcome_secondary_user_added_text">%s ได้เพิ่มคุณลงในโทรศัพท์นี้</string>
+    <string name="welcome_secondary_user_added_no_owner_name_text">คุณได้รับการเพิ่มลงในโทรศัพท์นี้แล้ว</string>
+    <string name="welcome_secondary_user_info_text"><b>สำคัญ:</b>"
+
+"<li><ul>เจ้าของโทรศัพท์สามารถถอนการติดตั้งแอปของคุณหรือนำพื้นที่ของคุณออกโดยสมบูรณ์ได้</ul></li>"
+
+"<li><ul>ผู้ใช้คนอื่นๆ สามารถยอมรับสิทธิ์ของแอปที่อัปเดตในนามของคุณได้</ul></li>"
+
+"<li><ul>เช่นเดียวกับคอมพิวเตอร์เครื่องอื่นๆ คุณควรแชร์โทรศัพท์นี้กับคนที่คุณไว้วางใจเท่านั้น</ul></li></string>
+    <string name="welcome_limited_user_info_text">" "<b>สำคัญ:</b>"
+
+ "<li><ul>เจ้าของโทรศัพท์สามารถติดตั้งและถอนการติดตั้งแอป ตั้งขีดจำกัด หรือนำพื้นที่ของคุณออกได้โดยสมบูรณ์</ul></li>"
+
+ "<li><ul>ผู้ใช้รายอื่นๆ สามารถยอมรับสิทธิ์ของแอปที่อัปเดตในนามของคุณได้</ul></li>"
+
+ "<li><ul>คุณควรแชร์โทรศัพท์นี้เฉพาะกับผู้ที่คุณไว้ใจ เช่นเดียวกับคอมพิวเตอร์</ul></li></string>
+</resources>

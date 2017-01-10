@@ -19,6 +19,12 @@
         <item>บทสัมภาษณ์</item>
         <item>HD</item>
     </string-array>
+    <string-array name="record_scenes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
     <string-array name="record_scenes_summaries">
         <item>บันทึกผ่าน 2 ช่องเสียง รับฟังเสียงสเตอริโอผ่านหูฟัง</item>
         <item>วางไมค์ให้อยู่ตำแหน่งใกล้กันกับแหล่งที่มาของเสียงเพื่อคุณภาพเสียงที่ดีขึ้น</item>
@@ -29,6 +35,11 @@
         <item>สูง</item>
         <item>มาตรฐาน</item>
         <item>ต่ำ</item>
+    </string-array>
+    <string-array name="record_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="record_quality_summaries">
         <item>MP3 ~192Kb/วิ ~90MB/ชม.</item>

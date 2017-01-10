@@ -54,7 +54,7 @@
     <string name="mycamera">วิดีโอของฉัน</string>
     <string name="dlna_name">อุปกรณ์ที่ใช้ร่วมกัน</string>
     <string name="dlna_list_name">อุปกรณ์ DLNA</string>
-    <string name="myfavorite_onlylocal">รายการโปรด</string>
+    <string name="myfavorite_onlylocal">ติดดาว</string>
     <string name="login_tip_title">เข้าสู่ระบบ</string>
     <string name="login_tip_content">เข้าสู่ระบบด้วยบัญชี Mi ของคุณเพื่อซิงค์และติดตามรายการที่ชอบ</string>
     <string name="cancel">ยกเลิก</string>
@@ -86,11 +86,11 @@
     <string name="vp_unknown_source">ไม่ทราบที่มา</string>
     <string name="vp_download_file_fail">เขียนไฟล์ไม่ได้ กรุณาตรวจสอบให้แน่ใจว่ามีพื้นที่เหลือเพียงพอในเครื่อง</string>
     <string name="vp_download_connect_fail">ไม่พบลิงก์ที่ระบุ</string>
-    <string name="file_not_exist">ไม่พบไฟล์นี้</string>
+    <string name="file_not_exist">ไม่พบไฟล์ดังกล่าว</string>
     <string name="vp_app_name">เครื่องเล่นวิดีโอ</string>
     <string name="temp_play_history_button_label">ประวัติ</string>
     <string name="vp_VideoView_error_text_invalid_progressive_playback">ระบบไม่รองรับไฟล์ชนิดนี้</string>
-    <string name="vp_VideoView_error_text_unknown">เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ</string>
+    <string name="vp_VideoView_error_text_unknown">ขัดข้องไม่ทราบสาเหตุ</string>
     <string name="vp_VideoView_error_title">ข้อผิดพลาดไม่รู้จัก</string>
     <string name="vp_VideoView_error_button">ตกลง</string>
     <string name="about_title">เกี่ยวกับ</string>
@@ -197,7 +197,7 @@
     <string name="vp_toast_downloadapk">กำลังดาวน์โหลด…</string>
     <string name="vp_video_loading"><CDATA>กำลังโหลด…</CDATA></string>
     <string name="vp_video_plugin_installation">กำลังติดตั้ง %1$s…</string>
-    <string name="vp_video_bad_network_condition">การเชื่อมต่ออินเตอร์เน็ตไม่เสถียร กรุณาลองใหม่ภายหลัง</string>
+    <string name="vp_video_bad_network_condition">การเชื่อมกับต่ออินเตอร์เน็ตไม่เสถียร กรุณาลองใหม่ภายหลัง</string>
     <string name="vp_video_invalid_cp_info">ข้อมูลวิดีโอไม่ถูกต้อง กรุณาปิด-เปิดแอปใหม่</string>
     <string name="vp_datastream_alert_play">การชมวิดีโอนี้ผ่านเครือข่ายข้อมูลมือถือต้องใช้ปริมาณการถ่ายโอนข้อมูลสูง ซึ่งหากใช้ไปเกินแพ็คเกจที่กำหนดแล้วอาจทำให้คุณต้องเสียค่าบริการที่เพิ่มขึ้นให้แก่ผู้ให้บริการเครือข่าย</string>
     <string name="vp_datastream_alert_hint">คุณสามารถปิดการแจ้งเตือนการใช้งานข้อมูลมือถือได้เองจากเมนูการตั้งค่า</string>

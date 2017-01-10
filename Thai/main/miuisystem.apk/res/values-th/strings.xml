@@ -105,4 +105,27 @@
     <string name="vip_not_login">ยังไม่ได้ล็อกอิน</string>
     <string name="vip_level">ระดับ %d</string>
     <string name="vip_login">แตะเพื่อลงชื่อเข้าสู่ระบบ</string>
+    <string name="edit_frequent_phrases">เพิ่มคำที่ถูกใช้บ่อย</string>
+    <string name="menu_add_frequent_phrases">เพิ่ม</string>
+    <string name="menu_edit">แก้ไข</string>
+    <string name="menu_delete">ลบ</string>
+    <string name="frequent_phrases_des">ป้อนคำที่ถูกใช้บ่อยด้วยการแตะเพียงไม่กี่ครั้งขณะพิมพ์ข้อความ</string>
+    <string name="add_frequent_phrases">เพิ่มคำที่ถูกใช้บ่อย</string>
+    <string name="delete_frequent_phrases">ลบคำที่ถูกใช้บ่อย</string>
+    <string name="delete_frequent_phrases_confirm">ลบคำที่ถูกใช้บ่อยที่เลือกไว้?</string>
+    <string name="frequent_phrases_size_exceeded">สามารถเพิ่มวลีที่ใช้บ่อยได้ถึง %1$d รายการ ลบอันที่ไม่จำเป็นออกเพื่อทำการเพิ่ม</string>
+    <string name="lollipop">อมยิ้ม</string>
+    <string name="glockenspiel">ระนาด</string>
+    <string name="carousel">ม้าหมุน</string>
+    <string name="toyrobot">หุ่นยนต์ของเล่น</string>
+    <string name="daydream">ฝันหวาน</string>
+    <string name="miclassic">Mi คลาสสิค</string>
+    <string name="cta_permission_delimiter">, </string>
+    <string name="cta_permission_and"> และ </string>
+    <string name="cta_title">เงื่อนไขการใช้</string>
+    <string name="cta_message_license">ในการใช้ผลิตภัณฑ์ดังกล่าว ถือว่าคุณได้ยอมรับเงื่อนไขที่ระบุไว้ในเงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัวของทางเรา</string>
+    <string name="cta_message_permission">แอปดังกล่าวจำเป็นต้อง%2$sเพื่อให้ใช้งานได้ตามปกติ</string>
+    <string name="cta_check_reminder">ไม่ต้องแสดงอีก</string>
+    <string name="cta_button_quit">ออก</string>
+    <string name="cta_button_continue">ตกลง</string>
 </resources>
