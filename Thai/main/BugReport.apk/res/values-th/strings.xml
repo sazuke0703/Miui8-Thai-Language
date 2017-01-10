@@ -61,7 +61,6 @@
     <string name="michat_skillset_product_title">เลือกผลิตภัณฑ์</string>
     <string name="michat_skillset_business_type_title">เลือกบริการ</string>
     <string name="michat_close_text">การแชทสิ้นสุดลง</string>
-    <string name="default_text_view">TextView</string>
     <string name="michat_message_robot_welcome">ชื่อของฉันคือ Mi Bunny ฉันคือหุ่นยนต์ช่วยเหลือออนไลน์</string>
     <string name="michat_message_join_again">ดีใจที่คุณกลับมา!</string>
     <string name="michat_invalid_url">ลิงก์ URL ไม่ถูกต้อง</string>

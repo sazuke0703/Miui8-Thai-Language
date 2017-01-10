@@ -183,8 +183,6 @@
     <string name="unit_data_display_length_au">หน่วยดาราศาสตร์</string>
     <string name="unit_data_display_length_ld">LD</string>
     <string name="unit_data_display_length_pc">พาร์เซก</string>
-    <string name="unit_data_default_area_0">ตรม.</string>
-    <string name="unit_data_default_area_1">sq.cm</string>
     <string name="unit_data_display_area_sq.m">ตารางเมตร</string>
     <string name="unit_data_display_area_sq.km">ตารางกิโลเมตร</string>
     <string name="unit_data_display_area_ha">เฮกตาร์</string>

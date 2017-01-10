@@ -785,7 +785,6 @@ Join แฟน Mi 170 ล้านคน"</string>
     <string name="open_chest">เปิดเพื่อรับของขวัญ</string>
     <string name="count_down">นับถอยหลัง: %1$s</string>
     <string name="full_gems">แลกเปลี่ยนเพชรของคุณ</string>
-    <string name="default_prize_text">จะไปยังคลังของฉัน!</string>
     <string name="prize_result_tip">แลกเปลี่ยน</string>
     <string name="prize_result_tip2">เพชรไปยังคลังของคุณ</string>
 </resources>

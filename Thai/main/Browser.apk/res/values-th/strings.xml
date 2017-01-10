@@ -25,7 +25,6 @@
     <string name="color_picker_button_more">เพิ่มเติม</string>
     <string name="color_picker_hue">โทนสี</string>
     <string name="color_picker_saturation">ความอิ่มสี</string>
-    <string name="color_picker_value">ค่าสี</string>
     <string name="color_picker_button_set">ตั้งค่า</string>
     <string name="color_picker_button_cancel">ยกเลิก</string>
     <string name="color_picker_dialog_title">เลือกสี</string>
@@ -72,7 +71,6 @@
     <string name="last_month">เดือนที่แล้ว</string>
     <string name="older">เก่ากว่า</string>
     <string name="js_dialog_title">หน้าเว็บที่ \"%s\" แจ้งว่า:</string>
-    <string name="js_dialog_title_default">จาวาสคริปต์</string>
     <string name="js_dialog_before_unload_title">ยืนยันการออกจากหน้าเพจ</string>
     <string name="js_dialog_before_unload_positive_button">ออก</string>
     <string name="js_dialog_before_unload_negative_button">อยู่ต่อ</string>
