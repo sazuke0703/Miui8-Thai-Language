@@ -1301,8 +1301,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="terms_title">ข้อกำหนดในการให้บริการ</string>
     <string name="webview_license_title">ใบอนุญาต WebView ของระบบ</string>
     <string name="wallpaper_attributions">ภาพพื้นหลัง</string>
-    <string name="wallpaper_attributions_values">"ผู้ให้บริการภาพถ่ายดาวเทียม:
-©2014 CNES/Astrium, DigitalGlobe, Bluesky"</string>
     <string name="settings_license_activity_title">สัญญาอนุญาตสำหรับโอเพนซอร์ส</string>
     <string name="settings_license_activity_unavailable">พบปัญหาในการโหลดสัญญาอนุญาต</string>
     <string name="settings_license_activity_loading">กำลังโหลด…</string>
@@ -1810,7 +1808,6 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="battery_stats_wifi_running_label">WiFi</string>
     <string name="battery_stats_wake_lock_label">เปิดหน้าจอค้าง</string>
     <string name="battery_stats_phone_signal_label">สัญญาณเครือข่ายมือถือ</string>
-    <string name="battery_stats_last_duration">@string/menu_stats_last_unplugged</string>
     <string name="awake">เวลาการทำงานของอุปกรณ์</string>
     <string name="wifi_on_time">เวลาเปิดใช้ WiFi</string>
     <string name="bluetooth_on_time">เวลาเปิดใช้ WiFi</string>
