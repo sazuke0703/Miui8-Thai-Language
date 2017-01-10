@@ -106,7 +106,6 @@
     <string name="cpe_a11y_cancel_stabilize_analysis">ยกเลิกการวิเคราะห์ภาพสั่นไหว</string>
     <string name="cpe_a11y_close">ยกเลิก</string>
     <string name="cpe_a11y_close_editor">ปิดตัวแก้ไข</string>
-    <string name="cpe_a11y_controls_tilt_value">มุมเอียง %1$d องศา</string>
     <string name="cpe_a11y_crop_auto">ครอบตัดและปรับให้ตรงโดยอัตโนมัติ</string>
     <string name="cpe_a11y_crop_auto_done">ใช้อัตโนมัติ</string>
     <string name="cpe_a11y_crop_bottom_edge_moved">ตั้งค่าขอบด้านล่าง %1$d เปอร์เซ็นต์</string>
@@ -142,7 +141,6 @@
     <string name="cpe_a11y_filter_name_selected">เลือกตัวกรอง %s ไว้</string>
     <string name="cpe_a11y_filter_selected">เลือก %s ไว้</string>
     <string name="cpe_a11y_filter_slider">ตัวเลื่อนตัวกรอง จับเพื่อปรับ</string>
-    <string name="cpe_a11y_filter_slider_value">ตัวควบคุมการค้นหา %1$d เปอร์เซ็นต์</string>
     <string name="cpe_a11y_filtered_image_shown">แสดงรูปภาพที่ใช้ตัวกรอง</string>
     <string name="cpe_a11y_image_tilt">รูปภาพเอียง</string>
     <string name="cpe_a11y_original_image_shown">แสดงรูปภาพต้นฉบับ</string>
@@ -561,7 +559,6 @@
     <string name="photos_actionbar_overflow_menu_label">ตัวเลือกเพิ่มเติม</string>
     <string name="photos_actionpromo_dismiss">รับทราบ</string>
     <string name="photos_actionpromo_icon_content_description">ลองดำเนินการ</string>
-    <string name="photos_actor_default_display_name">ผู้ใช้ Google</string>
     <string name="photos_album_albumeditmode_add_map">เพิ่มแผนที่</string>
     <string name="photos_album_albumeditmode_add_places">เพิ่มสถานที่</string>
     <string name="photos_album_albumeditmode_add_text">เพิ่มข้อความ</string>
@@ -622,7 +619,6 @@
     <string name="photos_album_promos_first_joiner_title">ดูว่าใครเข้าร่วม</string>
     <string name="photos_album_promos_sharing_options_subtitle">ให้คนอื่นเพิ่มรูปภาพในอัลบั้มนี้ได้</string>
     <string name="photos_album_promos_sharing_options_title">ตัวเลือกการแชร์ใหม่</string>
-    <string name="photos_album_recentlyadded_view_by_default_order">ดูตามลำดับค่าเริ่มต้น</string>
     <string name="photos_album_recentlyadded_view_by_recent_activity">ดูตามกิจกรรมล่าสุด</string>
     <string name="photos_album_recentlyadded_viewing_recent_activity_header">กำลังดูตามกิจกรรมล่าสุด</string>
     <string name="photos_album_recentlyadded_viewing_recent_activity_reset_button">รีเซ็ต</string>
@@ -1119,7 +1115,6 @@
     <string name="photos_envelope_settings_share_unshare_album_failed">ไม่สามารถเลิกแชร์ได้</string>
     <string name="photos_envelope_settings_title">ตัวเลือกการแชร์</string>
     <string name="photos_envelope_sharetext_continue">ดำเนินการต่อ</string>
-    <string name="photos_envelope_sharetext_default_share_message">%s แชร์รูปภาพกับคุณแล้ว</string>
     <string name="photos_envelope_sharetext_join_as">เข้าร่วมในฐานะ %s</string>
     <string name="photos_envelope_signedoutpromo_continue_as_user_button">ทำต่อในชื่อ %1s</string>
     <string name="photos_envelope_signedoutpromo_message">รับการแจ้งเตือนเมื่อมีรูปภาพและความคิดเห็นใหม่</string>
@@ -1214,7 +1209,6 @@
     <string name="photos_mediadetails_caption_placeholder_hint">เพิ่มรายละเอียด</string>
     <string name="photos_mediadetails_details_map_content_description">แผนที่ของสถานที่ตั้งซึ่งถ่ายภาพนี้</string>
     <string name="photos_mediadetails_details_title">ข้อมูล</string>
-    <string name="photos_mediadetails_exif_focal_length_value">%.2fmm</string>
     <string name="photos_mediadetails_exif_header">รายละเอียด</string>
     <string name="photos_mediadetails_exif_inferred_location_hint">สถานที่โดยประมาณ</string>
     <string name="photos_mediadetails_exif_inferred_location_more_info_link">สถานที่โดยประมาณคืออะไร</string>
@@ -1224,7 +1218,6 @@
     <string name="photos_mediadetails_exif_inferred_location_remove_menu_item">นำสถานที่ออก</string>
     <string name="photos_mediadetails_exif_location">พิกัดแผนที่</string>
     <string name="photos_mediadetails_exif_location_reverse_geocoding_loading">กำลังโหลด…</string>
-    <string name="photos_mediadetails_exif_pixels_value">ล้านพิกเซล</string>
     <string name="photos_mediadetails_exif_tiered_backup_description">นี่คือสำเนาขนาดเล็กของรูปภาพจนกว่าการสำรองข้อมูลจากอุปกรณ์อื่นจะเสร็จสมบูรณ์</string>
     <string name="photos_mediadetails_exif_tiered_backup_title">การสำรองข้อมูลภาพบางส่วน</string>
     <string name="photos_mediadetails_inferred_location_removal_error">เกิดข้อผิดพลาดในการนำสถานที่ออก</string>
@@ -1596,8 +1589,6 @@
     <string name="photos_selection_cabmode_menue_copy_to_folder">คัดลอกไปที่โฟลเดอร์</string>
     <string name="photos_selection_cabmode_menue_move_to_folder">ย้ายไปที่โฟลเดอร์</string>
     <string name="photos_selection_cabmode_photo_picker_one_up_done_button_label">สร้าง</string>
-    <string name="photos_selection_cabmode_picker_title_multiple_default">เลือกรายการ</string>
-    <string name="photos_selection_cabmode_picker_title_single_default">เลือกรายการ</string>
     <string name="photos_selection_cabmode_post_share_button_text">แชร์</string>
     <string name="photos_selection_cabmode_text_done">เสร็จสิ้นและบันทึก</string>
     <string name="photos_setas_chooser_title">ดำเนินการโดยใช้</string>
@@ -1888,7 +1879,6 @@
     <string name="sendkit_ui_contact_method_unselected_description">ยกเลิกการเลือก %s</string>
     <string name="sendkit_ui_contact_removed_description" formatted="false">นำ %s, %s ออกแล้ว</string>
     <string name="sendkit_ui_contacts_permission_required">ต้องได้รับสิทธิ์จากรายชื่อติดต่อ</string>
-    <string name="sendkit_ui_default_title">เลือกบุคคล</string>
     <string name="sendkit_ui_expand_button_content_description">ขยาย %s</string>
     <string name="sendkit_ui_feedback">ส่งความคิดเห็น</string>
     <string name="sendkit_ui_in_app_primary_method_gaia">ในแอป</string>

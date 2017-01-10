@@ -53,7 +53,6 @@
 
 คุณสามารถเปิดหรือปิดการส่งข้อมูลได้ตลอดเวลาในแอปการตั้งค่า Google ซึ่งจะไม่มีผลต่อความสามารถของอุปกรณ์ในการส่งข้อมูลเพื่อรับบริการที่จำเป็น เช่น การอัปเดตระบบและความปลอดภัย"</string>
     <string name="setup_wizard_services_agreement">โทรศัพท์เครื่องนี้ยังอาจรับและติดตั้งกา⁠รอัปเดตและแอปจาก Google, ผู้ให้บริการ และผู้ผลิตโทรศัพท์ของคุณ อาจมีการดาวน์โหลดและติดตั้งแอปบางอย่างหากคุณดำเนินการต่อ และคุณสามารถนำแอ⁠ปดังกล่าวออกได้ทุกเมื่อ</string>
-    <string name="default_device_name">" Android"</string>
     <string name="finish_button_label">เสร็จสิ้น</string>
     <string name="skip_button_label">ข้าม</string>
     <string name="skip_anyway_button_label">ข้ามไปเลย</string>
@@ -75,7 +74,6 @@
     <string name="activation_title">กำลังเปิดใช้งานบริการข้อมูลมือถือ…</string>
     <string name="activation_title_searching">กำลังค้นหาบริการ...</string>
     <string name="activation_title_activating">กำลังเปิดใช้งานบริการข้อมูลมือถือ…</string>
-    <string name="activation_default_network_name">เครือข่ายมือถือ</string>
     <string name="activation_network_bars_template">ความแรงของสัญญาณ %d ขีด</string>
     <string name="activation_text">แตะ<b>เปิดใช้งาน</b>"เพื่อเปิดใช้งานบริการของมือถือตอนนี้ (อาจใช้เวลา 2-3 นาที) 
 

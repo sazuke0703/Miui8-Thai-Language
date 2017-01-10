@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">บัญชี Weibo หมดอายุ: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_token_invalid_warning">บัญชี Weibo ไม่ถูกต้อง: กรุณาผูกบัญชีอีกครั้ง</string>
     <string name="sina_share_fail_content_repeat">ไม่สามารถแชร์ได้ เนื่องจากมีไฟล์นี้อยู่แล้ว…</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">บันทึกย่อ;ความจำ</string>
     <string name="search_path_notes">แอประบบ/บันทึกย่อ</string>
     <string name="dlg_move_message">กำลังย้าย…</string>

@@ -163,7 +163,6 @@
     <string name="datausage_ignore_app_list_count">ไม่รวมข้อมูลของ %d แอป</string>
     <string name="free_traffic_settings">การตั้งค่าเพดานการใช้ข้อมูลนอกช่วงปกติ</string>
     <string name="free_time_traffic">เพดานข้อมูลนอกช่วงปกติ</string>
-    <string name="power_save_on_time_default_time_na">00:00</string>
     <string name="power_save_on_time_start_time_summary_na">จาก</string>
     <string name="power_save_on_time_end_time_summary_na">ถึง</string>
     <string name="manual_input_traffic">ตั้งการใช้ข้อมูล</string>
@@ -493,9 +492,6 @@
     <string name="tc_diagnostic_onekey_repair_botton">แก้ไข</string>
     <string name="tc_diagnostic_repair_and_continue">แก้ไขและดำเนินการต่อ</string>
     <string name="tc_diagnostic_upload_button">รายงาน</string>
-    <string name="tc_diagnostic_fragment_default">"เกี่ยวกับการวินิจฉัย
-1. อุปกรณ์ที่จะเชื่อมต่อกับเครือข่ายของผู้ให้บริการ ส่งข้อความฟรีและรอการตอบสนองของผู้ให้บริการ อาจใช้เวลาถึง 5 นาที
-2. คุณสามารถออกจากหน้านี้ในระหว่างรอการวินิจฉัยและให้ดำเนินการในพื้นหลังแทน"</string>
     <string name="sim_location_diagnostic">วินิจฉัยสังกัด</string>
     <string name="operator_diagnostic">วินิจฉัยผู้ให้บริการ</string>
     <string name="brand_diagnostic">วินิจฉัยประเภทแพ็คเกจผู้ให้บริการ</string>
@@ -900,7 +896,6 @@
     <string name="memory_check_content">ปล่อยไป %s</string>
     <string name="memory_check_content_none">ไม่มี</string>
     <string name="system_check_content_none">ปลอดภัย</string>
-    <string name="cache_check_content_none">@string/memory_check_content_none</string>
     <string name="system_header_title">ล้างกระบวนการจำนวน %1$d รายการ คิดเป็นที่เก็บข้อมูล %2$s</string>
     <string name="cache_header_title">ลบแคชจำนวน %1$d ไฟล์ คิดเป็นเนื้อที่ %2$s</string>
     <string name="activity_title_virus">ไวรัส</string>
@@ -1349,7 +1344,6 @@
     <string name="card_main_monthreport_action">เรียกดู</string>
     <string name="card_main_speeddetail_title">ความเร็วการเชื่อมต่อ</string>
     <string name="card_main_speeddetailt_summary">เรียกดูความเร็วการเชื่อมต่อแต่ละแอป</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">ทดสอบเครือข่าย</string>
     <string name="card_main_netcheck_summary">ทดสอบการเชื่อมต่อสำหรับปัญหาเครือข่าย</string>
     <string name="card_main_netcheck_action">ทดสอบ</string>
@@ -1639,13 +1633,9 @@
     <string name="sys_app_prot_cracked_login">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>
     <string name="confirmSecondSpacePassword">ยืนยันรหัสผ่านพื้นที่ทับซ้อน</string>
     <string name="sponsored_sec_fb">ให้การสนับสนุน</string>
-    <string name="power_center_auto_shutdown_summary_default">ตั้งค่าการเปิดหรือปิดเครื่องตามเวลาที่กำหนดไว้ล่วงหน้า</string>
-    <string name="power_center_custom_summary_default">ยืดอายุการใช้แบตเตอรี่ด้วยโหมดที่กำหนดเอง</string>
     <string name="power_center_low_battery_title">ประหยัดแบตเตอรี่</string>
-    <string name="power_center_low_battery_summary_default">เปลี่ยนโหมดพลังงานเมื่อแบตเตอรี่เหลือน้อย</string>
     <string name="power_center_low_battery_summary_dynamic">เมื่อเหลือ %1$d%% สลับเป็นโหมด %2$s</string>
     <string name="power_center_on_time_title">ตั้งเวลาเปลี่ยนโหมด</string>
-    <string name="power_center_on_time_summary_default">เปลี่ยนโหมดพลังงานเมื่อถึงเวลาที่กำหนดไว้</string>
     <string name="power_center_on_time_summary_dynamic">%1$s - %2$s สลับเป็นโหมด %3$s</string>
     <string name="power_chooser_title">โหมดแบตเตอรี่</string>
     <string name="power_chooser_check_box_title">เลือกโหมดใช้งาน</string>
@@ -1724,7 +1714,6 @@
     <string name="power_dialog_screen_brightness_automatic_on">ความสว่างหน้าจอจะปรับตามแสงสว่างตามสภาพแวดล้อม</string>
     <string name="power_dialog_delete_dialog_title">ลบโหมด</string>
     <string name="power_dialog_delete_dialog_delete">ลบโหมดพลังงานนี้?</string>
-    <string name="power_dialog_delete_dialog_cannot_delete_default">คุณกำลังใช้งานโหมดแบตเตอรี่นี้อยู่</string>
     <string name="power_dialog_delete_dialog_cannot_delete_low_battery">อุปกรณ์ของคุณตั้งให้ใช้งานโหมดแบตเตอรี่นี้เมื่อแบตต่ำ คุณต้องแก้ไขการตั้งค่าพลังงานก่อนจึงจะสามารถลบโหมดแบตเตอรี่นี้ได้</string>
     <string name="power_dialog_delete_dialog_cannot_delete_is_my_mode">อุปกรณ์ของคุณตั้งให้ใช้งานโหมดแบตเตอรี่นี้เมื่อแบตต่ำ คุณต้องแก้ไขการตั้งค่าพลังงานก่อนจึงจะสามารถลบโหมดแบตเตอรี่นี้ได้</string>
     <string name="power_dialog_delete_dialog_cannot_delete_on_time">อุปกรณ์ของคุณตั้งเวลาให้ใช้งานโหมดแบตเตอรี่นี้ คุณต้องแก้ไขการตั้งค่าพลังงานก่อนจึงจะสามารถลบโหมดแบตเตอรี่นี้ได้</string>

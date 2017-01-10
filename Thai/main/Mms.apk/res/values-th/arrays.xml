@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="default_smiley_names">
-        <item>สุข</item>
-        <item>ทุกข์</item>
-        <item>ขยิบตา</item>
-        <item>แลบลิ้น</item>
-        <item>ประหลาดใจ</item>
-        <item>จูบ</item>
-        <item>ตะโกน</item>
-        <item>เจ๋ง</item>
-        <item>เงินในปาก</item>
-        <item>เท้าในปาก</item>
-        <item>ประหม่า</item>
-        <item>เทวดา</item>
-        <item>ไม่ตัดสินใจ</item>
-        <item>ร้องไห้</item>
-        <item>ปิดปาก</item>
-        <item>หัวเราะ</item>
-        <item>สับสน</item>
-        <item>หัวใจ</item>
-        <item>บ้า</item>
-        <item>ยิ้มเยาะ</item>
-        <item>หน้านิ่ง</item>
-    </string-array>
     <string-array name="contact_entries">
         <item>ชื่อ</item>
         <item>ชื่อเล่น</item>

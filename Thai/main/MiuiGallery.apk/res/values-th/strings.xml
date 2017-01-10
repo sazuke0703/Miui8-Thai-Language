@@ -558,7 +558,6 @@
     <string name="welcome_to_slim">ปรับแต่งพื้นที่จัดเก็บในเครื่อง</string>
     <string name="slim_introduce">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์</string>
     <string name="slim_introduce_with_specific_size">เปลี่ยนรูปความละเอียดเต็มเป็นเวอร์ชั่นปรับปรุงหลังจากทำการสำรองข้อมูลไปยัง Mi คลาวด์ รูปความละเอียดเต็มจะยังคงถูกเก็บไว้บน Mi คลาวด์ นี่จะช่วยให้คุณสามารถประหยัดพื้นที่ได้ %1$s (ต้องใช้บัญชี Mi)</string>
-    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">สำรองข้อมูลรูปภาพและวิดีโอโดยอัตโนมัติ (ต้องใช้บัญชี Mi)</string>
     <string name="next">ถัดไป</string>
     <string name="login_and_enable_service">ลงชื่อเข้าใช้ด้วยบัญชี Mi</string>

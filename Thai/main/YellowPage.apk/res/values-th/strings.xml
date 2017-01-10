@@ -164,7 +164,6 @@
     <string name="recharge_input_phone_title">ป้อนหมายเลขโทรศัพท์ (เลขหมายของ China Mobile, China Unicom หรือ China Telecom)</string>
     <string name="recharge_select_money_title">เลือกจำนวนเงินที่ต้องการเติม</string>
     <string name="recharge_charge_range">ราคา: %1$s-%2$s RMB</string>
-    <string name="recharge_charge_value">ราคา: %s RMB</string>
     <string name="recharge_pay">เติมเงินตอนนี้</string>
     <string name="mishop_web_payment_title">เตรียมชำระเงิน Mi สโตร์</string>
     <string name="recharge_pay_hint_license">การแจ้งเตือนการเติมเงิน</string>
@@ -340,7 +339,6 @@
     <string name="balance_inquiry_send_sms_hint">ระบบจะส่งข้อความไปยังผู้ให้บริการเครือข่ายของคุณเพื่อตรวจสอบยอดบัญชี</string>
     <string name="balance_inquiry_send_sms_summmary">ตรวจสอบยอดบัญชี</string>
     <string name="balance_inquiry_send_sms_fail_hint">ไม่สามารถเช็คยอดคงเหลือได้</string>
-    <string name="navigation_search_default_hint">ค้นหาตำแหน่งพิกัด</string>
     <string name="navigation_search_automatically_positioned_city">เมืองปัจจุบัน</string>
     <string name="navigation_search_positioning">กำลังค้นหา…</string>
     <string name="navigation_search_positioning_failed">เลือกเมือง</string>
