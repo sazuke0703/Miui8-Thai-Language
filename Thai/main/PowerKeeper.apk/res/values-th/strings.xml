@@ -7,7 +7,6 @@
     <string name="menu_text_power_analysis">ทดสอบแบต</string>
     <string name="menu_text_power_configure">การตั้งค่าแบตเตอรี่</string>
     <string name="power_keeper">ประหยัดแบตเตอรี่</string>
-    <string name="invalid_size_value">ไม่ทราบขนาดไฟล์</string>
     <string name="disabled">ปิด</string>
     <string name="no_applications">ว่าง</string>
     <string name="add_applications">เลือกแอป</string>

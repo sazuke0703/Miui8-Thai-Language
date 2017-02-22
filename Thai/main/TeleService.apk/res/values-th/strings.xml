@@ -45,7 +45,6 @@
     <string name="advanced_settings">การตั้งค่าเพิ่มเติม</string>
     <string name="auth_username_title">ชื่อผู้ใช้สำหรับตรวจสอบสิทธิ์</string>
     <string name="auth_username_summary">ชื่อผู้ใช้ที่ใช้ในการตรวจสอบสิทธิ์</string>
-    <string name="default_preference_summary">&lt;ไม่ได้ตั้งค่า></string>
     <string name="display_name_summary">&lt;เหมือนกับชื่อผู้ใช้></string>
     <string name="optional_summary">&lt;เว้นไว้ได้></string>
     <string name="advanced_settings_show">▷ แตะเพื่อแสดงทั้งหมด</string>
@@ -62,7 +61,6 @@
     <string name="description_delete_button">ลบ</string>
     <string name="description_image_button_plus">บวก</string>
     <string name="description_voicemail_button">ข้อความเสียง</string>
-    <string name="default_notification_description">เสียงเริ่มต้น (%1$s)</string>
     <string name="callFailed_userBusy">สายไม่ว่าง</string>
     <string name="callFailed_congestion">เครือข่ายไม่ว่าง</string>
     <string name="callFailed_timedOut">ไม่มีการตอบกลับ หมดเวลา</string>
@@ -188,7 +186,6 @@
     <string name="phone_accounts_all_calling_accounts">บัญชีการโทรทั้งหมด</string>
     <string name="phone_accounts_all_calling_accounts_summary">เลือกบัญชีที่สามารถโทรออก</string>
     <string name="wifi_calling">โทร Wi-Fi</string>
-    <string name="connection_service_default_label">บริการการเชื่อมต่อเครือยข่ายภายใน</string>
     <string name="voicemail">ฝากข้อความเสียง</string>
     <string name="voicemail_settings_with_label">ข้อความเสียง (%s)</string>
     <string name="voicemail_abbreviated">VM:</string>
@@ -205,7 +202,6 @@
     <string name="sum_loading_settings">กำลังโหลดการตั้งค่า…</string>
     <string name="sum_hide_caller_id">เลขหมายที่ซ่อนในสายโทรออก</string>
     <string name="sum_show_caller_id">เลขหมายที่แสดงในสายโทรออก</string>
-    <string name="sum_default_caller_id">ใช้การตั้งค่าเริ่มต้นของผู้ให้บริการเพื่อแสดงเลขหมายของฉันขณะโทรออก</string>
     <string name="labelCW">สายเรียกซ้อน</string>
     <string name="sum_cw_enabled">แจ้งเตือนเมื่อมีสายเรียกซ้อนระหว่างสนทนา</string>
     <string name="sum_cw_disabled">แจ้งเตือนเมื่อมีสายเรียกซ้อนระหว่างสนทนา</string>
@@ -272,7 +268,6 @@
 ต้องการเปลี่ยนผู้ให้บริการเครือข่ายเลยหรือไม่?"</string>
     <string name="no_change">ไม่มีการเปลี่ยนแปลง</string>
     <string name="sum_voicemail_choose_provider">เลือกบริการฝากข้อความเสียง</string>
-    <string name="voicemail_default">ผู้ให้บริการของฉัน</string>
     <string name="mobile_networks">การตั้งค่าเครือข่ายมือถือ</string>
     <string name="label_available">เครือข่ายที่พบสัญญาณ</string>
     <string name="load_networks_progress">กำลังค้นหา…</string>
@@ -662,7 +657,6 @@
     <string name="enable_video_calling_dialog_close">ปิด</string>
     <string name="sim_label_emergency_calls">โทรออกฉุกเฉิน</string>
     <string name="sim_description_emergency_calls">โทรออกฉุกเฉินเท่านั้น</string>
-    <string name="sim_description_default">ซิมการ์ด ช่อง: %s</string>
     <string name="accessibility_settings_activity_title">สิ่งอำนวยความสะดวก</string>
     <string name="status_hint_label_incoming_wifi_call">สาย Wi-Fi เรียกเข้า</string>
     <string name="status_hint_label_wifi_call">โทร Wi-Fi</string>
@@ -900,7 +894,6 @@
     <string name="other_settings_category">อื่นๆ</string>
     <string name="caller_id_title">เลขหมายผู้โทร</string>
     <string name="caller_id_summary">ซ่อนหมายเลขของฉันสำหรับสายโทรออก (ยืนยันผู้ให้บริการของคุณว่ารองรับคุณลักษณะนี้)</string>
-    <string name="clir_choices_network_default">เครือข่ายเริ่มต้น</string>
     <string name="clir_choices_hide_number">ซ่อนเลขหมาย</string>
     <string name="clir_choices_show_number">แสดงเลขหมาย</string>
     <string name="get_smsc_address_error">ไม่สามารถเชื่อมต่อกับเครือข่ายได้</string>
@@ -931,7 +924,6 @@
     <string name="preference_telocation_summary_teloc_off">ซ่อนตำแหน่งของผู้ติดต่อ</string>
     <string name="preference_telocation_summary_teloc_on">แสดงตำแหน่งของผู้ติดต่อ</string>
     <string name="preference_telocation_summary_countrycode_on">ต่อสายพร้อมรหัสประเทศอัตโนมัติ</string>
-    <string name="preference_dial_pad_touch_tone_default">ค่าเริ่มต้น</string>
     <string name="preference_dial_pad_touch_tone_piano">เสียงเปียโน</string>
     <string name="preference_dial_pad_touch_tone_off">ปิด</string>
     <string name="preference_telocation_summary_countrycode_off">ไม่ต่อเลขหมายพร้อมรหัสประเทศอัตโนมัติ</string>
@@ -939,7 +931,6 @@
     <string name="msim_setting_screen_title">ซิมการ์ดและเครือข่ายมือถือ</string>
     <string name="msim_setting_categery_title">การตั้งค่าซิมการ์ด</string>
     <string name="msim_general_setting">การตั้งค่า</string>
-    <string name="msim_default_setting">การตั้งค่าเริ่มต้น</string>
     <string name="msim_setting_no_sim_indicator">ไม่พบซิมการ์ด</string>
     <string name="msim_setting_sim_info_editor_title">แก้ไขข้อมูลซิม</string>
     <string name="msim_setting_operator_network_title">เครือข่ายสัญญาณ</string>
@@ -961,8 +952,6 @@
     <string name="msim_switch_data_conn_toast">ตรวจพบการเปลี่ยนซิมการ์ด ประเภทของเครือข่ายมีการเปลี่ยนแปลง กรุณาดูข้อมูลเพิ่มเติมในซิมการ์ดและเครือข่ายข้อมูลมือถือในเมนูการตั้งค่า</string>
     <string name="msim_switch_data_conn_toast_for_h2xct">ซิมการ์ด 2 รองรับเครือข่าย GSM เท่านั้น ประเภทเครือข่ายที่เลือกใช้ก่อนสำหรับช่องซิมการ์ดนี้รองรับเฉพาะ 2G เท่านั้น</string>
     <string name="msim_disable_sim_card_title">ระงับการใช้ซิมการ์ด</string>
-    <string name="msim_disable_sim_card_summary_non_default_card">คุณอาจจะไม่สามารถทำการโทรหรือใช้งานการเชื่อมต่อเครือข่ายข้อมูลมือถือได้ คุณแน่ใจหรือว่าต้องการระงับการทำงานของซิมการ์ด %s?</string>
-    <string name="msim_disable_sim_card_summary_default_card">ซิมการ์ดนี้ถูกกำหนดให้เป็นซิมใช้งานเริ่มต้น ถ้าคุณต้องการระงับการใช้ คุณอาจจะไม่สามารถทำการโทรหรือใช้งานการเชื่อมต่อเครือข่ายข้อมูลมือถือได้ คุณสามารถระงับซิมการ์ดนี้หลังจากกำหนดซิมการ์ดอื่นเป็นซิมเริ่มต้น</string>
     <string name="msim_disable_sim_card_summary_telecom_vice_card_inEcm">ไม่จำกัดการใช้งานซิมที่สองขณะอยู่ในโหมดโทรกลับฉุกเฉิน</string>
     <string name="msim_disable_sim_card_btn_text">ตกลง</string>
     <string name="msim_has_been_disabled">(ระงับการใช้)</string>
@@ -1009,7 +998,6 @@
     <string name="respond_via_sms_setting_title">ข้อความตอบด่วน</string>
     <string name="respond_via_sms_setting_summary">แก้ไขข้อความตอบรับที่ตั้งไว้ล่วงหน้า</string>
     <string name="respond_via_sms_edittext_dialog_title">ข้อความตอบด่วน</string>
-    <string name="respond_via_sms_menu_reset_default_activity">เรียกคืนค่าเริ่มต้น</string>
     <string name="respond_via_sms_confirmation_format">ส่งข้อความไปยัง %s แล้ว</string>
     <string name="sip_add_account_tip_text">หากต้องการใช้การโทรผ่านเน็ต กรุณาเพิ่มบัญชีโทรผ่านเน็ต (SIP)</string>
     <string name="callwait_open_hint">\"สายเรียกซ้อน\"เป็นบริการของผู้ให้บริการเครือข่ายมือถือ หากคุณได้รับการแจ้งข้อผิดพลาดจากระบบ กรุณาติดต่อผู้ให้บริการของคุณเพื่อตรวจสอบว่าเครือข่ายรองรับหรือไม่</string>
@@ -1087,8 +1075,6 @@
     <string name="network_type_4g_preferred_cmcc">4G/3G/2G</string>
     <string name="network_type_3g_preferred_cmcc">3G/2G</string>
     <string name="network_unlock">ปลดล็อก</string>
-    <string name="change_default_data_card">ซิมการ์ดข้อมูลมือถือเริ่มต้น</string>
-    <string name="change_default_data_card_summary">ดูเหมือนว่าคุณได้เปลี่ยนซิมการ์ด ตั้งซิมการ์ดนี้เป็นซิมการ์ดเริ่มต้นของคุณสำหรับการเชื่อมต่อเครือข่ายข้อมูลมือถือ?</string>
     <string name="fdn_full">การจำกัดเลขหมายโทรออกยังไม่ได้บันทึกเนื่องจากรายการเต็ม</string>
     <string name="enhanced_4g_lte_mode_on_failed">ไม่สามารถเปิดใช้งานการโทรผ่าน 4G ได้</string>
     <string name="enhanced_4g_lte_mode_off_failed">ไม่สามารถปิดใช้งานการโทรผ่าน 4G ได้</string>
@@ -1099,12 +1085,10 @@
     <string name="roaming_notification_content">คุณสามารถใส่รหัสประเทศโดยอัตโนมัติเมื่อโทรออกเพื่อความสะดวก</string>
     <string name="cdma_alert_title">ต้องตั้งให้เป็นซิมการ์ดเริ่มต้น</string>
     <string name="cdma_alert_message">หากคุณต้องการตั้งซิมการ์ดใบอื่นเป็นค่าเริ่มต้นของการใช้เครือข่ายข้อมูลมือถือ คุณต้องไม่ใช้ซิมการ์ดของ China Telecom (ยกเว้นโรมมิ่ง)</string>
-    <string name="config_default_data_sim">การตั้งค่า</string>
     <string name="got_it">ตกลง</string>
     <string name="can_not_use_for_not_data_sim">(ใช้งานไม่ได้: ต้องตั้งให้เป็นซิมการ์ดเริ่มต้นก่อน)</string>
     <string name="network_settings_title">เครือข่ายมือถือ</string>
     <string name="call_background_setting">ภาพพื้นหลังการสนทนา</string>
-    <string name="call_background_default">ค่าเริ่มต้น</string>
     <string name="call_background_lock_wallpaper">ภาพพื้นหลังหน้าจอล็อก</string>
     <string name="antispam_setting">รายการบล็อก</string>
     <string name="call_advanced_setting_title">การตั้งค่าขั้นสูง</string>
@@ -1237,7 +1221,6 @@
     <string name="close">ปิด</string>
     <string name="change">นำไปใช้</string>
     <string name="new_sim_detected">ระบบพบซิมการ์ดใหม่:</string>
-    <string name="default_sim_setting">ซิมการ์ดเริ่มต้น:</string>
     <string name="mobile_data">"ข้อมูลมือถือ: "</string>
     <string name="slot">ช่อง</string>
     <string name="carrier_name">(ชื่อผู้ให้บริการ)</string>

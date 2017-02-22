@@ -220,7 +220,6 @@ http://zhushou.xiaomi.com"</string>
     <string name="comment_publish">ส่ง</string>
     <string name="edit_comment_title">แก้ไขข้อคิดเห็น</string>
     <string name="edit_comment">เพิ่มความคิดเห็น</string>
-    <string name="edit_text_default">เขียนความคิดเห็น</string>
     <string name="comment_sending">กำลังส่ง…</string>
     <string name="comment_upload_failed">ไม่สามารถส่งคอมเมนท์ได้</string>
     <string name="comment_upload_hint">ขอบคุณสำหรับข้อคิดเห็นของคุณ!</string>

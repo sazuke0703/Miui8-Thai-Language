@@ -120,7 +120,6 @@
     <string name="pause_prompt_no">ไม่</string>
     <string name="waiting_close_airplane_mode">รอสักครู่…</string>
     <string name="select_voice_call_sim">กรุณาเลือกซิมการ์ด</string>
-    <string name="msim_select_default_time_left">(%d วิ)</string>
     <string name="select_sim_hint">ไม่สามารถใช้ซิม %2$d ขณะที่ซิม %1$d ใช้งานอยู่</string>
     <string name="select_one_sim_title">ใช้ได้เฉพาะซิม %1$d เท่านั้น</string>
     <string name="can_not_use">ไม่สามารถใช้ได้</string>
@@ -158,8 +157,6 @@
     <string name="non_ivr_menu_collapse_menu">ยุบเมนู</string>
     <string name="livetalk_left_minute">คงเหลือ %s นาที</string>
     <string name="livetalk_dial">ใช้แพ็คเกจเสริม</string>
-    <string name="areacode_set_default">ตั้งเป็นค่าเริ่มต้น</string>
-    <string name="default_area_code_setting">รหัสพื้นที่เริ่มต้น</string>
     <string name="not_activate_sim_card_content_title">หมายเลขโทรศัพท์ยังไม่ได้รับการยืนยัน</string>
     <string name="not_activate_sim_card_content">ยืนยันหมายเลขโทรศัพท์ของคุณเพื่อเริ่มใช้แพ็คเกจเสริม คุณยังสามารถโทรตามปกติโดยจะต้องเสียค่าบริการจากทางผู้ให้บริการ</string>
     <string name="not_activate_sim_card_content_with_operator">ยืนยันซิม %1$s (%2$s) ของคุณเพื่อโทรออกโดยใช้แพ็คเกจเสริม คุณยังสามารถโทรตามปกติโดยจะต้องเสียค่าบริการจากทางผู้ให้บริการ</string>

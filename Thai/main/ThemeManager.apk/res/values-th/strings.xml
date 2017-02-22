@@ -9,10 +9,6 @@
     <string name="sdcard_not_mounted_dialog_message">"กรุณาใส่ SD การ์ด
 "</string>
     <string name="resource_mute">ไม่ได้ตั้ง</string>
-    <string name="resource_default">เสียงเริ่มต้น</string>
-    <string name="resource_ringtone_default">เสียงเรียกเข้า</string>
-    <string name="resource_notification_default">การแจ้งเตือน</string>
-    <string name="resource_alarm_default">การแจ้งเตือน</string>
     <string name="resource_detail_header_theme_designer_title">ผู้ออกแบบ: %1$s</string>
     <string name="description_designer">ผู้ออกแบบ</string>
     <string name="description_author">เจ้าของ</string>
@@ -58,7 +54,6 @@
     <string name="download_preview_failed">ไม่สามารถโหลดรูปย่อได้</string>
     <string name="resource_delete_confirm">ลบแหล่งข้อมูลเหล่านี้?</string>
     <string name="all_resources">ทั้งหมด</string>
-    <string name="resource_default_name">แหล่งข้อมูล</string>
     <string name="resource_detail">รายละเอียด</string>
     <string name="resource_detail_window_title">%1$s รายละเอียด</string>
     <string name="resource_detail_update_log_title">อัพเดท</string>
@@ -183,9 +178,7 @@
     <string name="resource_comment_edit_title">ความคิดเห็นเกี่ยวกับ %1$s</string>
     <string name="resource_comment_edit_comment">เพิ่มความคิดเห็น</string>
     <string name="resource_comment_edit_comment_waiting">กำลังตรวจสอบประวัติ…</string>
-    <string name="resource_comment_edit_text_default">เขียนความคิดเห็น</string>
     <string name="resource_comment_publish">ส่ง</string>
-    <string name="resource_comment_name_default">ผู้ใช้ %1$s</string>
     <string name="resource_comment_loading_list">รอสักครู่…</string>
     <string name="resource_comment_rate">คะแนน:</string>
     <string name="resource_comment_entry_tips">ความคิดเห็น (%1$s)</string>
@@ -228,7 +221,6 @@
     <string name="backup_theme_success_message">สำรองข้อมูลการตั้งค่าธีมปัจจุบันของคุณแล้ว</string>
     <string name="backup_theme_fail_trial_rights_message">ไม่สามารถสำรองข้อมูลช่วงทดลองใช้</string>
     <string name="backup_theme_name">สำรองข้อมูลธีม</string>
-    <string name="theme_description_title_default">ค่าเริ่มต้น</string>
     <string name="theme_description_title_customized">กำหนดเอง</string>
     <string name="component_category_finest_title">ทั่วไป</string>
     <string name="component_category_more_title">ขั้นสูง</string>
@@ -267,7 +259,6 @@
     <string name="apply_font_tip">รีบูตเพื่อใช้ฟอนต์ของธีมนี้</string>
     <string name="apply_font_btn_reboot">รีบูต</string>
     <string name="apply_font_btn_exclude">ไม่ใช่ตอนนี้</string>
-    <string name="apply_default_font_tip">ใช้ฟอนต์ปัจจุบันของระบบ?</string>
     <string name="theme_yes">ใช่</string>
     <string name="theme_no">ไม่</string>
     <string name="title_component">ปรับแต่งธีม</string>
@@ -372,7 +363,6 @@
     <string name="provision_loading_tips">รอสักครู่…</string>
     <string name="provision_title">เลือกธีม</string>
     <string name="provision_second_title">เลือกมาหนึ่งธีมเพื่อตั้งเป็นธีมเริ่มต้น</string>
-    <string name="provision_default_theme_title">ค่าเริ่มต้น</string>
     <string name="theme_precast_create_notification_title">รองรับ MIUI 7 แล้ว</string>
     <string name="theme_precast_create_notification_content">แตะเพื่อดูธีมใหม่ๆ</string>
     <string name="theme_precast_update_notification_title">รองรับธีมของ MIUI 7 แล้ว</string>

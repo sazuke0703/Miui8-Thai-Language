@@ -39,7 +39,6 @@
     <string name="toast_notes_hidden_count">ซ่อน %1$s เรียบร้อย</string>
     <string name="toast_notes_unhidden_count">เลิกซ่อน %1$s เรียบร้อย</string>
     <string name="toast_notes_delete_success">ลบเรียบร้อยแล้ว</string>
-    <string name="theme_title_default">ค่าเริ่มต้น</string>
     <string name="theme_title_invitation">การเชิญ</string>
     <string name="theme_title_arty">ดอกไม้</string>
     <string name="theme_title_antique">ฤดูใบไม้ร่วง</string>
@@ -116,7 +115,6 @@
     <string name="search_hint">ค้นหาบันทึก</string>
     <string name="search_setting_description">ค้นหาข้อความในบันทึกย่อของคุณ</string>
     <string name="search">บันทึก</string>
-    <string name="default_folder_name">โฟลเดอร์ไม่มีชื่อ</string>
     <string name="notify_alarm_title">ไม่มีการเตือน</string>
     <string name="alarm_bar_title">เตือนความจำ</string>
     <string name="toast_message_add_image_fail">ไม่สามารถเพิ่มรูปภาพได้</string>
@@ -147,7 +145,6 @@
     <string name="sns_footer_text">เขียนด้วย Mi Notes</string>
     <string name="dlg_info_creating_message">กำลังเตรียมข้อความ…</string>
     <string name="sns_message_disconnect">เชื่อมต่อเครือข่ายไม่ได้้ กรุณาตรวจสอบการเชื่อมต่อแล้วลองใหม่</string>
-    <string name="sns_content_default">แชร์รูปภาพ</string>
     <string name="sns_toast_empty">ไม่สามารถส่งข้อความว่างเปล่าได้</string>
     <string name="sns_toast_over_limit">ส่งเป็นรูปภาพแล้ว</string>
     <string name="sns_desc_preview_weibo">ดูตัวอย่างข้อความ Weibo</string>

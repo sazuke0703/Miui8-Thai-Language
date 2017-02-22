@@ -280,7 +280,6 @@
     <string name="permission_group_title_media_related">มัลติมีเดีย</string>
     <string name="permission_group_title_settings_related">การตั้งค่า</string>
     <string name="ok">ตกลง</string>
-    <string name="default_permission_description">ดำเนินกระบวนการที่ไม่รู้จัก</string>
     <string name="location_settings">การตั้งค่าระบุตำแหน่ง</string>
     <string name="location_warning">%1$s เป็นผู้ให้บริการการระบุตำแหน่งพิกัดสำหรับอุปกรณ์นี้ การเข้าถึงสถานที่ตั้งสามารถแก้ไขได้จากการตั้งค่าตำแหน่งพิกัด</string>
     <string name="permission_request_title">คำร้องขออนุญาต</string>

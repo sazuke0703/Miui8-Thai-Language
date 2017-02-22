@@ -9,5 +9,4 @@
     <string name="duration">ระยะเวลา:</string>
     <string name="data_transmitted">ส่งแล้ว:</string>
     <string name="data_received">รับแล้ว:</string>
-    <string name="data_value_format">%1$s ไบต์/%2$s แพ็คเก็ต</string>
 </resources>

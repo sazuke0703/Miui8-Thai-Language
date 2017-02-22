@@ -81,7 +81,6 @@
     <string name="no_permissions">ไม่มีสิทธิ์</string>
     <string name="additional_permissions">สิทธิ์เพิ่มเติม</string>
     <string name="old_sdk_deny_warning">แอปนี้ออกแบบมาเพื่อ Android เวอร์ชันเก่า การปฏิเสธสิทธิ์อาจทำให้แอปไม่ทำงานตามที่ต้องการอีกต่อไป</string>
-    <string name="default_permission_description">ดำเนินการทำงานที่ไม่รู้จัก</string>
     <string name="app_permissions_group_summary">อนุญาตแล้ว %1$d จาก %2$d แอป</string>
     <string name="menu_show_system">แสดงระบบ</string>
     <string name="menu_hide_system">ซ่อนระบบ</string>

@@ -439,12 +439,10 @@
     <string name="modify_download_path_no_sdcard_dlg_msg">จำเป็นต้องใช้ SD การ์ดเพื่อแก้ไขที่จัดเก็บ</string>
     <string name="download_no_sdcard_dlg_title">ไม่พบ SD การ์ด</string>
     <string name="download_no_sdcard_dlg_msg">จำเป็นต้องใช้ SD การ์ดเพื่อดาวน์โหลด %s</string>
-    <string name="download_default_path_txt">จดจำตัวเลือกนี้</string>
     <string name="download_dialog_file_length_hint_txt">"ขนาดไฟล์: "</string>
     <string name="download_dialog_file_length_nolength_txt">สักครู่…</string>
     <string name="download_dialog_file_length_nolength_error_txt">ไม่สามารถดาวน์โหลดได้</string>
     <string name="download_dialog_file_length_lessthan1kb">น้อยกว่า 1K</string>
-    <string name="download_dialog_default_path_invalid">ตำแหน่งจัดเก็บการดาวน์โหลดที่คุณเลือกไม่ถูกต้อง กำลังจัดเก็บไปยังตำแหน่งเริ่มต้น…</string>
     <string name="cannot_download">สามารถดาวน์โหลดได้แค่ลิงก์ \"http\" หรือ \"https\" เท่านั้น</string>
     <string name="download_pending">กำลังดาวน์โหลด…</string>
     <string name="notif_install_successful">ดาวน์โหลดเสร็จสิ้น</string>
@@ -505,7 +503,6 @@
     <string name="quicklinks_most_visited">เพิ่มในหน้าเริ่มต้น</string>
     <string name="quicklinks_most_visited_title">เพิ่มในหน้าเริ่มต้น</string>
     <string name="quicklinks_most_visited_subtitle">แสดงเว็บที่เข้าเยี่ยมชมล่าสุดในแท็บใหม่</string>
-    <string name="quicklinks_group_default_subtitle">ว่าง</string>
     <string name="quicklink_saved_before">เว็บไซต์นี้ได้ถูกเพิ่มแล้ว</string>
     <string name="add_quicklink_to_popular">เพิ่มในหน้าเริ่มต้น</string>
     <string name="add_to_quicklink">หน้าเริ่มต้น</string>
@@ -583,12 +580,7 @@
     <string name="pref_setting_title">การตั้งค่าหน้า</string>
     <string name="pref_other_title">อื่นๆ</string>
     <string name="enter_developer_mode">เข้าสู่โหมดนักพัฒนา</string>
-    <string name="pref_file_download_default_path_prefix">ตำแหน่งที่เก็บเริ่มต้น: %s</string>
     <string name="pref_file_download_save_title">ดาวน์โหลด</string>
-    <string name="pref_file_downlaod_save_reset_default_settings">เรียกคืนตำแหน่งที่เป็นค่าเริ่มต้น</string>
-    <string name="pref_file_downlaod_save_is_reset_default_settings">จัดเก็บไฟล์ไปยังตำแหน่งที่เป็นค่าเริ่มต้นของเบราว์เซอร์</string>
-    <string name="pref_file_download_save_modify_default_path">ที่จัดเก็บไฟล์ที่ดาวน์โหลด</string>
-    <string name="pref_extras_reset_default_summary">เรียกคืนค่าเริ่มต้น</string>
     <string name="pref_adblock_title">ตัวบล็อกโฆษณา</string>
     <string name="pref_enable_adblock_notification">แสดงการแจ้งเตือนตัวบล็อกโฆษณา</string>
     <string name="pref_clear_adblock_statistics">ล้างประวัติตัวบล็อกโฆษณา</string>
@@ -664,8 +656,6 @@
     <string name="js_disable_confirm_title">ปิดจาวาสคริปต์?</string>
     <string name="js_disable_confirm_message">การปิดจาวาสคริปอาจมีผลให้บางเว็บแสดงผลได้ไม่ถูกต้อง</string>
     <string name="pref_extras_title">ขั้นสูง</string>
-    <string name="pref_extras_reset_default">คืนค่าเริ่มต้น</string>
-    <string name="pref_extras_reset_default_dlg">เรียกคืนให้กลับไปเป็นค่าเริ่มต้นของระบบ?</string>
     <string name="pref_font_size_category">ขนาดตัวอักษรในหน้าเว็บ</string>
     <string name="pref_key_gesture_title">ปุ่มและท่าทางที่ใช้</string>
     <string name="pref_volume_key_action">เลื่อนหน้าด้วยปุ่มปรับระดับเสียง</string>
@@ -677,7 +667,6 @@
     <string name="pref_confirm_for_exit">ถามก่อนปิดเบราว์เซอร์</string>
     <string name="pref_save_bandwidth_mode_title">ลดการใช้งานข้อมูลเครือข่ายมือถือ</string>
     <string name="adjust_text_zoom_toast">การขยายขนาดข้อความด้วยการซูมอาจทำให้การแสดงผลของบางหน้าเว็บไซต์ผิดเพี้ยนได้</string>
-    <string name="pref_extras_reset_default_title">อื่นๆ</string>
     <string name="pref_extras_send_feedback">ส่งข้อเสนอแนะ</string>
     <string name="pref_extras_title_version">ข้อมูลเวอร์ชั่น</string>
     <string name="pref_auto_update_under_wifi">อัพเดทผ่าน Wi-Fi</string>
@@ -686,7 +675,6 @@
     <string name="skip_current_version">ข้ามเวอร์ชั่นนี้</string>
     <string name="update_no_network_toast">เชื่อมต่อเครือข่ายไม่ได้</string>
     <string name="version_check_failed">ไม่สามารถตรวจหาไฟล์อัพเดทได้</string>
-    <string name="version_check_button_default">ตรวจสอบหาอัพเดท</string>
     <string name="version_check_button_checking">กำลังตรวจ…</string>
     <string name="version_check_button_downloading">กำลังดาวน์โหลด…</string>
     <string name="version_check_button_newest">ไม่พบการอัพเดท</string>

@@ -71,8 +71,6 @@
     <string name="legal_workday_message">" (ปิดเสียงปลุกในวันหยุด)"</string>
     <string name="legal_off_day">วันหยุดราชการ</string>
     <string name="legal_off_day_message">" (ปิดเสียงปลุกในวันทำงาน)"</string>
-    <string name="default_alarm_alert">ตั้งเสียงปลุกเริ่มต้น</string>
-    <string name="default_alarm_title">เสียงเริ่มต้น</string>
     <string name="menu_item_sort_by_gmt_offset">เรียงตามวันเวลา</string>
     <string name="menu_item_sort_by_name">เรียงลำดับตามชื่อ</string>
     <string name="birthday_alarm">แจ้งเตือนวันเกิด</string>
@@ -92,7 +90,6 @@
     <string name="delete_alarm">ลบการปลุก</string>
     <string name="delete_alarm_confirm">ลบการปลุกที่เลือกไว้?</string>
     <string name="label">ตั้งชื่อกำกับ</string>
-    <string name="default_label">การปลุก</string>
     <string name="set_alarm">ตั้งการปลุก</string>
     <string name="alarm_vibrate">สั่น</string>
     <string name="alarm_repeat">วนซ้ำ</string>

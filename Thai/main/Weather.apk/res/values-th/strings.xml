@@ -109,7 +109,6 @@
     <string name="tts_report_aqi" />
     <string name="tts_report_split" />
     <string name="tts_report_defautl_head" />
-    <string name="realtime_wind_default_title">ลม</string>
     <string name="realtime_humidity_title">ความชื้นสัมพัทธ์</string>
     <string name="realtime_aqi_title">ดัชนีคุณภาพอากาศ</string>
     <string name="aqi_detail_sub_title">รายละเอียด AQI</string>

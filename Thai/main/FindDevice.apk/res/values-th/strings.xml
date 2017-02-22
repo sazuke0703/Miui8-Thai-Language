@@ -72,7 +72,5 @@
     <string name="passport_notification_need_unlock_again">ลองปลดล็อกอีกครั้ง</string>
     <string name="device_lost">อุปกรณ์ดังกล่าวสูญหาย</string>
     <string name="device_locked">อุปกรณ์ดังกล่าวถูกล็อก</string>
-    <string name="default_lock_msg_words_with_phone">สวัสดี พอดีโทรศัพท์ของฉันหาย! กรุณาช่วยติดต่อฉันได้มั้ย? ขอบคุณ!</string>
-    <string name="default_lock_msg_words">อุปกรณ์ดังกล่าวผูกอยู่กับบัญชี Mi เนื่องจากเหตุผลด้านความปลอดภัย คุณจำเป็นต้องป้อนรหัสเพื่อยืนยันอุปกรณ์</string>
     <string name="lock_msg_phone">ข้อมูลผู้ติดต่อ: %s</string>
 </resources>

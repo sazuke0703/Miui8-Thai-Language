@@ -109,7 +109,6 @@
     <string name="apply_password_action">ตกลง</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">วางนิ้วของคุณลงบนปุ่มโฮม</string>
     <string name="maml_component_customization_title">การตั้งค่า</string>
-    <string name="default_name">ค่าเริ่มต้น</string>
     <string name="resource_select">เลือก</string>
     <string name="group_name_contacts">รายชื่อ</string>
     <string name="group_name_friends">เพื่อน</string>

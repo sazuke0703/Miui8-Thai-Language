@@ -29,9 +29,6 @@
     <string name="no_vm_number">ไม่มีหมายเลขบริการรับฝากข้อความเสียง</string>
     <string name="no_vm_number_msg">ไม่พบหมายเลขบริการรับฝากข้อความเสียงในซิมการ์ด</string>
     <string name="add_vm_number_str">เพิ่มหมายเลข</string>
-    <string name="change_default_dialer_dialog_title">ต้องการแก้ไขแอปโทรศัพท์เริ่มต้น?</string>
-    <string name="change_default_dialer_with_previous_app_set_text">ใช้ %1$s แทนที่ %2$s ให้เป็นแอปโทรศัพท์เริ่มต้น?</string>
-    <string name="change_default_dialer_no_previous_app_set_text">ใช้ %s ให้เป็นแอปโทรศัพท์เริ่มต้น?</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
     <string name="test_account_2_label">Sonoma Circles Talk Plus</string>

@@ -130,29 +130,11 @@
         <item>กิจกรรมนี้เท่านั้น</item>
         <item>กิจกรรมทั้งหมดในชุด</item>
     </string-array>
-    <string-array name="quick_response_defaults">
-        <item>การดำเนินการจะเสร็จในไม่กี่นาที</item>
-        <item>จะมีในประมาณ 10 นาที</item>
-        <item>ไปข้างหน้าและไม่ต้องเริ่มต้นโดยฉัน</item>
-        <item>ขออภัย ไม่สามารถทำได้ เราจะมีการจัดตารางเวลาใหม่</item>
-    </string-array>
     <string-array name="widget_style_list">
         <item>โปร่งแสง</item>
         <item>พื้นหลังสีขาว</item>
     </string-array>
     <string-array name="miui_reminder_minutes_labels">
-        <item>ไม่ต้องแจ้งเตือน</item>
-        <item>เวลาเหตุการณ์</item>
-        <item>ก่อน 5 นาที</item>
-        <item>ก่อน 10 นาที</item>
-        <item>ก่อน 15 นาที</item>
-        <item>ก่อน 30 นาที</item>
-        <item>1 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
-        <item>2 วันก่อน</item>
-        <item>1 สัปดาห์ก่อน</item>
-    </string-array>
-    <string-array name="miui_preferences_default_reminder_labels">
         <item>ไม่ต้องแจ้งเตือน</item>
         <item>เวลาเหตุการณ์</item>
         <item>ก่อน 5 นาที</item>
@@ -262,18 +244,6 @@
         <item>ไม่ต้อง</item>
     </string-array>
     <string-array name="reminder_minutes_labels">
-        <item>ไม่มีการเตือนความจำ</item>
-        <item>0 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
         <item>ไม่มีการเตือนความจำ</item>
         <item>0 นาที</item>
         <item>5 นาที</item>

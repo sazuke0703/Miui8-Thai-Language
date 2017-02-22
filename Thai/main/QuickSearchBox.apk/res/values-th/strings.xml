@@ -17,7 +17,6 @@
     <string name="cta_declaration_ignore">"ไม่ต้องแสดงอีก"</string>
     <string name="cta_declaration_positive_text">อนุญาต</string>
     <string name="cta_declaration_negative_text">ออก</string>
-    <string name="default_hint">ค้นหา แอปพลิเคชั่น, เพลง, วิดีโอ, หนังสือ…</string>
     <string name="network_unavailable">"ไม่สามารถเชื่อมต่อกับเครือข่าย"</string>
     <string name="connect_and_retry">เชื่อมต่อกับอินเทอร์เน็ตและลองอีกครั้ง</string>
     <string name="web_search_results">Baidu</string>
