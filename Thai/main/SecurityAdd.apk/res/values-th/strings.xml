@@ -38,7 +38,6 @@
     <string name="pm_lable_name">เกี่ยวกับการเข้าถึงรูท</string>
     <string name="pc_activity_title">เพิ่มประสิทธิภาพของแบตเตอรี่</string>
     <string name="game_booster">เร่งความเร็วในการเล่นเกม</string>
-    <string name="top_game">เกมส์ยอดนิยม</string>
     <string name="game_setting">ตั้งค่าเกมส์</string>
     <string name="gs_app_back_self_start">ตัวประหยัดแบตเตอรี่</string>
     <string name="gs_only_self_start_for_list">จำกัดการดำเนินการของพื้นหลังเพื่อประหยัดแบตเตอรี่ในการเล่นเกม</string>
