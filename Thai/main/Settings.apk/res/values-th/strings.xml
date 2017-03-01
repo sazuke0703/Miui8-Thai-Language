@@ -141,6 +141,7 @@
     <string name="deny">ปฏิเสธ</string>
     <string name="dlg_close">ปิด</string>
     <string name="dlg_switch">เปลี่ยน</string>
+    <string name="device_info_default">ไม่ทราบ</string>
     <string name="show_dev_on">ตอนนี้คุณเป็นนักพัฒนาซอฟต์แวร์แล้ว!</string>
     <string name="show_dev_already">ไม่จำเป็น คุณเป็นนักพัฒนาซอฟต์แวร์อยู่แล้ว</string>
     <string name="header_category_wireless_networks">ระบบไร้สายและเครือข่าย</string>
@@ -272,6 +273,7 @@
     <string name="proxy_port_label">พอร์ตพร็อกซี</string>
     <string name="proxy_exclusionlist_label">ไม่ใช้พร็อกซีสำหรับ</string>
     <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <string name="proxy_defaultView_text">คืนค่าเริ่มต้น</string>
     <string name="proxy_action_text">เสร็จสิ้น</string>
     <string name="proxy_hostname_label">ชื่อโฮสต์พร็อกซี</string>
     <string name="proxy_hostname_hint">proxy.example.com</string>
@@ -557,6 +559,8 @@
     <string name="bluetooth_pairing_key_msg">รหัสการจับคู่บลูทูธ</string>
     <string name="bluetooth_enter_passkey_msg">พิมพ์รหัสการจับคู่แล้วกด Return หรือ Enter</string>
     <string name="bluetooth_enable_alphanumeric_pin">PIN ประกอบดัวยตัวอักษรหรือสัญลักษณ์</string>
+    <string name="bluetooth_pin_values_hint">ปกติจะเป็น 0000 หรือ 1234</string>
+    <string name="bluetooth_pin_values_hint_16_digits">ต้องมี 18 หลัก</string>
     <string name="bluetooth_enter_pin_other_device">คุณอาจจำเป็นต้องพิมพ์รหัส PIN นี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
     <string name="bluetooth_enter_passkey_other_device">คุณอาจจำเป็นต้องพิมพ์รหัสผ่านนี้ลงในอุปกรณ์อีกเครื่องหนึ่งด้วยเช่นกัน</string>
     <string name="bluetooth_confirm_passkey_msg">หากต้องการจับคู่กับ:&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>ตรวจสอบให้แน่ใจว่าอุปกรณ์แสดงรหัสผ่านนี้:&lt;br>&lt;b>%2$s&lt;/b></string>
@@ -803,6 +807,7 @@
     <string name="wifi_hotspot_configure_ap_text">การตั้งค่า Wi-Fi ฮอตสปอต</string>
     <string name="wifi_hotspot_configure_ap_text_summary">Wi-Fi ฮอตสปอต AndroidAP WPA2 PSK แบบพกพา</string>
     <string name="wifi_tether_configure_subtext">%1$s %2$s WiFi ฮอตสปอตแบบพกพา</string>
+    <string name="wifi_tether_configure_ssid_default">แอนดรอยด์ฮอตสปอต</string>
     <string name="wifi_calling_settings_title">การโทรผ่าน Wi-Fi</string>
     <string name="wifi_calling_mode_title">ค่ากำหนดในการโทร</string>
     <string name="wifi_calling_mode_dialog_title">โหมดการโทรผ่าน Wi-Fi</string>
@@ -1165,7 +1170,9 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="error_apn_empty">ต้องใส่ข้อมูล APN</string>
     <string name="error_mcc_not3">ช่อง MCC ต้องเป็นเลข 3 หลัก</string>
     <string name="error_mnc_not23">ช่อง MNC ต้องมีเลขอย่างน้อย 2 หรือ 3 หลัก</string>
+    <string name="restore_default_apn">กำลังเรียกคืนการตั้งค่า APN เริ่มต้น</string>
     <string name="menu_restore">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="restore_default_apn_completed">รีเซ็ตการตั้งค่า APN กลับเป็นค่าเริ่มต้นเรียบร้อยแล้ว</string>
     <string name="reset_network_title">รีเซ็ตการตั้งค่าเครือข่าย</string>
     <string name="reset_network_desc">"\"การดำเนินการนี้จะรีเซ็ตการตั้งค่าเครือข่ายทั้งหมด รวมถึง:
 
@@ -1237,6 +1244,9 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="network_settings_title">เครือข่ายมือถือ</string>
     <string name="manage_mobile_plan_title">แผนบริการอุปกรณ์เคลื่อนที่</string>
     <string name="sms_application_title">แอป SMS</string>
+    <string name="sms_change_default_dialog_title">เปลี่ยนแอป SMS ไหม</string>
+    <string name="sms_change_default_dialog_text">ใช้ %1$s เป็นแอป SMS ของคุณแทน %2$s ไหม</string>
+    <string name="sms_change_default_no_previous_dialog_text">ใช้ %s เป็นแอป SMS ของคุณไหม</string>
     <string name="network_scorer_change_active_dialog_title">เปลี่ยน Wi‑Fi Assistant ใช่ไหม</string>
     <string name="network_scorer_change_active_dialog_text">ต้องการใช้ %1$s แทน %2$s ในการจัดการการเชื่อมต่อเครือข่ายใช่ไหม</string>
     <string name="network_scorer_change_active_no_previous_dialog_text">ใช้ %s ในการจัดการการเชื่อมต่อเครือข่ายใช่ไหม</string>
@@ -1389,6 +1399,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="sort_order_size">จัดเรียงตามขนาด</string>
     <string name="show_running_services">แสดงบริการที่ใช้งานอยู่</string>
     <string name="show_background_processes">แสดงกระบวนการที่เก็บแคชไว้</string>
+    <string name="default_emergency_app">แอปฉุกเฉิน</string>
     <string name="reset_app_preferences">รีเซ็ตค่ากำหนดแอปพลิเคชัน</string>
     <string name="reset_app_preferences_title">รีเซ็ตค่ากำหนดแอปหรือไม่</string>
     <string name="reset_app_preferences_desc">"การดำเนินการนี้จะรีเซ็ตค่ากำหนดทั้งหมดสำหรับ:
@@ -1436,6 +1447,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="security_settings_billing_desc">แอปพลิเคชันนี้อาจมีการเรียกเก็บเงิน:</string>
     <string name="security_settings_premium_sms_desc">ส่ง SMS พรีเมียม</string>
     <string name="computing_size">กำลังคำนวณ...</string>
+    <string name="invalid_size_value">คำนวณขนาดแพ็กเกจไม่ได้</string>
     <string name="empty_list_msg">คุณไม่ได้ติดตั้งแอปพลิเคชันของบุคคลที่สามไว้เลย</string>
     <string name="version_text">เวอร์ชัน %1$s</string>
     <string name="move_app">ย้าย</string>
@@ -1463,6 +1475,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="app_ops_settings">การทำงานของแอป</string>
     <string name="app_ops_running">กำลังดำเนินการ</string>
     <string name="app_ops_never_used">(ไม่เคยใช้)</string>
+    <string name="no_default_apps">ไม่มีแอปเริ่มต้น</string>
     <string name="storageuse_settings_title">การใช้ที่เก็บข้อมูล</string>
     <string name="storageuse_settings_summary">ดูที่จัดเก็บข้อมูลที่แอปพลิเคชันใช้</string>
     <string name="runningservices_settings_title">บริการที่ทำงานอยู่</string>
@@ -1532,6 +1545,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="keyboard_layout_dialog_title">เลือกรูปแบบแป้นพิมพ์</string>
     <string name="keyboard_layout_dialog_setup_button">ตั้งค่ารูปแบบแป้นพิมพ์</string>
     <string name="keyboard_layout_dialog_switch_hint">หากต้องการสลับ กด Control-Spacebar</string>
+    <string name="keyboard_layout_default_label">ค่าเริ่มต้น</string>
     <string name="keyboard_layout_picker_title">รูปแบบแป้นพิมพ์</string>
     <string name="user_dict_settings_title">พจนานุกรมส่วนตัว</string>
     <string name="user_dict_settings_summary" />
@@ -1714,6 +1728,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="captioning_typeface">ชุดแบบอักษร</string>
     <string name="captioning_preview_text">คำอธิบายภาพจะมีหน้าตาแบบนี้</string>
     <string name="captioning_preview_characters">Aa</string>
+    <string name="locale_default">ค่าเริ่มต้น</string>
     <string name="color_title">สี</string>
     <string name="color_unspecified">ค่าเริ่มต้น</string>
     <string name="color_none">ไม่มีสี</string>
@@ -1739,6 +1754,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="disable_service_title">หยุด %1$s ไหม</string>
     <string name="disable_service_message">การแตะ \"ตกลง\" จะเป็นการหยุด %1$s</string>
     <string name="accessibility_no_services_installed">ไม่ได้ติดตั้งบริการใดไว้</string>
+    <string name="accessibility_service_default_description">ไม่มีคำอธิบาย</string>
     <string name="settings_button">การตั้งค่า</string>
     <string name="print_settings">การพิมพ์</string>
     <string name="print_settings_title">บริการการพิมพ์</string>
@@ -1922,8 +1938,19 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="voice_interaction_security_warning">บริการป้อนข้อมูลด้วยเสียงนี้สามารถคอยตรวจสอบเสียงอยู่ตลอดเวลาและควบคุมแอปพลิเคชันที่สามารถใช้เสียงในนามของคุณได้ บริการนี้มาจากแอปพลิเคชัน %s เปิดใช้การทำงานของบริการนี้ไหม</string>
     <string name="tts_settings">การตั้งค่าการอ่านออกเสียงข้อความ</string>
     <string name="tts_settings_title">เอาต์พุตการอ่านออกเสียง</string>
+    <string name="use_default_tts_settings_title">ใช้การตั้งค่าของฉันทุกครั้ง</string>
+    <string name="use_default_tts_settings_summary">การตั้งค่าเริ่มต้นด้านล่างนี้จะแทนที่การตั้งค่าแอปพลิเคชัน</string>
+    <string name="tts_default_settings_section">การตั้งค่าเริ่มต้น</string>
+    <string name="tts_default_synth_title">เครื่องมือเริ่มต้น</string>
+    <string name="tts_default_synth_summary">ตั้งค่าให้ใช้ระบบการสังเคราะห์เสียงพูดสำหรับข้อความที่พูด</string>
+    <string name="tts_default_rate_title">ความเร็วของคำพูด</string>
+    <string name="tts_default_rate_summary">ความเร็วในการพูดข้อความ</string>
+    <string name="tts_default_pitch_title">ความสูง-ต่ำของเสียง</string>
+    <string name="tts_default_pitch_summary">มีผลต่อโทนเสียงของข้อความที่พูด</string>
+    <string name="tts_default_lang_title">ภาษา</string>
     <string name="tts_lang_use_system">ใช้ภาษาของระบบ</string>
     <string name="tts_lang_not_selected">ไม่ได้เลือกภาษา</string>
+    <string name="tts_default_lang_summary">ตั้งค่าเสียงในภาษาที่ระบุสำหรับข้อความที่ได้ยิน</string>
     <string name="tts_play_example_title">ฟังตัวอย่าง</string>
     <string name="tts_play_example_summary">เล่นการสาธิตสั้นๆ เกี่ยวกับการสังเคราะห์เสียง</string>
     <string name="tts_install_data_title">ติดตั้งข้อมูลเสียง</string>
@@ -1935,6 +1962,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="tts_engine_error_reselect">เลือกเครื่องมืออื่น</string>
     <string name="tts_engine_security_warning">โปรแกรมสังเคราะห์เสียงนี้อาจเก็บข้อความทั้งหมดที่ได้ยิน รวมถึงข้อมูลส่วนบุคคล เช่น รหัสผ่านและหมายเลขบัตรเครดิต โปรแกรมนี้มาจากโปรแกรม %s คุณต้องการเปิดใช้งานโปรแกรมสังเคราะห์เสียงนี้หรือไม่</string>
     <string name="tts_engine_network_required">ภาษานี้ต้องใช้การเชื่อมต่อเครือข่ายซึ่งใช้การได้สำหรับการแปลงข้อความเป็นเสียงพูด</string>
+    <string name="tts_default_sample_string">นี่เป็นตัวอย่างการสังเคราะห์เสียง</string>
     <string name="tts_status_title">สถานะของภาษาเริ่มต้น</string>
     <string name="tts_status_ok">สนับสนุน%1$sอย่างสมบูรณ์</string>
     <string name="tts_status_requires_network">ต้องมีการเชื่อมต่อเครือข่ายสำหรับ%1$s</string>
@@ -2012,6 +2040,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="auto_restore_title">คืนค่าอัตโนมัติ</string>
     <string name="auto_restore_summary">เมื่อติดตั้งแอปพลิเคชันใหม่อีกครั้ง ให้คืนค่าการตั้งค่าและข้อมูลที่สำรองไว้</string>
     <string name="backup_inactive_title">บริการสำรองข้อมูลไม่มีการใช้งาน</string>
+    <string name="backup_configure_account_default_summary">ไม่มีบัญชีใดในปัจจุบันที่จัดเก็บข้อมูลที่สำรองไว้</string>
     <string name="local_backup_password_title">รหัสผ่านการสำรองข้อมูลในเดสก์ท็อป</string>
     <string name="local_backup_password_summary_none">การสำรองข้อมูลเต็มรูปแบบในเดสก์ท็อป ไม่ได้รับการป้องกันในขณะนี้</string>
     <string name="local_backup_password_summary_change">แตะเพื่อเปลี่ยนหรือลบรหัสผ่านสำหรับการสำรองข้อมูลเต็มรูปแบบในเดสก์ท็อป</string>
@@ -2435,13 +2464,20 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="nfc_payment_settings_title">แตะและจ่าย</string>
     <string name="nfc_payment_how_it_works">วิธีการทำงาน</string>
     <string name="nfc_payment_no_apps">ชำระเงินโดยใช้โทรศัพท์ของคุณในร้านค้า</string>
+    <string name="nfc_payment_default">แอปชำระเงินเริ่มต้น</string>
+    <string name="nfc_payment_default_not_set">ไม่ได้ตั้งค่า</string>
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
+    <string name="nfc_payment_use_default">ใช้ค่าเริ่มต้น</string>
+    <string name="nfc_payment_favor_default">ทุกครั้ง</string>
     <string name="nfc_payment_favor_open">ยกเว้นเมื่อแอปการชำระเงินอื่นเปิดอยู่</string>
     <string name="nfc_payment_pay_with">ที่เครื่องแตะและจ่าย ให้ชำระเงินด้วย:</string>
     <string name="nfc_how_it_works_title">การชำระเงินที่เครื่องเทอร์มินัล</string>
     <string name="nfc_how_it_works_content">ตั้งค่าแอปการชำระเงิน แล้วแตะด้านหลังของโทรศัพท์กับเทอร์มินัลเครื่องใดก็ได้ที่มีสัญลักษณ์ \"ไร้สัมผัส\"</string>
     <string name="nfc_how_it_works_got_it">รับทราบ</string>
     <string name="nfc_more_title">เพิ่มเติม...</string>
+    <string name="nfc_payment_set_default_label">ตั้งเป็นค่ากำหนดของคุณไหม</string>
+    <string name="nfc_payment_set_default">ต้องการใช้ %1$s ทุกครั้งที่คุณแตะและจ่ายไหม</string>
+    <string name="nfc_payment_set_default_instead_of">ต้องการใช้ %1$s แทน %2$s ทุกครั้งที่คุณแตะและจ่ายไหม</string>
     <string name="restriction_settings_title">ข้อจำกัด</string>
     <string name="restriction_menu_reset">ลบข้อจำกัด</string>
     <string name="restriction_menu_change_pin">เปลี่ยน PIN</string>
@@ -2535,6 +2571,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="search_recents_queries_label">การค้นหาล่าสุด</string>
     <string name="search_results_label">ผลลัพธ์</string>
     <string name="keywords_wifi">การเชื่อมต่อเครือข่าย wifi wi-fi</string>
+    <string name="keywords_more_default_sms_app">ข้อความ การส่งข้อความ ข้อความ การส่งข้อความ</string>
     <string name="keywords_more_mobile_networks">มือถือ ผู้ให้บริการมือถือ ไร้สาย ข้อมูล 4g 3g 2g lte</string>
     <string name="keywords_wifi_calling">WiFi Wi-Fi โทร การโทร</string>
     <string name="keywords_home">Launcher</string>
@@ -2564,8 +2601,10 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="keywords_keyboard_and_ime">การแก้ไขข้อความ แก้ไข เสียง สั่น อัตโนมัติ ภาษา ท่าทางสัมผัส แนะนำ คำแนะนำ ธีม คำที่ไม่เหมาะสม พิมพ์ อีโมจิ นานาชาติ</string>
     <string name="keywords_reset_apps">รีเซ็ตค่ากำหนดเป็นค่าเริ่มต้น</string>
     <string name="keywords_emergency_app">ค่าเริ่มต้นของแอป ICE ฉุกเฉิน</string>
+    <string name="keywords_default_phone_app">โทรศัพท์ แป้นโทรศัพท์ ค่าเริ่มต้น</string>
     <string name="keywords_all_apps">แอป ดาวน์โหลด แอปพลิเคชัน ระบบ</string>
     <string name="keywords_app_permissions">ความปลอดภัยในการอนุญาตแอป</string>
+    <string name="keywords_default_apps">แอป ค่าเริ่มต้น</string>
     <string name="keywords_ignore_optimizations">ละเว้นการเพิ่มประสิทธิภาพการสแตนด์บายแอปแบบสลีป</string>
     <string name="keywords_lockscreen">เลื่อน รหัสผ่าน รูปแบบ PIN</string>
     <string name="setup_wifi_nfc_tag">ตั้งค่าแท็ก NFC สำหรับ Wi-Fi</string>
@@ -2575,6 +2614,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="status_write_success">สำเร็จ!</string>
     <string name="status_failed_to_write">ไม่สามารถเขียนข้อมูลลงแท็ก NFC ได้ หากยังคงมีปัญหา โปรดลองใช้แท็กอื่น</string>
     <string name="status_tag_not_writable">แท็ก NFC ไม่สามารถเขียนได้ โปรดใช้แท็กอื่น</string>
+    <string name="default_sound">เสียงเริ่มต้น</string>
     <string name="notification_settings">เสียงและการแจ้งเตือน</string>
     <string name="media_volume_option_title">ระดับเสียงของสื่อ</string>
     <string name="alarm_volume_option_title">ระดับเสียงปลุก</string>
@@ -2753,11 +2793,13 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="encrypt_talkback_dialog_message_password">เมื่อคุณป้อนรหัสผ่านเพื่อเริ่มใช้งานอุปกรณ์นี้ บริการความสามารถในการเข้าถึงอย่างเช่น %1$s จะยังไม่พร้อมใช้งาน</string>
     <string name="imei_information_summary">ข้อมูลที่เกี่ยวข้องกับ IMEI</string>
     <string name="slot_number">(ช่อง %1$d)</string>
+    <string name="launch_by_default">เปิดโดยค่าเริ่มต้น</string>
     <string name="storage_summary_format">ใช้ไป %1$s ใน %2$s</string>
     <string name="app_launch_domain_links_title">ลิงก์ของแอป</string>
     <string name="app_launch_open_domain_urls_title">เปิดลิงก์ที่สนับสนุน</string>
     <string name="app_launch_open_domain_urls_summary">เปิดโดยไม่ต้องถาม</string>
     <string name="app_launch_supported_domain_urls_title">ลิงก์ที่สนับสนุน</string>
+    <string name="app_launch_other_defaults_title">ค่าเริ่มต้นอื่นๆ</string>
     <string name="storage_type_internal">ที่จัดเก็บข้อมูลภายใน</string>
     <string name="storage_type_external">ที่จัดเก็บข้อมูลภายนอก</string>
     <string name="app_data_usage">การใช้อินเทอร์เน็ตของแอป</string>
@@ -2775,6 +2817,8 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="notifications_three_items">%1$s / %2$s / %3$s</string>
     <string name="runtime_permissions_summary_no_permissions_granted">ไม่มีการมอบสิทธิ์</string>
     <string name="runtime_permissions_summary_no_permissions_requested">ไม่มีการขอสิทธิ์</string>
+    <string name="launch_defaults_some">ตั้งค่าเริ่มต้นไว้บางส่วน</string>
+    <string name="launch_defaults_none">ไม่ได้ตั้งค่าเริ่มต้น</string>
     <string name="filter_all_apps">แอปทั้งหมด</string>
     <string name="filter_enabled_apps">เปิดใช้แล้ว</string>
     <string name="filter_personal_apps">ส่วนตัว</string>
@@ -2802,13 +2846,20 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="app_link_open_ask">ถามทุกครั้ง</string>
     <string name="app_link_open_never">อย่าเปิดในแอปนี้</string>
     <string name="fingerprint_not_recognized">ไม่รู้จัก</string>
+    <string name="default_apps_title">แอปเริ่มต้น</string>
     <string name="assist_and_voice_input_title">แอปผู้ช่วยและข้อมูลเสียง</string>
+    <string name="default_assist_title">แอปผู้ช่วย</string>
+    <string name="default_assist_none">ไม่มี</string>
     <string name="choose_assist_title">เลือกแอปผู้ช่วย</string>
     <string name="assistant_security_warning_title">ให้ %s เป็นผู้ช่วยของคุณใช่ไหม</string>
     <string name="assistant_security_warning">ผู้ช่วยจะสามารถอ่านข้อมูลเกี่ยวกับแอปที่ใช้งานอยู่ในระบบของคุณ รวมถึงข้อมูลที่ปรากฏบนหน้าจอหรือที่เข้าถึงได้ภายในแอป</string>
     <string name="assistant_security_warning_agree">ยอมรับ</string>
     <string name="assistant_security_warning_disagree">ไม่ยอมรับ</string>
     <string name="choose_voice_input_title">เลือกการป้อนข้อมูลด้วยเสียง</string>
+    <string name="default_browser_title">แอปเบราว์เซอร์</string>
+    <string name="default_browser_title_none">ไม่มีเบราว์เซอร์เริ่มต้น</string>
+    <string name="default_phone_title">แอปโทรศัพท์</string>
+    <string name="default_app">(ค่าเริ่มต้น)</string>
     <string name="apps_storage">พื้นที่เก็บแอป</string>
     <string name="usage_access">การเข้าถึงการใช้งาน</string>
     <string name="permit_usage_access">อนุญาตการเข้าถึงการใช้งาน</string>
@@ -3502,6 +3553,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="power_hide_mode_summary">ประหยัดแบตด้วยการจำกัดการทำงานของแต่ละแอป รวมถึงการใช้งาน Wi-Fi เครือข่ายข้อมูลมือถือและจีพีเอส</string>
     <string name="battery_indicator_style">สถานะแบตเตอรี่</string>
     <string name="power_usage_history">การใช้แบตเตอรี่</string>
+    <string name="default_usb_mode">การเชื่อมต่อ USB</string>
     <string name="wifi_tether_settings_title">ฮอตสปอตส่วนบุคคล</string>
     <string name="tether_and_hotspot_title">การเชื่อมต่อและฮอตสปอต</string>
     <string name="lock_settings">หน้าจอล็อกและรหัสผ่าน</string>
@@ -3561,6 +3613,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_disabled_help">Wi-Fi ถูกตัดการเชื่อมต่อเนื่องจากการเชื่อมต่อสัญญาณอ่อน</string>
     <string name="wifi_wps_overlap_error">ตรวจพบการเชื่อมต่อกับ Wi-Fi ค้างอยู่ รอประมาณ 1-2 นาทีแล้วลองใหม่อีกครั้ง</string>
     <string name="wifi_p2p_wps_setup">ติดตั้ง WPS</string>
+    <string name="default_input_method">เลือกแป้นพิมพ์ที่เป็นค่าเริ่มต้น</string>
     <string name="locale_settings">พื้นที่</string>
     <string name="country_name">%s (ระบบ)</string>
     <string name="install_preinstall_app">กำลังโหลดแอปต่างๆ…</string>
@@ -4040,6 +4093,7 @@ PIN อาจไม่ถูกต้อง"</string>
     <string name="wifi_required_info_text">อุปกรณ์ของคุณต้องเชื่อมต่อกับ Wi-Fi เพื่อทำการติดตั้ง หลังจากการติดตั้งเสร็จแล้ว คุณสามารถสลับระหว่างเครือข่ายข้อมูลมือถือและ Wi-Fi ได้</string>
     <string name="toast_need_login">เข้าสู่ระบบบัญชีของ Mi</string>
     <string name="preferred_app_settings">ค่าเริ่มต้น</string>
+    <string name="preferred_app_settings_default">ค่าเริ่มต้น</string>
     <string name="preferred_app_settings_not_selected">ไม่ได้เลือกไว้</string>
     <string name="preferred_app_settings_reset">รีเซ็ตเป็นค่าเริ่มต้น</string>
     <string name="preferred_app_settings_reset_message">แอปที่เป็นค่าเริ่มต้นจะถูกเรียกคืนให้เป็นการตั้งค่าที่กำหนดมาจากโรงงาน</string>

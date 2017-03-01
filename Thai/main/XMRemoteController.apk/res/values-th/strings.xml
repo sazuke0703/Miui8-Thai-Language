@@ -291,6 +291,7 @@
     <string name="match_data_error_tips">"ไม่สามารถขอรับข้อมูลได้
 ย้อนกลับไปเพื่อดำเนินการต่อ"</string>
     <string name="match_dataset_frame">%1$d/%2$d</string>
+    <string name="match_direction_default">ปุ่มทิศทางทำงานหรือไม่?</string>
     <string name="match_dvd_intro_pause">ปล่อยเมื่อ DVD หยุดชั่วคราว</string>
     <string name="match_dvd_intro_play">ปล่อยเมื่อ DVD เริ่มเล่น</string>
     <string name="match_dvd_intro_stop">ปล่อยเมื่อ DVD หยุดเล่น</string>
@@ -311,6 +312,7 @@
     <string name="match_mibox_sencond">    · ใช้อุปกรณ์ของคุณเป็นรีโมทควบคุมทีวี Mi</string>
     <string name="match_mibox_third">    · จับคู่กับอุปกรณ์ Mi อื่นๆ โดยอัตโนมัติ</string>
     <string name="match_name_power">เปิด/ปิด</string>
+    <string name="match_number_default">ปุ่มตัวเลขทำงานหรือไม่?</string>
     <string name="match_stb_intro_left">ปล่อยเมื่อเลื่อนเคอร์เซอร์ไปทางซ้าย</string>
     <string name="match_stb_intro_ok">ปล่อยเมื่อมีการเปลี่ยนแปลงแสดงบนหน้าจอ</string>
     <string name="match_stb_intro_up">ปล่อยเมื่อเคอร์เซอร์เลื่อนขึ้น</string>
@@ -319,6 +321,7 @@
     <string name="match_stb_name_up">ขึ้น</string>
     <string name="match_stb_seletion_des">เลือกตำแหน่งของคุณ</string>
     <string name="match_succuss">พร้อมใช้งานแล้ว</string>
+    <string name="match_tip_default">อุปกรณ์ไม่ตอบสนอง?</string>
     <string name="match_tip_eject">ปุ่มเปิดถาดทำงานหรือไม่?</string>
     <string name="match_tip_exit">ปุ่มออกทำงานหรือ?</string>
     <string name="match_tip_ff">ไม่ปุ่มกรอไปข้างหน้าทำงานหรือไม่?</string>
@@ -435,6 +438,7 @@
     <string name="save_share_title">บันทึกรีโมทบนอุปกรณ์นี้หรือไม่?</string>
     <string name="scaning">กำลังค้นหา…</string>
     <string name="scanning_milink">กำลังค้นหาอุปกรณ์…</string>
+    <string name="scene_default">ค่าเริ่มต้น</string>
     <string name="scene_name_frame">%1$s %2$s%3$s</string>
     <string name="scene_name_frame_short">%1$s%2$s</string>
     <string name="screenshot">ภาพหน้าจอ</string>

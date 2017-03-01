@@ -419,6 +419,7 @@
     <string name="create_new_album">สร้างอัลบั้มใหม่</string>
     <string name="album_already_exists">มีอัลบั้มชื่อนี้ในระบบอยู่ก่อนแล้ว</string>
     <string name="create_new_album_failed">ไม่สามารถสร้างได้</string>
+    <string name="default_album_name">อัลบั้มใหม่</string>
     <string name="new_album_invalid_prefix">อย่าใส่ \".\" หรือ \"_\" ขึ้นต้นชื่ออัลบั้ม</string>
     <string name="new_album_invalid_char">ชื่อต้องไม่สามารถประกอบด้วย \"%s\" ป้อนตัวอักษรหรือหมายเลข</string>
     <string name="new_album_invalid_name">\"%s\" เป็นอัลบั้มระบบ กรุณาแก้ไขชื่อใหม่</string>
@@ -543,6 +544,7 @@
     <string name="browse_category_title">เรียกดู</string>
     <string name="show_hidden_album_title">แสดงอัลบั้มที่ซ่อนไว้</string>
     <string name="slideshow_interval_title">แสดงแต่ละสไลด์เป็น</string>
+    <string name="slideshow_interval_value">%1$d วินาที</string>
     <string name="slideshow_interval_dialog_title">ป้อนระยะเวลา</string>
     <string name="slideshow_interval_invalid">ช่วงเวลาจะต้องอยู่ระหว่าง 1~3600 วินาที</string>
     <string name="other_settings">การตั้งค่าเพิ่มเติม</string>

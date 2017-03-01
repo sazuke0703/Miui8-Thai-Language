@@ -101,6 +101,10 @@
     <string name="failed_to_delete_temporary">ไม่สามารถลบออก</string>
     <string name="confirm_btn_label">ตกลง</string>
     <string name="cancel_btn_label">ยกเลิก</string>
+    <string name="default_folder_title_tools">เครื่องมือ</string>
+    <string name="default_folder_title_recommend">แอปเพิ่มเติม</string>
+    <string name="default_folder_title_game">เกมส์</string>
+    <string name="default_folder_title_security">ระบบ</string>
     <string name="wallpaper_settings">ภาพพื้นหลัง</string>
     <string name="choose_wallpaper">เลือกภาพพื้นหลัง</string>
     <string name="current_preview">ภาพตัวอย่าง</string>
@@ -243,6 +247,7 @@
     <string name="recommend_apps_notice">แอปที่แนะนำ</string>
     <string name="recommend_apps_switch_title">แอปที่แนะนำ</string>
     <string name="recommend_apps_notice_nodata">แอปที่แนะนำ (ไม่มีข้อมูล)</string>
+    <string name="recommend_apps_default_title">ว่าง</string>
     <string name="recommend_apps_tips">คุณลักษณะนี้จำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ตเพื่อการใช้งานที่ปกติ โดยสามารถแตะที่ชื่อของโฟลเดอร์เพื่อปิดใช้งาน</string>
     <string name="children_folder_title">โหมดสำหรับเด็ก</string>
     <string name="children_mode_exit">ออก</string>

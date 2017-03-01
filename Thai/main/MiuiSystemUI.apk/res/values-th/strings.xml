@@ -223,6 +223,7 @@
     <string name="torch_activity_hint">แตะที่ปุ่ม [icon] เพื่อเปิดไฟฉายจากหน้าล็อกจอ</string>
     <string name="torch_opened">เปิดไฟฉาย</string>
     <string name="torch_closed">ปิดไฟฉาย</string>
+    <string name="lockscreen_carrier_default">ไม่มีสัญญาณ</string>
     <string name="chooseUsbActivity">เลือกแอปสำหรับอุปกรณ์ USB</string>
     <string name="usb_storage_title">เชื่อมต่อ USB แล้ว</string>
     <string name="usb_storage_message">คุณเชื่อมต่อกับคอมพิวเตอร์ของคุณผ่าน USB แตะปุ่มด้านล่างหากคุณต้องการคัดลอกไฟล์ระหว่างคอมพิวเตอร์กับอุปกรณ์ Android ของคุณ‘s SD การ์ด</string>

@@ -5,6 +5,8 @@
     <string name="copy">คัดลอก</string>
     <string name="copyUrl">คัดลอก URL</string>
     <string name="cut">ตัด</string>
+    <string name="defaultVoiceMailAlphaTag">ข้อความเสียง</string>
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
     <string name="emptyPhoneNumber">(ไม่มีหมายเลขโทรศัพท์)</string>
     <string name="httpErrorBadUrl">ไม่สามารถเปิดหน้าเว็บนี้เนื่องจาก URL ไม่ถูกต้อง</string>
     <string name="httpErrorUnsupportedScheme">ไม่สนับสนุนโปรโตคอลนี้</string>
@@ -537,6 +539,7 @@
     <string name="keyguard_password_wrong_pin_code">รหัส PIN ไม่ถูกต้อง</string>
     <string name="keyguard_label_text">หากต้องการปลดล็อก กด เมนู ตามด้วย 0</string>
     <string name="emergency_call_dialog_number_for_display">หมายเลขฉุกเฉิน</string>
+    <string name="lockscreen_carrier_default">ไม่มีบริการ</string>
     <string name="lockscreen_screen_locked">หน้าจอถูกล็อก</string>
     <string name="lockscreen_instructions_when_pattern_enabled">กด เมนู เพื่อปลดล็อกหรือโทรฉุกเฉิน</string>
     <string name="lockscreen_instructions_when_pattern_disabled">กด เมนู เพื่อปลดล็อก</string>
@@ -637,6 +640,7 @@
     <string name="factorytest_no_action">ไม่พบแพ็กเกจที่มีการทำงาน FACTORY_TEST</string>
     <string name="factorytest_reboot">รีบูต</string>
     <string name="js_dialog_title">หน้าเว็บที่ \"%s\" ระบุว่า:</string>
+    <string name="js_dialog_title_default">JavaScript</string>
     <string name="js_dialog_before_unload_title">ยืนยันการนำทาง</string>
     <string name="js_dialog_before_unload_positive_button">ออกจากหน้านี้</string>
     <string name="js_dialog_before_unload_negative_button">อยู่ในหน้านี้</string>
@@ -826,6 +830,8 @@
     <string name="volume_icon_description_incall">โทร</string>
     <string name="volume_icon_description_media">สื่อมีเดีย</string>
     <string name="volume_icon_description_notification">การแจ้งเตือน</string>
+    <string name="ringtone_default">เสียงเรียกเข้าเริ่มต้น</string>
+    <string name="ringtone_default_with_actual">เสียงเรียกเข้าเริ่มต้น (%1$s)</string>
     <string name="ringtone_silent">ไม่มี</string>
     <string name="ringtone_picker_title">เสียงเรียกเข้า</string>
     <string name="ringtone_unknown">ไม่ทราบเสียงเรียกเข้า</string>
@@ -838,6 +844,7 @@
     <string name="wifi_watchdog_network_disabled_detailed">มีสัญญาณอินเทอร์เน็ตไม่ดี</string>
     <string name="wifi_connect_alert_title">อนุญาตการเชื่อมต่อใช่ไหม</string>
     <string name="wifi_connect_alert_message">แอปพลิเคชัน %1$s ต้องการเชื่อมต่อเครือข่าย Wi-Fi %2$s</string>
+    <string name="wifi_connect_default_application">แอปพลิเคชัน</string>
     <string name="wifi_p2p_dialog_title">WiFi Direct</string>
     <string name="wifi_p2p_turnon_message">เริ่มการทำงาน WiFi Direct ซึ่งจะเป็นการปิดการทำงาน WiFi ไคลเอ็นต์/ฮอตสปอต</string>
     <string name="wifi_p2p_failed_message">ไม่สามารถเริ่ม WiFi Direct ได้</string>
@@ -966,6 +973,7 @@
     <string name="ime_action_next">ถัดไป</string>
     <string name="ime_action_done">เสร็จสิ้น</string>
     <string name="ime_action_previous">ก่อนหน้า</string>
+    <string name="ime_action_default">ปฏิบัติ</string>
     <string name="dial_number_using">"หมุนหมายเลข 
  โดยใช้ %s"</string>
     <string name="create_contact_using">"สร้างรายชื่อติดต่อ 
@@ -1105,6 +1113,7 @@
     <string name="sha256_fingerprint">ลายนิ้วมือ SHA-256</string>
     <string name="sha1_fingerprint">ลายนิ้วมือ SHA-1</string>
     <string name="activity_chooser_view_see_all">ดูทั้งหมด</string>
+    <string name="activity_chooser_view_dialog_title_default">เลือกกิจกรรม</string>
     <string name="share_action_provider_share_with">แชร์กับ</string>
     <string name="list_delimeter">", "</string>
     <string name="sending">กำลังส่ง…</string>
@@ -1113,6 +1122,11 @@
     <string name="activity_resolver_use_always">ทุกครั้ง</string>
     <string name="activity_resolver_use_once">เฉพาะครั้งนี้</string>
     <string name="activity_resolver_work_profiles_support">%1$s ไม่สนับสนุนโปรไฟล์งาน</string>
+    <string name="default_audio_route_name">โทรศัพท์</string>
+    <string name="default_audio_route_name_headphones">หูฟัง</string>
+    <string name="default_audio_route_name_dock_speakers">ลำโพงแท่นชาร์จ</string>
+    <string name="default_media_route_name_hdmi">HDMI</string>
+    <string name="default_audio_route_category_name">ระบบ</string>
     <string name="bluetooth_a2dp_audio_route_name">เสียงบลูทูธ</string>
     <string name="wireless_display_route_description">การแสดงผลแบบไร้สาย</string>
     <string name="media_route_button_content_description">แคสต์</string>
@@ -1326,6 +1340,9 @@
     <string name="toolbar_collapse_description">ยุบ</string>
     <string name="zen_mode_feature_name">ห้ามรบกวน</string>
     <string name="zen_mode_downtime_feature_name">ช่วงเวลาเครื่องไม่ทำงาน</string>
+    <string name="zen_mode_default_weeknights_name">คืนวันธรรมดา</string>
+    <string name="zen_mode_default_weekends_name">สุดสัปดาห์</string>
+    <string name="zen_mode_default_events_name">กิจกรรม</string>
     <string name="muted_by">ปิดเสียงโดย %1$s</string>
     <string name="system_error_wipe_data">อุปกรณ์ของคุณเกิดปัญหาภายในเครื่อง อุปกรณ์อาจทำงานไม่เสถียรจนกว่าคุณจะรีเซ็ตข้อมูลเป็นค่าเริ่มต้น</string>
     <string name="system_error_manufacturer">อุปกรณ์ของคุณเกิดปัญหาภายในเครื่อง โปรดติดต่อผู้ผลิตเพื่อขอรายละเอียดเพิ่มเติม</string>

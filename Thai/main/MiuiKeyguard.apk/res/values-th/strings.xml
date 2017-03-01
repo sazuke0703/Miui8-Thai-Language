@@ -39,6 +39,7 @@
     <string name="lockscreen_access_pattern_cleared">ลากเส้นตามรูปแบบเสร็จสิ้น</string>
     <string name="lockscreen_access_pattern_cell_added">เพิ่มรูปแบบตารางแล้ว</string>
     <string name="lockscreen_access_pattern_detected">การลากเส้นรูปแบบเสร็จสิ้น</string>
+    <string name="default_lockscreen_unlock_hint_text">เลื่อนขึ้นเพื่อปลดล็อก</string>
     <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"คุณป้อนรหัสผ่านไม่ถูกต้องเป็นจำนวน %d ครั้ง หากคุณป้อนรหัสผ่านผิดอีก %d ครั้ง ระบบจะกำหนดให้คุณต้องปลดล็อกโทรศัพท์ของคุณโดยการลงชื่อเข้าสู่ระบบด้วยบัญชี Mi
 
  คุณสามารถลองปลดล็อกได้อีกครั้งในอีก %d วินาที"</string>
@@ -53,6 +54,7 @@
     <string name="unlock_string">ปลดล็อก</string>
     <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิด %s</string>
     <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิด %s</string>
+    <string name="left_action_default_hint_text">รีโมท Mi</string>
     <string name="click_to_enter_text" />
     <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
     <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>

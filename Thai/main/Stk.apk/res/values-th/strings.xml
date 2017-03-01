@@ -12,10 +12,17 @@
     <string name="button_no">ไม่ใช่</string>
     <string name="alphabet">จดหมาย</string>
     <string name="digits">หลักตัวเลข (0-9, *, #, +)</string>
+    <string name="default_call_setup_msg">ความคืบหน้าการเรียกเข้า…</string>
+    <string name="default_setup_call_msg">การตั้งค่าสายเรียกเข้า…</string>
     <string name="stk_app_state">สถานะแอป</string>
     <string name="enable_app">เปิด</string>
     <string name="disable_app">ปิด</string>
     <string name="stk_dialog_title">ชุดเครื่องมือซิม</string>
+    <string name="default_tone_dialog_msg">โทนเริ่มต้น</string>
+    <string name="default_open_channel_msg">เปิดช่องนี้?</string>
+    <string name="default_send_data_msg">กำลังส่งข้อมูล…</string>
+    <string name="default_receive_data_msg">กำลังรับข้อมูล…</string>
+    <string name="default_close_channel_msg">ปิดช่องแล้ว</string>
     <string name="stk_dialog_accept">ใช่</string>
     <string name="stk_dialog_reject">ไม่</string>
     <string name="no_sim_card_inserted">ใส่ซิมการ์ดเพื่อเปิดใช้ชุดเครื่องมือซิม</string>

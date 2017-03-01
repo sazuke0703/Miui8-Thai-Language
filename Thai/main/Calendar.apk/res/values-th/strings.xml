@@ -99,14 +99,19 @@
     <string name="preferences_hide_declined_title">ซ่อนกิจกรรมที่ปฏิเสธ</string>
     <string name="preferences_week_start_day_title">เริ่มต้นสัปดาห์</string>
     <string name="preferences_week_start_day_dialog">เริ่มต้นสัปดาห์</string>
+    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_clear_search_history_title">ล้างประวัติการค้นหา</string>
     <string name="preferences_clear_search_history_summary">ค้นหาทั้งหมดที่คุณได้ทำการลบออก</string>
     <string name="search_history_cleared">ค้นหาประวัติการล้าง</string>
     <string name="preferences_alerts_title">การแจ้งเตือน</string>
     <string name="preferences_alerts_popup_title">หน้าต่างการแจ้งเตือน</string>
+    <string name="preferences_default_reminder_title">เวลาเตือนเริ่มต้น</string>
+    <string name="preferences_default_reminder_dialog">เวลาเตือนเริ่มต้น</string>
+    <string name="preferences_default_reminder_default">10</string>
     <string name="preferences_use_home_tz_title">ใช้โซนเวลาที่บ้าน</string>
     <string name="preferences_use_home_tz_descrip">แสดงปฏิทินและเวลากิจกรรมในเขตเวลาที่บ้านของคุณเมื่อเดินทาง</string>
     <string name="preferences_home_tz_title">โซนเวลาที่บ้าน</string>
+    <string name="preferences_home_tz_default">อเมริกา/ลอสแองเจลิส</string>
     <string name="preferences_show_week_num_title">แสดงหมายเลขสัปดาห์</string>
     <string name="prefDialogTitle_vibrateWhen">สั่น</string>
     <string name="gadget_title">ปฏิทิน</string>
@@ -141,6 +146,7 @@
     <string name="menu_reminder_preferences">การเตือน</string>
     <string name="account_and_calendar">บัญชี</string>
     <string name="account_and_calendar_to_display">เหตุการณ์ในปฏิทิน</string>
+    <string name="default_reminder_mode">การเตือนกำหนดการ</string>
     <string name="time_zone">เขตเวลา</string>
     <string name="event_all_day_label">ตลอดทั้งวัน</string>
     <string name="today_no_events">ไม่มีกำหนดการ</string>
@@ -213,6 +219,7 @@
     <string name="birthday_event_description">วันนี้เป็น%4$sของ %1$s!</string>
     <string name="birthday_event_description_detail_leap" />
     <string name="birthday_event_description_detail_smart" />
+    <string name="birthday_event_description_default">%4$sครบรอบ %2$s%3$sปีของ %1$s</string>
     <string name="birthday_event_description_special">%1$sจะถึง%5$s%3$s%4$sของ%2$s</string>
     <string name="birthday_event_description_today">วันนี้เป็น</string>
     <string name="birthday_event_description_tomorrow">พรุ่งนี้เป็น</string>

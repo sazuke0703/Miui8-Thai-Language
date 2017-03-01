@@ -106,6 +106,7 @@
     <string name="account_setup_incoming_security_tls_trust_certificates_label">        STARTTLS (อนุญาตทุกใบรับรอง)</string>
     <string name="account_setup_incoming_server_label">เซิร์ฟเวอร์</string>
     <string name="account_setup_incoming_username_label">ชื่อผู้ใช้</string>
+    <string name="account_setup_incoming_username_label_default_hint">คุณสามารถใส่ชื่อโดเมนได้ด้วย</string>
     <string name="account_setup_need_password_verification">บัญชีของคุณใช้รหัสผ่านสองชั้น จำเป็นต้องได้รับการตรวจสอบ</string>
     <string name="account_setup_options_mail_check_frequency_10min">ทุก 10 นาที</string>
     <string name="account_setup_options_mail_check_frequency_12hour">ทุก 12 ชั่วโมง</string>
@@ -121,6 +122,7 @@
     <string name="account_setup_options_mail_window_3days">สามวันล่าสุด</string>
     <string name="account_setup_options_mail_window_all">ทั้งหมด</string>
     <string name="account_setup_options_mail_window_auto">อัตโนมัติ</string>
+    <string name="account_setup_options_mail_window_default">ใช้ค่ามาตราฐานของบัญชี</string>
     <string name="account_setup_options_mail_window_label">ซิงค์อีเมลนับจาก</string>
     <string name="account_setup_options_mail_window_label_imap_or_pop3">เก็บไว้</string>
     <string name="account_setup_options_title">ตั้งค่าบัญชี</string>
@@ -246,6 +248,7 @@
     <string name="contact_in_filter_call_phone_str">โทรจาก %s</string>
     <string name="contact_in_filter_title">ผู้ส่ง</string>
     <string name="contact_info_string">แสดงข้อมูลการติดต่อของ%1$s</string>
+    <string name="contact_info_string_default">แสดงข้อมูลการติดต่อ</string>
     <string name="contact_list_add_btn">เพิ่ม</string>
     <string name="contact_list_search_hint">ค้นหารายชื่อ</string>
     <string name="contact_list_title">รายชื่อ</string>
@@ -280,6 +283,9 @@
     <string name="date_heading">"วันที่: "</string>
     <string name="date_message_received">%1$s %2$s</string>
     <string name="date_message_received_today">วันนี้ %1$s</string>
+    <string name="default_">ค่าเริ่มต้น</string>
+    <string name="default_setup">การตั้งค่าเริ่มต้น</string>
+    <string name="default_signature">ส่งจากมือถือ Mi</string>
     <string name="del_account_questionnair_hint">คุณสามารถบอกเราได้ไหมว่าทำไมคุณถึงลบบัญชีนี้?</string>
     <string name="delete">ลบ</string>
     <string name="deleted">ถูกลบแล้ว</string>
@@ -464,6 +470,7 @@
     <string name="meeting_where">ที่ไหน: %s</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">ไฟล์แนบ</string>
+    <string name="menu_att_mgr_order_default">ที่อ่านล่าสุด</string>
     <string name="menu_att_mgr_order_mime">เรียงตามประเภทไฟล์</string>
     <string name="menu_att_mgr_order_name">เรียงตามชื่อ</string>
     <string name="menu_att_mgr_order_rev_date">เรียงตามเวลาที่ได้รับ</string>

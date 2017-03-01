@@ -119,6 +119,7 @@
     <string name="auth_notif_ticker">คำขอตรวจสอบสิทธิ์ Obex</string>
     <string name="auth_notif_title">คีย์เซสชัน</string>
     <string name="auth_notif_message">รูปแบบเซสชันคีย์สำหรับ %1$s</string>
+    <string name="defaultname">ชุดอุปกรณ์ติดรถยนต์</string>
     <string name="unknownName">ชื่อที่ไม่รู้จัก</string>
     <string name="localPhoneName">ชื่อของฉัน</string>
     <string name="bluetooth_sap_notif_title">การเข้าถึงซิมบลูทูธ</string>

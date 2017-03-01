@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="sleep_duration_values">
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>45 นาที</item>
+        <item>1 ชั่วโมง</item>
+    </string-array>
     <string-array name="search_category_rbds_entries">
         <item>สถานีทั้งหมด</item>
         <item>ย้อนยุค</item>

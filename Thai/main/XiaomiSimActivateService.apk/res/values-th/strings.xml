@@ -100,6 +100,7 @@
     <string name="activate_feature_verify_mx_token">การยืนยันบัญชี Mi</string>
     <string name="activate_feature_live_talk">แพ็คเกจเติมเงิน</string>
     <string name="activate_feature_remote_assist">การช่วยเหลือระยะไกล</string>
+    <string name="activate_feature_default_name">บริการ Mi</string>
     <string name="activate_history_title">การเปิดใช้งานซิมการ์ด</string>
     <string name="activate_history_success_overview">เปิดใช้งานซิมการ์ดเรียบร้อยแล้ว การเปิดใช้งานถูกเรียกใช้งานโดย\"%1$s\".</string>
     <string name="activate_history_canceled_overview">ยกเลิกการเปิดใช้งานซิมการ์ดแล้ว การเปิดใช้งานถูกเรียกใช้งานโดย \"%1$s\".</string>

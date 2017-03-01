@@ -329,6 +329,7 @@
     <string name="importing_vcard_finished_title">สิ้นสุดการนำเข้า vCard %s</string>
     <string name="importing_vcard_canceled_title">การนำเข้า %s ถูกยกเลิก</string>
     <string name="vcard_import_will_start_message">%s จะถูกนำเข้าเร็วๆนี้</string>
+    <string name="vcard_import_will_start_message_with_default_name">ไฟล์จะถูกนำเข้าเร็วๆนี้</string>
     <string name="vcard_import_request_rejected_message">การร้องขอการนำเข้า vCard ถูกปฏิเสธ ลองอีกครั้งในภายหลัง</string>
     <string name="vcard_export_will_start_message">%s จะถูกนำเข้าเร็วๆนี้</string>
     <string name="vcard_export_request_rejected_message">การร้องขอการส่งออก vCard ถูกปฏิเสธ ลองอีกครั้งในภายหลัง</string>
@@ -559,6 +560,8 @@
     <string name="delete_group_dialog_message">ลบกลุ่ม \"%1$s\" ส่วนรายชื่อจะไม่ถูกลบไปด้วย</string>
     <string name="toast_join_with_empty_contact">พิมพ์ชื่อผู้ติดต่อก่อนที่จะรวม กับชื่ออื่น</string>
     <string name="copy_text">คัดลอกไปยังคลิปบอร์ด</string>
+    <string name="set_default">ตั้งเป็นค่าเริ่มต้น</string>
+    <string name="clear_default">ล้างค่าเริ่มต้น</string>
     <string name="toast_text_copied">ข้อความถูกคัดลอกแล้ว</string>
     <string name="cancel_confirmation_dialog_title">ยกเลิก</string>
     <string name="cancel_confirmation_dialog_message">ยกเลิกการเปลี่ยนแปลงหรือไม่</string>
@@ -922,12 +925,14 @@
     <string name="preference_phone_more_title">การตั้งค่าการโทร</string>
     <string name="preference_dial_pad_touch_tone_switch">เสียงแป้นโทร</string>
     <string name="preference_tone_title">เสียง</string>
+    <string name="preference_dial_pad_touch_tone_default">ค่าเริ่มต้น</string>
     <string name="preference_dial_pad_touch_tone_piano">คีย์เปียโน</string>
     <string name="preference_dial_pad_touch_tone_human">เสียง</string>
     <string name="ic_menu_done">เสร็จสิ้น</string>
     <string name="cloud_antispam_title">ระบุเลขหมาย</string>
     <string name="share_over_limit">ไม่สามารถแชร์เกินกว่า 1000 รายชื่อได้</string>
     <string name="preference_key_trash_bin_title">กู้คืนรายชื่อผู้ติดต่อ</string>
+    <string name="account_default">โทรศัพท์</string>
     <string name="lunarBirthdayLabelsGroup">วันเกิดตามจันทรคติ</string>
     <string name="option_view_contact">แสดง</string>
     <string name="option_edit_contact">แก้ไข</string>
@@ -959,6 +964,7 @@
     <string name="today">วันนี้</string>
     <string name="next_birthday">วันเกิดครั้งต่อไป: %s</string>
     <string name="ringLabelsGroup">เสียงเรียกเข้า</string>
+    <string name="default_ringtone">เสียงเรียกเข้าเริ่มต้น</string>
     <string name="recent_number">ล่าสุด</string>
     <string name="cloud_antispam_mark">รายงาน</string>
     <string name="cloud_antispam_marked">ปักหมุดแล้ว</string>

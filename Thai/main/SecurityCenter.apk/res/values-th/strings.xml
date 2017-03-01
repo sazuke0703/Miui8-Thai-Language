@@ -143,6 +143,7 @@
     <string name="pref_avaible_traffic">แพ็คเกจข้อมูล</string>
     <string name="pref_daily_traffic">เพดานข้อมูลช่วงปกติ</string>
     <string name="pref_data_usage_not_set">ตั้งเพดานการใช้ข้อมูล</string>
+    <string name="pref_warning_values">ระดับแจ้งเตือนการใช้ข้อมูล</string>
     <string name="pref_pkg_begin_date">วันที่รีเซ็ตรอบการใช้</string>
     <string name="pref_month_first_day">1</string>
     <string name="pref_month_begin_date">วันที่รีเซ็ตรอบการใช้งาน</string>
@@ -310,6 +311,7 @@
     <string name="tc_sms_report_get_sms_failure">ไม่ได้รับรูปแบบข้อความแจ้งการใช้ข้อมูล</string>
     <string name="tc_sms_report_get_sms_timeout">ไม่มีการตอบรับในเวลาที่กำหนด</string>
     <string name="tc_sms_report_get_sms_successs">แก้ไขรูปแบบข้อความแจ้งการใช้ข้อมูลแล้ว</string>
+    <string name="tc_sms_report_get_default">คุณไม่ต้องเสียค่าบริการสำหรับการรับข้อความ SMS ที่ใช้ในการแจ้งยอดการใช้ข้อมูลจากผู้ให้บริการเครือข่าย</string>
     <string name="tc_sms_report_toast_text">กำลังรับข้อมูล…</string>
     <string name="privacy_declare_dialog_title">เงื่อนไขการให้บริการ</string>
     <string name="privacy_declare_dialog_message">ในการใช้บริการนี้ถือว่าคุณได้ตกลงตาม&lt;a href=%s>เงื่อนไขการให้บริการ&lt;/a>ของ Opera</string>
@@ -355,6 +357,8 @@
     <string name="daily_limit_and_lock_screen">เพดานรายวันและการแจ้งเตือน</string>
     <string name="pref_title_traffic_limit_number">ปริมาณ</string>
     <string name="pref_title_over_traffic_limit_warning">เมื่อใช้ไปเกินกำหนด</string>
+    <string name="reach_daily_limit_value_title">ใช้เกินเพดานข้อมูลรายวันแล้ว</string>
+    <string name="reach_daily_limit_value_body">ลดปริมาณการใช้ข้อมูลมือถือ</string>
     <string name="daily_limit_network_available_body">แตะเพื่อเรียกดูสถิติการใช้งานข้อมูล</string>
     <string name="daily_limit_over_message">คุณได้ใช้งานถึงเพดานข้อมูลรายวันแล้ว</string>
     <string name="three_percent_total_pkg">%s (3%% ของข้อมูลรายเดือน)</string>
@@ -363,6 +367,7 @@
     <string name="lock_screen_warning_category">การแจ้งเตือนในหน้าจอล็อก</string>
     <string name="lock_screen_warning_switch_title">แสดงการแจ้งเตือนบนหน้าจอล็อก</string>
     <string name="lock_screen_warning_switch_summary">แจ้งเตือนบนหน้าจอล็อกเมื่อใช้ปริมาณเครือข่ายข้อมูลเกินจำนวนที่กำหนดไว้</string>
+    <string name="lock_screen_warning_value">แจ้งเตือนการใช้ข้อมูล</string>
     <string name="traffic_setting_completed">ตกลง</string>
     <string name="traffic_setting_extra_pkg_title">การตั้งค่าเพิ่มเติม</string>
     <string name="traffic_setting_extra_pkg_summary">แก้ไขแพ็คเกจข้อมูลและเพดานการใช้งาน</string>
@@ -855,6 +860,7 @@
     <string name="last_check_date_yesterday">"สแกนเมื่อวานนี้ "</string>
     <string name="last_check_never_checked">สแกนทันที</string>
     <string name="last_check_canceled">การสแกนครั้งล่าสุดถูกยกเลิก</string>
+    <string name="last_checked_default">สแกนเมื่อ %s วันที่แล้ว</string>
     <string name="examination_score_100">ไม่พบสิ่งผิดปกติ!</string>
     <string name="examination_score_100_with_recommend">สามารถปรับแต่งได้อีก %d รายการ</string>
     <string name="examination_score_80_100">ยังปรับแต่งเล็กน้อยให้ดีขึ้นได้อีก</string>
@@ -991,6 +997,7 @@
     <string name="menu_item_virus_install_monitor_title">สแกนก่อนทำการติดตั้ง</string>
     <string name="menu_item_virus_install_monitor_summary">ตรวจสอบหาไวรัสก่อนการติดตั้งแอปทุกครั้ง</string>
     <string name="activity_title_virus_settings">การตั้งค่า</string>
+    <string name="hints_virus_lib_update_default_summary">ไม่ทราบเวลาอัพเดทครั้งล่าสุด</string>
     <string name="menu_item_virus_lib_auto_update_summary">อัพเดทเมื่อ %s</string>
     <string name="hints_virus_app_list_item_summary">แอป</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
@@ -1015,6 +1022,7 @@
     <string name="activity_title_perm_manager">สิทธิ์การใช้งาน</string>
     <string name="activity_title_auto_start_manager">เริ่มต้นอัตโนมัติ</string>
     <string name="activity_title_notification_bar_manager">การแจ้งเตือน</string>
+    <string name="activity_title_default_apps_manager">แอปที่เป็นค่าเริ่มต้น</string>
     <string name="activity_title_permission_manager">การอนุญาต</string>
     <string name="activity_title_other_permission_manager">การอนุญาตอื่นๆ</string>
     <string name="activity_title_root_manager">การรูท</string>
@@ -1192,6 +1200,9 @@
     <string name="pref_category_title_lock_screen_memory_clean">การทำความสะอาดเมื่อล็อกหน้าจอ</string>
     <string name="pref_title_lock_screen_memory_clean">การทำความสะอาด</string>
     <string name="pref_summary_lock_screen_memory_clean">ทำความสะอาดอัตโนมัติเมื่อล็อกจอ</string>
+    <string name="title_default_app">MIUI %s ไม่ได้ถูกตั้งเป็นค่าตั้งต้น</string>
+    <string name="summary_default_app">%s ไม่ได้ถูกตั้งเป็นแอปตั้งต้นของระบบ</string>
+    <string name="toast_default_app">%1$s ได้ถูกตั้งเป็นแอปตั้งต้นของระบบ %2$s</string>
     <string name="notification_title_cmcc_app_check">ตรวจเช็คครั้งล่าสุดเมื่อ %d วันก่อน</string>
     <string name="notification_summary_cmcc_app_check">แตะเพื่อดูรายละเอียด</string>
     <string name="title_cmcc_app_check">การตรวจสอบยังไม่เสร็จสิ้น</string>
@@ -1450,6 +1461,7 @@
     <string name="button_text_disconnect_now">ตัดการเชื่อมต่อ</string>
     <string name="apps_item_sms_reset_button_text">เรียกคืนค่าเริ่มต้น</string>
     <string name="apps_item_sms_title">การตั้งค่าข้อความเริ่มต้น</string>
+    <string name="apps_item_sms_default_set_success">ตั้งค่าเรียบร้อย</string>
     <string name="apps_item_virus_cleanup_text">ล้าง</string>
     <string name="apps_item_virus_cleanup_success">ล้างเรียบร้อยแล้ว</string>
     <string name="apps_item_virus_summary_installed">แอปที่ติดตั้ง</string>
@@ -1507,6 +1519,7 @@
     <string name="safe_result_item_info_system_scan">การตรวจสอบการชำระเงินเปิดอยู่</string>
     <string name="safe_result_item_info_system_antivirus">การป้องกันจากไวรัสแอบแฝง</string>
     <string name="safe_result_item_info_sms_auth">กรุณาจำกัดการเข้าถึงรหัสยืนยันของแอปภายนอก</string>
+    <string name="safe_result_item_info_sms_default">สลับไปยังแอปข้อความเริ่มต้น</string>
     <string name="safe_result_item_info_sms_url">การป้องกันจากลิงค์ URL ที่เป็นอันตราย</string>
     <string name="safe_result_item_info_app_sign">ไม่พบแอปที่ไม่เป็นทางการ</string>
     <string name="safe_result_item_info_app_virus">ไม่พบไวรัสและแอปที่มีความเสี่ยง</string>
@@ -1583,6 +1596,9 @@
     <string name="optimize_result_button_purchase_flow">แสดงทั้งหมด</string>
     <string name="optimize_result_button_purchase">ซื้อ</string>
     <string name="optimize_result_button_cloudspace">เพิ่มที่จัดเก็บข้อมูลคลาวด์</string>
+    <string name="optimize_result_title_system_default_settings">การตั้งค่าเริ่มต้นได้รับการเปลี่ยนแปลง</string>
+    <string name="optimize_result_summary_system_default_settings">การใช้แอป MIUI เริ่มต้นจะช่วยเพิ่มความเสถียรและความปลอดภัยของระบบ</string>
+    <string name="optimize_result_toast_system_default_settings">เรียกคืนการตั้งค่าเริ่มต้น</string>
     <string name="optimize_result_toast_system_no_item_selected">ไม่มีรายการที่เลือก</string>
     <string name="optimize_result_title_sucurity_risk">พบความเสี่ยงด้านความปลอดภัย</string>
     <string name="optimize_result_summary_sucurity_risk">บางคุณลักษณะของแอปความปลอดภัยปิดใช้งานอยู่ เปิดใช้งานคุณลักษณะเหล่านี้เพื่อให้อุปกรณ์ของคุณปลอดภัยมากยิ่งขึ้น:</string>
@@ -1720,6 +1736,7 @@
     <string name="power_save_on_time_end_time_title">%1$d: %2$d</string>
     <string name="power_save_on_time_option_title">ระหว่างช่วงเวลานี้ให้เปลี่ยนโหมดไปเป็น</string>
     <string name="power_save_on_time_option_summary">เมื่อสิ้นสุดช่วงระยะเวลาที่กำหนดแล้วอุปกรณ์นี้จะเปลี่ยนไปใช้โหมดแบตเตอรี่ที่ใช้งานก่อนหน้า</string>
+    <string name="power_save_on_time_default_time">00:00</string>
     <string name="power_save_on_time_goout_title">สิ้นสุดเวลาแล้วเปลี่ยนโหมดไปเป็น</string>
     <string name="power_save_choose_recovery_mode">เลือกโหมด</string>
     <string name="power_new_choose_mode">เลือกโหมด</string>

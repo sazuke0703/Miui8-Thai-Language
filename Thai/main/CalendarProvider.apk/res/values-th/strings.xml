@@ -8,6 +8,7 @@
     <string name="holiday_data_no_network">ไม่สามารถเชื่อมต่อกับเครือข่ายได้ ตรวจสอบการเชื่อมต่อข้อมูลและลองอีกครั้ง</string>
     <string name="calendar_storage">ที่จัดเก็บข้อมูลปฏิทิน</string>
     <string name="upgrade_msg">กำลังอัพเดทฐานข้อมูลปฏิทิน…</string>
+    <string name="calendar_default_name">ค่าเริ่มต้น</string>
     <string name="calendar_info">ข้อมูลปฏิทิน</string>
     <string name="calendar_info_error">ผิดพลาด</string>
     <string name="calendar_info_no_calendars">ไม่มีข้อมูลปฏิทิน</string>
