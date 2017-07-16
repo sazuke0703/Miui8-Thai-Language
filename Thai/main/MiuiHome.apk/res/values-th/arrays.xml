@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="transformation_entries">
-        <item>โอเวอร์สไลด์</item>
         <item>สไลด์</item>
         <item>จางหาย</item>
         <item>ตีลังกา</item>
