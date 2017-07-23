@@ -19,16 +19,33 @@
         <item>บทสัมภาษณ์</item>
         <item>HD</item>
     </string-array>
+    <string-array name="record_scenes_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
     <string-array name="record_scenes_summaries">
+        <item>บันทึกเพลงที่มีคุณภาพดีขึ้น</item>
+        <item>วางไมค์ให้ใกล้กับแหล่งที่มาของเสียงเพื่อให้ได้เสียงที่มีคุณภาพสูง</item>
+        <item>วางโทรศัพท์ไว้ระหว่างผู้อัดทั้งสองเพื่อให้บันทึกเสียงการสนทนาได้อย่างชัดเจนยิ่งขึ้น</item>
+        <item>เทคโนโลยีช่วงไดนามิกสูงจะช่วยให้รายละเอียดเสียงจับไมโครโฟนมากขึ้น</item>
+    </string-array>
+    <string-array name="record_scenes_summaries_stereo">
         <item>บันทึกผ่าน 2 ช่องเสียง รับฟังเสียงสเตอริโอผ่านหูฟัง</item>
-        <item>วางไมค์ให้อยู่ตำแหน่งใกล้กันกับแหล่งที่มาของเสียงเพื่อคุณภาพเสียงที่ดีขึ้น</item>
-        <item>วางโทรศัพท์ไว้ระหว่างผู้อัดทั้งสองเพื่อให้บันทึกเสียงได้อย่างชัดเจนยิ่งขึ้น</item>
+        <item>วางไมค์ให้ใกล้กับแหล่งที่มาของเสียงเพื่อให้ได้เสียงที่มีคุณภาพสูง</item>
+        <item>วางโทรศัพท์ไว้ระหว่างผู้อัดทั้งสองเพื่อให้บันทึกเสียงการสนทนาได้อย่างชัดเจนยิ่งขึ้น</item>
         <item>เทคโนโลยีช่วงไดนามิกสูงจะช่วยให้รายละเอียดเสียงจับไมโครโฟนมากขึ้น</item>
     </string-array>
     <string-array name="record_quality_entries">
         <item>สูง</item>
         <item>มาตรฐาน</item>
         <item>ต่ำ</item>
+    </string-array>
+    <string-array name="record_quality_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
     <string-array name="record_quality_summaries">
         <item>MP3 ~192Kb/วิ ~90MB/ชม.</item>

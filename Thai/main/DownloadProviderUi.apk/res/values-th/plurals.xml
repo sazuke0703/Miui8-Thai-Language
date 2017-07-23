@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="sniff_find_resource">
+        <item quantity="other">พบ %d รายการ</item>
+    </plurals>
     <plurals name="numberOfItemsAvailable">
         <item quantity="other">ลบ %d รายการ?</item>
+    </plurals>
+    <plurals name="sniff_find_result">
+        <item quantity="other">พบ %d ผลการค้นหา</item>
     </plurals>
 </resources>

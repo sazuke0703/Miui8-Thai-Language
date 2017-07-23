@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="select_items">
+        <item quantity="other">เลือกแล้ว%1$d รายการ</item>
+    </plurals>
+    <plurals name="app_list_total">
+        <item quantity="other">%d แอป</item>
+    </plurals>
     <plurals name="power_config_ultimate_on_count">
         <item quantity="other">ดำเนินการอีก %1$d ขั้นตอนเพื่อเข้าสู่โหมดประหยัดสูงสุด</item>
     </plurals>

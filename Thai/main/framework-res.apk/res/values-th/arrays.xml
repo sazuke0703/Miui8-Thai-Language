@@ -39,6 +39,10 @@
     </string-array>
     <array name="wfcOperatorErrorAlertMessages" />
     <array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>กำลังเรียก Wi-Fi ของ %s</item>
+    </string-array>
     <array name="fingerprint_acquired_vendor" />
     <array name="fingerprint_error_vendor" />
     <string-array name="imAddressTypes">

@@ -12,6 +12,14 @@
         <item>ตา</item>
         <item>ยาย</item>
     </string-array>
+    <string-array name="sharer_relation_addressive">
+        <item>พ่อ</item>
+        <item>แม่</item>
+        <item>ปู่</item>
+        <item>ย่า</item>
+        <item>ตา</item>
+        <item>ยาย</item>
+    </string-array>
     <string-array name="relation_with_me">
         <item>ฉัน</item>
         <item>ลูก</item>

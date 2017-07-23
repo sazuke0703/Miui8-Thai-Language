@@ -6,7 +6,16 @@
     <plurals name="app_user_used">
         <item quantity="other">ผู้ใช้งาน %1$s คน</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d วันก่อน</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d ชั่วโมงก่อน</item>
+    </plurals>
     <plurals name="match_brand_selection_des">
         <item quantity="other">พบจำนวน %d ยี่ห้อ</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d นาทีก่อน</item>
     </plurals>
 </resources>

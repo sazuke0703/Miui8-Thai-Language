@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="confirm_delete_conversation">
-        <item quantity="other">ลบการสนทนา %1$s ที่เลือกไว้?</item>
-    </plurals>
-</resources>

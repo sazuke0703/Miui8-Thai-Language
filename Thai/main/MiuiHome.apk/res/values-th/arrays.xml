@@ -4,7 +4,7 @@
         <item>สไลด์</item>
         <item>จางหาย</item>
         <item>ตีลังกา</item>
-        <item>หน้า</item>
+        <item>พลิกหน้า</item>
         <item>เรียงซ้อน</item>
         <item>หมุน</item>
         <item>ลูกบาศก์</item>
@@ -16,6 +16,10 @@
         <item>ขวา</item>
     </string-array>
     <string-array name="cell_layout_size_entries">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
         <item>4x4</item>
         <item>4x5</item>
     </string-array>
@@ -56,8 +60,5 @@
         <item>ภาพพื้นหลัง</item>
         <item>เอฟเฟกต์</item>
         <item>ผัง</item>
-    </string-array>
-    <string-array name="quality_business_devices">
-        <item>ลิเทียม</item>
     </string-array>
 </resources>

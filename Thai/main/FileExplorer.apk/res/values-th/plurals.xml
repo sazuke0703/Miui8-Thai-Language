@@ -12,9 +12,6 @@
     <plurals name="numSelectedFile">
         <item quantity="other">เลือกไว้ %1$d รายการ</item>
     </plurals>
-    <plurals name="items_file">
-        <item quantity="other"> (%1$d รายการ)</item>
-    </plurals>
     <plurals name="items_picture">
         <item quantity="other"> (%1$d รายการ)</item>
     </plurals>
@@ -39,38 +36,11 @@
     <plurals name="days_ago">
         <item quantity="other">%1$d วันที่แล้ว</item>
     </plurals>
-    <plurals name="seconds">
-        <item quantity="other">%1$d วินาที</item>
-    </plurals>
-    <plurals name="mins">
-        <item quantity="other">%1$d นาที</item>
-    </plurals>
-    <plurals name="hours">
-        <item quantity="other">%1$d ชั่วโมง</item>
-    </plurals>
-    <plurals name="days">
-        <item quantity="other">%1$d วัน</item>
-    </plurals>
     <plurals name="found_new_files">
         <item quantity="other">พบ %1$d ไฟล์ใหม่</item>
     </plurals>
-    <plurals name="file_notify_title">
-        <item quantity="other">ได้รับ %1$d ไฟล์จาก %2$s</item>
-    </plurals>
-    <plurals name="file_notify_title_wechat_video">
-        <item quantity="other">ได้รับ %1$d ไฟล์จาก WeChat</item>
-    </plurals>
-    <plurals name="file_notify_title_wechat_video_expire">
-        <item quantity="other">%1$d วิดีโอใน WeChat กำลังจะหมดอายุลง</item>
-    </plurals>
     <plurals name="backup_message_wechat_video">
         <item quantity="other">%1$d วิดีโอที่อยู่ในการสนทนาใน WeChat กำลังจะหมดอายุลง ต้องการสำรองข้อมูลดังกล่าวไว้ภายในเครื่องนี้หรือไม่?</item>
-    </plurals>
-    <plurals name="file_notify_title_wechat_sticker">
-        <item quantity="other">วันนี้มี %1$d สติกเกอร์ WeChat มาใหม่</item>
-    </plurals>
-    <plurals name="file_notify_title_wechat_video_auto_backup">
-        <item quantity="other">สำรองข้อมูล %1$d วิดีโอบน WeChat แล้ว</item>
     </plurals>
     <plurals name="remote_video_update">
         <item quantity="other">พบ %1$s วิดีโอใหม่</item>
@@ -81,17 +51,8 @@
     <plurals name="video_play_num">
         <item quantity="other">เข้าชม %1$s ครั้ง</item>
     </plurals>
-    <plurals name="video_num">
-        <item quantity="other">%1$s วิดีโอ</item>
-    </plurals>
-    <plurals name="follower_num">
-        <item quantity="other">ผู้ติดตาม</item>
-    </plurals>
-    <plurals name="user_upload_items">
-        <item quantity="other">วิดีโอ</item>
-    </plurals>
     <plurals name="video_count">
-        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> วิดีโอ</item>
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> วิดีโอ</item>
     </plurals>
     <plurals name="number_of_comment_flow">
         <item quantity="other">%1$s ความคิดเห็น</item>
@@ -103,30 +64,42 @@
         <item quantity="other">%1$d รายการ</item>
     </plurals>
     <plurals name="original_user_days">
-        <item quantity="other">• &amp;lt;font color=#fc7050>%1$d&amp;lt;/font> วัน</item>
+        <item quantity="other">• &lt;font color=#fc7050>%1$d&lt;/font> วัน</item>
     </plurals>
     <plurals name="original_user_play_1">
-        <item quantity="other">คุณได้อัพโหลดวีดีโอ &amp;lt;font color=#fc7050>%1$s&amp;lt;/font>แล้ว</item>
+        <item quantity="other">คุณได้อัพโหลดวีดีโอ &lt;font color=#fc7050>%1$s&lt;/font>แล้ว</item>
     </plurals>
     <plurals name="original_user_play_2">
-        <item quantity="other">คุณทำให้ &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> คนมีความสุข</item>
+        <item quantity="other">คุณทำให้ &lt;font color=#fc7050>%1$s&lt;/font> คนมีความสุข</item>
     </plurals>
     <plurals name="original_user_fans">
-        <item quantity="other">คุณได้รับ • You got &amp;lt;font color=#fc7050>%1$s&amp;lt;/font> การติดตาม</item>
+        <item quantity="other">คุณได้รับ • You got &lt;font color=#fc7050>%1$s&lt;/font> การติดตาม</item>
     </plurals>
     <plurals name="video_publish_watchable_hint">
         <item quantity="other">ได้รับ %1$d ผู้ติดตามผู้ติดตามเพิ่มเติม อัพเกรดสถานะของคุณ​</item>
     </plurals>
     <plurals name="follow_count">
-        <item quantity="other">&amp;lt;font color=#fc7050>%d&amp;lt;/font> ผู้ติดตาม</item>
-    </plurals>
-    <plurals name="video_like_num">
-        <item quantity="other">%1$s ไลค์</item>
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> ผู้ติดตาม</item>
     </plurals>
     <plurals name="gems">
         <item quantity="other">%1$s เพชร</item>
     </plurals>
     <plurals name="more_gems">
-        <item quantity="other">รวบรวม &amp;lt;font color=#fc7050>&amp;lt;b>%d&amp;lt;/b>&amp;lt;/font> จับฉลาก</item>
+        <item quantity="other">รวบรวม &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> เพชรเพิ่มเติมเพื่อเข้าร่วมการจับฉลาก.;</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">ลงชื่อเข้าใช้เป็นเวลา %1$s วันติดต่อกัน</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">คุณได้รับ &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> แต้ม</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">เช็คอินต่อเนื่อง %1$s วัน ดำเนินการต่อไป!</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s หัวข้อ</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s คน</item>
     </plurals>
 </resources>

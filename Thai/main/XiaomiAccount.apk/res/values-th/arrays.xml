@@ -21,41 +21,4 @@
         <item>8001~12000</item>
         <item>> 12000</item>
     </string-array>
-    <string-array name="question_no1">
-        <item>ครอบครัว</item>
-        <item>ชื่อยาย</item>
-        <item>ชื่อตา</item>
-        <item>ชื่อปู่</item>
-        <item>ชื่อย่า</item>
-        <item>วันเกิดพ่อ</item>
-        <item>วันเกิดแม่</item>
-        <item>อายุของพ่อและแม่ของคุณต่างกันเท่าไร (ปีและ)?</item>
-    </string-array>
-    <string-array name="question_no2">
-        <item>โรงเรียนเก่า</item>
-        <item>หัวหน้าห้องในชั้นเรียนของคุณตอนมัธยมต้นชื่ออะไร?</item>
-        <item>หัวหน้าห้องในชั้นเรียนของคุณตอนประถมชื่ออะไร?</item>
-        <item>เลขประจำตัวนักเรียนที่มหาลัยของคุณ</item>
-        <item>รูมเมทของคุณที่มหาลัยชื่ออะไร?</item>
-        <item>อาจารย์ที่ปรึกษาของคุณที่มหาลัยชื่ออะไร?</item>
-    </string-array>
-    <string-array name="question_no3">
-        <item>ข้อมูลส่วนตัว</item>
-        <item>พ่อแม่เรียกคุณว่าอะไร?</item>
-        <item>เลขท้าย 6 หลักหนังสือเดินทางของคุณ</item>
-        <item>คุณเกิดที่โรงพยาบาลอะไร?</item>
-        <item>เพื่อนสนิทที่สุดของคุณชื่ออะไร?</item>
-    </string-array>
-    <string-array name="question_no4">
-        <item>ครั้งแรก</item>
-        <item>สัตว์เลี้ยงตัวแรกของคุณชื่ออะไร?</item>
-        <item>แฟนคนแรกของคุณชื่ออะไร?</item>
-        <item>บริษัทที่คุณเข้าทำงานที่แรกชื่ออะไร?</item>
-    </string-array>
-    <string-array name="question_no5">
-        <item>สมรส</item>
-        <item>คุณสมรสเมื่อใด?</item>
-        <item>ชื่อภรรยา</item>
-        <item>วันเกิดภรรยา</item>
-    </string-array>
 </resources>

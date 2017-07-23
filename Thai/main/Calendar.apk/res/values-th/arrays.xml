@@ -1,85 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="reminder_methods_labels">
-        <item>การแจ้งเตือน</item>
-        <item>อีเมล</item>
-        <item>ข้อความ</item>
-        <item>การปลุก</item>
+    <string-array name="change_response_labels">
+        <item>กิจกรรมนี้เท่านั้น</item>
+        <item>กิจกรรมทั้งหมดในชุด</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>กิจกรรมนี้เท่านั้น</item>
+        <item>กิจกรรมนี้และในอนาคต</item>
+        <item>กิจกรรมทั้งหมด</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>ครั้งแรก</item>
+        <item>วินาที</item>
+        <item>สาม</item>
+        <item>สี่</item>
+        <item>ครั้งสุดท้าย</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>เสมอ</item>
+        <item>เมื่อปิดเสียงเรียกเข้าเท่านั้น</item>
+        <item>ไม่เคย</item>
     </string-array>
     <string-array name="preferences_week_start_day_labels">
-        <item>ตำแหน่งที่ตั้งเริ่มต้น</item>
+        <item>ภูมิภาคเริ่มต้น</item>
         <item>วันเสาร์</item>
         <item>วันอาทิตย์</item>
         <item>วันจันทร์</item>
     </string-array>
+    <string-array name="response_labels1">
+        <item>ไม่มีการตอบสนอง</item>
+        <item>ใช่</item>
+        <item>บางที</item>
+        <item>ไม่</item>
+    </string-array>
     <string-array name="timezone_labels">
         <item>หมู่เกาะมาร์แชลล์</item>
         <item>เกาะมิดเวย์</item>
-        <item>ฮาวาย</item>
-        <item>อลาสกา</item>
-        <item>เวลาแปซิฟิก</item>
-        <item>ติฮัวนา</item>
-        <item>อริโซนา</item>
-        <item>ชิวาวา</item>
-        <item>เวลาเขตภูเขา</item>
+        <item>รัฐฮาวาย</item>
+        <item>รัฐอะแลสกา</item>
+        <item>เวลามาตรฐานแปซิฟิก (PST)</item>
+        <item>ตีฮัวนา</item>
+        <item>รัฐแอริโซนา</item>
+        <item>รัฐชีวาวา</item>
+        <item>โซนเวลาเมาน์เทน (MT)</item>
         <item>อเมริกากลาง</item>
-        <item>เวลากลาง</item>
-        <item>เม็กซิโกซิตี้</item>
-        <item>ซัสแคตเชวัน</item>
-        <item>โบโกตา</item>
-        <item>เวลาตะวันออก</item>
+        <item>โซนเวลากลาง (CT)</item>
+        <item>เม็กซิโกซิตี</item>
+        <item>รัฐซัสแคตเชวัน</item>
+        <item>Bogota</item>
+        <item>โซนเวลาตะวันออก (ET)</item>
         <item>เวเนซุเอลา</item>
-        <item>เวลาของแอตแลนติก (บาร์เบโดส)</item>
-        <item>เวลาของแอตแลนติก (แคนาดา)</item>
+        <item>โซนเวลาแอตแลนติก (บาร์เบโดส)</item>
+        <item>โซนเวลาแอตแลนติก (แคนาดา)</item>
         <item>มาเนาส์</item>
-        <item>ซานติอาโก</item>
-        <item>เกาะนิวฟันด์แลนด์</item>
-        <item>บราซิเลีย</item>
+        <item>ซานเตียโก</item>
+        <item>รัฐนิวฟันด์แลนด์</item>
+        <item>บราซีเลีย</item>
         <item>บัวโนสไอเรส</item>
         <item>กรีนแลนด์</item>
         <item>มอนเตวิเดโอ</item>
-        <item>แอตแลนติก</item>
+        <item>ไมด์-แอตแลนติก</item>
         <item>อะโซร์ส</item>
-        <item>หมู่เกาะเคปเวิร์ด</item>
-        <item>คาซาบลังก้า</item>
+        <item>หมู่เกาะกาบูเวร์ดี</item>
+        <item>กาซาบล็องกา</item>
         <item>ลอนดอน ดับลิน</item>
         <item>อัมสเตอร์ดัม เบอร์ลิน</item>
         <item>เบลเกรด</item>
         <item>บรัสเซลส์</item>
-        <item>ซาราเจโว</item>
+        <item>ซาราเยโว</item>
         <item>วินด์ฮุก</item>
-        <item>เวลาแอฟริกาตะวันตก</item>
+        <item>โซนเวลาแอฟริกาตะวันตก (WAT)</item>
         <item>อัมมาน จอร์แดน</item>
         <item>เอเธนส์ อิสตันบูล</item>
         <item>เบรุต เลบานอน</item>
         <item>ไคโร</item>
         <item>เฮลซิงกิ</item>
-        <item>เยรูซาเล็ม</item>
-        <item>มินสก์</item>
+        <item>เยลูซาเลม</item>
+        <item>มินสค์</item>
         <item>ฮาราเร</item>
         <item>แบกแดด</item>
-        <item>มอสโก</item>
-        <item>คูเวต</item>
+        <item>มอสโค</item>
+        <item>คูเวตซิตี</item>
         <item>ไนโรบี</item>
         <item>เตหะราน</item>
         <item>บากู</item>
-        <item>ทบิลิซี</item>
+        <item>ทบิลีซี</item>
         <item>เยเรวาน</item>
         <item>ดูไบ</item>
         <item>คาบูล</item>
-        <item>อิสลามาบัด การาจี</item>
-        <item>อูราล</item>
-        <item>อาปีอา</item>
+        <item>อิสลามาบาด การาจี</item>
+        <item>ออรัล อัค โซล</item>
+        <item>เยคาเตรินบุร์ก</item>
         <item>โกลกาตา</item>
-        <item>ศรีลังกา</item>
+        <item>ศรีลันกา</item>
         <item>กาฐมาณฑุ</item>
-        <item>แอสตานา</item>
+        <item>อัสตานา</item>
         <item>ย่างกุ้ง</item>
         <item>ครัสโนยาสค์</item>
-        <item>กรุงเทพมหานคร</item>
+        <item>กรุงเทพ</item>
         <item>ปักกิ่ง</item>
         <item>ฮ่องกง</item>
-        <item>อีร์คุตส</item>
+        <item>อีร์คุตสค์</item>
         <item>กัวลาลัมเปอร์</item>
         <item>เพิร์ธ</item>
         <item>ไทเป</item>
@@ -91,97 +112,67 @@
         <item>บริสเบน</item>
         <item>โฮบาร์ต</item>
         <item>ซิดนีย์ แคนเบอร์รา</item>
-        <item>วลาดิวอสต็อก</item>
+        <item>วลาดีวอสตอค</item>
         <item>กวม</item>
-        <item>ของมากาดาน</item>
+        <item>มากาดาน</item>
         <item>โอ๊คแลนด์</item>
         <item>ฟิจิ</item>
-        <item>ราชอาณาจักรตองกา</item>
+        <item>ตองงา</item>
     </string-array>
-    <string-array name="availability">
-        <item>ไม่ว่าง</item>
-        <item>พร้อมใช้งาน</item>
-        <item>ไม่แน่นอน</item>
+    <string-array name="aquarius_info">
+        <item>aquarius</item>
+        <item>ราศีกุมภ์</item>
+        <item>20/1 - 18/2</item>
     </string-array>
-    <string-array name="visibility">
-        <item>ค่าเริ่มต้น</item>
-        <item>ส่วนตัว</item>
-        <item>สาธารณะ</item>
+    <string-array name="aries_info">
+        <item>ราศีเมษ</item>
+        <item>ราศีเมษ</item>
+        <item>21/3 - 19/4</item>
     </string-array>
-    <string-array name="ordinal_labels">
-        <item>ครั้งแรก</item>
-        <item>วินาที</item>
-        <item>สาม</item>
-        <item>สี่</item>
-        <item>ครั้งสุดท้าย</item>
+    <string-array name="cancer_info">
+        <item>ราศีกรกฎ</item>
+        <item>ราศีกรกฎ</item>
+        <item>22/6 - 22/7</item>
     </string-array>
-    <string-array name="response_labels1">
-        <item>ไม่มีการตอบสนอง</item>
-        <item>ใช่</item>
-        <item>บางที</item>
-        <item>ไม่</item>
+    <string-array name="capricorn_info">
+        <item>capricorn</item>
+        <item>ราศีมกร</item>
+        <item>22/12 - 19/1</item>
     </string-array>
-    <string-array name="delete_repeating_labels">
-        <item>กิจกรรมนี้เท่านั้น</item>
-        <item>กิจกรรมนี้และในอนาคต</item>
-        <item>กิจกรรมทั้งหมด</item>
+    <string-array name="date_calculate_spinner">
+        <item>ไปข้างหน้า</item>
+        <item>ย้อนหลัง</item>
     </string-array>
-    <string-array name="change_response_labels">
-        <item>กิจกรรมนี้เท่านั้น</item>
-        <item>กิจกรรมทั้งหมดในชุด</item>
-    </string-array>
-    <string-array name="quick_response_defaults">
-        <item>การดำเนินการจะเสร็จในไม่กี่นาที</item>
-        <item>จะมีในประมาณ 10 นาที</item>
-        <item>ไปข้างหน้าและไม่ต้องเริ่มต้นโดยฉัน</item>
-        <item>ขออภัย ไม่สามารถทำได้ เราจะมีการจัดตารางเวลาใหม่</item>
-    </string-array>
-    <string-array name="widget_style_list">
-        <item>โปร่งแสง</item>
-        <item>พื้นหลังสีขาว</item>
-    </string-array>
-    <string-array name="miui_reminder_minutes_labels">
-        <item>ไม่ต้องแจ้งเตือน</item>
-        <item>เวลาเหตุการณ์</item>
-        <item>ก่อน 5 นาที</item>
-        <item>ก่อน 10 นาที</item>
-        <item>ก่อน 15 นาที</item>
-        <item>ก่อน 30 นาที</item>
+    <string-array name="default_reminder_labels">
+        <item>เวลาก่อนกิจกรรม</item>
+        <item>5 นาทีก่อน</item>
+        <item>10 นาทีก่อน</item>
+        <item>15 นาทีก่อน</item>
+        <item>30 นาทีก่อน</item>
         <item>1 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
-        <item>2 วันก่อน</item>
+        <item>ก่อน 1 วัน</item>
+        <item>ก่อน 2 วัน</item>
         <item>1 สัปดาห์ก่อน</item>
     </string-array>
-    <string-array name="miui_preferences_default_reminder_labels">
-        <item>ไม่ต้องแจ้งเตือน</item>
-        <item>เวลาเหตุการณ์</item>
-        <item>ก่อน 5 นาที</item>
-        <item>ก่อน 10 นาที</item>
-        <item>ก่อน 15 นาที</item>
-        <item>ก่อน 30 นาที</item>
-        <item>1 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
-        <item>2 วันก่อน</item>
-        <item>1 สัปดาห์ก่อน</item>
+    <string-array name="gemini_info">
+        <item>ราศีเมถุน</item>
+        <item>ราศีเมถุน</item>
+        <item>21/5 - 21/6</item>
     </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-        <item>3 ชั่วโมงก่อน</item>
-        <item>4 ชั่วโมงก่อน</item>
-        <item>5 ชั่วโมงก่อน</item>
-        <item>6 ชั่วโมงก่อน</item>
-        <item>1 วันก่อน</item>
+    <string-array name="leo_info">
+        <item>ราศีสิงห์</item>
+        <item>ราศีสิงห์</item>
+        <item>23/7 - 23/8</item>
     </string-array>
-    <string-array name="repeat_frequency_spinner">
-        <item>วัน</item>
-        <item>สัปดาห์</item>
-        <item>เดือน</item>
-        <item>ปี</item>
+    <string-array name="libra_info">
+        <item>ราศีตุล</item>
+        <item>ราศีตุล</item>
+        <item>23/9 - 23/10</item>
     </string-array>
-    <string-array name="repeat_frequency_spinner_plural">
-        <item>วัน</item>
-        <item>สัปดาห์</item>
-        <item>เดือน</item>
-        <item>ปี</item>
+    <string-array name="pisces_info">
+        <item>pisces</item>
+        <item>ราศีมีน</item>
+        <item>19/2 - 20/3</item>
     </string-array>
     <string-array name="repeat_choose_day">
         <item>1</item>
@@ -216,14 +207,10 @@
         <item>30</item>
         <item>31</item>
     </string-array>
-    <string-array name="repeat_choose_weekday">
-        <item>จันทร์</item>
-        <item>อังคาร</item>
-        <item>พุธ</item>
-        <item>พฤหัส</item>
-        <item>ศุกร์</item>
-        <item>เสาร์</item>
-        <item>อาทิตย์</item>
+    <string-array name="repeat_choose_end">
+        <item>ครั้งเดียว</item>
+        <item>ตามระยะเวลา</item>
+        <item>ตามจำนวนครั้ง</item>
     </string-array>
     <string-array name="repeat_choose_month">
         <item>มกรา</item>
@@ -251,27 +238,80 @@
         <item>วันหยุดสุดสัปดาห์</item>
         <item>ตลอดทั้งสัปดาห์</item>
     </string-array>
-    <string-array name="repeat_choose_end">
-        <item>ครั้งเดียว</item>
-        <item>ตามระยะเวลา</item>
-        <item>ตามจำนวนครั้ง</item>
+    <string-array name="repeat_choose_weekday">
+        <item>จันทร์</item>
+        <item>อังคาร</item>
+        <item>พุธ</item>
+        <item>พฤหัส</item>
+        <item>ศุกร์</item>
+        <item>เสาร์</item>
+        <item>อาทิตย์</item>
     </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>เปิดเสมอ</item>
-        <item>เมื่อปิดเสียงเรียกเข้าเท่านั้น</item>
-        <item>ไม่ต้อง</item>
+    <string-array name="repeat_countdown">
+        <item>ไม่เคย</item>
+        <item>รายเดือน</item>
+        <item>ทุกปี</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>ไม่มีการเตือนความจำ</item>
-        <item>0 นาที</item>
-        <item>5 นาที</item>
-        <item>10 นาที</item>
-        <item>15 นาที</item>
-        <item>30 นาที</item>
-        <item>1 ชั่วโมง</item>
-        <item>1 วัน</item>
-        <item>2 วัน</item>
-        <item>1 สัปดาห์</item>
+    <string-array name="repeat_frequency_spinner">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>ปี</item>
+    </string-array>
+    <string-array name="sagittarius_info">
+        <item>ราศีธนู</item>
+        <item>ราศีธนู</item>
+        <item>23/11 - 21/12</item>
+    </string-array>
+    <string-array name="scorpio_info">
+        <item>ราศีพิจิก</item>
+        <item>ราศีพิจิก</item>
+        <item>24/10 - 22/11</item>
+    </string-array>
+    <string-array name="taurus_info">
+        <item>ราศีพฤษภ</item>
+        <item>ราศีพฤษภ</item>
+        <item>20/4 - 20/5</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 ชั่วโมงก่อน</item>
+        <item>4 ชั่วโมงก่อน</item>
+        <item>5 ชั่วโมงก่อน</item>
+        <item>6 ชั่วโมงก่อน</item>
+        <item>ก่อน 1 วัน</item>
+    </string-array>
+    <string-array name="virgo_info">
+        <item>ราศีกันย์</item>
+        <item>ราศีกันย์</item>
+        <item>23/8 - 22/9</item>
+    </string-array>
+    <string-array name="week_header_name">
+        <item>อา.</item>
+        <item>จ.</item>
+        <item>อ.</item>
+        <item>พ.</item>
+        <item>พฤ.</item>
+        <item>ศ.</item>
+        <item>ส.</item>
+    </string-array>
+    <string-array name="widget_style_list">
+        <item>โปร่งแสง</item>
+        <item>พื้นหลังสีขาว</item>
+    </string-array>
+    <string-array name="availability">
+        <item>ไม่ว่าง</item>
+        <item>พร้อมใช้งาน</item>
+        <item>ไม่แน่นอน</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>วัน</item>
+        <item>สัปดาห์</item>
+        <item>เดือน</item>
+        <item>กิจกรรม</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>นี้ &amp; กิจกรรมในอนาคต</item>
+        <item>กิจกรรมทั้งหมด</item>
     </string-array>
     <string-array name="preferences_default_reminder_labels">
         <item>ไม่มีการเตือนความจำ</item>
@@ -285,14 +325,27 @@
         <item>2 วัน</item>
         <item>1 สัปดาห์</item>
     </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>นี้ &amp; กิจกรรมในอนาคต</item>
-        <item>กิจกรรมทั้งหมด</item>
+    <string-array name="reminder_methods_labels">
+        <item>การแจ้งเตือน</item>
+        <item>อีเมล</item>
+        <item>ข้อความ</item>
+        <item>การปลุก</item>
     </string-array>
-    <string-array name="buttons_list">
-        <item>วัน</item>
-        <item>สัปดาห์</item>
-        <item>เดือน</item>
-        <item>กิจกรรม</item>
+    <string-array name="reminder_minutes_labels">
+        <item>ไม่มีการเตือนความจำ</item>
+        <item>0 นาที</item>
+        <item>5 นาที</item>
+        <item>10 นาที</item>
+        <item>15 นาที</item>
+        <item>30 นาที</item>
+        <item>1 ชั่วโมง</item>
+        <item>1 วัน</item>
+        <item>2 วัน</item>
+        <item>1 สัปดาห์</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>ค่าเริ่มต้น</item>
+        <item>ส่วนตัว</item>
+        <item>สาธารณะ</item>
     </string-array>
 </resources>

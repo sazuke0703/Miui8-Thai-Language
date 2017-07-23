@@ -6,4 +6,10 @@
     <plurals name="uninstall_game_count_title">
         <item quantity="other">ยังไม่ได้เพิ่ม %d เกม</item>
     </plurals>
+    <plurals name="found_apps_title">
+        <item quantity="other">พบ %d แอป</item>
+    </plurals>
+    <plurals name="find_applications">
+        <item quantity="other">ค้นหาจาก %d แอป</item>
+    </plurals>
 </resources>

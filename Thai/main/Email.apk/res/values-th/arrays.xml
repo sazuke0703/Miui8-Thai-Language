@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="all_month_str">
+        <item>ม.ค.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
     <string-array name="calendar_remind_string_array">
         <item>คืนนี้</item>
         <item>พรุ่งนี้</item>
-        <item>วันหยุดสุดสัปดาห์</item>
+        <item>สุดสัปดาห์</item>
         <item>อาทิตย์หน้า</item>
         <item>เดือนหน้า</item>
         <item>เลือกวัน</item>

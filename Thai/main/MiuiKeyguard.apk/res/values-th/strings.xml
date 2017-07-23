@@ -1,76 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="delete">ลบ</string>
-    <string name="unlockscreen_recharging_message">กำลังชาร์จ %d%%</string>
-    <string name="unlockscreen_recharge_completed">แบตเต็มแล้ว</string>
-    <string name="unlockscreen_low_battery">กรุณาชาร์จแบตทันที</string>
-    <string name="lockscreen_charging_msg">กำลังชาร์จ</string>
-    <string name="emergency_call_string">ฉุกเฉิน</string>
-    <string name="forget_password_string">ลืมรหัสผ่าน</string>
-    <string name="input_puk_code">ใส่ PUK</string>
-    <string name="unlocking_sim_card">กำลังปลดล็อกซิมการ์ด</string>
-    <string name="input_pin_code">ป้อนรหัส PIN</string>
-    <string name="incorrect_pukcode_remaining_attempts">รหัส PUK ไม่ถูกต้อง ลองใหม่ได้อีก %d ครั้ง</string>
-    <string name="incorrect_pincode_remaining_attempts">รหัส PIN ไม่ถูกต้อง ลองใหม่ได้อีก %d ครั้ง</string>
-    <string name="incorrect_pukcode">รหัส PUK ไม่ถูกต้อง</string>
-    <string name="incorrect_pincode">รหัส PIN ไม่ถูกต้อง</string>
-    <string name="open_wifi_settings">เปิดการเชื่อมต่อเครือข่าย</string>
-    <string name="lock_screen_date">EEEE d MMMM</string>
-    <string name="lock_screen_date_12">EEEE d MMMM</string>
-    <string name="lockscreen_glogin_password_hint">รหัสผ่าน</string>
-    <string name="lockscreen_glogin_checking_password">กำลังตรวจ…</string>
-    <string name="login_website_in_case_forget_password">รีเซ็ตรหัสผ่านของคุณได้ที่ www.mi.com/micloud</string>
-    <string name="experimental_validate_thanks">ขอบคุณ!</string>
-    <string name="experimental_validate_warning">ขอบคุณที่มีส่วนช่วยพัฒนา MIUI ให้ดียิ่งขึ้น!</string>
-    <string name="experimental_validate">ตรวจสอบ</string>
-    <string name="experimental_try_string">ลองใช้</string>
-    <string name="experimental_validate_username">ชื่อผู้ใช้</string>
-    <string name="experimental_validate_password">รหัสผ่าน</string>
-    <string name="experimental_validate_progress">กำลังเข้าสู่ระบบ…</string>
-    <string name="experimental_validate_fail">ไม่สามารถเข้าสู่ระบบ</string>
-    <string name="lockscreen_glogin_invalid_input">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</string>
-    <string name="find_device_turn_off_flight_mode">ปิดโหมดเครื่องบิน</string>
-    <string name="phone_locked_string">โทรศัพท์ถูกล็อก</string>
-    <string name="phone_locked_timeout_seconds_string">ลองอีกครั้งใน %s วินาที</string>
-    <string name="phone_locked_timeout_minutes_string">ลองอีกครั้งใน %s นาที</string>
-    <string name="unlock_sim_string">ปลดล็อกซิมการ์ด</string>
-    <string name="lockscreen_glogin_submit_button">เข้าสู่ระบบ</string>
-    <string name="lockscreen_access_pattern_start">เริ่มต้นใส่รูปแบบ</string>
-    <string name="lockscreen_access_pattern_cleared">ลากเส้นตามรูปแบบเสร็จสิ้น</string>
-    <string name="lockscreen_access_pattern_cell_added">เพิ่มรูปแบบตารางแล้ว</string>
-    <string name="lockscreen_access_pattern_detected">การลากเส้นรูปแบบเสร็จสิ้น</string>
-    <string name="default_lockscreen_unlock_hint_text">เลื่อนขึ้นเพื่อปลดล็อก</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"คุณป้อนรหัสผ่านไม่ถูกต้องเป็นจำนวน %d ครั้ง หากคุณป้อนรหัสผ่านผิดอีก %d ครั้ง ระบบจะกำหนดให้คุณต้องปลดล็อกโทรศัพท์ของคุณโดยการลงชื่อเข้าสู่ระบบด้วยบัญชี Mi
+  <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
+  <string name="click_to_enter_text"/>
+  <string name="confirm_pin_msg">ป้อนรหัสพินอีกครั้ง</string>
+  <string name="custom_lock_wallpaper_enter">เข้าไป</string>
+  <string name="default_lockscreen_unlock_hint_text">เลื่อนขึ้นเพื่อปลดล็อก</string>
+  <string name="delete">ลบ</string>
+  <string name="emergency_call_string">ฉุกเฉิน</string>
+  <string name="fingerprint_add_text">อัพเดทอินเตอร์เฟซของลายนิ้วมือแล้ว เพิ่มลายนิ้วมือของคุณอีกครั้ง</string>
+  <string name="fingerprint_add_title">เพิ่มลายนิ้วมือ</string>
+  <string name="fingerprint_again_identified_msg">ลายนิ้วมือของคุณใช้งานได้แล้วในขณะนี้ ใช้เพื่อปลดล็อกอุปกรณ์หรือป้อนรหัสผ่าน</string>
+  <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสผ่านส่วนที่ 2 หลังจากรีบูตอุปกรณ์เพื่อใช้การอ่านลายนิ้วมือ</string>
+  <string name="fingerprint_enter_second_psw_msg_oldman">ไม่สามารถเข้าสู่พื้นที่ทับซ้อนในขณะที่อยู่ในโหมดง่าย</string>
+  <string name="fingerprint_enter_second_psw_title">ป้อนรหัสผ่านส่วนที่ 2</string>
+  <string name="fingerprint_not_identified_msg">ผิดพลาดมากเกินไป ป้อนรหัสผ่านตอนนี้หรือลองใช้ลายนิ้วมือของคุณในอีกสักครู่</string>
+  <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>
+  <string name="fingerprint_try_again_msg">ไม่สามารถยืนยันลายนิ้วมือได้ ลองใหม่อีกครั้ง</string>
+  <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
+  <string name="forget_password_string">ลืมรหัสผ่าน</string>
+  <string name="incorrect_pincode">รหัส PIN ไม่ถูกต้อง</string>
+  <string name="incorrect_pincode_remaining_attempts">รหัส PIN ไม่ถูกต้อง ป้อนได้อีก %d ครั้ง</string>
+  <string name="incorrect_pukcode">รหัส PUK ไม่ถูกต้อง</string>
+  <string name="incorrect_pukcode_remaining_attempts">รหัส PUK ไม่ถูกต้อง ป้อนได้อีก %d ครั้ง</string>
+  <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_calling">ไม่สามารถสลับระหว่างพื้นที่ขณะโทรได้</string>
+  <string name="input_password_after_boot_msg_must_enter_owner_space">คุณจำเป็นต้องเข้าสู่พื้นที่ปกติก่อนที่อุปกรณ์จะทำการรีบูต</string>
+  <string name="input_password_hint_text">ป้อนรหัสผ่าน</string>
+  <string name="input_pattern_hint_text">วาดรูปแบบของคุณเพื่อปลดล็อก:</string>
+  <string name="input_pin_code">ป้อนรหัส PIN</string>
+  <string name="input_puk_code">ใส่ PUK</string>
+  <string name="invalid_confirm_pin_hint">รหัส PIN ที่ป้อนไม่ตรงกัน</string>
+  <string name="invalid_sim_pin_hint">รหัส PIN ต้องมีความยาวระหว่าง 4 ถึง 8 หลัก</string>
+  <string name="invalid_sim_puk_hint">รหัส PUK ต้องประกอบด้วยตัวเลขอย่างน้อย 8 หลัก</string>
+  <string name="keyguard_charging_info_battery_temperature_text">อุณหภูมิแบตเตอรี่</string>
+  <string name="keyguard_charging_info_battery_used_time_text">ใช้แบตเตอรี่</string>
+  <string name="keyguard_charging_info_charging_full_need_hour_time__text">ประมาณ %d ชม. จะเต็ม</string>
+  <string name="keyguard_charging_info_charging_full_need_min_time__text">ประมาณ %d นาทีจะเต็ม</string>
+  <string name="keyguard_charging_info_charging_full_need_time__text" formatted="false">ประมาณ %d ชม. %d นาทีจะเต็ม</string>
+  <string name="keyguard_charging_info_charging_text">กำลังชาร์จ</string>
+  <string name="keyguard_charging_info_charging_voltage_text">แรงดันไฟฟ้า</string>
+  <string name="keyguard_charging_info_click_to_detail">เรียกดูรายละเอียด</string>
+  <string name="keyguard_charging_info_could_use_hour_time_text">ใช้ได้อีกประมาณ %d ชม.</string>
+  <string name="keyguard_charging_info_could_use_min_time_text">ใช้ได้อีกประมาณ %d นาที</string>
+  <string name="keyguard_charging_info_could_use_time_text" formatted="false">ใช้ได้อีกประมาณ %d ชม. %d นาที</string>
+  <string name="keyguard_charging_info_current_now_text">มอนิเตอร์เรลทาม</string>
+  <string name="keyguard_charging_info_data_c">%s℃</string>
+  <string name="keyguard_charging_info_data_ma">%smA</string>
+  <string name="keyguard_charging_info_data_percent">%s%%</string>
+  <string name="keyguard_charging_info_data_v">%sV</string>
+  <string name="keyguard_charging_info_drained_hour_time_format">%d ชม.</string>
+  <string name="keyguard_charging_info_drained_min_time_format">%d นาที</string>
+  <string name="keyguard_charging_info_drained_power_percent_text">การใช้แบต</string>
+  <string name="keyguard_charging_info_drained_time_format" formatted="false">%d ชม. %d นาที</string>
+  <string name="keyguard_charging_info_finished_charging_text">แบตเตอรี่เต็ม</string>
+  <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
+  <string name="keyguard_charging_info_last_charge_today_time">วันนี้ %s</string>
+  <string name="keyguard_charging_info_last_charge_yesterday_time">เมื่อวาน %s</string>
+  <string name="keyguard_charging_info_last_charged_time_text">ชาร์จครั้งล่าสุด</string>
+  <string name="keyguard_charging_info_tip_text1">การปล่อยให้อุปกรณ์เหลือแบตไม่น้อยกว่า 10% แล้วชาร์จ จะช่วยยืดอายุการใช้งานของแบตเตอรี่</string>
+  <string name="keyguard_charging_info_tip_text2">ห้ามเสียบชาร์จนานจนเกินไป การชาร์จให้พอดีแล้วถอดออกดีกว่าการชาร์จค้างคืน</string>
+  <string name="keyguard_charging_info_tip_text3">หลีกเลี่ยงการชาร์จอุปกรณ์ของคุณเมื่ออุณหภูมิรอบๆต่ำกว่า 0℃</string>
+  <string name="keyguard_charging_info_tip_text4">ห้ามใช้อุปกรณ์ของคุณขณะที่กำลังชาร์จเพื่อหลีกเลี่ยงไม่ให้เครื่องร้อนเกิน</string>
+  <string name="keyguard_charging_info_tip_text5">แบตจะชาร์จนานเมื่อมันร้อนกว่าปกติ</string>
+  <string name="keyguard_charging_info_tip_text6">ปิดหน้าจอและปล่อยไว้สักครู่เพื่อให้มันเย็นลง</string>
+  <string name="keyguard_quick_charging_info_click_to_detail">กำลังชาร์จเร็ว แตะเพื่อเรียกดูรายละเอียด</string>
+  <string name="keyguard_quickly_charging_info_charging_text">กำลังชาร์จเร็ว…</string>
+  <string name="keyguard_torch_cover_text">กดปุ่มเปิด-ปิดเครื่องหากต้องการเปิดไฟฉายค้างไว้</string>
+  <string name="left_action_default_hint_text">รีโมท Mi</string>
+  <string name="lock_screen_date">EEEE d MMMM</string>
+  <string name="lock_screen_date_12">EEEE d MMMM</string>
+  <string name="lock_wallpaper_enter">ป้อน</string>
+  <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
+  <string name="lockscreen_access_pattern_cell_added">เพิ่มรูปแบบตารางแล้ว</string>
+  <string name="lockscreen_access_pattern_cleared">ลากเส้นตามรูปแบบเสร็จสิ้น</string>
+  <string name="lockscreen_access_pattern_detected">การลากเส้นรูปแบบเสร็จสิ้น</string>
+  <string name="lockscreen_access_pattern_start">เริ่มต้นใส่รูปแบบ</string>
+  <string name="lockscreen_charging_msg">กำลังชาร์จ</string>
+  <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">คุณได้ใส่รหัสปลดล็อกผิดพลาดเป็นจำนวน %d ครั้งแล้ว หากคุณป้อนรหัสปลดล็อกผิดอีก %d ครั้ง โทรศัพท์ของคุณจะถูกลบข้อมูลผู้ใช้ทั้งหมดและเรียกคืนค่าโรงงานแทนที่ทั้งหมด</string>
+  <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"คุณป้อนรหัสผ่านไม่ถูกต้องเป็นจำนวน %d ครั้ง หากคุณป้อนรหัสผ่านผิดอีก %d ครั้ง ระบบจะกำหนดให้คุณต้องปลดล็อกโทรศัพท์ของคุณโดยการลงชื่อเข้าสู่ระบบด้วยบัญชี Mi
 
  คุณสามารถลองปลดล็อกได้อีกครั้งในอีก %d วินาที"</string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">คุณได้ใส่รหัสปลดล็อกผิดพลาดเป็นจำนวน %d ครั้งแล้ว หากคุณป้อนรหัสปลดล็อกผิดอีก %d ครั้ง โทรศัพท์ของคุณจะถูกลบข้อมูลผู้ใช้ทั้งหมดและเรียกคืนค่าโรงงานแทนที่ทั้งหมด</string>
-    <string name="lockscreen_failed_attempts_now_wiping">คุณปลดล็อกเครื่องโทรศัพท์ผิดพลาดเป็นจำนวน %d ครั้งแล้ว ระบบจะดำเนินการเรียกคืนค่าโรงงานของโทรศัพท์เครื่องนี้</string>
-    <string name="miui_keyguard_ble_unlock_succeed_msg">ปลดล็อกโดยใช้อุปกรณ์บลูทูธ</string>
-    <string name="missed_call_text">%d สายไม่ได้รับ</string>
-    <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
-    <string name="keyguard_torch_cover_text">กดปุ่มเปิด-ปิดเครื่องหากต้องการเปิดไฟฉายค้างไว้</string>
-    <string name="confirm_pin_msg">ป้อนรหัสพินอีกครั้ง</string>
-    <string name="invalid_confirm_pin_hint">รหัส PIN ที่ป้อนไม่ตรงกัน</string>
-    <string name="unlock_string">ปลดล็อก</string>
-    <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิด %s</string>
-    <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิด %s</string>
-    <string name="left_action_default_hint_text">รีโมท Mi</string>
-    <string name="click_to_enter_text" />
-    <string name="fingerprint_try_again_text">ลองอีกครั้ง</string>
-    <string name="fingerprint_not_identified_title">ป้อนรหัสผ่าน</string>
-    <string name="fingerprint_not_identified_msg">ป้อนรหัสผ่านของคุณเพื่อปลดล็อกอุปกรณ์</string>
-    <string name="fingerprint_add_title">เพิ่มลายนิ้วมือ</string>
-    <string name="fingerprint_add_text">อัพเดทอินเตอร์เฟซของลายนิ้วมือแล้ว เพิ่มลายนิ้วมือของคุณอีกครั้ง</string>
-    <string name="invalid_sim_pin_hint">รหัส PIN ต้องมีความยาวระหว่าง 4 ถึง 8 หลัก</string>
-    <string name="invalid_sim_puk_hint">รหัส PUK ต้องประกอบด้วยตัวเลขอย่างน้อย 8 หลัก</string>
-    <string name="input_password_hint_text">ป้อนรหัสผ่าน</string>
-    <string name="input_pattern_hint_text">วาดรูปแบบของคุณเพื่อปลดล็อก:</string>
-    <string name="input_password_after_boot_msg">เพื่อปลดล็อกอุปกรณ์ กรุณาป้อนรหัสผ่าน</string>
-    <string name="fingerprint_lockout_msg">รอสักครู่แล้วลองปลดล็อกด้วยลายนิ้วมือของคุณอีกครั้ง</string>
-    <string name="accessibility_enter_lock_wallpaper">แตะเพื่อเปิดภาพพื้นหลังรวม</string>
-    <string name="lock_wallpaper_learn_more">เพิ่มเติม</string>
-    <string name="lock_wallpaper_enter">ป้อน</string>
-    <string name="custom_lock_wallpaper_enter">เข้าไป</string>
-    <string name="fingerprint_enter_second_psw_title">ป้อนรหัสผ่านส่วนที่ 2</string>
-    <string name="fingerprint_enter_second_psw_msg">ป้อนรหัสผ่านส่วนที่ 2 หลังจากรีบูตอุปกรณ์เพื่อใช้การอ่านลายนิ้วมือ</string>
+  <string name="lockscreen_failed_attempts_now_wiping">คุณปลดล็อกเครื่องโทรศัพท์ผิดพลาดเป็นจำนวน %d ครั้งแล้ว ระบบจะดำเนินการเรียกคืนค่าโรงงานของโทรศัพท์เครื่องนี้</string>
+  <string name="miui_keyguard_ble_unlock_succeed_msg">ปลดล็อกโดยใช้อุปกรณ์บลูทูธ</string>
+  <string name="open_camera_hint_text">ปัดไปทางซ้ายเพื่อเปิด %s</string>
+  <string name="open_remote_center_hint_text">ปัดไปทางขวาเพื่อเปิด %s</string>
+  <string name="phone_locked_foget_password">ลืมรหัสผ่าน?</string>
+  <string name="phone_locked_foget_password_content">"คุณสามารถลงชื่อเข้าใช้ i.mi.com โดยใช้บัญชี Mi ซึ่งมีความเกี่ยวข้องกับอุปกรณ์นี้และล้างข้อมูลทั้งหมด          กระบวนการนี้จะลบข้อมูลส่วนบุคคลทั้งหมดที่เก็บไว้ในอุปกรณ์นี้ หลังจากนี้คุณสามารถรีบูตเครื่องและเรียกคืนรายชื่อ, ข้อความ, ภาพถ่าย, และรายการอื่น ๆ จาก Mi คลาวด์          
+
+คุณจะไม่สามารถที่จะทำได้ ถ้าคุณไม่ได้ลงชื่อเข้าใช้บัญชี Mi ของคุณ บนอุปกรณ์นี้ มิฉะนั้นคุณจะต้องแฟลชอุปกรณ์อีกครั้ง"</string>
+  <string name="phone_locked_foget_password_footer">"ขั้นตอน:
+ เข้าสู่ระบบ i.mi.com ให้ไปที่ \"ค้นหาอุปกรณ์\" เลือกอุปกรณ์และกด \"ลบอุปกรณ์\""</string>
+  <string name="phone_locked_foget_password_header">ฉันควรทำอย่างไรเมื่อลืมรหัสผ่าน?</string>
+  <string name="phone_locked_foget_password_ok">รับทราบ</string>
+  <string name="phone_locked_string">โทรศัพท์ถูกล็อก</string>
+  <string name="phone_locked_timeout_minutes_string">ลองอีกครั้งใน %d นาที</string>
+  <string name="phone_locked_timeout_seconds_string">ลองอีกครั้งใน %d วินาที</string>
+  <string name="unlock_string">ปลดล็อก</string>
+  <string name="unlocking_sim_card">กำลังปลดล็อกซิมการ์ด</string>
+  <string name="unlockscreen_low_battery">กรุณาชาร์จแบตทันที</string>
+  <string name="unlockscreen_recharge_completed">แบตเต็มแล้ว</string>
+  <string name="unlockscreen_recharging_message">กำลังชาร์จ %d%%</string>
+  <string name="wrong_password">รหัสผ่านไม่ถูกต้อง</string>
 </resources>

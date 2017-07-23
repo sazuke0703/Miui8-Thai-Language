@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="app_label">โปรแกรมดู HTML</string>
-    <string name="loading">กำลังโหลด…</string>
-    <string name="app_name_which_call">แอปพลิเคชัน:%s</string>
-    <string name="app_version_which_call">แอปพลิเคชัน เวอร์ชั่น:%s</string>
-    <string name="policy_name">นโยบาย:%s</string>
-    <string name="mibi_license">เงื่อนไขการใช้บริการ Mi เครดิต</string>
-    <string name="license_host_unreachable">"ไม่สามารถเชื่อมต่อกับเครือข่าย แสดงข้อมูลนี้ตอนนี้ 
- ไปยัง %s"</string>
-    <string name="permdesc_accessDrm">อนุญาตให้แอพลิเคชันเพื่อเข้าถึงเนื้อหาที่ถูกป้องกัน DRM</string>
-    <string name="open_wifi_connect_title">เชื่อมต่อกับ %1$s</string>
-    <string name="open_wifi_connect_summary">แตะเพื่อดูรายละเอียด</string>
-    <string name="settings_license_activity_title">สัญญาอนุญาตสำหรับโอเพนซอร์ส</string>
-    <string name="settings_license_activity_loading">กำลังโหลด…</string>
-    <string name="settings_license_activity_unavailable">พบปัญหาในการโหลดสัญญาอนุญาต</string>
-    <string name="settings_safetylegal_title">ข้อมูลความปลอดภัย</string>
-    <string name="settings_safetylegal_activity_title">ข้อมูลความปลอดภัย</string>
-    <string name="settings_safetylegal_activity_unreachable">คุณไม่มีการเชื่อมต่อข้อมูล หากต้องการดูข้อมูลนี้ในขณะนี้ ให้ไปที่ %s จากคอมพิวเตอร์เครื่องใดก็ได้ที่เชื่อมต่อกับอินเทอร์เน็ต</string>
-    <string name="settings_safetylegal_activity_loading">กำลังโหลด…</string>
+  <string name="ad_service">บริการโฆษณา</string>
+  <string name="app_label">ตัวเรียกดู HTML</string>
+  <string name="app_name_which_call">แอป: %s</string>
+  <string name="app_version_which_call">เวอร์ชั่นแอป: %s</string>
+  <string name="ime_privacy_policy">เลือกแป้นพิมพ์</string>
+  <string name="license_host_unreachable">"เชื่อมต่อเครือข่ายไม่ได้ กรุณาใช้อุปกรณ์อย่างอื่น
+เปิด%sเพื่อเรียกดูข้อมูลนี้"</string>
+  <string name="loading">รอสักครู่…</string>
+  <string name="mibi_license">ข้อตกลงการใช้งาน Mi เครดิต</string>
+  <string name="open_wifi_connect_summary">แตะเพื่อดูรายละเอียด</string>
+  <string name="open_wifi_connect_title">เชื่อมต่อไปยัง %1$s</string>
+  <string name="permdesc_accessDrm">อนุญาตให้แอปเข้าถึงเนื้อหาการป้องกัน DRM</string>
+  <string name="policy_name">ชื่อสัญญา: %s</string>
+  <string name="settings_ad_loading">รอสักครู่…</string>
+  <string name="settings_ad_loading_unavailable">ไม่สามารถโหลดข้อมูลได้</string>
+  <string name="settings_license_activity_loading">รอสักครู่…</string>
+  <string name="settings_license_activity_title">ใบอนุญาตเปิดเผยแหล่งข้อมูล</string>
+  <string name="settings_license_activity_unavailable">โหลดการอนุญาตไม่ได้</string>
+  <string name="settings_safetylegal_activity_loading">รอสักครู่…</string>
+  <string name="settings_safetylegal_activity_title">ความปลอดภัยข้อมูล</string>
+  <string name="settings_safetylegal_activity_unreachable">เชื่อมต่อเครือข่ายไม่ได้ เพื่อเรียกดูข้อมูลตอนนี้ กรุณาใช้คอมพิวเตอร์อื่นที่เชื่อมต่อเน็ตอยู่ในการเปิด%s</string>
+  <string name="settings_safetylegal_title">ความปลอดภัยข้อมูล</string>
 </resources>

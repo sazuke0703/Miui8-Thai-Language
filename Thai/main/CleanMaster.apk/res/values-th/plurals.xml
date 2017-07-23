@@ -19,7 +19,7 @@
         <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
     </plurals>
     <plurals name="view_num">
-        <item quantity="other">ยอดชม %1$d ครั้ง</item>
+        <item quantity="other">เข้าชม %1$s ครั้ง</item>
     </plurals>
     <plurals name="hint_similar_image_header_left">
         <item quantity="other">%d กลุ่ม</item>
@@ -50,5 +50,23 @@
     </plurals>
     <plurals name="deepclean_install_info_desc1">
         <item quantity="other">ติดตั้งไว้ %d แอป</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">ไม่สามารถส่งออก %d วิดีโอได้ ล้างขยะเพื่อเพิ่มพื้นที่และลองอีกครั้ง</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d ไฟล์ว่างเปล่า) %2$s</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">ไม่ได้ใช้เป็นเวลา %d วัน</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">ไม่ได้ใช้เป็นเวลา %d เดือน</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">ไม่ได้ใช้เป็นเวลา %d ปี</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> แอปไม่ได้ใช้งานเป็นเวลานาน, จัดการแอปด่วน;&lt;/Data></item>
     </plurals>
 </resources>

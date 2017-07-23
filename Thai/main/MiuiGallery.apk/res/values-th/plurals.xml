@@ -72,23 +72,32 @@
     <plurals name="album_count_and_size">
         <item quantity="other">%1$d รายการ| %2$s</item>
     </plurals>
-    <plurals name="backuped">
-        <item quantity="other">สำรองข้อมูล %1$d รายการเรียบร้อย</item>
+    <plurals name="backuping_desc_normal">
+        <item quantity="other">%1$d รูปภาพและวิดีโอ</item>
     </plurals>
-    <plurals name="backup_waiting">
-        <item quantity="other">%1$d รายการกำลังรอการสำรองข้อมูล</item>
+    <plurals name="backuping_desc_gprs">
+        <item quantity="other">%1$d รูปภาพและวิดีโอ| %2$s</item>
     </plurals>
-    <plurals name="network_unsatisfied">
-        <item quantity="other">เครือข่ายขัดข้อง %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    <plurals name="backup_after_hours">
+        <item quantity="other">ดำเนินการสำรองข้อมูลใน %d ชั่งโมง</item>
     </plurals>
-    <plurals name="sync_off">
-        <item quantity="other">ซิงค์ปิดอยู่ %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    <plurals name="backup_pause_desc">
+        <item quantity="other">%d รูปภาพและวิดีโอ | หยุดชั่วคราว</item>
     </plurals>
-    <plurals name="cloud_space_full">
-        <item quantity="other">มี %1$d รายการไม่สามารถสำรองข้อมูลได้</item>
+    <plurals name="sync_error_title">
+        <item quantity="other">มี %d รูปภาพและวิดีโอยังไม่ได้สำรองข้อมูล</item>
     </plurals>
-    <plurals name="local_space_full">
-        <item quantity="other">ที่จัดเก็บข้อมูลในเครื่องไม่เพียงพอ %1$d รายการกำลังรอการสำรองข้อมูล</item>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d รายการ</item>
+    </plurals>
+    <plurals name="cloud_storage_photo_num">
+        <item quantity="other">%d รูปภาพ</item>
+    </plurals>
+    <plurals name="cloud_storage_video_num">
+        <item quantity="other">%d วิดีโอ</item>
+    </plurals>
+    <plurals name="add_to_secret_successful">
+        <item quantity="other">เพิ่ม %1$d รูปภาพไปยังอัลบั้มซ่อนแล้ว</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d รูป</item>
@@ -117,10 +126,19 @@
     <plurals name="download_error">
         <item quantity="other">ไม่สามารถดาวน์โหลด %1$d ไฟล์ได้</item>
     </plurals>
+    <plurals name="download_retry_message">
+        <item quantity="other">ไม่สามารถดาวน์โหลดไฟล์ %1$d ได้ ตรวจสอบการเชื่อมต่อเครือข่าย แล้วลองอีกครั้ง</item>
+    </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">เลือกไว้ %d รายการ</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">ข้าม %1$d รูปภาพที่ไม่สามารถแสดงผลได้</item>
+    </plurals>
+    <plurals name="file_count_format">
+        <item quantity="other">รวมทั้งหมด %1$d รายการ</item>
+    </plurals>
+    <plurals name="quickly_discovery_message_format">
+        <item quantity="other">พบ %1$d รูปภาพใหม่</item>
     </plurals>
 </resources>

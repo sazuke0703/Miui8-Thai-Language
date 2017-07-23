@@ -9,8 +9,8 @@
         <item>คลังภาพ</item>
     </string-array>
     <string-array name="note_sort_way">
-        <item>เรียงตามวันที่สร้าง</item>
-        <item>เรียงตามวันที่แก้ไข</item>
+        <item>ตามวันที่สร้าง</item>
+        <item>ตามวันที่แก้ไข</item>
     </string-array>
     <string-array name="contact_entries">
         <item>ชื่อ</item>

@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="fw_blocked_count_call">
+        <item quantity="other">%d สาย</item>
+    </plurals>
+    <plurals name="fw_blocked_count_sms">
+        <item quantity="other">%d ข้อความ</item>
+    </plurals>
+    <plurals name="marked_by_others">
+        <item quantity="other">ผู้ใช้อื่น %d คนระบุว่าเป็น</item>
+    </plurals>
+    <plurals name="st_show_num_keyword">
+        <item quantity="other">%d คีย์เวิร์ด</item>
+    </plurals>
+    <plurals name="st_show_num_number">
+        <item quantity="other">%d หมายเลข</item>
+    </plurals>
     <plurals name="hints_traffic_enable_title">
         <item quantity="other">ไม่ติดตามข้อมูล %d แอป</item>
     </plurals>
     <plurals name="hints_traffic_disable_title">
         <item quantity="other">กำลังติดตามข้อมูล %d แอป</item>
     </plurals>
-    <plurals name="hints_install_apps_interval">
-        <item quantity="other">เรียกใช้เมื่อ %d วันก่อน</item>
+    <plurals name="traffic_setting_app_count">
+        <item quantity="other">%d แอป</item>
+    </plurals>
+    <plurals name="daily_sim_over_limit_notify_title">
+        <item quantity="other">คุณได้ใช้แผนข้อมูลรายวันเกิน %s ครั้ง</item>
+    </plurals>
+    <plurals name="daily_sim_over_limit_dialog_message">
+        <item quantity="other">"คุณได้ใช้แผนข้อมูลรายวันเกิน %s ครั้ง 
+
+หากคุณเปิดข้อมูลมือถืออีกครั้งผู้ให้บริการอาจเรียกเก็บเงินเพิ่มเติม"</item>
     </plurals>
     <plurals name="search_app_count_txt_na">
         <item quantity="other">ค้นหา %d แอป</item>
@@ -45,20 +68,32 @@
     <plurals name="quick_optimize_suggest_issue_found">
         <item quantity="other">พบปัญหาแบตเตอรี่ %d แก้ไขมัน</item>
     </plurals>
-    <plurals name="app_check_title_text">
-        <item quantity="other">พบ %d รายการที่สามารถเพิ่มประสิทธิภาพได้</item>
-    </plurals>
     <plurals name="people">
         <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
     </plurals>
     <plurals name="people_million">
         <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
     </plurals>
-    <plurals name="million">
-        <item quantity="other">ดาวน์โหลดไปแล้ว %1$d คน</item>
-    </plurals>
     <plurals name="view_num">
         <item quantity="other">ยอดชม %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="result_virus_header">
+        <item quantity="other">Found %d viruses and insecure apps</item>
+    </plurals>
+    <plurals name="result_sign_header">
+        <item quantity="other">Found %d unofficial apps</item>
+    </plurals>
+    <plurals name="sp_settings_exception_count">
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_count">
+        <item quantity="other">%s แอปชำระเงินได้รับการป้องกัน</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_list_group_enable">
+        <item quantity="other">%s แอปได้รับการป้องกัน</item>
+    </plurals>
+    <plurals name="sp_monitored_apps_list_group_disable">
+        <item quantity="other">%s แอปไม่ได้รับการป้องกัน</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d รายการปลอดภัย</item>
@@ -84,8 +119,17 @@
     <plurals name="hints_get_root_disable_title">
         <item quantity="other">%d แอปไม่ได้รับรูท</item>
     </plurals>
+    <plurals name="manual_white_list_header">
+        <item quantity="other">%d รายการยกเว้น</item>
+    </plurals>
+    <plurals name="summary_flow_verify">
+        <item quantity="other">ระบบไม่ได้ซิงค์ข้อมูลการใช้งานจากผู้ให้บริการเครือข่ายมาเป็นระยะเวลา %d วัน</item>
+    </plurals>
     <plurals name="summary_app_update">
         <item quantity="other">พบการอัพเดทสำหรับ %d แอป.</item>
+    </plurals>
+    <plurals name="notification_title_cmcc_app_check">
+        <item quantity="other">ตรวจเช็คครั้งล่าสุดเมื่อ %d วันก่อน</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">พบ %d ความเสี่ยง</item>
@@ -93,32 +137,14 @@
     <plurals name="hints_handle_item_text_virus_number">
         <item quantity="other">พบ %d ไวรส trojans</item>
     </plurals>
-    <plurals name="hints_scan_result_virus_number">
-        <item quantity="other">พบ %d ความเสี่ยง</item>
+    <plurals name="white_list_risk_app_header">
+        <item quantity="other">แอปอันตราย: %d</item>
     </plurals>
-    <plurals name="hints_scan_result_danger">
-        <item quantity="other">พบ %d ความเสี่ยง แก้ปัญหาตอนนี้</item>
+    <plurals name="white_list_trojan_header">
+        <item quantity="other">ไวรัส Trojans: %d</item>
     </plurals>
-    <plurals name="notification_apps">
-        <item quantity="other">%d แอปมีความเสี่ยงต่อข้อมูลส่วนตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_letters">
-        <item quantity="other">รหัสผ่านควรมีความยาวไม่ต่ำกว่า %d ตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase">
-        <item quantity="other">รหัสผ่านต้องประกอบด้วยตัวพิมพ์เล็กอย่างน้อย %d ตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase">
-        <item quantity="other">รหัสผ่านต้องประกอบด้วยตัวพิมพ์ใหญ่อย่างน้อย %d ตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric">
-        <item quantity="other">รหัสผ่านต้องประกอบด้วยตัวเลขอย่างน้อย %d ตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols">
-        <item quantity="other">รหัสผ่านต้องประกอบด้วยอักขระพิเศษอย่างน้อย %d ตัว</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter">
-        <item quantity="other">รหัสผ่านต้องประกอบด้วยอักขระที่ไม่ใช่ตัวอักษรอย่างน้อย %d ตัว</item>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">"รอเป็นเวลา %d วินาทีและลองใหม่อีกครั้ง "</item>
     </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d แอปล็อกอยู่</item>
@@ -132,21 +158,6 @@
     <plurals name="found_apps_title">
         <item quantity="other">พบ %d แอป</item>
     </plurals>
-    <plurals name="sp_settings_exception_count">
-        <item quantity="other">%d รายการ</item>
-    </plurals>
-    <plurals name="sp_back_title_text">
-        <item quantity="other">%s ความเสี่ยงการชำระเงิน</item>
-    </plurals>
-    <plurals name="sp_monitored_apps_count">
-        <item quantity="other">%s แอปชำระเงินได้รับการป้องกัน</item>
-    </plurals>
-    <plurals name="sp_monitored_apps_list_group_enable">
-        <item quantity="other">%s แอปได้รับการป้องกัน</item>
-    </plurals>
-    <plurals name="sp_monitored_apps_list_group_disable">
-        <item quantity="other">%s แอปไม่ได้รับการป้องกัน</item>
-    </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">มี %d แอปที่ล็อกไว้กำลังรอการล้าง</item>
     </plurals>
@@ -155,5 +166,35 @@
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="other">+%d</item>
+    </plurals>
+    <plurals name="add_game_notification_title">
+        <item quantity="other">เพิ่ม %d เกมแล้ว</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_accept">
+        <item quantity="other">อนุญาต %d การอนุญาต</item>
+    </plurals>
+    <plurals name="app_manager_permission_summary_ask">
+        <item quantity="other">สอบถาม %d การอนุญาต</item>
+    </plurals>
+    <plurals name="app_manager_start_count">
+        <item quantity="other">%d ครั้ง</item>
+    </plurals>
+    <plurals name="app_manager_reject_count">
+        <item quantity="other">บล็อกไปแล้ว %d ครั้ง</item>
+    </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">ใช้เมื่อ %d วันก่อน</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">ใช้เมื่อ %d เดือนก่อน</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">ใช้เมื่อ %d ปีก่อน</item>
+    </plurals>
+    <plurals name="install_game_count_title">
+        <item quantity="other">Added %d games</item>
+    </plurals>
+    <plurals name="uninstall_game_count_title">
+        <item quantity="other">"Haven't added %d games"</item>
     </plurals>
 </resources>

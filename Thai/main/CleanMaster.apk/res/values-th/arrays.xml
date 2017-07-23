@@ -66,4 +66,14 @@
         <item>Clean Master</item>
         <item>Tencent</item>
     </string-array>
+    <string-array name="wechat_menu_delete">
+        <item>ล้าง</item>
+    </string-array>
+    <string-array name="wechat_menu_delete_whitelist">
+        <item>ล้าง</item>
+    </string-array>
+    <string-array name="wechat_menu_delete_whitelist_view">
+        <item>ล้าง</item>
+        <item>เรียกดู</item>
+    </string-array>
 </resources>

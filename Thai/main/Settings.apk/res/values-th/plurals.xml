@@ -6,9 +6,16 @@
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%s แอปสามารถแจ้งเตือนได้</item>
     </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d toggles placed above bar are active</item>
+    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก %1$d ขั้นตอน</item>
         <item quantity="one">คุณกำลังจะได้เป็นนักพัฒนาซอฟต์แวร์ในอีก %1$d ขั้นตอน</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">นำภาษาที่เลือกออกไหม</item>
+        <item quantity="one">นำภาษาที่เลือกออกไหม</item>
     </plurals>
     <plurals name="security_settings_fingerprint_preference_summary">
         <item quantity="other">ตั้งค่าลายนิ้วมือ %1$d รายการ</item>
@@ -41,6 +48,58 @@
     <plurals name="wrong_pin_code">
         <item quantity="other">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้ง</item>
         <item quantity="one">รหัส PIN ของซิมไม่ถูกต้อง คุณพยายามได้อีก %d ครั้งก่อนที่จะต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d รายการ</item>
+        <item quantity="one">1 รายการ</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">เวลาหน่วงสั้นที่สุด (%1$d มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้นที่สุด (%1$d มิลลิวินาที)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">เวลาหน่วงสั้นมาก (%1$d มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้นมาก (%1$d มิลลิวินาที)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">เวลาหน่วงสั้น (%1$d มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงสั้น (%1$d มิลลิวินาที)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">เวลาหน่วงยาว (%1$d มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงยาว (%1$d มิลลิวินาที)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">เวลาหน่วงยาวมาก (%1$d มิลลิวินาที)</item>
+        <item quantity="one">เวลาหน่วงยาวมาก (%1$d มิลลิวินาที)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d งานพิมพ์</item>
+        <item quantity="one">1 งานพิมพ์</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">เชื่อถือหรือนำใบรับรองออก</item>
+        <item quantity="one">เชื่อถือหรือนำใบรับรองออก</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย
+
+โปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้"</item>
+        <item quantity="one">"%s ได้ติดตั้งใบรับรอง CA บนอุปกรณ์ของคุณ ซึ่งอาจช่วยในการตรวจสอบกิจกรรมเครือข่ายของอุปกรณ์ได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย
+
+โปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย
+
+โปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองเหล่านี้"</item>
+        <item quantity="one">"%s ได้ติดตั้งใบรับรอง CA สำหรับโปรไฟล์งานของคุณ ซึ่งอาจช่วยให้เขาตรวจสอบกิจกรรมในเครือข่ายการทำงานได้ รวมถึงอีเมล แอป และเว็บไซต์ที่ปลอดภัย
+
+โปรดติดต่อผู้ดูแลระบบสำหรับข้อมูลเพิ่มเติมเกี่ยวกับใบรับรองนี้"</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">ตรวจสอบใบรับรอง</item>
+        <item quantity="one">ตรวจสอบใบรับรอง</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">%d แอปสามารถอ่านการแจ้งเตือนได้</item>
@@ -78,8 +137,31 @@
         <item quantity="other">%1$d แอปใช้หน่วยความจำใน %2$sที่ผ่านมา</item>
         <item quantity="one">1 แอปใช้หน่วยความจำใน %2$sที่ผ่านมา</item>
     </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">บล็อกแล้ว %d แอปไม่ให้ทำการส่ง</item>
+        <item quantity="one">บล็อกแล้ว %d แอปไม่ให้ทำการส่ง</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
+        <item quantity="one">1 แอปได้รับอนุญาตให้ใช้อินเทอร์เน็ตได้ไม่จำกัดเมื่อเปิดโปรแกรมประหยัดอินเทอร์เน็ต</item>
+    </plurals>
+    <plurals name="virus_scan_app_find_risk">
+        <item quantity="other">พบ %d ความเสี่ยง</item>
+    </plurals>
+    <plurals name="auto_startup_count">
+        <item quantity="other">อนุญาตให้ %d แอปเริ่มต้นทำงานอัตโนมัติ</item>
+    </plurals>
+    <plurals name="lockpassword_pin_fixed_length">
+        <item quantity="other">รหัส PIN ต้องเป็นตัวเลข %d หลัก</item>
+    </plurals>
+    <plurals name="wifi_share_count">
+        <item quantity="other">แชร์อยู่ %d เครือข่าย</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d อุปกรณ์</item>
+    </plurals>
+    <plurals name="free_wifi_connected_count">
+        <item quantity="other">%1$d people connected</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">ยังเหลืออีก %1$d ขั้นตอนในการเข้าสู่ข้อมูลเครื่องโทรศัพท์</item>

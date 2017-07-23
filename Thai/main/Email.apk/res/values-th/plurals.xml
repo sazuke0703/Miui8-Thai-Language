@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="actionbar_unread_messages">
-        <item quantity="other">%1$d ยังไม่ได้อ่าน</item>
+        <item quantity="other">%1$d ข้อความใหม่</item>
     </plurals>
     <plurals name="confirm_archive_conversation">
-        <item quantity="other">จัดเก็บ %1$d ข้อความต่อเนื่อง?</item>
+        <item quantity="other">จัดเก็บ %1$d การสนทนา?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">ลบ %1$d ข้อความต่อเนื่องเหล่านี้?</item>
+        <item quantity="other">ลบ %1$d การสนทนา?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
-        <item quantity="other">ข้อความต่อเนื่องเชื่อมโยงกันหลายรายการ ยืนยันการลบ?</item>
+        <item quantity="other">การสนทนาประกอบด้วยข้อความจำนวนมาก ลบทิ้งไม่ว่าจะยังไง?</item>
     </plurals>
     <plurals name="contact_num_selected">
-        <item quantity="other">%d เลือกไว้</item>
+        <item quantity="other">เลือกไว้ %d รายการ</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&lt;b>%1$d&lt;/b> ถูกจัดเก็บแล้ว</item>
+        <item quantity="other">จัดเก็บ %1$d การสนทนาแล้ว</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">ลบ &lt;b>%1$d&lt;/b> รายการ</item>
+        <item quantity="other">ลบ %1$d การสนทนาแล้ว</item>
     </plurals>
     <plurals name="conversation_folder_changed">
-        <item quantity="other">ย้ายไปแล้ว</item>
+        <item quantity="other">เปลี่ยนโฟลเดอร์แล้ว</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&lt;b>%1$d&lt;/b> ปิดเสียงแจ้งเตือนแล้ว</item>
+        <item quantity="other">ละเว้น %1$d การสนทนาแล้ว</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">&lt;b>%1$d&lt;/b>" ข้อความถูกลบออกจากโฟลเดอร์ 'สำคัญ'"</item>
+        <item quantity="other">เลิกรายงาน %1$d การสนทนาว่าเป็นสแปมแล้ว</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">&lt;b>%1$d&lt;/b> ถูกนำออกจากโฟลเดอร์สแปม</item>
+        <item quantity="other">เลิกรายงาน %1$d การสนทนาว่าเป็นสแปมแล้ว</item>
     </plurals>
     <plurals name="conversation_phished">
-        <item quantity="other">&lt;b>%1$d&lt;/b> ข้อความถูกรายงานว่าเป็นสแปม</item>
+        <item quantity="other">รายงาน %1$d การสนทนาว่าเป็นการหลอกลวง</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">&lt;b>%1$d&lt;/b> ระบุว่าเป็นสแปม</item>
+        <item quantity="other">รายงาน %1$d การสนทนาว่าเป็นสแปมแล้ว</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">%d วัน</item>
+    </plurals>
+    <plurals name="day_after">
+        <item quantity="other">ใน %d วัน</item>
+    </plurals>
+    <plurals name="day_before">
+        <item quantity="other">%d วันก่อน</item>
     </plurals>
     <plurals name="draft">
-        <item quantity="other">ฉบับร่าง</item>
+        <item quantity="other">แบบร่าง</item>
     </plurals>
     <plurals name="empty_folder_dialog_message">
-        <item quantity="other">กำลังจะลบ %1$d ข้อความอย่างถาวร</item>
+        <item quantity="other">%1$d ข้อความจะถูกลบอย่างถาวร</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d เดือน</item>
     </plurals>
     <plurals name="move_conversation">
-        <item quantity="other">ย้าย %1$d ข้อความต่อเนื่อง</item>
+        <item quantity="other">ย้าย %1$d การสนทนา</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
-        <item quantity="other">แสดง %1$d ข้อความใหม่</item>
+        <item quantity="other">%1$d ข้อความใหม่</item>
     </plurals>
     <plurals name="num_selected">
-        <item quantity="other">%d เลือกไว้</item>
+        <item quantity="other">เลือกไว้ %d รายการ</item>
     </plurals>
     <plurals name="show_messages_read">
         <item quantity="other">%1$d ข้อความเก่า</item>

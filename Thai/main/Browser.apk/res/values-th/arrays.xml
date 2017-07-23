@@ -8,15 +8,18 @@
         <item>สีเขียว</item>
         <item>สีน้ำเงิน</item>
     </string-array>
-    <string-array name="pref_ua_choices">
-        <item>แอนดรอยด์</item>
-        <item>เดสท็อป</item>
-        <item>iPhone</item>
-        <item>iPad</item>
+    <string-array name="pref_fling_on_border_gesture_entries">
+        <item>ย้อนกลับหรือถัดไปของหน้าเว็บ</item>
+        <item>สลับแท็บ</item>
+        <item>ไม่มี</item>
     </string-array>
     <string-array name="pref_homepage_choices">
         <item>หน้าเริ่มต้น</item>
         <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>โทรศัพท์</item>
+        <item>แป้น</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>เล็กมาก</item>
@@ -25,20 +28,22 @@
         <item>ใหญ่</item>
         <item>ใหญ่มาก</item>
     </string-array>
-    <string-array name="pref_nav_mode_summary">
-        <item>โทรศัพท์</item>
-        <item>แป้น</item>
+    <string-array name="pref_ua_choices">
+        <item>แอนดรอยด์</item>
+        <item>เดสท็อป</item>
+        <item>iPhone</item>
+        <item>iPad</item>
     </string-array>
-    <string-array name="shortcut_dialog_title">
-        <item>ข้อความจากเบราว์เซอร์</item>
-        <item>ติดตามการแข่งขันโอลิมปิกไปกับ Mi</item>
+    <string-array name="shortcut_dialog_delete">
+        <item>ลบ</item>
+        <item>ไม่ ขอบคุณ</item>
     </string-array>
     <string-array name="shortcut_dialog_keep">
         <item>ตกลง</item>
         <item>ติดตาม</item>
     </string-array>
-    <string-array name="shortcut_dialog_delete">
-        <item>ลบ</item>
-        <item>ไม่ ขอบคุณ</item>
+    <string-array name="shortcut_dialog_title">
+        <item>ข้อความจากเบราว์เซอร์</item>
+        <item>ติดตามการแข่งขันโอลิมปิกไปกับ Mi</item>
     </string-array>
 </resources>
